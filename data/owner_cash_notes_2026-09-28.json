@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-09-28 ~11am ET",
+  "source": "Michael voice",
+  "entries": [
+    {
+      "date": "2026-09-28",
+      "type": "cash_in",
+      "party": "Madeline",
+      "desc": "Full PZ tour cash deposit",
+      "amount": 3.99,
+      "currency": "USD",
+      "notes": "~$400 value experience; funded bunny+feed"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "cash_out",
+      "party": "Ann-Marie",
+      "desc": "7 bunnies @ $10",
+      "amount": 70.0,
+      "currency": "USD",
+      "notes": "paid from Madeline cash"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "cash_out",
+      "party": "Ann-Marie",
+      "desc": "Bunny feed",
+      "amount": null,
+      "amount_status": "TBD",
+      "notes": "not stated \u2014 do not invent"
+    }
+  ],
+  "flags": [
+    {
+      "date": "2026-09-29",
+      "item": "Montessori after-school",
+      "booked": 40,
+      "target_pull": 100,
+      "action": "raise rate OR add kids"
+    }
+  ]
+}
