@@ -1,401 +1,195 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Growth · pipeline · bookings · AR · Critters on Call</title>
+<title>Growth · convert + create · Critters on Call · ops14</title>
 <style>
-:root{--bg:#0b1220;--card:#121a2b;--panel:#0e1626;--line:#1e2a44;--text:#e8eefc;--muted:#93a0b8;--accent:#3dd68c;--brand-green:#3dd68c;--brand-green-deep:#2f6b4f;--brand-gold:#c9a227;--brand-gold-bright:#fbbf24;--good:#3dd68c;--warn:#ffb020;--money:#fbbf24}
+:root{--bg:#0b1220;--card:#121a2b;--panel:#0e1626;--line:#1e2a44;--text:#e8eefc;--muted:#93a0b8;--good:#3dd68c;--warn:#ffb020;--bad:#ff5d6c;--gold:#fbbf24;--blue:#75a7ff}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1100px;margin:0 auto;padding:28px 22px 64px}
-.crumb{font-size:.82rem;color:var(--muted);margin:0 0 12px}.crumb a{color:#9ec1ff;font-weight:600}
-h1{font-size:clamp(1.5rem,3vw,2.05rem);margin:0 0 6px;letter-spacing:-.02em;font-weight:750}
-.sub{color:var(--muted);font-size:.95rem;margin:0 0 14px}
-.banner{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px;padding:12px 16px;border-radius:14px;border:1px solid #3dd68c66;background:linear-gradient(135deg,#13281d,#121a2b);font-size:.88rem;font-weight:650;color:#9dffc5}
-.banner .lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
-.pace{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:0 0 14px}
-.pace .kpi{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:12px 14px}
-.pace .l{font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-.pace .v{font-size:1.15rem;font-weight:750;margin-top:4px;color:var(--brand-gold-bright)}
-.pace .s{font-size:.72rem;color:var(--muted);margin-top:3px}
-.thesis{margin:0 0 16px;padding:12px 14px;border:1px dashed #a78bfa66;border-radius:12px;background:#14101f;font-size:.84rem;color:#c5d0e6}
-.thesis b{color:#d4c4ff}
-.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 22px}
-@media(max-width:900px){.cols{grid-template-columns:1fr}}
-.col{border:1px solid var(--line);border-radius:18px;background:var(--card);padding:18px 18px 14px;min-height:280px}
-.col h2{margin:0 0 4px;font-size:1.15rem}
-.col .kicker{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px}
-.col.pipeline{border-color:#3dd68c66}.col.pipeline h2{color:#9dffc5}
-.col.booked{border-color:#c9a22788}.col.booked h2{color:#fde68a}
-.col.ar{border-color:#3dd68c66}.col.ar h2{color:#9dffc5}
-.card-row{padding:12px 12px;border-radius:12px;background:var(--panel);border:1px solid #1a2438;margin:0 0 8px}
-.card-row .name{font-weight:700;font-size:.92rem}
-.card-row .meta{font-size:.75rem;color:var(--muted);margin-top:3px;line-height:1.4}
-.card-row .tag{display:inline-block;margin-top:6px;margin-right:4px;font-size:.65rem;padding:2px 7px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
-.card-row .tag.win{border-color:#fbbf2466;color:#fde68a}
-.card-row .tag.ok{border-color:#3dd68c55;color:var(--good)}
-.empty{color:var(--muted);font-size:.82rem;padding:8px 0}
-.sec{margin:8px 0 10px;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
-.secondary{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
-.secondary a{font-size:.78rem;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:#c5d0e6;text-decoration:none}
-.secondary a:hover{border-color:var(--accent);text-decoration:none}
-.note{color:var(--muted);font-size:.75rem;margin-top:18px}
-.chip{display:inline-block;margin:0 0 16px;padding:8px 14px;border-radius:999px;border:1px solid #fbbf2466;background:#2a2210;color:#fde68a;font-size:.8rem;font-weight:650;text-decoration:none}
-.chip:hover{text-decoration:none;border-color:#fbbf24}
-.chip.donow{display:block;width:fit-content;max-width:100%;margin:0 0 14px;padding:12px 16px;border-radius:14px;border:2px solid #fbbf24;background:linear-gradient(135deg,#2a2210,#13281d);color:#fde68a;font-size:.92rem;font-weight:750;line-height:1.35;box-shadow:0 0 0 1px #3dd68c44}
-.chip.donow:hover{border-color:#fbbf24;text-decoration:none}
-.chip.donow .one{display:block;font-size:.78rem;font-weight:600;color:#9dffc5;margin-top:4px}
-.bar{height:10px;background:var(--panel);border-radius:99px;overflow:hidden;border:1px solid var(--line);margin:8px 0 0}
-.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--brand-green),var(--brand-gold-bright));width:15%}
-.hair{height:2px;border:0;margin:0 0 14px;background:linear-gradient(90deg,transparent,var(--brand-gold),transparent);opacity:.55}
-.pipe-link{display:inline-block;margin:0 0 10px;font-size:.78rem;font-weight:700;color:#9dffc5}
-.wrow{font-size:.72rem;color:#fde68a;margin-top:4px}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:920px;margin:0 auto;padding:24px 18px 56px}
+.top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:#0f1728}
+.top .lbl{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-right:4px}
+.top a{background:var(--card);border:1px solid var(--line);color:var(--text);padding:7px 12px;border-radius:999px;font-size:.78rem;font-weight:600;text-decoration:none}
+.top a.sec{font-weight:500;font-size:.72rem;color:#c5d0e6}
+.crumb{font-size:.82rem;color:var(--muted);margin:0 0 10px}.crumb a{color:#9ec1ff;font-weight:600}
+h1{font-size:clamp(1.45rem,3vw,1.95rem);margin:0 0 4px;letter-spacing:-.02em}
+.tagline{color:var(--gold);font-weight:750;font-size:.95rem;margin:0 0 6px}
+.sub{color:var(--muted);font-size:.88rem;margin:0 0 16px}
+.wig{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 14px;padding:14px 16px;margin:0 0 12px;border:1px solid #d7deea;border-top:5px solid #05070b;border-radius:12px;background:#eef2f7;color:#0b1220}
+.wig b{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}
+.wig .goal{font-size:1.05rem;font-weight:800}
+.wig .hyp{font-size:.78rem;color:#536176;font-weight:500}
+.track{padding:16px 16px 14px;border:1px solid #c9a22788;border-radius:16px;background:linear-gradient(160deg,#1a160c,#121a2b 65%);margin:0 0 12px}
+.track .label{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 10px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.kpi{padding:12px 13px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.kpi .l{font-size:.62rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.kpi .v{font-size:1.15rem;font-weight:800;margin-top:4px}
+.kpi .s{font-size:.7rem;color:var(--muted);margin-top:3px;line-height:1.35}
+.kpi.gapday{border-color:#ff5d6c99;background:#1a1014;grid-column:1 / -1}
+.kpi.gapday .v{font-size:clamp(1.6rem,5vw,2.35rem);color:#ff8a95;letter-spacing:-.02em}
+.kpi.gapday .l{color:#ffb0b8;font-size:.72rem}
+.bar{height:9px;border-radius:999px;background:#1a2438;overflow:hidden;margin:12px 0 0}
+.bar i{display:block;height:100%;width:15%;background:linear-gradient(90deg,#c9a227,#3dd68c);border-radius:999px}
+.weighted{padding:14px 16px;border:1px solid #3dd68c88;border-radius:16px;background:#10251c;margin:0 0 4px}
+.weighted .label{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:#9dffc5;margin:0 0 8px}
+.weighted .amt{font-size:1.35rem;font-weight:800;color:var(--good)}
+.weighted .note{font-size:.78rem;color:#b7c9b8;margin-top:6px;line-height:1.4}
+.weighted a{color:#9dffc5;font-weight:700}
+.dotted{margin:18px 0 0;padding:16px;border:1.5px dotted #3a4a68;border-radius:16px;background:#0c1420}
+.dotted > .label{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px}
+.ind{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:0 0 12px}
+.ibox{padding:12px 13px;border-radius:12px;background:var(--panel);border:1px solid #1a2438}
+.ibox h3{margin:0 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
+.ibox p{margin:0;font-size:.82rem;color:#c5d0e6;line-height:1.4}
+.ibox a{color:#9ec1ff;font-weight:650}
+.trophy-cliff{padding:10px 12px;border-radius:10px;border:1px dashed #c9a22766;background:#14110a;font-size:.78rem;color:#d8c89a;margin:0 0 4px}
+.trophy-cliff a{color:var(--gold);font-weight:700}
+.qs{margin:22px 0 0;padding:16px 16px 8px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.qs .label{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 4px}
+.qs h2{margin:0 0 10px;font-size:1.05rem}
+.qs ol{margin:0;padding:0;list-style:none;counter-reset:q}
+.qs li{counter-increment:q;padding:12px 0;border-bottom:1px solid var(--line)}
+.qs li:last-child{border-bottom:0}
+.qs li .q:before{content:counter(q) ". ";color:var(--muted);font-weight:700}
+.qs li .q{font-weight:700;display:block;margin-bottom:4px}
+.qs li .a{font-size:.86rem;color:#c5d0e6;line-height:1.45;padding-left:1.1em}
+.qs li .a b{color:var(--text)}
+.qs li.q5 .a ul{margin:6px 0 0;padding-left:18px}
+.qs li.q5 .a li{border:0;padding:3px 0;list-style:disc;display:list-item;counter-increment:none}
+.mantra{margin:14px 0 0;padding:10px 12px;border-radius:10px;background:#13281d;border:1px solid #3dd68c55;font-size:.82rem;color:#9dffc5;font-weight:650}
+.engines{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:18px 0 0}
+.tile{display:flex;flex-direction:column;justify-content:space-between;min-height:100px;padding:14px 16px;border-radius:14px;border:1px solid var(--line);background:var(--card);text-decoration:none;color:inherit}
+.tile:hover{border-color:var(--blue);text-decoration:none}
+.tile h3{margin:0 0 4px;font-size:1rem}.tile p{margin:0;color:var(--muted);font-size:.78rem}.tile .go{margin-top:10px;font-weight:800;font-size:.8rem;color:var(--blue)}
+.note{color:var(--muted);font-size:.74rem;margin-top:18px}
 </style></head>
-<body><div class="wrap">
-
-<p class="crumb"><a href="index.html">Operator</a> → <b>Growth</b></p>
+<body data-flow-face="sales" data-flow-chip="growth-home"><div class="wrap">
+<div class="top"><span class="lbl">Apps</span>
+  <a href="operator-dashboard.html?v=ops14-20260928">Operator</a>
+  <a href="ops.html?v=ops14-20260928">Operations</a>
+  <a href="support.html">Support</a>
+  <a href="milestones-trophy.html?v=ops14-20260928">Trophy</a>
+  <a href="index.html" class="sec">Layer Zero</a>
+</div>
+<p class="crumb"><a href="operator-dashboard.html?v=ops14-20260928">Operator</a> → <b>Growth</b></p>
 <header>
-  <h1>Growth · one WIG · $250k by Dec 23</h1>
-  <p class="sub">Wildly Important Goal: <b>$250,000 bookings closed by 2026-12-23</b>. % of way · days left · <b>$/day rate</b> · weighted pipeline. No vendor village / hedgehog menu / compliance here — that's Support. Never invent contacts or $.</p>
+  <h1>Growth</h1>
+  <p class="tagline">conversion + creation</p>
+  <p class="sub">Convert what is booked + AR first · then create more pipeline. Five questions. Solid proof above the dotted line; indicators only below.</p>
 </header>
-<div style="margin:12px 0;padding:12px 14px;border:1px solid #c9a22788;border-radius:12px;background:linear-gradient(135deg,#2a2210,#13281d 70%);font-size:.84rem;color:#e8e0c8"><b style="color:#fde68a">Mission · ops10 · today</b> — <b>Cover Oct white space NOW</b> · tap weighted pipeline · grade ~16–18% of $250k. · <a href="weighted-pipeline.html?v=ops12-20260928" style="color:#9dffc5;font-weight:700">Weighted pipeline →</a> · <a href="operator-dashboard.html?v=ops12-20260928#growth" style="color:#fde68a">Operator Growth tile</a> · <a href="principal-dunk.html">Jax dunk</a> · Support → <a href="support-home.html">support-home</a></div>
 
-
-
-<div class="thesis" style="border-color:#c9a22788;background:linear-gradient(160deg,#2a2210,#14101f 70%)">
-  <b style="color:#fde68a">One WIG</b> — <b>$250k bookings by Dec 23</b>
-  <span style="color:#93a0b8">(expect ~40% AR / ~$100k received · soft hyp · don’t scare)</span>.
-  <div style="margin-top:8px;color:#e8e0c8"><b>Grade (caller):</b> sprint booked <b>~$35–40k</b> · <b>~16–18%</b> of $250k. <b>Separate:</b> ~$30k outstanding of that (~25% received so far).</div>
-  <ul style="margin:8px 0 0;padding-left:18px;color:#c5d0e6;font-size:.84rem">
-    <li><b>Gap:</b> ~$210–215k · <b>$/day:</b> ~$2,440–2,500 · 86 days left (Sep 28 → Dec 23)</li>
-    <li><b>Leading:</b> FB ~1,000+ this sprint (Caller-stated) · page ~4.8k · target ~7k EOY</li>
-    <li><b>Lagging:</b> booked $ · owed ~$30k · reviews ~84–105</li>
-    <li><b style="color:#ffd58a">Oct white space must cover NOW</b></li>
-  </ul>
-  <div style="margin-top:8px;font-size:.78rem;color:#c5d0e6"><b style="color:#9dffc5">Initiatives (teasers):</b> tap weighted · copycat closed customers · dunk/clone · collect owed · Tamaya 2–3 YE · <b>copycat lead list = initiative (not all in pipe yet)</b>. <b style="color:#ffd58a">Everything else → Support</b>.</div>
-</div>
-<hr style="border:0;border-top:2px solid #000;margin:14px 0;opacity:.85"/>
-<div class="thesis" style="border:1px dotted #2a3a58;background:#0c1420">
-  <b style="color:#fde68a">Completed / trophy</b> (top of dotted zone) — FB monetize · HubSpot ready · dunk/OS · Durbin wheel · Hiscox · paid helpers · reviews twine.
-  <div style="margin-top:8px"><b style="color:#9dffc5">Qualified / weighted pipeline (10/25/50/75)</b> · weighted ~$23.5k ·
-  <b>Flags:</b> Kate Durbin Crossing goat yoga <b>75%×~$700</b> · Brooks <b>50–75%</b> · conjectures ≤<b>25%</b> · copycat lead list = initiative not all in pipe yet.</div>
-</div>
-
-<hr class="hair"/><div class="banner" id="banner"><span class="lbl">Sprint</span> Goal $250k bookings by Dec 23 2026 · reviews 84/555 · milestones from growth_campaign.json…</div>
-
-<div class="pace" id="pace" aria-label="Pace to 250k">
-  <div class="kpi"><div class="l">Sprint booked (caller)</div><div class="v" id="p-booked">~$35–40k</div><div class="s" id="p-booked-s">Caller grade · outstanding ~$30k separate (~25% received)</div></div>
-  <div class="kpi"><div class="l">Target · one WIG</div><div class="v">$250,000</div><div class="s">close/book by 2026-12-23 · (~40% AR / ~$100k hyp)</div></div>
-  <div class="kpi"><div class="l">Days left</div><div class="v" id="p-days">86</div><div class="s">to Dec 23</div></div>
-  <div class="kpi"><div class="l">% of way (caller grade)</div><div class="v" id="p-pct">~16–18%</div><div class="s" id="p-pct-s">~$35–40k / $250k · gap ~$210–215k</div>
-    <div class="bar" id="p-bar" title="pace"><i style="width:17%"></i></div>
+<section class="solid" aria-label="WIG tracking weighted — solid">
+  <div class="wig" aria-label="WIG">
+    <b>WIG</b>
+    <span class="goal">$250,000 bookings by Dec 23, 2026</span>
+    <span class="hyp">(expect ~40% AR / ~$100k received by then — hyp)</span>
   </div>
-  <div class="kpi" style="border-color:#ff5d6c66"><div class="l">$/day booking rate required</div><div class="v" id="p-rate" style="color:#ff8a95">~$2,440–2,500</div><div class="s" id="p-rate-s">gap ÷ 86 days</div></div>
+
+  <div class="track" aria-label="Tracking">
+    <div class="label">Q2 · Progress tracking · Payments-backed sprint</div>
+    <div class="kpis">
+      <div class="kpi">
+        <div class="l">Sprint bookings</div>
+        <div class="v" style="color:var(--gold)">~$37.5k</div>
+        <div class="s">Payments · event dates ≥ Jul 1 · <b>$37,451</b> face</div>
+      </div>
+      <div class="kpi">
+        <div class="l">Received so far</div>
+        <div class="v">~22%</div>
+        <div class="s">$8,121 completed · ~25% caller rule-of-thumb · ~$29.5k still open</div>
+      </div>
+      <div class="kpi">
+        <div class="l">Total gap</div>
+        <div class="v" style="color:var(--warn)">$212,549</div>
+        <div class="s">$250,000 − $37,451 · ~$210–215k band</div>
+      </div>
+      <div class="kpi">
+        <div class="l">Days left</div>
+        <div class="v">86</div>
+        <div class="s">Sep 28 → Dec 23, 2026 ET</div>
+      </div>
+      <div class="kpi gapday" aria-label="Gap per day — prominent">
+        <div class="l">Gap per day · book this every day</div>
+        <div class="v">$2,472/day</div>
+        <div class="s">exact $212,549.27 ÷ 86 = <b>$2,471.50</b> · pace to close the WIG</div>
+      </div>
+    </div>
+    <div class="bar" title="~15% of WIG booked"><i style="width:15%"></i></div>
+  </div>
+
+  <div class="weighted" aria-label="Weighted pipeline before dotted line">
+    <div class="label">Q2 cont. · Weighted / qualified pipeline · convert-now · not booked</div>
+    <div class="amt">$23,524 weighted</div>
+    <div class="note">Science / forecast feel <b>~$23–30k</b> (operator_state). Shown before the dotted line as convert-now fuel — <b>not</b> counted as booked. <a href="weighted-pipeline.html?v=ops14-20260928">Open weighted board →</a></div>
+  </div>
+</section>
+
+<section class="dotted" aria-label="Indicators only">
+  <div class="label">Dotted · indicators only · not WIG math</div>
+  <div class="ind">
+    <div class="ibox">
+      <h3>Leading</h3>
+      <p>FB ~1,000+ this sprint · page ~4.8k · target ~7k EOY · <a href="one-touch.html">one-touch TAM</a> · next dates / replies</p>
+    </div>
+    <div class="ibox">
+      <h3>Lagging</h3>
+      <p>Bookings face · AR open ~$29.5k · reviews ~87 showing / ~105 est → 555</p>
+    </div>
+    <div class="ibox">
+      <h3>Initiatives</h3>
+      <p>Short list in Q5 · dig <a href="support-home.html">Support</a> for enablement depth (not here)</p>
+    </div>
+  </div>
+  <div class="trophy-cliff">
+    <b>Completed / trophy</b> — cliff notes only · <a href="milestones-trophy.html?v=ops14-20260928">Tile 4 · milestones-trophy →</a> · <a href="growth-investor.html">investor face →</a>
+    <div style="margin-top:4px;opacity:.85">Not expanded on Growth. No flute pane.</div>
+  </div>
+</section>
+
+<section class="qs" aria-label="Five Growth questions">
+  <div class="label">ops14 · five questions</div>
+  <h2>Goal · progress · indicators · create · initiatives</h2>
+  <ol>
+    <li>
+      <span class="q">What is the goal?</span>
+      <div class="a"><b>$250,000 bookings</b> closed / booked by <b>Dec 23, 2026</b>. <span style="color:#93a0b8">(expect ~40% AR / ~$100k received by then — hyp)</span></div>
+    </li>
+    <li>
+      <span class="q">What is progress — bookings + weighted?</span>
+      <div class="a">Sprint booked <b>~$37.5k</b> (Payments $37,451) · ~22% received · <b>gap $212,549</b> · <b>gap/day $2,472</b> ($2,471.50). Weighted convert-now <b>$23,524</b> (~$23–30k feel) — not counted as booked.</div>
+    </li>
+    <li>
+      <span class="q">What are the indicators?</span>
+      <div class="a"><b>Leading:</b> followers / one-touch TAM / next-date density. <b>Lagging:</b> bookings, AR, reviews. See dotted zone above.</div>
+    </li>
+    <li>
+      <span class="q">What is the pipe-creation plan after convert?</span>
+      <div class="a"><b>Convert first</b> — close weighted + collect AR on booked. <b>Then create</b> — copycat closed customers, fill Oct white space, dunk/clone renewals, one-touch TAM. Creation does not replace conversion.</div>
+    </li>
+    <li class="q5">
+      <span class="q">What are the supporting initiatives to create more pipeline and conversions?</span>
+      <div class="a">List only — not a trophy dump:
+        <ul>
+          <li><b>Working tech band-aids</b> for booking + business + GTM / customer acquisition — done-ish / in progress</li>
+          <li><b>Collateral</b> ~75% done</li>
+          <li><b>Customer journey mapping</b> to remove friction ~25% done <span style="color:#93a0b8">(one piece already in trophy case — scored ~30 reviews)</span></li>
+          <li><b>Team hired</b> (completed milestone) — next is organize / utilize them toward KPI output across conversion channels</li>
+        </ul>
+        Depth lives in <a href="support-home.html">Support</a>. Proof lives in <a href="milestones-trophy.html?v=ops14-20260928">Tile 4 · Trophy</a>.
+      </div>
+    </li>
+  </ol>
+  <div class="mantra">Core mantra: convert booked + AR first, then create. · tagline: conversion + creation</div>
+</section>
+
+<nav class="engines" aria-label="Next actions">
+  <a class="tile" href="weighted-pipeline.html?v=ops14-20260928"><div><h3>Weighted pipeline</h3><p>$23,524 convert-now · not booked.</p></div><span class="go">Open board →</span></a>
+  <a class="tile" href="one-touch.html"><div><h3>One-touch</h3><p>Customers, warm, win-back, campaigns.</p></div><span class="go">Open one-touch →</span></a>
+  <a class="tile" href="ops.html?v=ops14-20260928"><div><h3>Calendar white</h3><p>Sell open capacity from Ops.</p></div><span class="go">Open Ops →</span></a>
+  <a class="tile" href="support-home.html"><div><h3>Support dig</h3><p>Initiatives depth · enablement.</p></div><span class="go">Open Support →</span></a>
+</nav>
+
+<p class="note">ops14 · Sep 28, 2026 ET · sprint face from AnnMarie_Payments_2026-09-28.xlsx (event ≥ Jul 1) · weighted from operator_state_2026-09-28.json · gap/day = $2,471.50 · Growth = convert + create · Trophy stays on Tile 4.</p>
 </div>
-
-<div class="thesis" style="border-color:#ffb02066;background:#16140f">
-  <b style="color:#ffd58a">Booking rules:</b> events may land up to <b>18 months out</b> — but must <b>close / book by Dec 23</b> to count toward $250k.
-  <div style="margin-top:8px"><b style="color:#ffd58a">Season:</b> <b>Oct white space must cover NOW</b> · also Nov–Dec · book Feb–May now (crazy busy later) · Jan slow → more direct programming (Support).</div>
-</div>
-
-<div class="thesis" style="border-color:#a78bfa66;background:#14101f">
-  <b style="color:#d4c4ff">Optional · open hypothesis</b> (do not lock forever): prove “#1 programmer in Jacksonville” via events density (Michael floated ≥3 → ≥10 homeschool/week). Catchphrase options — mom / homeschool ally voice:
-  <ul style="margin:8px 0 0;padding-left:18px;color:#c5d0e6;font-size:.84rem">
-    <li><b>A</b> — “We’re on the mom team — farm STEM that fills the week, not just one Saturday.”</li>
-    <li><b>B</b> — “First Coast homeschool ally: real animals, real calendar density.”</li>
-    <li><b>C</b> — “Jax’s go-to programmer for co-ops — prove it at ≥3… aiming ≥10 touches / week.”</li>
-  </ul>
-</div>
-
-<div class="thesis" style="border-color:#3dd68c66;background:#0f1a14">
-  <b style="color:#9dffc5">Pipeline:</b> existing pipeline = <b>copycat every closed customer</b>. Past buyers + open conversations at <b>10 / 25 / 50 / 75</b>.
-  <b style="color:#ffd58a">Deprioritize</b> already-scheduled recent buyers unless rebuy.
-  <span style="color:#ffb020"><b>Tamaya flag:</b> should buy 2–3 more before YE.</span>
-  <div style="margin-top:8px"><b style="color:#fde68a">Weight flags:</b> Kate Durbin Crossing goat yoga <b>75%×~$700</b> · Brooks <b>50–75%</b> · conjectures ≤<b>25%</b> · copycat lead list = initiative <b>not all in pipe yet</b>.</div>
-  Click-through → <a href="weighted-pipeline.html?v=ops12-20260928" style="color:#9dffc5;font-weight:700">weighted-pipeline.html</a> · <a href="operator-dashboard.html?v=ops12-20260928#growth" style="color:#fde68a;font-weight:700">operator Growth tile</a>.
-</div>
-<div class="thesis" style="border-color:#2a3a58;background:#0c1420">
-  <b style="color:#c5d0e6">White-space / bargain = advertising (ROAS):</b> conservative path to <b>$250k bookings</b> ≈ <b>$500k ad-equivalent</b> ÷ ~$100/comp ≈ <b>500 comps/tours</b> or ≥<b>~$50k</b> perceived-value giveaways.
-  <div style="margin-top:6px;font-size:.78rem;color:#93a0b8">Calculus note: direct programming / cheap goat yoga fills when paid path lags — see Ops Tile 1 campaign 3.</div>
-</div>
-
-<div class="thesis" id="thesis">Thesis loading…</div>
-<div class="thesis" id="milestones" style="border-color:#c9a22766;background:#1a160c"><b>Milestones</b> (from campaign JSON): loading…</div>
-
-<a class="chip" href="growth-investor.html" style="border-style:dashed;opacity:.85;font-weight:600;border-color:#c9a22766;color:#fde68a">Investor share face → growth-investor.html</a>
-<a class="chip" href="ops-delivery.html">← Ops calendar (idle capacity)</a>
-<a class="chip" href="ops-capacity.html">Ops capacity · 18 months</a>
-<a class="chip donow" href="brooks-click.html" id="donow-brooks">Do now · Brooks Violet · Nov 21 · $629
-  <span class="one">Open mail → you send → Done</span>
-</a>
-<a class="chip" href="growth-pipeline.html#clone" id="clone-chip">Clone last year · loading…</a>
-<a class="chip" href="principal-dunk.html?v=294" style="border-color:#c9a22788;color:#fde68a;font-weight:700">Principal dunks · mailto</a>
-<a class="chip" href="doer-crm.html" style="border-style:dashed;opacity:.9;font-weight:600">Doer CRM · dunk lanes</a>
-
-<div class="cols" aria-label="Pipeline bookings AR">
-  <section class="col pipeline">
-    <div class="kicker">Qualified pipeline</div>
-    <h2>Pipeline</h2>
-    <a class="pipe-link" href="weighted-pipeline.html?v=ops12-20260928">Open weighted pipeline (10/25/50/75) →</a>
-    <div id="top-weighted" class="empty" style="margin-bottom:8px">Top weighted…</div>
-    <div id="pipe"><div class="empty">Loading…</div></div>
-  </section>
-  <section class="col booked">
-    <div class="kicker">Bookings / commitment</div>
-    <h2>Bookings</h2>
-    <div id="booked"><div class="empty">Loading…</div></div>
-  </section>
-  <section class="col ar">
-    <div class="kicker">Receivables</div>
-    <h2>AR</h2>
-    <div id="ar"><div class="empty">Loading…</div></div>
-  </section>
-</div>
-
-<div class="sec">Clone last year · renew dunks (CAPTCHA / call)</div>
-<div id="clone-top" class="empty" style="margin:0 0 14px">Loading clones…</div>
-
-<div class="sec">BDR / B2C / support-role delegation (secondary)</div>
-<nav class="secondary" id="secondary" aria-label="Secondary tools"></nav>
-
-<p class="note">AR shows verified / incoming labels only — accepted ≠ paid until cleared. Estimates labeled as estimates. Booked-so-far range is voice-sourced, not bank-reconciled. Primary pipeline: growth_reply_pipeline.json (real Gmail replies) · growth_clone_pipeline.json (PayPal fall renew dunks) · growth_campaign.json · bookings_pipeline.json. Never invent emails or $.</p>
-</div>
-<script>
-(function(){
-  function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]))}
-  function card(name, meta, tags){
-    const t=(tags||[]).map(x=>{
-      const cls=x.cls?` ${x.cls}`:'';
-      return `<span class="tag${cls}">${esc(x.label||x)}</span>`;
-    }).join('');
-    return `<div class="card-row"><div class="name">${esc(name)}</div><div class="meta">${meta}</div>${t}</div>`;
-  }
-  function money(n){
-    if(n==null) return '—';
-    return '$'+Number(n).toLocaleString('en-US');
-  }
-
-  Promise.all([
-    fetch('data/growth_campaign.json').then(r=>r.json()),
-    fetch('data/bookings_pipeline.json').then(r=>r.json()),
-    fetch('data/growth_reply_pipeline.json').then(r=>r.json()).catch(()=>({opportunities:[]})),
-    fetch('data/growth_clone_pipeline.json').then(r=>r.json()).catch(()=>({clones:[],kpis:{}})),
-  ]).then(([gc, bp, rp, cp])=>{
-    const camp=gc.campaign||{};
-    const ns=gc.north_star||{};
-    document.getElementById('banner').innerHTML=
-      `<span class="lbl">Campaign</span> ${esc(camp.banner||'Running start Jul 1 → Dec 23 · push Aug 12')}`
-      + (gc.as_of_label?` <span class="lbl" style="margin-left:8px">as of</span> ${esc(gc.as_of_label)}`:'');
-
-    const pace=gc.pace||{};
-    const booked=gc.booked_so_far||{};
-    document.getElementById('p-booked').textContent=booked.display||(money(booked.usd_low)+'–'+money(booked.usd_high));
-    document.getElementById('p-booked-s').textContent=
-      (booked.source||'source TBD')+(booked.reconciled===false?' · not bank-reconciled':'');
-    document.getElementById('p-days').textContent=pace.days_left!=null?String(pace.days_left):'—';
-    // ops10: $/day booking rate (Aug POV story preferred) (prefer live pace; fallback ~2187)
-    (function(){
-      var days = pace.days_left != null ? Number(pace.days_left) : 86;
-      var bookedMid = booked.usd_mid != null ? Number(booked.usd_mid)
-        : (booked.usd_low!=null && booked.usd_high!=null ? (Number(booked.usd_low)+Number(booked.usd_high))/2 : 61937);
-      var gap = 250000 - bookedMid;
-      var rate = days > 0 ? Math.round(gap / days) : null;
-      var el = document.getElementById('p-rate');
-      var els = document.getElementById('p-rate-s');
-      if(el && rate!=null) el.textContent = '~$' + rate.toLocaleString('en-US');
-      if(els && rate!=null) els.textContent = '$' + Math.round(gap).toLocaleString('en-US') + ' ÷ ' + days + ' days';
-    })();
-    const pl=pace.pct_low, ph=pace.pct_high;
-    document.getElementById('p-pct').textContent=(pl!=null&&ph!=null)?(pl+'–'+ph+'%'):'—';
-    document.getElementById('p-pct-s').textContent='booked vs $250k';
-    const mid=((pl||0)+(ph||0))/2;
-    const bar=document.querySelector('#p-bar i');
-    if(bar) bar.style.width=Math.max(2,Math.min(100,mid))+'%';
-
-    const rev=gc.reviews||{};
-    const rc=rev.current!=null?rev.current:84;
-    const rg=rev.goal!=null?rev.goal:555;
-    const rv=(document.getElementById('p-rev-v')||{textContent:''});
-    if(rv) rv.textContent=rc+' / '+rg;
-    (document.getElementById('p-rev')||{textContent:''}).textContent=
-      (rev.current_label||('showing '+rc))+' · goal '+rg+' by '+(rev.by||'2026-12-23');
-
-    const th=gc.thesis||{};
-    document.getElementById('thesis').innerHTML=
-      `<b>Thesis</b> (not a forecast): ${esc(th.text||'Book $250k → expected hold ≥$100k')} · ${esc(th.source||'Michael belief')}`;
-    const ms=gc.milestones||camp.milestones||[];
-    const msEl=document.getElementById('milestones');
-    if(msEl){
-      if(Array.isArray(ms) && ms.length){
-        msEl.innerHTML='<b>Milestones</b> · '+ms.map(m=>{
-          if(typeof m==='string') return esc(m);
-          return esc(m.label||m.name||m.title||'')+(m.by?(' by '+esc(m.by)):'')+(m.date?(' · '+esc(m.date)):'');
-        }).filter(Boolean).join(' · ');
-      } else {
-        msEl.innerHTML='<b>Milestones</b> · Running start Jul 1 · campaign push Aug 12 · <b>$250k by Dec 23 2026</b> · reviews 84→555. (No extra milestone array in JSON.)';
-      }
-    }
-
-    const pipeEl=document.getElementById('pipe');
-    const replyRows=(rp&&rp.opportunities)||[];
-    const rows = replyRows.length ? replyRows.map(r=>({
-      account:r.account,
-      status:r.status,
-      customer_or_winback:r.customer_or_winback||r.customer_or_winback,
-      contacts:[{name:r.contact_name,email:r.email}],
-      reply_from:(r.contact_name||'')+' · '+(r.email||''),
-      offer:r.source_campaign,
-      mid_estimate_usd:r.mid_dollar,
-      win_pct:r.win_pct,
-      weighted_dollar:r.weighted_dollar,
-      dollar_source:r.dollar_source,
-      estimate_note:r.dollar_note||(r.mid_dollar==null?'No $ invented':null),
-      evidence:r.evidence?(('thread '+(r.evidence.thread_id||'')+' · '+(r.evidence.date||''))):'gmail_reply',
-      snippet:(r.evidence&&r.evidence.snippet)||'',
-      aka_note:r.aka_note,
-      next:r.next_step||null,
-    })) : (gc.pipeline||[]);
-    if(!rows.length){pipeEl.innerHTML='<div class="empty">No qualified pipeline from Gmail replies yet.</div>';}
-    else{
-      pipeEl.innerHTML=rows.map(p=>{
-        const contacts=(p.contacts||[]).map(c=>{
-          const bits=[c.name,c.role,c.email,c.phone].filter(Boolean);
-          return bits.join(' · ');
-        }).join(' · ');
-        let est='';
-        if(p.mid_estimate_usd!=null || p.weighted_dollar!=null || p.upside_estimate_usd!=null){
-          const parts=[];
-          if(p.mid_estimate_usd!=null) parts.push('$'+p.mid_estimate_usd);
-          if(p.win_pct!=null) parts.push(p.win_pct+'%');
-          if(p.weighted_dollar!=null) parts.push('weighted $'+p.weighted_dollar);
-          if(p.dollar_source) parts.push(p.dollar_source);
-          if(p.upside_estimate_usd!=null) parts.push('upside ~$'+p.upside_estimate_usd);
-          est=' · '+parts.join(' · ');
-        } else if(p.estimate_note){
-          est=' · '+p.estimate_note;
-        }
-        const meta=esc([
-          p.offer||'',
-          contacts,
-          p.aka_note||'',
-          p.outbound_to?('outbound: '+p.outbound_to):'',
-          p.reply_from?('reply: '+p.reply_from):'',
-          p.snippet?('“'+p.snippet.slice(0,110)+'…”'):'',
-          p.next?('next: '+p.next):'',
-        ].filter(Boolean).join(' · ')) + esc(est);
-        const tags=[
-          {label:p.status||'pipeline', cls:p.status==='booked'?'ok':(p.status==='qualified'?'ok':'')},
-          p.customer_or_winback?{label:p.customer_or_winback, cls:p.customer_or_winback==='winback'?'win':''}:null,
-          p.evidence?{label:String(p.evidence).slice(0,48)}:null,
-        ].filter(Boolean);
-        return card(p.account, meta, tags);
-      }).join('')
-      + (replyRows.length?`<div class="empty" style="margin-top:8px">${replyRows.length} opportunities from growth_reply_pipeline.json (real replies)</div>`:'');
-    }
-
-
-    // Top weighted opps (reply + voice_named)
-    const topEl=document.getElementById('top-weighted');
-    if(topEl){
-      const voice=(rp&&rp.voice_named)||[];
-      const all=[...replyRows, ...voice].filter(x=>x&&x.weighted_dollar!=null);
-      all.sort((a,b)=>(b.weighted_dollar||0)-(a.weighted_dollar||0));
-      const top=all.slice(0,5);
-      if(!top.length) topEl.innerHTML='<span class="empty">No weighted $ yet</span>';
-      else topEl.innerHTML='<div class="sec" style="margin-top:0">Top weighted</div>'+top.map(o=>{
-        const mid=o.mid_dollar!=null?('$'+o.mid_dollar):'—';
-        const w=o.win_pct!=null?(o.win_pct+'%'):'—';
-        const wt=o.weighted_dollar!=null?('$'+o.weighted_dollar):'—';
-        const src=o.dollar_source?(' · '+o.dollar_source):'';
-        return `<div class="card-row"><div class="name">${esc(o.account)}</div><div class="wrow">${mid} · ${w} · weighted ${wt}${esc(src)}</div><div class="meta">${esc(o.next_step||o.contact_name||'')}</div></div>`;
-      }).join('')+`<div class="empty" style="margin-top:6px"><a href="growth-pipeline.html">Full weighted table →</a></div>`;
-    }
-
-    // Clone last year chip + top 3 weighted
-    const cloneEl=document.getElementById('clone-top');
-    const chip=document.getElementById('clone-chip');
-    const ck=(cp&&cp.kpis)||{};
-    const clones=(cp&&cp.clones)||[];
-    const nClone=ck.clone_count!=null?ck.clone_count:clones.length;
-    const cMid=ck.sum_mid_dollar;
-    const cWt=ck.sum_weighted_dollar;
-    if(chip){
-      chip.textContent=`Clone last year · ${nClone} · weighted ${cWt!=null?('$' + Number(cWt).toLocaleString('en-US')):'—'}`;
-    }
-    if(cloneEl){
-      const top=clones.slice().sort((a,b)=>(b.weighted_dollar||0)-(a.weighted_dollar||0)).slice(0,3);
-      if(!top.length){
-        cloneEl.innerHTML='<div class="empty">No fall clones yet · <a href="growth-pipeline.html#clone">open clone lane →</a></div>';
-      } else {
-        cloneEl.innerHTML=top.map(o=>{
-          const meta=esc([
-            o.prior_purchase_date?('prior '+o.prior_purchase_date):'',
-            o.prior_amount!=null?('prior $'+o.prior_amount):'',
-            o.prior_product||'',
-            o.clone_close_date?('close '+o.clone_close_date):'',
-            o.win_pct!=null?(o.win_pct+'%'):'',
-            o.weighted_dollar!=null?('weighted $'+o.weighted_dollar):'',
-            'Dunk: CAPTCHA or call',
-          ].filter(Boolean).join(' · '));
-          return card(o.account||o.contact_name, meta, [
-            {label:'clone_renew', cls:'ok'},
-            o.win_pct!=null?{label:o.win_pct+'%', cls:'win'}:null,
-          ].filter(Boolean));
-        }).join('')
-        + `<div class="empty" style="margin-top:6px">${nClone} clones · mid ${money(cMid)} · weighted ${money(cWt)} · <a href="growth-pipeline.html#clone">full dunk list →</a></div>`;
-      }
-    }
-
-    const sec=document.getElementById('secondary');
-    sec.innerHTML=(gc.secondary_tools||[]).map(t=>`<a href="${esc(t.href)}">${esc(t.label)}</a>`).join('')
-      || '<span class="empty">No secondary tools listed</span>';
-
-    const firm=(bp.bookings||[]).filter(b=>['LOCKED','ACCEPTED','BOOKED'].includes(b.status));
-    const soft=(bp.bookings||[]).filter(b=>['WAITING_YES','NEEDS_CONFIRM'].includes(b.status));
-    const bookedEl=document.getElementById('booked');
-    if(!firm.length && !soft.length){
-      bookedEl.innerHTML='<div class="empty">No commitment rows in bookings_pipeline.</div>';
-    } else {
-      let html='';
-      firm.forEach(b=>{
-        html+=card(b.title, esc(`${b.date||'date TBD'}${b.time?' · '+b.time:''} · ${b.status}${b.next_action?' · '+b.next_action:''}`),
-          [b.deposit?{label:'deposit: '+b.deposit, cls:'ok'}:{label:b.status}]);
-      });
-      soft.forEach(b=>{
-        html+=card(b.title, esc(`${b.date||'date TBD'} · ${b.status}${b.next_action?' · '+b.next_action:''}`),
-          [{label:'soft / waiting'}]);
-      });
-      bookedEl.innerHTML=html;
-    }
-
-    const arEl=document.getElementById('ar');
-    const arRows=(bp.bookings||[]).filter(b=>{
-      const p=String(b.paid||'').toLowerCase();
-      const d=String(b.deposit||'').toLowerCase();
-      return ['paid','cleared','verified','deposit_incoming','incoming','accepted','partial'].some(x=>p.includes(x)||d.includes(x));
-    });
-    const watches=((rp&&rp.ar_watches)||[]).map(w=>{
-      const mid=w.mid_dollar!=null?(' · mid $'+w.mid_dollar):'';
-      return card(w.account||w.contact_name, esc((w.watch_type||w.status||'watch')+mid+' · '+(w.dollar_note||w.next_step||'')+' · not booked'), [{label:'watch', cls:''}]);
-    }).join('');
-    let arHtml='';
-    if(!arRows.length){
-      arHtml='<div class="empty">No AR-cleared rows yet. paid_verified = '+(bp.counts&&bp.counts.paid_verified!=null?bp.counts.paid_verified:'unknown')+' · deposits may be incoming — do not count $ until cleared.</div>';
-    } else {
-      arHtml=arRows.map(b=>{
-        const label=[b.deposit?('deposit: '+b.deposit):null, b.paid?('paid: '+b.paid):null].filter(Boolean).join(' · ');
-        return card(b.title, esc(`${b.date||''} · ${label} · no $ invented`), [{label:b.status}]);
-      }).join('')
-        + `<div class="empty" style="margin-top:8px">Rules: accepted ≠ paid until cleared. Source bookings_pipeline.json as_of ${esc(bp.as_of||'')}</div>`;
-    }
-    if(watches){
-      arHtml += '<div class="sec">Forgotten-$ / MIA watches</div>'+watches;
-    }
-    arEl.innerHTML=arHtml;
-  }).catch(err=>{
-    document.getElementById('pipe').innerHTML='<div class="empty">Could not load growth_campaign.json</div>';
-    document.getElementById('booked').innerHTML='<div class="empty">Could not load bookings_pipeline.json</div>';
-    document.getElementById('ar').innerHTML='<div class="empty">Could not load bookings_pipeline.json</div>';
-    console.error(err);
-  });
-})();
-</script>
+<script src="shared/flow-spine.js" defer></script>
 </body></html>
