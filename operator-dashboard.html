@@ -116,6 +116,28 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
 .dailystrip .phk .l{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .dailystrip .phk .v{font-size:1rem;font-weight:700;color:var(--dim);margin-top:4px}
 @media(max-width:720px){.dailystrip{grid-template-columns:1fr}}
+.greenflag{padding:12px 14px;border-radius:12px;border:2px solid #3dd68c88;background:linear-gradient(135deg,#13281d,#0e1626 70%);font-size:.88rem;margin:0 0 10px;color:#b7f5d0;font-weight:650}
+.greenflag b{color:var(--green);font-size:.95rem}
+.camp3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:8px 0}
+@media(max-width:720px){.camp3{grid-template-columns:1fr}}
+.camp3 .c{padding:10px 12px;border-radius:12px;background:var(--panel);border:1px solid #1a2438}
+.camp3 .c.beach{border-color:#ff5d6c66}.camp3 .c.bin{border-color:#2a3a58}.camp3 .c.prog{border-color:#22d3ee66}
+.camp3 .c .t{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+.camp3 .c.beach .t{color:var(--bad)}.camp3 .c.bin .t{color:#c5d0e6}.camp3 .c.prog .t{color:var(--cyan)}
+.camp3 .c .d{font-size:.78rem;color:#c5d0e6}
+.parent2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0}
+@media(max-width:720px){.parent2{grid-template-columns:1fr}}
+.parent2 .p{padding:12px 14px;border-radius:12px;background:var(--panel);border:1px solid #1a2438}
+.parent2 .p.sales{border-color:#3dd68c66}.parent2 .p.opsen{border-color:#c9a22766}
+.parent2 .p h4{margin:0 0 6px;font-size:.85rem}
+.parent2 .p.sales h4{color:#9dffc5}.parent2 .p.opsen h4{color:#fde68a}
+.parent2 .p ul{margin:4px 0 0;padding-left:18px;font-size:.78rem;color:#c5d0e6}
+.parent2 .p li{margin:3px 0}
+.stack{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}
+.stack .brick{padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);font-size:.78rem;font-weight:650;color:#c5d0e6}
+.stack .brick.gold{border-color:#c9a22788;color:var(--gold);background:#1a160c}
+.stack .brick.ok{border-color:#3dd68c66;color:var(--green);background:#13281d}
+.stack .plus{color:var(--dim);font-weight:700}
 </style>
 </head>
 <body>
@@ -124,10 +146,10 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
 <header>
   <div>
     <h1>Operator · Sheehan Homestead</h1>
-    <p class="sub">Michael Sheehan · Critters on Call · Mon Sep 28, 2026 (ET) · <b>four-tile IA</b> · operator view (not investor pack) · no outbound send</p>
+    <p class="sub">Michael Sheehan · Critters on Call · Mon Sep 28, 2026 (ET) · <b>four-tile · franchise / RVP review</b> · operator view · no outbound send</p>
   </div>
   <div class="stamps">
-    <span class="badge g">ops7</span>
+    <span class="badge g">ops8</span>
     <span class="badge v">Verified</span>
     <span class="badge e">Estimated</span>
     <span class="badge c">Caller-stated</span>
@@ -137,454 +159,273 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
 
 <nav class="toc" aria-label="Four tiles">
   <a href="#ops"><span class="n">Tile 1</span>Operations</a>
-  <a href="#growth"><span class="n">Tile 2</span>Growth / Sprint</a>
-  <a href="#support"><span class="n">Tile 3</span>Support / Enablement</a>
-  <a href="#milestones"><span class="n">Tile 4</span>Milestones &amp; Trophy</a>
+  <a href="#growth"><span class="n">Tile 2</span>Growth · one WIG</a>
+  <a href="#support"><span class="n">Tile 3</span>Support · 2 parents</a>
+  <a href="#milestones"><span class="n">Tile 4</span>Trophy</a>
 </nav>
 
-<!-- ========== TILE 1: OPERATIONS ========== -->
+<!-- ========== TILE 1: OPERATIONS — brass tacks ========== -->
 <section class="card ops" id="ops">
-  <div class="sec-label">Tile 1 · Operations</div>
-  <h2>Operations <span class="badge o">Showstoppers first</span></h2>
+  <div class="sec-label">Tile 1 · Operations · brass tacks only</div>
+  <h2>Operations <span class="badge o">No victory laps</span></h2>
 
-  <div class="script">
-    <b>Review meeting script</b> — order Michael described:<br/>
-    (1) <b>Showstoppers / mission-critical</b> before any money talk — cash/collection as business AR, staffing/delivery on heavy cyan days, weather risk, tarp/coverage on high-$ multi-event days.<br/>
-    (2) Then <b>money &amp; goals</b> (booked face, Gap, reviews).<br/>
-    (3) Then <b>dates / personas at risk</b> (calendar health, expiring D+1…D+4, red beachfront Sats).<br/>
-    (4) Click through to <a href="#growth">Growth / Sprint</a> for conversion work (pipeline closes, team organizing).
+  <div class="greenflag" id="green-flag">
+    <b>🟢 Green flag</b> — Operating at acceptable / minimum viable standard — doors can open.
+    <div class="mm" style="margin-top:4px;font-weight:500;color:#93a0b8">Franchise / RVP read: delivery viable today. Homestead watch items below do not revoke doors-open.</div>
   </div>
 
-  <div class="okbox" id="sotu">
-    <b>State of union</b> — owed ~$30k (open AR face <b>$29,455</b>) · future events booked <b>$28,169</b> · weighted pipeline <b>$23,524</b> <span class="badge v">chase</span>
-    <div class="mm" style="margin-top:4px">Target feel $20–30k weighted · fill next $20–50k face via clones (expanded). Invoiced wins sit at 95% booked — not dunk-reply chase.</div>
-  </div>
-
-  <!-- (a) SHOWSTOPPERS -->
-  <h3>(a) Showstoppers / mission-critical</h3>
-
-  <div class="alert">
-    <b>Business AR pressure</b> — open face <b>$29,455</b> <span class="badge v">Verified</span>
-    · past-due <b>$1,286</b> (8 rows) · future Final=No <b>$28,169</b> (95 rows).
-    <div class="mm">Framed as business receivables / collection — not personal bills. Source: AnnMarie_Payments_2026-09-28.xlsx · Final ≠ Completed.</div>
-  </div>
-
-  <div class="alert">
-    <b>Risky write-offs / unpaid pattern</b>
+  <h3>Showstoppers</h3>
+  <div class="warnbox">
+    <b>Homestead infrastructure · open (not doors-closed)</b>
     <ul style="margin:6px 0 0;padding-left:18px">
-      <li><b>Amelia Springs ALF</b> — face <b>$231</b> <span class="badge v">Verified</span> <span class="badge c">pattern</span> · pause further bookings until digital pay</li>
-      <li><b>Gardens Memory Care</b> — late arrears pattern (3 past-due Bunny Haven rows) <span class="badge v">Verified</span></li>
+      <li><b>Fence falling</b> — stabilize / repair · animal + staging risk</li>
+      <li><b>Comcast / Xfinity wire hanging</b> — nudge fix · curb / safety</li>
+      <li><b>Pond hazard</b> — mitigate access / mark</li>
+      <li><span class="mm">Watch:</span> Old HVAC — filter / monitor · not emergency</li>
     </ul>
+    <div class="mm" style="margin-top:6px">Source: ops_showstoppers.json · none of these revoke the green flag above.</div>
   </div>
 
-  <div class="warnbox">
-    <b>Staffing / delivery risk on heavy cyan days</b> <span class="riskchip">ops risk · not failure</span>
-    <div style="margin-top:6px">
-      <span class="wchip hot">Oct 3 · $900 · 4 evt</span>
-      <span class="wchip hot">Oct 23 · $1,921 · 3 evt</span>
-      <span class="wchip hot">Oct 24 · $3,737 · 6 evt · Ann-Marie birthday</span>
-      <span class="wchip">Nov 7 · $1,714 · 4 evt</span>
-      <span class="wchip">Dec 5 · $610 · 3 evt</span>
-    </div>
-    <div class="mm" style="margin-top:6px">Confirm helper roster + animal pickup windows before each cyan day. Oct 24 is the peak — do not leave understaffed.</div>
-  </div>
-
-  <div class="warnbox">
-    <b>Weather risk flags</b>
-    <div style="margin-top:6px">
-      <span class="wchip hot">⚠ Oct 24 2026 · Ann-Marie birthday mega-day</span>
-      <span class="wchip">JAX late-Oct climate · highs ~upper 70s–low 80s°F</span>
-      <span class="wchip">Residual shower / t-storm risk</span>
-    </div>
-    <div class="mm" style="margin-top:6px">
-      Live day-forecast + Farmers' Almanac SE long-range not available this rebuild (open-meteo rate-limit; Almanac paywalled).
-      Use <b>JAX late-October climate normals</b>: warm outdoor-viable days · afternoon shower/t-storm still in play NE FL.
-      <b>Operator action:</b> AM radar check Oct 24 · tarp/coverage on every outdoor station · protect the $3.7k / 6-event day.
-    </div>
-  </div>
-
-  <div class="prompt">
-    <b>Tarp / coverage placeholder</b> — high-$ multi-event days (esp Oct 23–24, Nov 7): confirm rain plan, pop-ups, animal shade, and “go / delay / relocate” owner call before load-out. <span class="badge o">Open</span>
-  </div>
-
-  <!-- (b) TODAY -->
-  <h3>(b) Today · Mon Sep 28, 2026</h3>
+  <h3>Today · Mon Sep 28, 2026</h3>
   <div class="empty">
-    <b>Calendar empty</b> for delivery gigs — <b>WHITE</b> = advertising / cheap giveaway inventory (primary focus), not just empty.
-    <div class="mm" style="margin-top:6px">Google Calendar MCP 403 — used ops_delivery_calendar.json (as_of Sep 24) + Payments. Sep 28 delivery events = 0.</div>
+    <b>Calendar empty</b> for delivery gigs — <b>WHITE</b> = bargain-bin / advertising inventory (use it).
+    <div class="mm" style="margin-top:6px">Cash note (Caller-stated): Madeline PZ tour deposit $3.99 · Ann-Marie 7 bunnies $70 · bunny feed TBD. Tomorrow: Montessori $40 booked — pull ≥ $100.</div>
   </div>
-  <div class="prompt" style="margin-top:8px">
-    Ops cash note (Caller-stated · OWNER_CASH_NOTES): Madeline full PZ tour cash deposit <b>$3.99</b> · Ann-Marie 7 bunnies <b>$70</b> · bunny feed <b>$ TBD</b> (do not invent).
-    <div class="mm">Tomorrow flag: Montessori after-school booked $40 — pull ≥ $100 (raise rate OR add kids).</div>
-  </div>
-  <p class="note">Staffing: no delivery roster required for empty day. Use white space for dunk / programming fills — not a chase-today panic.</p>
 
-  <!-- (c) OWED + PIPELINE -->
-  <h3>(c) Owed + weighted pipeline</h3>
+  <h3>Owed · ~$29–30k</h3>
   <div class="kpi">
     <div class="b">
       <div class="l">Open AR face</div>
       <div class="v">$29,455</div>
-      <div class="s"><span class="badge v">Verified</span> 103 rows</div>
+      <div class="s"><span class="badge v">Verified</span> ~$29–30k · 103 rows</div>
     </div>
     <div class="b">
       <div class="l">Past-due</div>
       <div class="v bad">$1,286</div>
-      <div class="s">8 rows · event &lt; today</div>
+      <div class="s">8 rows · <b>&lt;5% of open face</b> (~4.4%)</div>
+    </div>
+    <div class="b">
+      <div class="l">Risky callout</div>
+      <div class="v" style="color:var(--warn)">&lt;5%</div>
+      <div class="s">Amelia Springs ALF $231 + Gardens pattern · pause unpaid</div>
     </div>
     <div class="b">
       <div class="l">Future Final=No</div>
       <div class="v">$28,169</div>
-      <div class="s">95 rows · collectible</div>
+      <div class="s">95 rows · collectible · ~95% booked feel</div>
     </div>
-    <a class="clickn" href="weighted-pipeline.html?v=ops7-20260928" title="Open dunk / BDR weighted list">
+  </div>
+  <p class="note">Business AR only — not personal bills. Risky share stays under 5% of open face.</p>
+
+  <h3>Weighted pipeline</h3>
+  <div class="kpi">
+    <a class="clickn" href="weighted-pipeline.html?v=ops8-20260928" title="Open dunk / BDR weighted list">
       <div class="b">
         <div class="l">Weighted pipeline</div>
         <div class="v ok">$23,524</div>
         <div class="s">face $49,040 · 82 clones · click → list</div>
       </div>
     </a>
+    <div class="b"><div class="l">50% bucket</div><div class="v">$19,639</div><div class="s">primary conversion fuel</div></div>
+    <div class="b"><div class="l">75%+</div><div class="v">$2,994</div><div class="s">incl Brooks 85%</div></div>
   </div>
+  <p class="note">Top chase: RiverTown/Vesta · Natasha · Marsh Landing · Marshall Creek · Brooks Nov 21 · Sunshine/Goddard. Full list → <a href="weighted-pipeline.html?v=ops8-20260928">weighted-pipeline.html</a></p>
 
-  <div class="bkts">
-    <div class="bkt"><div class="l">10%</div><div class="v">$245</div><div class="s">face $2,450</div></div>
-    <div class="bkt"><div class="l">25%</div><div class="v">$646</div><div class="s">face $2,584</div></div>
-    <div class="bkt"><div class="l">50%</div><div class="v">$19,639</div><div class="s">face $39,278</div></div>
-    <div class="bkt"><div class="l">60%</div><div class="v">$2,459</div><div class="s">face $4,099</div></div>
-    <div class="bkt"><div class="l">75%+</div><div class="v">$535</div><div class="s">incl Brooks 85%</div></div>
+  <h3>Open dates · three campaigns · <span style="color:var(--gold)">no white space forever</span></h3>
+  <div class="camp3">
+    <div class="c beach">
+      <div class="t">1 · Beachfront</div>
+      <div class="d"><b>28 red Saturdays</b> = premium unfilled inventory. Sell the beachfront Sats first.</div>
+    </div>
+    <div class="c bin">
+      <div class="t">2 · Bargain-bin (white)</div>
+      <div class="d"><b>162 white days</b> = advertising / cheap giveaway inventory. Fill with low-friction offers + reviews.</div>
+    </div>
+    <div class="c prog">
+      <div class="t">3 · Direct programming</div>
+      <div class="d">Mommy &amp; Me · goat yoga · homeschool denser · vendor/Tom Sawyer trials. Own the calendar.</div>
+    </div>
   </div>
-
-  <div class="okbox">
-    <b>Invoiced ≈ booked @ 95%</b> — future Final=No face <b>$28,169</b> → $26,760 at 95%. Already in booked-to-date; NOT re-added to weighted. <b>Stripped from chase dunk:</b> Amelia Plantation (AIPCA) Nov 7 invoiced · Reagan Oct 30 + Easter 2027 invoiced — keep as 95% booked, not owe-a-dunk.
-  </div>
-
-  <h3 style="margin-top:10px">Past-due detail</h3>
-  <table>
-    <thead><tr><th>Date</th><th>Customer</th><th>Type</th><th>$</th><th>Notes</th></tr></thead>
-    <tbody>
-      <tr><td class="mono">2026-03-11</td><td>christina.dutcher@gardensmemorycare.com</td><td>Bunny Haven</td><td class="mono">$125.00</td><td>—</td></tr>
-      <tr><td class="mono">2026-07-21</td><td>diazcarla@cypressvillageretirement.com</td><td>Bunny Haven</td><td class="mono">$179.30</td><td>—</td></tr>
-      <tr><td class="mono">2026-08-18</td><td>diazcarla@cypressvillageretirement.com</td><td>Bunny Haven</td><td class="mono">$179.30</td><td>—</td></tr>
-      <tr><td class="mono">2026-08-18</td><td>dee.stanziano@gardensmemorycare.com</td><td>Bunny Haven</td><td class="mono">$153.70</td><td>—</td></tr>
-      <tr><td class="mono">2026-09-09</td><td>ecooks@fletcherstendercare.com</td><td>Bunny Haven</td><td class="mono">$159.00</td><td>—</td></tr>
-      <tr><td class="mono">2026-09-16</td><td>deandre.stringer@legendseniorliving.com</td><td>Bunny Haven</td><td class="mono">$185.50</td><td>—</td></tr>
-      <tr><td class="mono">2026-09-17</td><td>tracy.levanich@gardensmemorycare.com</td><td>Bunny Haven</td><td class="mono">$125.00</td><td>—</td></tr>
-      <tr><td class="mono">2026-09-21</td><td>diazcarla@cypressvillageretirement.com</td><td>Bunny Haven</td><td class="mono">$179.30</td><td>Need to reschedule</td></tr>
-    </tbody>
-  </table>
-
-    <h3>Top 8 weighted (conversion fuel for Growth)</h3>
-  <table>
-    <thead><tr><th>#</th><th>Opportunity</th><th>Win</th><th>Mid $</th><th>Weighted</th><th>Label</th></tr></thead>
-    <tbody>
-      <tr><td class="mono">1</td><td><b>RiverTown / Rivers Edge CDD (Vesta) — Kim Fatuch</b><div class="mm">clone_rebook</div></td><td class="mono">50%</td><td class="mono">$2,500</td><td class="mono gold">$1,250</td><td><span class="badge c">Caller-stated</span></td></tr>
-      <tr><td class="mono">2</td><td><b>Natasha Urick</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,368</td><td class="mono gold">$684</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">3</td><td><b>Marsh Landing Country Club (Concert Golf)</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,172</td><td class="mono gold">$586</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">4</td><td><b>Vesta - Marshall Creek</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,135</td><td class="mono gold">$568</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">5</td><td><b>Brooks Bartram Lakes — 3-hr PZ (Nov 21)</b><div class="mm">WAITING_MONDAY</div></td><td class="mono">85%</td><td class="mono">$629</td><td class="mono gold">$535</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">6</td><td><b>Sunshine Preschool/Goddard - Elizabeth Scott</b><div class="mm">clone_renew</div></td><td class="mono">60%</td><td class="mono">$742</td><td class="mono gold">$445</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">7</td><td><b>Martin Matthews</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">Verified</span></td></tr>
-      <tr><td class="mono">8</td><td><b>Sysco</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">Verified</span></td></tr>
-    </tbody>
-  </table>
-  <p class="note">Full dunk/BDR list → <a href="weighted-pipeline.html?v=ops7-20260928"><b>weighted-pipeline.html</b></a> · audit <code>data/weighted_pipeline_board.json</code></p>
-
-  <!-- (d) DATES HEALTH -->
-  <h3>(d) Dates health · now → Jun 1, 2027</h3>
-  <div class="legend">
-    <span class="chipd white">WHITE</span><span class="mm" style="margin-right:8px"><b>PRIMARY</b> · empty = advertising / cheap giveaway inventory</span>
-    <span class="chipd cyan risk">CYAN</span><span class="mm" style="margin-right:8px">multi-event high-$ = <b>ops risk</b> (staffing/delivery/tarps) · not failure-red</span>
-    <span class="chipd green">GREEN</span><span class="mm" style="margin-right:8px">≥$500</span>
-    <span class="chipd yellow">YELLOW</span><span class="mm" style="margin-right:8px">&lt;$500 but something on cal</span>
-    <span class="chipd red">RED</span><span class="mm">beachfront Sat = unfilled <b>premium</b> inventory needing sales</span>
-  </div>
-  <div class="kpi">
-    <div class="b"><div class="l">Cyan · ops risk</div><div class="v" style="color:var(--cyan)">5</div><div class="s">staffing / tarps</div></div>
-    <div class="b"><div class="l">Green</div><div class="v ok">7</div></div>
+  <div class="kpi" style="margin-top:8px">
+    <div class="b"><div class="l">Cyan · ops risk days</div><div class="v" style="color:var(--cyan)">5</div><div class="s">staffing / tarps (Oct 3, 23, 24…)</div></div>
+    <div class="b"><div class="l">Green ≥$500</div><div class="v ok">7</div></div>
     <div class="b"><div class="l">Yellow</div><div class="v" style="color:var(--yellow)">45</div></div>
-    <div class="b"><div class="l">White · ads/giveaway</div><div class="v" style="color:#c5d0e6">162</div><div class="s">primary focus</div></div>
-    <div class="b"><div class="l">Red beachfront Sats</div><div class="v bad">28</div><div class="s">premium unfilled</div></div>
   </div>
 
-  <h3>Expiring · ~3-day write-off for chase</h3>
-  <div class="warnbox" style="margin-bottom:8px">
-    <b>~3-day write-off</b> — do <b>not</b> desperately chase D0–D2 the same way. Still allow opportunistic tomorrow / Thu / Fri <b>cheap fills</b>. Focus running start further out (white + red beachfront).
+  <h3>Daily KPI</h3>
+  <div class="okbox">
+    <b>One-touch TAM / KPI output</b> — every operating day: run one-touch against TAM (HubSpot-ready list / free-tier nurture taps) and log KPI output. Brass-tacks measure of sales motion — not a victory lap.
+    <div class="mm" style="margin-top:4px"><a href="one-touch.html">one-touch.html</a> · <a href="revops-tam.html">revops-tam.html</a> · HubSpot readiness on Trophy / Support Sales.</div>
   </div>
-  <div class="chips" style="margin-bottom:10px">
-    <span class="chipd yellow" title="2026-09-29 $40 · opportunistic">09-29 Tue</span>
-    <span class="chipd white" title="2026-09-30 $0 · ads/giveaway">09-30 Wed</span>
-    <span class="chipd yellow" title="2026-10-01 · cheap fill ok">10-01 Thu</span>
-    <span class="chipd yellow" title="2026-10-02 · cheap fill ok">10-02 Fri</span>
-  </div>
-  <div class="dailystrip" title="Daily strip KPI placeholders — do not fake">
-    <div class="phk"><div class="l">Booked today</div><div class="v">— placeholder</div></div>
-    <div class="phk"><div class="l">Received today</div><div class="v">— placeholder</div></div>
-    <div class="phk"><div class="l">Ads / reviews today</div><div class="v">— placeholder</div></div>
-  </div>
-  <p class="note">D0–D2 = write-off posture for hard chase · opportunistic cheap fills still OK · white days = ad/giveaway inventory (primary)</p>
 
-  <h3>Month strips (hover for $ / events)</h3>
-  <div class="month"><div class="ml">Sep 2026</div><div class="chips"><span class="chipd yellow" title="2026-09-28 Mon · $4 · 1 evt">28</span><span class="chipd yellow" title="2026-09-29 Tue · $40 · 1 evt">29</span><span class="chipd white" title="2026-09-30 Wed · $0 · 0 evt">30</span></div></div>
-  <div class="month"><div class="ml">Oct 2026</div><div class="chips"><span class="chipd yellow" title="10-01">1</span><span class="chipd yellow" title="10-02">2</span><span class="chipd cyan" title="10-03 $900 · 4 evt">3</span><span class="chipd white" title="10-04">4</span><span class="chipd white" title="10-05">5</span><span class="chipd white" title="10-06">6</span><span class="chipd white" title="10-07">7</span><span class="chipd white" title="10-08">8</span><span class="chipd white" title="10-09">9</span><span class="chipd red" title="10-10 RED Sat empty">10</span><span class="chipd green" title="10-11 $847">11</span><span class="chipd yellow" title="10-12">12</span><span class="chipd yellow" title="10-13">13</span><span class="chipd yellow" title="10-14">14</span><span class="chipd yellow" title="10-15">15</span><span class="chipd white" title="10-16">16</span><span class="chipd green" title="10-17 $1,182">17</span><span class="chipd white" title="10-18">18</span><span class="chipd white" title="10-19">19</span><span class="chipd yellow" title="10-20">20</span><span class="chipd yellow" title="10-21">21</span><span class="chipd white" title="10-22">22</span><span class="chipd cyan" title="10-23 $1,921 · 3 evt">23</span><span class="chipd cyan" title="10-24 Ann-Marie bday · $3,737 · 6 evt">24</span><span class="chipd yellow" title="10-25">25</span><span class="chipd white" title="10-26">26</span><span class="chipd white" title="10-27">27</span><span class="chipd yellow" title="10-28">28</span><span class="chipd green" title="10-29">29</span><span class="chipd green" title="10-30">30</span><span class="chipd green" title="10-31">31</span></div></div>
-  <div class="month"><div class="ml">Nov–Dec 2026 (next red beachfronts)</div><div class="chips">
-    <span class="chipd cyan" title="11-07">11/7</span>
-    <span class="chipd red" title="11-14">11/14</span>
-    <span class="chipd red" title="11-21">11/21</span>
-    <span class="chipd red" title="11-28">11/28</span>
-    <span class="chipd cyan" title="12-05">12/5</span>
-    <span class="chipd red" title="12-12">12/12</span>
-    <span class="chipd red" title="12-19">12/19</span>
-    <span class="chipd red" title="12-26">12/26</span>
-  </div></div>
-  <p class="note">Full day grid in audit JSON. Source: Payments + ops_delivery_calendar.json (GCal MCP 403).</p>
-
-  <h3>Programming cadence <span class="badge o">Gaps / fill · not booked $</span></h3>
-  <ul class="prog">
-    <li>Something buyable on calendar every day (even 2 people = $50 + reviews)</li>
-    <li>Mommy &amp; Me denser (aspirational daily)</li>
-    <li>Goat yoga ~2×/week</li>
-    <li>Homeschool / micro-school opportunity — ops note only, NOT investor pitch</li>
-    <li>Vendor/partner Tom Sawyer model (lower fee trial then up if sells)</li>
-  </ul>
+  <div class="links" style="margin-top:10px">
+    <a href="weighted-pipeline.html?v=ops8-20260928">Weighted pipeline</a>
+    <a href="ops-delivery.html">Delivery calendar</a>
+    <a href="bookings-dates.html">Bookings dates</a>
+    <a href="one-touch.html">One-touch</a>
+    <a href="ops-today.html">Ops today</a>
+  </div>
 </section>
 
-<!-- ========== TILE 2: GROWTH / SPRINT ========== -->
+<!-- ========== TILE 2: GROWTH — one WIG ========== -->
 <section class="card growth star" id="growth">
-  <div class="sec-label">Tile 2 · Growth / Sprint · MISSION CRITICAL ONLY</div>
-  <h2>Growth / Sprint <span class="badge g">$250k by Dec 23</span> <span class="badge c">Mission only</span> <span class="badge p">Last POV</span></h2>
-  <p class="note" style="margin-top:0">Single north star. No vendor village · no hedgehog menu · no compliance deep-dives here — those live on <a href="#support">Support</a>.</p>
+  <div class="sec-label">Tile 2 · Growth · one WIG</div>
+  <h2>Growth <span class="badge g">One WIG</span> <span class="badge c">$250k by Dec 23</span></h2>
 
   <div class="script">
-    <b>Last POV ever</b> — buy this / do it himself.<br/>
-    Band-aids around <b>what we already have</b> to hit <b>$250k by Dec 23</b>. Not a rebuild. Measuring from <b>Aug</b> (campaign push).
+    <b>Wildly Important Goal</b> — <b>$250,000 bookings closed / booked by Dec 23, 2026</b>.
+    Events may land up to 18 months out; the sale must close by Dec 23 to count.
   </div>
 
-  <div class="okbox" style="margin-top:8px">
-    <b>Aug → now sprint story</b> <span class="badge c">Caller-stated · POV</span>
+  <h3>Staging story</h3>
+  <div class="okbox">
+    <span class="badge c">Caller-stated · POV</span>
     <ul style="margin:6px 0 0;padding-left:18px">
-      <li>~<b>$40k booked</b> this sprint</li>
-      <li>of which ~<b>$30k still owed</b> (open AR face ~$29.5k Verified sits under that story)</li>
-      <li><b>Weighted pipeline under that</b> — <b>$23,524</b> (face $49,040) · not enough alone</li>
+      <li><b>Late Jul → Aug 6</b> — stage / set the board (not the sprint)</li>
+      <li><b>NY vacation</b> — pause in the middle</li>
+      <li><b>Real sprint ~Sep 12+</b> — measuring converted work from here</li>
     </ul>
-    <div class="mm" style="margin-top:6px">Stack: booked sprint → owed collectible → weighted chase. Still short of $250k — band-aids + closes fill the gap.</div>
+    <div class="mm" style="margin-top:6px">Do not credit Jul–Aug 6 stage as sprint velocity. Clock that matters: Sep 12 → Dec 23.</div>
   </div>
 
   <div class="kpi" style="margin-top:10px">
-    <div class="b">
-      <div class="l">Bookings goal</div>
-      <div class="v big">$250,000</div>
-      <div class="s">Close / book by Dec 23, 2026</div>
-    </div>
-    <div class="b">
-      <div class="l">Sprint booked (from Aug)</div>
-      <div class="v">~$40k</div>
-      <div class="s"><span class="badge c">POV story</span> · of which ~$30k owed</div>
-    </div>
-    <div class="b">
-      <div class="l">Days left</div>
-      <div class="v">86</div>
-      <div class="s">to Dec 23 · Mon Sep 28</div>
-    </div>
-    <div class="b">
-      <div class="l">YTD Payments face</div>
-      <div class="v">~$62k</div>
-      <div class="s"><span class="badge v">Verified</span> $61,937 · secondary ledger</div>
-    </div>
+    <div class="b"><div class="l">WIG</div><div class="v big">$250,000</div><div class="s">bookings by Dec 23</div></div>
+    <div class="b"><div class="l">Days left</div><div class="v">86</div><div class="s">Mon Sep 28 → Dec 23</div></div>
+    <div class="b"><div class="l">Sprint booked (story)</div><div class="v">~$40k</div><div class="s"><span class="badge c">POV</span> · of which ~$30k owed</div></div>
+    <div class="b"><div class="l">YTD Payments (secondary)</div><div class="v">~$62k</div><div class="s"><span class="badge v">Verified</span> $61,937 · do not double-count</div></div>
   </div>
-  <div class="bar" title="sprint story vs $250k"><i style="width:16%"></i></div>
-  <p class="note">POV measures from Aug (~$40k / $250k ≈ 16%). YTD Payments ~$62k kept as Verified secondary — do not double-count into sprint story.</p>
+  <div class="bar" title="story vs WIG"><i style="width:16%"></i></div>
+  <p class="note">POV ~$40k / $250k ≈ 16%. Stack bricks below — still short; closes + Support levers fill the gap.</p>
 
-  <div class="warnbox">
-    <b>Capable now vs later / radar</b>
-    <div class="grid2" style="margin-top:8px">
-      <div>
-        <div class="mm" style="color:var(--green);font-weight:700;margin-bottom:4px">CAPABLE NOW (band-aids)</div>
-        <ul class="prog">
-          <li>Dunk / clone closes on weighted list</li>
-          <li>Collect the ~$30k owed (AR)</li>
-          <li>Collateral + GitHub leave-behinds</li>
-          <li>Field marketing / storytelling</li>
-          <li>CJM friction pulls (Support)</li>
-          <li>HubSpot one-touch nurture (free-tier hundreds)</li>
-        </ul>
-      </div>
-      <div>
-        <div class="mm" style="color:var(--warn);font-weight:700;margin-bottom:4px">LATER / RADAR</div>
-        <ul class="prog">
-          <li>Heavy HubSpot (paid tier)</li>
-          <li>Full team org beyond helpers</li>
-          <li>Next compliance rungs / horses</li>
-          <li>Rebuild systems (not this sprint)</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="warnbox">
-    <b>Booking rules</b>
-    <ul style="margin:6px 0 0;padding-left:18px">
-      <li>Events may land up to <b>18 months out</b> on the calendar.</li>
-      <li>But the sale must <b>close / book by Dec 23, 2026</b> to count toward the $250k north star.</li>
-    </ul>
-  </div>
-
-  <h3>Season emphasis (close window)</h3>
-  <div class="chips" style="margin-bottom:8px">
-    <span class="wchip hot">Oct · CRITICAL</span>
-    <span class="wchip">Nov–Dec · keep closing</span>
-    <span class="wchip">Book Feb–May now</span>
-    <span class="wchip">Jan slow → more direct programming (Support)</span>
-  </div>
-  <p class="note">Crazy busy later if Feb–May aren’t pre-booked. Jan is soft demand → lean on Support direct-programming excellence, not Growth panic.</p>
-
-  <h3>Weighted pipeline <span class="badge v">click-through</span> <span class="badge o">under sprint story</span></h3>
+  <h3>Leading indicators <span class="badge e">results</span></h3>
   <div class="kpi">
-    <a class="clickn" href="weighted-pipeline.html?v=ops7-20260928" title="Open dunk / BDR weighted list">
-      <div class="b">
-        <div class="l">Weighted pipeline</div>
-        <div class="v ok">$23,524</div>
-        <div class="s">face $49,040 · under the ~$40k / ~$30k stack · click → list</div>
-      </div>
-    </a>
     <div class="b">
-      <div class="l">Sprint booked + weighted</div>
-      <div class="v">~$63.5k</div>
-      <div class="s">~$40k + $23.5k · still short of $250k</div>
+      <div class="l">FB followers gained (this sprint)</div>
+      <div class="v ok">~1,000+</div>
+      <div class="s"><span class="badge c">Caller-stated</span> sprint gain</div>
     </div>
     <div class="b">
-      <div class="l">Coverage vs $250k</div>
-      <div class="v bad">~25%</div>
-      <div class="s">story + weighted · band-aids must close more</div>
+      <div class="l">FB page · known baseline</div>
+      <div class="v">~4.8k</div>
+      <div class="s"><span class="badge v">Social baseline</span> monetized page</div>
+    </div>
+    <div class="b">
+      <div class="l">Target EOY</div>
+      <div class="v" style="color:var(--gold)">~7k</div>
+      <div class="s"><span class="badge e">Aspirational</span> end-of-year</div>
     </div>
   </div>
-  <div class="bkts">
-    <div class="bkt"><div class="l">10%</div><div class="v">$245</div><div class="s">open / early</div></div>
-    <div class="bkt"><div class="l">25%</div><div class="v">$646</div><div class="s">active convo</div></div>
-    <div class="bkt"><div class="l">50%</div><div class="v">$19,639</div><div class="s">likely close</div></div>
-    <div class="bkt"><div class="l">75%+</div><div class="v">$2,994</div><div class="s">incl 60% + Brooks 85%</div></div>
-  </div>
-  <p class="note">Pipeline = <b>past buyers + open conversations</b> scored 10 / 25 / 50 / 75 (+ mid 60%). Full dunk/BDR list → <a href="weighted-pipeline.html?v=ops7-20260928"><b>weighted-pipeline.html</b></a>.</p>
+  <p class="note">Labels honest: gain = Caller-stated · page size = best-known Social baseline · 7k = target not Verified count.</p>
 
-  <div class="dotted">
-    <h4>Optional growth line · open hypothesis (do not lock forever)</h4>
-    <p style="margin:0 0 8px;font-size:.82rem;color:#c5d0e6">
-      Prove <b>“#1 programmer in Jacksonville”</b> via events density —
-      Michael floated <b>≥3 → ≥10 homeschool / week</b>. Present as hypothesis + catchphrase options (mom / homeschool ally voice). Pick later.
-    </p>
-    <ul class="prog">
-      <li><b>Option A</b> — “We’re on the mom team — farm STEM that fills the week, not just one Saturday.”</li>
-      <li><b>Option B</b> — “First Coast homeschool ally: real animals, real calendar density.”</li>
-      <li><b>Option C</b> — “Jax’s go-to programmer for co-ops — prove it at ≥3… aiming ≥10 touches / week.”</li>
-    </ul>
-    <p class="mm" style="margin-top:6px">Density goal feeds Growth closes; delivery excellence of those programs lives on Support.</p>
+  <h3>Lagging indicators</h3>
+  <div class="kpi">
+    <div class="b"><div class="l">Booked $</div><div class="v">~$40k sprint</div><div class="s">lagging · POV story</div></div>
+    <div class="b"><div class="l">Reviews</div><div class="v">~84–105</div><div class="s">showing / caller · goal 555 stretch</div></div>
+    <div class="b"><div class="l">Open AR (owed)</div><div class="v">~$29.5k</div><div class="s">collectible lag on sprint booked</div></div>
+  </div>
+
+  <h3>Initiatives <span class="badge o">SHORT · dig on Support</span></h3>
+  <ul class="prog">
+    <li>Dunk / clone closes on weighted list</li>
+    <li>Collect the ~$29–30k owed</li>
+    <li>Everything else (collateral, CJM, HubSpot one-touch, field marketing, creative financing) → <a href="#support"><b>Support</b></a></li>
+  </ul>
+
+  <h3>Sprint accomplishments <span class="badge p">checklist</span></h3>
+  <ul class="checklist">
+    <li><span class="mark won">✓</span><div><b>Facebook monetize invite</b><div class="mm">Monetized FB lane live · follower sprint in motion</div></div></li>
+    <li><span class="mark track">~75%</span><div><b>New collateral band-aids</b><div class="mm">Leave-behinds / GitHub · near checkmark · Support Sales</div></div></li>
+    <li><span class="mark ongo">Working</span><div><b>CJM updates</b><div class="mm">Friction map in flight · Support Ops</div></div></li>
+  </ul>
+
+  <h3>Stack bricks · path to ask</h3>
+  <div class="stack">
+    <span class="brick ok">Owed ~$29.5k</span>
+    <span class="plus">+</span>
+    <span class="brick ok">Weighted $23.5k</span>
+    <span class="plus">→</span>
+    <span class="brick gold">Path to ask / creative financing</span>
+  </div>
+  <div class="ph">
+    Soft note only: stack collectible + weighted as the brick path toward capital ask.
+    <b>Creative financing / liquid-today pot</b> is a <b>business initiative</b> on <a href="#support">Support → Sales enablement</a> — not personal debt detail on public pages.
   </div>
 
   <div class="links" style="margin-top:10px">
-    <a href="weighted-pipeline.html?v=ops7-20260928">Weighted pipeline →</a>
-    <a href="growth-simple.html?v=ops7-20260928">Growth page →</a>
+    <a href="weighted-pipeline.html?v=ops8-20260928">Weighted pipeline →</a>
+    <a href="growth-simple.html?v=ops8-20260928">Growth page →</a>
     <a href="principal-dunk.html">Dunk board</a>
-    <a href="growth-pipeline.html">Growth pipeline</a>
+    <a href="#support">Support (initiatives dig)</a>
   </div>
 </section>
 
-<!-- ========== TILE 3: SUPPORT / ENABLEMENT ========== -->
+<!-- ========== TILE 3: SUPPORT — two parents ========== -->
 <section class="card support" id="support">
-  <div class="sec-label">Tile 3 · Support / Enablement · operate-now band-aids</div>
-  <h2>Support / Enablement <span class="badge o">Band-aids · feeds Growth</span></h2>
-  <p class="note" style="margin-top:0">Operate-now band-aids to hit the $250k goal — not a rebuild. <b>Friction / CJM</b> + <b>collateral / GitHub</b> + <b>field marketing / storytelling</b> = what we run with <i>what we have</i>.</p>
+  <div class="sec-label">Tile 3 · Support · only two parents</div>
+  <h2>Support / Enablement <span class="badge o">2 parents only</span></h2>
+  <p class="note" style="margin-top:0">Everything Support owns hangs under <b>Sales enablement</b> or <b>Operations enablement</b>. No third pillar.</p>
 
-  <div class="warnbox">
-    <b>Operate-now band-aids</b> <span class="badge e">Support → Growth</span>
-    <ul style="margin:6px 0 0;padding-left:18px">
-      <li><b>CJM / CX friction removal</b> — pull friction so closes stick · <a href="support-cjm.html?v=ops7-20260928">support-cjm.html</a></li>
-      <li><b>Collateral / GitHub leave-behinds</b> — sales enablement pack (~75% · tracking) · <a href="collateral.html">collateral.html</a></li>
-      <li><b>Field marketing / storytelling</b> — crash-mob / mom-voice / appearances that fill the calendar without a new stack</li>
-    </ul>
-    <div class="mm" style="margin-top:6px">These are the band-aids around what we have — Support owns them so Growth stays on closes.</div>
-  </div>
-
-  <h3>Low-hanging compliance <span class="badge v">before horses</span></h3>
-  <div class="okbox">
-    <b>Simple paperwork path first:</b> <b>hedgehogs</b> · <b>bearded dragons</b> — small, little, chargeable — <b>BEFORE horses</b>.
-    <div class="mm" style="margin-top:4px">Minis / cows = aspirational later. Preference note: skip tigers / high-zoonotic scare framing — stay friendly + chargeable.</div>
-  </div>
-  <div class="path">
-    <span class="step" style="border-color:#3dd68c66;color:var(--green);background:#13281d">Hiscox GL+WC ✓</span><span class="arrow">→</span>
-    <span class="step on">Hedgehogs / beardies paperwork</span><span class="arrow">→</span>
-    <span class="step">Minis / cows (aspirational)</span><span class="arrow">→</span>
-    <span class="step">Horses path</span><span class="arrow">→</span>
-    <span class="step">Lawyer · S-corp</span>
-  </div>
-  <p class="note">Full ladder → <a href="support-compliance-roadmap.html?v=ops7-20260928">support-compliance-roadmap.html</a>. Goals after stack $, not panic.</p>
-
-  <div class="grid2">
-    <div class="ph">
-      <b>Vendor village / menu complement</b>
-      <div class="mm">Partner / Tom Sawyer model · lower fee trial then up if sells · menu complements (not Growth north-star).</div>
+  <div class="parent2">
+    <div class="p sales">
+      <h4>1) Sales enablement</h4>
+      <ul>
+        <li><b>Collateral / GitHub</b> — leave-behinds ~75% · <a href="collateral.html">collateral.html</a></li>
+        <li><b>Field marketing</b> — crash-mob / mom-voice / appearances</li>
+        <li><b>One-touch TAM / HubSpot</b> — free-tier nurture · readiness done · <a href="one-touch.html">one-touch</a></li>
+        <li><b>Creative financing / liquid-today pot</b> — <span class="badge e">business initiative</span> · deposits · plans · seasonal retainers · pot for liquid-today offers — <b>not personal debt</b></li>
+      </ul>
+      <div class="links" style="margin-top:8px"><a href="support-growth-enablement.html?v=ops8-20260928">Sales enablement →</a></div>
     </div>
-    <div class="ph">
-      <b>Direct programming excellence</b>
-      <div class="mm">Support capability that feeds Growth — Mommy &amp; Me · Bunny · Mobile PZ · Jan soft-demand fills. <a href="programming.html">programming.html</a></div>
+    <div class="p opsen">
+      <h4>2) Operations enablement</h4>
+      <ul>
+        <li><b>Compliance</b> — Hiscox GL+WC ✓ · hedgehogs/beardies before horses · <a href="support-compliance-roadmap.html?v=ops8-20260928">roadmap</a></li>
+        <li><b>CJM / friction</b> — journey map · pull friction · <a href="support-cjm.html?v=ops8-20260928">support-cjm</a></li>
+        <li><b>Vendor / direct programming capability</b> — Tom Sawyer trials · Mommy &amp; Me · Jan fills · <a href="programming.html">programming</a></li>
+      </ul>
+      <div class="links" style="margin-top:8px"><a href="support-ops-enablement.html?v=ops8-20260928">Ops enablement →</a></div>
     </div>
-    <div class="ph">
-      <b>HubSpot one-touch nurture</b>
-      <div class="mm">Working-on · free-tier limits (hundreds) · readiness already completed (trophy). Not heavy CRM rebuild.</div>
-    </div>
-    <div class="ph">
-      <b>Sales enablement bones</b>
-      <div class="mm">Collateral ~75% · pitch · price book · flyers — what Growth needs from Support. <a href="support-growth-enablement.html">enablement</a></div>
-    </div>
-  </div>
-
-  <h3>Creative financing <span class="badge e">Support lever for cash</span></h3>
-  <div class="ph">
-    Deposits · payment plans · package holds · seasonal retainers — Support lever that feeds Ops AR health and Growth close rate.
-    <div class="mm">Bones only — no productized offer invented here.</div>
   </div>
 
   <div class="links">
-    <a href="support-cjm.html?v=ops7-20260928">CJM / friction</a>
-    <a href="collateral.html">Collateral / GitHub</a>
-    <a href="support-growth-enablement.html">Sales enablement</a>
-    <a href="support-compliance-roadmap.html?v=ops7-20260928">Compliance roadmap</a>
-    <a href="support-ops-enablement.html?v=ops7-20260928">Ops enablement</a>
-    <a href="programming.html">Programming</a>
-    <a href="support-home.html?v=ops7-20260928">Support home</a>
+    <a href="support-home.html?v=ops8-20260928">Support home</a>
+    <a href="support-growth-enablement.html?v=ops8-20260928">Sales enablement</a>
+    <a href="support-ops-enablement.html?v=ops8-20260928">Ops enablement</a>
+    <a href="collateral.html">Collateral</a>
+    <a href="support-cjm.html?v=ops8-20260928">CJM</a>
+    <a href="support-compliance-roadmap.html?v=ops8-20260928">Compliance</a>
   </div>
 </section>
 
-<!-- ========== TILE 4: MILESTONES & TROPHY ========== -->
+<!-- ========== TILE 4: TROPHY ========== -->
 <section class="card trophy" id="milestones">
-  <div class="sec-label">Tile 4 · Milestones &amp; Trophy case</div>
-  <h2>Milestones &amp; Trophy case <span class="badge p">Operator readiness</span></h2>
-  <p class="note">Lifetime trophies + ongoing growth. Aligns mentally with investor checklist — <b>this page stays operator</b>. Full board → <a href="milestones-trophy.html?v=ops7-20260928">milestones-trophy.html</a> · then <a href="growth-investor.html">investor materials</a>.</p>
+  <div class="sec-label">Tile 4 · Trophy · sprint + lifetime</div>
+  <h2>Trophy case <span class="badge p">Sprint + lifetime</span></h2>
+  <p class="note">First crack at short accomplished list from recent work. Full board → <a href="milestones-trophy.html?v=ops8-20260928">milestones-trophy.html</a> · investor deck → <a href="growth-investor.html">growth-investor.html</a> · <a href="investor-home.html">investor-home.html</a>.</p>
 
-  <div class="kpi">
-    <div class="b"><div class="l">Trophies (new)</div><div class="v ok">4</div><div class="s">twine · helpers · Hiscox · HubSpot</div></div>
-    <div class="b"><div class="l">Tracking / near ✓</div><div class="v" style="color:var(--gold)">~75%</div><div class="s">sales collateral</div></div>
-    <div class="b"><div class="l">Working-on</div><div class="v" style="color:#9ec1ff">1</div><div class="s">HubSpot one-touch nurture</div></div>
-    <div class="b"><div class="l">Band-aids (Support)</div><div class="v" style="color:#9ec1ff">3</div><div class="s">CJM · collateral · field mkt</div></div>
-  </div>
-
+  <h3>Sprint checklist <span class="badge g">this sprint</span></h3>
   <ul class="checklist">
-    <li><span class="mark won">🏆 Win</span><div><b>“Cut the twine to meet the swine”</b><div class="mm">Lifetime trophy · ~70 reviews (Michael) · ad-equivalent ≥$3,500</div></div></li>
-    <li><span class="mark won">✓ Done</span><div><b>Paid helper work</b><div class="mm">Done great — checkmark trophy</div></div></li>
-    <li><span class="mark won">✓ Done</span><div><b>Hiscox GL+WC</b><div class="mm">Compliant enough to operate — compliance progress</div></div></li>
-    <li><span class="mark won">✓ Done</span><div><b>HubSpot readiness</b><div class="mm">Account + HubSpot-compliant customer list + ~3,000 leads list · not heavy-using (free account)</div></div></li>
-    <li><span class="mark have">Have</span><div><b>Live OS / web app · 6 concurrent peaks · 10+ team · SEO/reviews · FB ~4.8k · assets</b><div class="mm">Prior trophies still stand — web app kept</div></div></li>
-    <li><span class="mark track">~75%</span><div><b>Sales enablement collateral</b><div class="mm">Tracking · near checkmark — <b>do not mark complete yet</b> · <a href="collateral.html">collateral</a></div></div></li>
-    <li><span class="mark ongo">Working</span><div><b>HubSpot one-touch tap nurture</b><div class="mm">Initiative within free-tier limits (hundreds) — Support band-aid for Growth closes</div></div></li>
-    <li><span class="mark ongo">Band-aid</span><div><b>CJM / friction + field marketing / storytelling + collateral / GitHub</b><div class="mm">Support operate-now band-aids to hit goal · <a href="support-cjm.html?v=ops7-20260928">CJM</a></div></div></li>
-    <li><span class="mark need">Not yet</span><div><b>Organizing team beyond paid helpers</b><div class="mm">Growth milestone — seat clarity / RACI — not hit yet</div></div></li>
-    <li><span class="mark track">Goal</span><div><b>Next compliance rungs</b><div class="mm">Animal-contact · equine host · umbrella — after stack $ (not panic)</div></div></li>
+    <li><span class="mark won">✓</span><div><b>Reviews / twine</b><div class="mm">“Cut the twine to meet the swine” · ~70 reviews · ≥$3.5k ad-equivalent</div></div></li>
+    <li><span class="mark won">✓</span><div><b>Paid helpers</b><div class="mm">Model staffs beyond founders</div></div></li>
+    <li><span class="mark won">✓</span><div><b>Hiscox GL+WC</b><div class="mm">Compliant enough to operate</div></div></li>
+    <li><span class="mark won">✓</span><div><b>Web apps / dunk / operator OS</b><div class="mm">Exec suite · dunk board · four-tile OS live</div></div></li>
+    <li><span class="mark won">✓</span><div><b>FB monetize</b><div class="mm">Monetized invite · ~1k+ followers this sprint (Caller-stated)</div></div></li>
+    <li><span class="mark won">✓</span><div><b>HubSpot ready</b><div class="mm">Account + compliant customers + ~3k leads · free-tier</div></div></li>
+    <li><span class="mark won">✓</span><div><b>Durbin wheel</b><div class="mm">Event wheel live for Durbin Crossing</div></div></li>
+    <li><span class="mark track">~75%</span><div><b>Collateral / flyers</b><div class="mm">Near checkmark — do not mark complete · band-aids shipping</div></div></li>
+  </ul>
+
+  <h3>Lifetime (still stand)</h3>
+  <ul class="checklist">
+    <li><span class="mark have">Have</span><div><b>6 concurrent peaks · 10+ team · SEO / reviews · FB ~4.8k baseline · livestock / CRM assets</b></div></li>
+    <li><span class="mark have">Have</span><div><b>Founder / co-founder story · STEM on Call · franchise narrative</b></div></li>
   </ul>
 
   <div class="links" style="margin-top:10px">
-    <a href="milestones-trophy.html?v=ops7-20260928">Full trophy board →</a>
-    <a href="growth-investor.html">Investor materials →</a>
+    <a href="milestones-trophy.html?v=ops8-20260928">Full trophy board →</a>
+    <a href="growth-investor.html">Investor deck / share face →</a>
     <a href="investor-home.html">Investor home</a>
     <a href="investor-checklist.html">Investor checklist</a>
-    <a href="support-compliance-roadmap.html?v=ops7-20260928">Compliance roadmap</a>
   </div>
 </section>
 
@@ -593,21 +434,21 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <div class="links">
     <a href="principal-dunk.html">Dunk board</a>
     <a href="bookings-dates.html">Bookings dates</a>
-    <a href="weighted-pipeline.html?v=ops7-20260928">Weighted pipeline</a>
-    <a href="growth-pipeline.html">Growth pipeline</a>
-    <a href="customers-no-next-date.html">Customers · no next date</a>
+    <a href="weighted-pipeline.html?v=ops8-20260928">Weighted pipeline</a>
+    <a href="one-touch.html">One-touch</a>
     <a href="money-cfo.html">CFO notes</a>
     <a href="ops-delivery.html">Delivery calendar</a>
-    <a href="milestones-trophy.html?v=ops7-20260928">Trophy case</a>
+    <a href="milestones-trophy.html?v=ops8-20260928">Trophy case</a>
+    <a href="growth-investor.html">Investor deck</a>
     <a href="data/operator_state_2026-09-28.json">Audit JSON</a>
   </div>
 </section>
 
 <footer>
-  Operator four-tile IA · ops7 Mon Sep 28, 2026 ET · Growth mission-critical · Support everything else · data/operator_state_2026-09-28.json ·
-  hard-refresh <code>?v=ops7-20260928</code> ·
-  no outbound send · no personal/bill-pay · investor pack stays separate.
-  <div style="margin-top:4px">Gaps: GCal MCP 403 · Maps reviews scrape failed (87 / ~105 caller) · open-meteo rate-limit + Almanac paywall for Oct 24 day-forecast · Kathlene contact missing · several weighted mids Estimated</div>
+  Operator four-tile · ops8 Mon Sep 28, 2026 ET · franchise/RVP brass-tacks · Growth = one WIG · Support = Sales + Ops enablement only ·
+  hard-refresh <code>?v=ops8-20260928</code> ·
+  no outbound send · creative financing = business initiative (not personal debt) · investor pack stays separate.
+  <div style="margin-top:4px">Green flag: “Operating at acceptable / minimum viable standard — doors can open.”</div>
 </footer>
 
 </div>
