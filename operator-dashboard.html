@@ -95,6 +95,8 @@ ul.prog li{margin:4px 0}
 .checklist .mark.have{background:#13281d;color:var(--green);border-color:#3dd68c66}
 .checklist .mark.need{background:#2a2416;color:var(--warn);border-color:#ffb02066}
 .checklist .mark.track{background:#1a1f2e;color:#a8b4c8;border-color:var(--line)}
+.checklist .mark.won{background:#1a160c;color:var(--gold);border-color:#c9a22788}
+.checklist .mark.ongo{background:#101828;color:#9ec1ff;border-color:#5b8cff66}
 .path{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}
 .path .step{padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-size:.72rem;font-weight:650;color:#c5d0e6}
 .path .step.on{border-color:#c9a22788;color:var(--gold);background:#1a160c}
@@ -235,7 +237,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
       <div class="v">$28,169</div>
       <div class="s">95 rows · collectible</div>
     </div>
-    <a class="clickn" href="weighted-pipeline.html?v=ops4-20260928" title="Open dunk / BDR weighted list">
+    <a class="clickn" href="weighted-pipeline.html?v=ops5-20260928" title="Open dunk / BDR weighted list">
       <div class="b">
         <div class="l">Weighted pipeline</div>
         <div class="v ok">$23,524</div>
@@ -285,7 +287,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
       <tr><td class="mono">8</td><td><b>Sysco</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">Verified</span></td></tr>
     </tbody>
   </table>
-  <p class="note">Full dunk/BDR list → <a href="weighted-pipeline.html?v=ops4-20260928"><b>weighted-pipeline.html</b></a> · audit <code>data/weighted_pipeline_board.json</code></p>
+  <p class="note">Full dunk/BDR list → <a href="weighted-pipeline.html?v=ops5-20260928"><b>weighted-pipeline.html</b></a> · audit <code>data/weighted_pipeline_board.json</code></p>
 
   <!-- (d) DATES HEALTH -->
   <h3>(d) Dates health · now → Jun 1, 2027</h3>
@@ -390,12 +392,13 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <h3>Unlock path (end of sprint)</h3>
   <div class="path">
     <span class="step on">$250k bookings</span><span class="arrow">→</span>
-    <span class="step">Compliance upgrades</span><span class="arrow">→</span>
+    <span class="step" style="border-color:#3dd68c66;color:var(--green);background:#13281d">Hiscox GL+WC ✓</span><span class="arrow">→</span>
+    <span class="step">Next compliance rungs</span><span class="arrow">→</span>
     <span class="step">Horses path</span><span class="arrow">→</span>
     <span class="step">Lawyer</span><span class="arrow">→</span>
     <span class="step">S-corp</span>
   </div>
-  <p class="note">Unlock sequence stays operator-owned. Investor pack is separate — share numbers/milestones only.</p>
+  <p class="note">Unlock sequence stays operator-owned. Hiscox GL+WC = compliant enough to operate. Next rungs after stack $. Investor pack separate — share numbers/milestones only.</p>
 
   <div class="kpi">
     <div class="b">
@@ -447,7 +450,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
       <a href="ops-team.html">Ops team</a>
       <a href="team-hire.html">Hire priorities</a>
       <a href="principal-dunk.html">Dunk board</a>
-      <a href="weighted-pipeline.html?v=ops4-20260928">Weighted pipeline</a>
+      <a href="weighted-pipeline.html?v=ops5-20260928">Weighted pipeline</a>
       <a href="growth-pipeline.html">Growth pipeline</a>
     </div>
   </div>
@@ -464,6 +467,8 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
     <div class="ph"><b>Pitch</b><div class="mm">Talk tracks / one-pagers. Existing: <a href="quick-pitches.html">quick-pitches.html</a> · expand later.</div></div>
     <div class="ph"><b>Price book</b><div class="mm">Menu / packages / creative financing notes. Placeholder — GitHub-y link later.</div></div>
     <div class="ph"><b>Flyers</b><div class="mm">Leave-behinds / print. Existing hub: <a href="collateral.html">collateral.html</a> · more later.</div></div>
+    <div class="ph"><b>CJM / CX friction removal</b><div class="mm">Support ops exercise — placeholder where friction points live. <a href="support-cjm.html?v=ops5-20260928">support-cjm.html</a></div></div>
+    <div class="ph"><b>Compliance roadmap</b><div class="mm">Hiscox GL+WC earned · next rungs after stack $. <a href="support-compliance-roadmap.html?v=ops5-20260928">roadmap stub</a></div></div>
   </div>
 
   <h3>Creative financing <span class="badge e">Support lever for cash</span></h3>
@@ -483,7 +488,8 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <div class="links">
     <a href="support-growth-enablement.html">Growth enablement</a>
     <a href="support-ops-enablement.html">Ops enablement</a>
-    <a href="support-compliance-roadmap.html">Compliance roadmap</a>
+    <a href="support-cjm.html?v=ops5-20260928">CJM / friction</a>
+    <a href="support-compliance-roadmap.html?v=ops5-20260928">Compliance roadmap</a>
     <a href="programming.html">Programming</a>
     <a href="one-touch.html">One-touch</a>
   </div>
@@ -493,27 +499,30 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
 <section class="card trophy" id="milestones">
   <div class="sec-label">Tile 4 · Milestones &amp; Trophy case</div>
   <h2>Milestones &amp; Trophy case <span class="badge p">Operator readiness</span></h2>
-  <p class="note">Completed wins / cheat-code assets already have. Aligns mentally with investor checklist — <b>this page stays operator</b>. Full lightweight board → <a href="milestones-trophy.html?v=ops4-20260928">milestones-trophy.html</a>.</p>
+  <p class="note">Lifetime trophies + ongoing growth. Aligns mentally with investor checklist — <b>this page stays operator</b>. Full board → <a href="milestones-trophy.html?v=ops5-20260928">milestones-trophy.html</a> · then <a href="growth-investor.html">investor materials</a>.</p>
 
   <div class="kpi">
+    <div class="b"><div class="l">Trophies (new)</div><div class="v ok">3</div><div class="s">twine · helpers · Hiscox</div></div>
+    <div class="b"><div class="l">Ongoing</div><div class="v" style="color:#9ec1ff">3</div><div class="s">CJM · team org · next rungs</div></div>
     <div class="b"><div class="l">Have (defaults)</div><div class="v ok">22</div><div class="s">readiness JSON</div></div>
-    <div class="b"><div class="l">Need</div><div class="v" style="color:var(--warn)">4</div><div class="s">logos · quotes · media</div></div>
-    <div class="b"><div class="l">Compliance track</div><div class="v">6</div><div class="s">COI · LLC · W-9…</div></div>
   </div>
 
   <ul class="checklist">
-    <li><span class="mark have">Have</span><div><b>Real estate · livestock · customer list</b><div class="mm">Working assets / raise assets on disk</div></div></li>
-    <li><span class="mark have">Have</span><div><b>Live OS · market sizing · GTM playbook · franchise narrative</b><div class="mm">Proof stack (operator-visible)</div></div></li>
-    <li><span class="mark have">Have</span><div><b>6 concurrent event peaks · 10+ team · SEO/reviews · FB ~4.8k</b><div class="mm">Ops proof already earned</div></div></li>
-    <li><span class="mark have">Have</span><div><b>Founder / co-founder story + STEM on Call</b><div class="mm">Operator identity assets</div></div></li>
-    <li><span class="mark need">Need</span><div><b>Logo slide · letterhead testimonials · media reel</b><div class="mm">Attach when ready — do not invent</div></div></li>
-    <li><span class="mark track">Track</span><div><b>COI · LLC · fingerprinted teacher · annual report · W-9 · Nassau permit</b><div class="mm">Compliance unlock before horses → lawyer → S-corp</div></div></li>
+    <li><span class="mark won">🏆 Win</span><div><b>“Cut the twine to meet the swine”</b><div class="mm">Lifetime trophy · ~70 reviews (Michael) · ad-equivalent ≥$3,500</div></div></li>
+    <li><span class="mark won">✓ Done</span><div><b>Paid helper work</b><div class="mm">Done great — checkmark trophy</div></div></li>
+    <li><span class="mark won">✓ Done</span><div><b>Hiscox GL+WC</b><div class="mm">Compliant enough to operate — compliance progress</div></div></li>
+    <li><span class="mark have">Have</span><div><b>6 concurrent peaks · 10+ team · SEO/reviews · FB ~4.8k · assets · Live OS</b><div class="mm">Prior trophies still stand</div></div></li>
+    <li><span class="mark ongo">Ongoing</span><div><b>CJM / CX friction removal</b><div class="mm">Support ops exercise · <a href="support-cjm.html?v=ops5-20260928">support-cjm.html</a></div></div></li>
+    <li><span class="mark need">Not yet</span><div><b>Organizing team beyond paid helpers</b><div class="mm">Growth milestone — seat clarity / RACI — not hit yet</div></div></li>
+    <li><span class="mark track">Goal</span><div><b>Next compliance rungs</b><div class="mm">Animal-contact · equine host · umbrella — after stack $ (not panic)</div></div></li>
   </ul>
 
   <div class="links" style="margin-top:10px">
-    <a href="milestones-trophy.html?v=ops4-20260928">Full trophy board →</a>
-    <a href="investor-checklist.html">Investor checklist (separate)</a>
-    <a href="support-compliance-roadmap.html">Compliance roadmap</a>
+    <a href="milestones-trophy.html?v=ops5-20260928">Full trophy board →</a>
+    <a href="growth-investor.html">Investor materials →</a>
+    <a href="investor-home.html">Investor home</a>
+    <a href="investor-checklist.html">Investor checklist</a>
+    <a href="support-compliance-roadmap.html?v=ops5-20260928">Compliance roadmap</a>
   </div>
 </section>
 
@@ -522,19 +531,19 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <div class="links">
     <a href="principal-dunk.html">Dunk board</a>
     <a href="bookings-dates.html">Bookings dates</a>
-    <a href="weighted-pipeline.html?v=ops4-20260928">Weighted pipeline</a>
+    <a href="weighted-pipeline.html?v=ops5-20260928">Weighted pipeline</a>
     <a href="growth-pipeline.html">Growth pipeline</a>
     <a href="customers-no-next-date.html">Customers · no next date</a>
     <a href="money-cfo.html">CFO notes</a>
     <a href="ops-delivery.html">Delivery calendar</a>
-    <a href="milestones-trophy.html?v=ops4-20260928">Trophy case</a>
+    <a href="milestones-trophy.html?v=ops5-20260928">Trophy case</a>
     <a href="data/operator_state_2026-09-28.json">Audit JSON</a>
   </div>
 </section>
 
 <footer>
-  Operator four-tile IA · rebuilt Mon Sep 28, 2026 ET · data/operator_state_2026-09-28.json ·
-  hard-refresh <code>?v=ops4-20260928</code> ·
+  Operator four-tile IA · ops5 Mon Sep 28, 2026 ET · trophy + support bones · data/operator_state_2026-09-28.json ·
+  hard-refresh <code>?v=ops5-20260928</code> ·
   no outbound send · no personal/bill-pay · investor pack stays separate.
   <div style="margin-top:4px">Gaps: GCal MCP 403 · Maps reviews scrape failed (87 / ~105 caller) · open-meteo rate-limit + Almanac paywall for Oct 24 day-forecast · Kathlene contact missing · several weighted mids Estimated</div>
 </footer>
