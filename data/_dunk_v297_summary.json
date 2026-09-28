@@ -1,0 +1,49 @@
+{
+  "board_version": "Board v2.9.7 \u00b7 Sep 28 \u00b7 scheduled activity + message reconcile",
+  "as_of": "2026-09-28 2:15 AM ET",
+  "added": [
+    "owe-heather-foran-anthem-lakes",
+    "cons-cust-jpettigrew713-gmail-com",
+    "owe-julie-pettigrew-nov7",
+    "cons-cust-nramnaraine-gmail-com",
+    "cons-cust-ajslangley-gmail-com",
+    "cons-cust-alexaowens25-gmail-com",
+    "owe-rachael-jergensen-homeschool",
+    "cons-warm-rcjergensen-gmail-com"
+  ],
+  "updated": [
+    "owe-rcs-lauren",
+    "rcsa-lauren-burnette",
+    "owe-westminster-kori-dual-mini",
+    "owe-beatrix-mali-vai-apology-reconnect",
+    "cons-cust-marieljaster-gmail-com",
+    "life-anthemlakes-com-anthem-lakes-waterview-senior-living-life-enrichment-director",
+    "owe-tabatha-bartram-springs-pta"
+  ],
+  "delta": [
+    "UPDATE owe-rcs-lauren: WAITING_YES \u2192 BOOKED Oct 2 Violet Package",
+    "UPDATE rcsa-lauren-burnette: WAITING_YES \u2192 BOOKED Oct 2 Violet Package",
+    "UPDATE Westminster/Kori: SLAM \u2192 BUDGET DECLINE + $275 counter pending (phone verified)",
+    "UPDATE Beatrix: apology \u2192 RESCHEDULE options Oct 6/22 + Nov 17 (phone verified)",
+    "UPDATE Mariel: rebook \u2192 COMPLETED Sep 26 + ask review",
+    "ADDED Heather Foran / Anthem Lakes (heather.foran@anthemlakes.com)",
+    "UPDATE Tabatha Bartram Springs PTA: refresh REPLIED / still unlock dates",
+    "ADDED Julie Pettigrew BOOKED Nov 7 mobile mini (phone+email verified)",
+    "ADDED owe pointer Julie Pettigrew Nov 7",
+    "ADDED Nalinie Ramnaraine REVIEWED (Mommy & Me) \u2014 'Nalini' match",
+    "ADDED Ashlee Langley REVIEWED (Mommy & Me)",
+    "ADDED Alexa Owens BOOKED Mommy & Me Oct 1 11:30",
+    "ADDED Rachael Jergensen Homeschool tour inbound"
+  ],
+  "mailto_total": 650,
+  "owe_followup": 16,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=297",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=297"
+  ],
+  "notes": [
+    "Nalini = Nalinie Ramnaraine (verified review + booking)",
+    "Drafts only / sheehanhomestead Gmail read-only respected",
+    "No invented phones/emails"
+  ]
+}
