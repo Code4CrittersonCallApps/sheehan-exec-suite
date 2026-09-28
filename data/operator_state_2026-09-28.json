@@ -1,0 +1,3370 @@
+{
+  "as_of": "2026-09-28T13:30:00-04:00",
+  "as_of_label": "Mon Sep 28, 2026 ET",
+  "tz": "America/New_York",
+  "north_star": {
+    "due": "2026-12-23",
+    "bookings_goal": 250000,
+    "reviews_goal": 555,
+    "booked_to_date": 61937.01,
+    "booked_to_date_label": "Verified \u00b7 Payments past-completed + future on-book face (ops noise excluded)",
+    "booked_to_date_incl_past_due_open": 63223.11,
+    "gap_to_250k": 188062.99,
+    "reviews_showing": 87,
+    "reviews_est": 105,
+    "reviews_label": "Caller-stated (pipeline_day_2026-09-27.json) \u00b7 Maps scrape failed",
+    "reviews_gap_from_showing": 468,
+    "reviews_gap_from_est": 450,
+    "daily_kpi_note": "Contributing daily KPI placeholder (multiplier later) \u2014 do not fake KPIs"
+  },
+  "ar": {
+    "open_face_total": 29454.83,
+    "past_due_total": 1286.1,
+    "future_open_final_no": 28168.73,
+    "past_due_count": 8,
+    "future_open_count": 95,
+    "open_count": 103,
+    "source": "AnnMarie_Payments_2026-09-28.xlsx \u00b7 Final Payment \u2260 Completed",
+    "label": "Verified",
+    "past_due_rows": [
+      {
+        "sheet": "2026",
+        "event_date": "2026-03-11",
+        "customer": "christina.dutcher@gardensmemorycare.com",
+        "event_type": "Bunny Haven",
+        "invoice": 74,
+        "total_due": 125.0,
+        "deposit": "n/a",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-07-21",
+        "customer": "diazcarla@cypressvillageretirement.com",
+        "event_type": "Bunny Haven",
+        "invoice": 152,
+        "total_due": 179.3,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-08-18",
+        "customer": "diazcarla@cypressvillageretirement.com",
+        "event_type": "Bunny Haven",
+        "invoice": 153,
+        "total_due": 179.3,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-08-18",
+        "customer": "dee.stanziano@gardensmemorycare.com",
+        "event_type": "Bunny Haven",
+        "invoice": 134,
+        "total_due": 153.7,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-09-09",
+        "customer": "ecooks@fletcherstendercare.com",
+        "event_type": "Bunny Haven",
+        "invoice": 193,
+        "total_due": 159.0,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-09-16",
+        "customer": "deandre.stringer@legendseniorliving.com",
+        "event_type": "Bunny Haven",
+        "invoice": 192,
+        "total_due": 185.5,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-09-17",
+        "customer": "tracy.levanich@gardensmemorycare.com",
+        "event_type": "Bunny Haven",
+        "invoice": 191,
+        "total_due": 125.0,
+        "deposit": "No",
+        "final": "No",
+        "notes": null,
+        "final_open": true,
+        "ops_noise": false
+      },
+      {
+        "sheet": "2026",
+        "event_date": "2026-09-21",
+        "customer": "diazcarla@cypressvillageretirement.com",
+        "event_type": "Bunny Haven",
+        "invoice": 154,
+        "total_due": 179.3,
+        "deposit": "No",
+        "final": "No",
+        "notes": "Need to reschedule",
+        "final_open": true,
+        "ops_noise": false
+      }
+    ],
+    "risky_writeoffs": {
+      "amelia_springs": {
+        "label": "Amelia Springs ALF \u2014 unpaid pattern (pause further bookings)",
+        "face_total": 231.0,
+        "rows": [
+          {
+            "event_date": "2024-09-19",
+            "customer": "Amelia Springs Assisted Living ",
+            "total_due": 106.0,
+            "final": "No",
+            "sheet": "2024",
+            "label": "Amelia Springs ALF unpaid pattern"
+          },
+          {
+            "event_date": "2025-08-25",
+            "customer": "manager@ameliaspringsalf.com",
+            "total_due": 125.0,
+            "final": "No",
+            "sheet": "2025",
+            "label": "Amelia Springs ALF unpaid pattern"
+          }
+        ],
+        "note": "Caller-stated ~$231; Payments Verified open rows sum to this face (2024 Sophie $106 + 2025 Bunny $125 = $231)",
+        "label_quality": "Verified from Payments + Caller-stated pattern flag (ops_unpaid_watch)"
+      },
+      "gardens_memory_care_arrears": {
+        "label": "Gardens Memory Care \u2014 late arrears pattern",
+        "rows": [
+          {
+            "sheet": "2026",
+            "event_date": "2026-03-11",
+            "customer": "christina.dutcher@gardensmemorycare.com",
+            "event_type": "Bunny Haven",
+            "invoice": 74,
+            "total_due": 125.0,
+            "deposit": "n/a",
+            "final": "No",
+            "notes": null,
+            "final_open": true,
+            "ops_noise": false
+          },
+          {
+            "sheet": "2026",
+            "event_date": "2026-08-18",
+            "customer": "dee.stanziano@gardensmemorycare.com",
+            "event_type": "Bunny Haven",
+            "invoice": 134,
+            "total_due": 153.7,
+            "deposit": "No",
+            "final": "No",
+            "notes": null,
+            "final_open": true,
+            "ops_noise": false
+          },
+          {
+            "sheet": "2026",
+            "event_date": "2026-09-17",
+            "customer": "tracy.levanich@gardensmemorycare.com",
+            "event_type": "Bunny Haven",
+            "invoice": 191,
+            "total_due": 125.0,
+            "deposit": "No",
+            "final": "No",
+            "notes": null,
+            "final_open": true,
+            "ops_noise": false
+          }
+        ],
+        "label_quality": "Verified past-due subset + curated unpaid watch"
+      }
+    }
+  },
+  "weighted_pipeline": {
+    "face_total": 15996.91,
+    "weighted_total": 7910.02,
+    "row_count": 38,
+    "buckets_weighted": {
+      "10%": 0,
+      "25%": 481.25,
+      "50%": 5858.07,
+      "75%": 1036.05,
+      "85%": 534.65,
+      "95%": 0,
+      "other": 0
+    },
+    "buckets_face": {
+      "10%": 0,
+      "25%": 1925,
+      "50%": 11716.16,
+      "75%": 1726.75,
+      "85%": 629,
+      "95%": 0,
+      "other": 0
+    },
+    "invoiced_approx_booked_95": {
+      "face": 28168.73,
+      "weighted_at_95": 26760.29,
+      "note": "Future Final=No on Payments \u2014 already counted in booked-to-date face. Shown here as 95% confidence with overdue-risk note; NOT added again into weighted_total.",
+      "label": "Verified face \u00b7 95% confidence band Estimated"
+    },
+    "gap_booked_plus_weighted_to_250k": 180152.97,
+    "top8": [
+      {
+        "id": "kim-fatuch-rivertown",
+        "account": "RiverTown / Rivers Edge CDD (Vesta) \u2014 Kim Fatuch",
+        "contact": "Kimberly Fatuch",
+        "email": "KFatuch@vestapropertyservices.com",
+        "mid_dollar": 2500,
+        "win_pct": 50,
+        "dollar_source": "Caller-stated",
+        "evidence": "Michael named: Kim Fatuch/Silverleaf-RiverTown 50% \u00d7 ~$2500",
+        "status": "clone_rebook",
+        "next_step": "Dunk amenity/events \u2014 fall/winter program date",
+        "source": "principal_dunk + customers_no_next_date + Michael voice",
+        "weighted_dollar": 1250.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "brooks-nov-21",
+        "account": "Brooks Bartram Lakes \u2014 3-hr PZ (Nov 21)",
+        "contact": "Kate Woodcock-Sharp",
+        "email": "katelyn.woodcock-sharp@brooksrehab.org",
+        "mid_dollar": 629,
+        "win_pct": 85,
+        "dollar_source": "Verified quote (bookings_pipeline)",
+        "evidence": "WAITING_MONDAY \u00b7 Violet all-in $629 \u00b7 pipeline_weight 0.85 \u00b7 weighted $535",
+        "status": "WAITING_MONDAY",
+        "next_step": "Kate answer Monday (Sep 28+)",
+        "source": "bookings_pipeline.json",
+        "weighted_dollar": 534.65,
+        "bucket": "85%"
+      },
+      {
+        "id": "clone-martin-matthews",
+        "account": "Martin Matthews",
+        "contact": "Martin Matthews",
+        "email": null,
+        "mid_dollar": 851.9,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-31 $851.9 \u2192 clone close 2026-10-31",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 425.95,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-silver-leaf-first-coast-cms",
+        "account": "Silver Leaf \u00b7 First Coast CMS",
+        "contact": "Elizabeth Giacobbi",
+        "email": "liz@firstcoastcms.com",
+        "mid_dollar": 811.52,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-21 $811.52 \u2192 clone close 2026-09-21",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 405.76,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-goddard-school-julington-creek",
+        "account": "Goddard School - Julington Creek",
+        "contact": "Niral Patel",
+        "email": "niralnpatel1618@gmail.com",
+        "mid_dollar": 742.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-28 $742.0 \u2192 clone close 2026-10-28",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 371.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "tabatha-bartram-pta",
+        "account": "Tabatha Onorato \u2014 Bartram Springs PTA (ToT + Science Night)",
+        "contact": "Tabatha Onorato",
+        "email": "bseptapres@gmail.com",
+        "mid_dollar": 700,
+        "win_pct": 50,
+        "dollar_source": "Estimated (2 events \u00d7 ~$350)",
+        "evidence": "Michael named Tabatha 50%; CALL_OFFERED ToT Oct 30 + Science Night Nov 13",
+        "status": "CALL_OFFERED",
+        "next_step": "Lock one or both dates",
+        "source": "bookings_pipeline + Michael voice",
+        "weighted_dollar": 350.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-kelsey-taylor",
+        "account": "Kelsey Taylor",
+        "contact": "Kelsey Taylor",
+        "email": "ktaylor28@ju.edu",
+        "mid_dollar": 700.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-06 $700.0 \u2192 clone close 2026-11-06",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 350.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "westminster-kori",
+        "account": "Westminster \u2014 dual mini Mondays (Kori)",
+        "contact": "Kori Montague",
+        "email": "Kmontague@wservices.org",
+        "mid_dollar": 550,
+        "win_pct": 50,
+        "dollar_source": "Estimated (counter $275 \u00d7 2 campuses)",
+        "evidence": "Budget decline $375; counter $275 mini SENT Sep 27 \u2014 awaiting reply. 50\u201375% band \u2192 use 50%.",
+        "status": "awaiting_reply",
+        "next_step": "Confirm $275 mini one or both campuses",
+        "source": "principal_dunk_board + pipeline_day",
+        "weighted_dollar": 275.0,
+        "bucket": "50%"
+      }
+    ],
+    "rows": [
+      {
+        "id": "kim-fatuch-rivertown",
+        "account": "RiverTown / Rivers Edge CDD (Vesta) \u2014 Kim Fatuch",
+        "contact": "Kimberly Fatuch",
+        "email": "KFatuch@vestapropertyservices.com",
+        "mid_dollar": 2500,
+        "win_pct": 50,
+        "dollar_source": "Caller-stated",
+        "evidence": "Michael named: Kim Fatuch/Silverleaf-RiverTown 50% \u00d7 ~$2500",
+        "status": "clone_rebook",
+        "next_step": "Dunk amenity/events \u2014 fall/winter program date",
+        "source": "principal_dunk + customers_no_next_date + Michael voice",
+        "weighted_dollar": 1250.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "brooks-nov-21",
+        "account": "Brooks Bartram Lakes \u2014 3-hr PZ (Nov 21)",
+        "contact": "Kate Woodcock-Sharp",
+        "email": "katelyn.woodcock-sharp@brooksrehab.org",
+        "mid_dollar": 629,
+        "win_pct": 85,
+        "dollar_source": "Verified quote (bookings_pipeline)",
+        "evidence": "WAITING_MONDAY \u00b7 Violet all-in $629 \u00b7 pipeline_weight 0.85 \u00b7 weighted $535",
+        "status": "WAITING_MONDAY",
+        "next_step": "Kate answer Monday (Sep 28+)",
+        "source": "bookings_pipeline.json",
+        "weighted_dollar": 534.65,
+        "bucket": "85%"
+      },
+      {
+        "id": "clone-martin-matthews",
+        "account": "Martin Matthews",
+        "contact": "Martin Matthews",
+        "email": null,
+        "mid_dollar": 851.9,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-31 $851.9 \u2192 clone close 2026-10-31",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 425.95,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-silver-leaf-first-coast-cms",
+        "account": "Silver Leaf \u00b7 First Coast CMS",
+        "contact": "Elizabeth Giacobbi",
+        "email": "liz@firstcoastcms.com",
+        "mid_dollar": 811.52,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-21 $811.52 \u2192 clone close 2026-09-21",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 405.76,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-goddard-school-julington-creek",
+        "account": "Goddard School - Julington Creek",
+        "contact": "Niral Patel",
+        "email": "niralnpatel1618@gmail.com",
+        "mid_dollar": 742.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-28 $742.0 \u2192 clone close 2026-10-28",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 371.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "tabatha-bartram-pta",
+        "account": "Tabatha Onorato \u2014 Bartram Springs PTA (ToT + Science Night)",
+        "contact": "Tabatha Onorato",
+        "email": "bseptapres@gmail.com",
+        "mid_dollar": 700,
+        "win_pct": 50,
+        "dollar_source": "Estimated (2 events \u00d7 ~$350)",
+        "evidence": "Michael named Tabatha 50%; CALL_OFFERED ToT Oct 30 + Science Night Nov 13",
+        "status": "CALL_OFFERED",
+        "next_step": "Lock one or both dates",
+        "source": "bookings_pipeline + Michael voice",
+        "weighted_dollar": 350.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-kelsey-taylor",
+        "account": "Kelsey Taylor",
+        "contact": "Kelsey Taylor",
+        "email": "ktaylor28@ju.edu",
+        "mid_dollar": 700.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-06 $700.0 \u2192 clone close 2026-11-06",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 350.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "westminster-kori",
+        "account": "Westminster \u2014 dual mini Mondays (Kori)",
+        "contact": "Kori Montague",
+        "email": "Kmontague@wservices.org",
+        "mid_dollar": 550,
+        "win_pct": 50,
+        "dollar_source": "Estimated (counter $275 \u00d7 2 campuses)",
+        "evidence": "Budget decline $375; counter $275 mini SENT Sep 27 \u2014 awaiting reply. 50\u201375% band \u2192 use 50%.",
+        "status": "awaiting_reply",
+        "next_step": "Confirm $275 mini one or both campuses",
+        "source": "principal_dunk_board + pipeline_day",
+        "weighted_dollar": 275.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-vesta-sampson-creek-at-st-john-s-country",
+        "account": "Vesta \u00b7 Sampson Creek at St. John's Country Club",
+        "contact": "Haley Hadd",
+        "email": "hhadd@vestapropertyservices.com",
+        "mid_dollar": 450.0,
+        "win_pct": 60,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-24 $450.0 \u2192 clone close 2026-10-24",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 270.0,
+        "bucket": "60%"
+      },
+      {
+        "id": "clone-theresa-timm",
+        "account": "theresa timm",
+        "contact": "theresa timm",
+        "email": null,
+        "mid_dollar": 500.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_customer_gross",
+        "evidence": "prior 2025-10-10 $500.0 \u2192 clone close 2026-10-10",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 250.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "kate-kilpatrick-goat-yoga",
+        "account": "Kate Kilpatrick \u2014 goat yoga",
+        "contact": "Kate Kilpatrick",
+        "email": "Rileykilpatrick@gmail.com",
+        "mid_dollar": 499,
+        "win_pct": 50,
+        "dollar_source": "Estimated (menu C-GY $499)",
+        "evidence": "Michael named goat yoga 50%; warm summer interest card on dunk",
+        "status": "warm_inbound",
+        "next_step": "Book goat yoga or farm visit date",
+        "source": "Michael voice + principal_dunk consumer warm",
+        "weighted_dollar": 249.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-sarah-bierschied",
+        "account": "Sarah Bierschied",
+        "contact": "Sarah Bierschied",
+        "email": null,
+        "mid_dollar": 429.19,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-03 $429.19 \u2192 clone close 2026-11-03",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 214.59,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-abigail-gayle",
+        "account": "Abigail Gayle",
+        "contact": "Abigail Gayle",
+        "email": null,
+        "mid_dollar": 344.25,
+        "win_pct": 60,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-12 $344.25 \u2192 clone close 2026-11-12",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 206.55,
+        "bucket": "60%"
+      },
+      {
+        "id": "clone-vanessa-kocher",
+        "account": "Vanessa Kocher",
+        "contact": "Vanessa Kocher",
+        "email": null,
+        "mid_dollar": 344.25,
+        "win_pct": 60,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-13 $344.25 \u2192 clone close 2026-11-13",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 206.55,
+        "bucket": "60%"
+      },
+      {
+        "id": "clone-stephanie-traylor",
+        "account": "Stephanie Traylor",
+        "contact": "Stephanie Traylor",
+        "email": null,
+        "mid_dollar": 400.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-29 $400.0 \u2192 clone close 2026-10-29",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 200.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-christ-the-king-early-learning-center",
+        "account": "Christ the King Early Learning Center",
+        "contact": "Laura Harrington",
+        "email": "wtlaharrington@gmail.com",
+        "mid_dollar": 300.0,
+        "win_pct": 60,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-23 $300.0 \u2192 clone close 2026-11-23",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 180.0,
+        "bucket": "60%"
+      },
+      {
+        "id": "reply-river-city-science-academy",
+        "account": "River City Science Academy",
+        "contact": "Lauren Burnette",
+        "email": "lburnette@rivercityscience.org",
+        "mid_dollar": 350,
+        "win_pct": 50,
+        "dollar_source": "placeholder_standard",
+        "evidence": "Push date + soft assume-the-sale",
+        "status": "soft_yes",
+        "next_step": "Push date + soft assume-the-sale",
+        "source": "growth_reply_pipeline.json",
+        "weighted_dollar": 175.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-michelle-cannilla",
+        "account": "Michelle Cannilla",
+        "contact": "Michelle Cannilla",
+        "email": null,
+        "mid_dollar": 288.25,
+        "win_pct": 60,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-24 $288.25 \u2192 clone close 2026-11-24",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 172.95,
+        "bucket": "60%"
+      },
+      {
+        "id": "clone-clara-white-mission-inc-",
+        "account": "Clara White Mission, Inc.",
+        "contact": "Clara White Mission, Inc.",
+        "email": "bdawson@clarawhitemission.org",
+        "mid_dollar": 325.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-29 $325.0 \u2192 clone close 2026-10-29",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 162.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-jeremiah-stanley",
+        "account": "Jeremiah Stanley",
+        "contact": "Jeremiah Stanley",
+        "email": null,
+        "mid_dollar": 300.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-03 $300.0 \u2192 clone close 2026-09-03",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 150.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-randy-harp",
+        "account": "Randy Harp",
+        "contact": "Randy Harp",
+        "email": "randyharp@gmail.com",
+        "mid_dollar": 275.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-17 $275.0 \u2192 clone close 2026-09-17",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 137.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "reply-intercoastal-kids",
+        "account": "Intercoastal Kids",
+        "contact": "Info (Intercoastal Kids)",
+        "email": "info@intercoastalkids.com",
+        "mid_dollar": 250,
+        "win_pct": 50,
+        "dollar_source": "placeholder_standard",
+        "evidence": "Qualify date \u00b7 send pricing/hold",
+        "status": "qualified",
+        "next_step": "Qualify date \u00b7 send pricing/hold",
+        "source": "growth_reply_pipeline.json",
+        "weighted_dollar": 125.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-tanielle-smith",
+        "account": "Tanielle Smith",
+        "contact": "Tanielle Smith",
+        "email": null,
+        "mid_dollar": 225.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-25 $225.0 \u2192 clone close 2026-11-25",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 112.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-laytan-wickizer",
+        "account": "Laytan Wickizer",
+        "contact": "Laytan Wickizer",
+        "email": "laytanwickizer@gmail.com",
+        "mid_dollar": 217.3,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-21 $217.3 \u2192 clone close 2026-11-21",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 108.65,
+        "bucket": "50%"
+      },
+      {
+        "id": "palagio",
+        "account": "Palagio Senior Living \u2014 fall fest",
+        "contact": "Amanda Darga / Kristi",
+        "email": "businessofficedirector@palagioseniorliving.com",
+        "mid_dollar": 200,
+        "win_pct": 50,
+        "dollar_source": "Estimated (prior-scale fall fest)",
+        "evidence": "Warm reply fall fest; Michael named Palagio 50% (reply file had 75% \u2014 use Michael 50%)",
+        "status": "qualified",
+        "next_step": "Confirm fall fest date + hold",
+        "source": "growth_reply_pipeline + Michael voice",
+        "weighted_dollar": 100.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "denise-powers-palencia",
+        "account": "Denise Powers \u2014 Palencia / Marshall Creek CDD (Vesta)",
+        "contact": "Denise Powers",
+        "email": "dpowers@vestapropertyservices.com",
+        "mid_dollar": 400,
+        "win_pct": 25,
+        "dollar_source": "Estimated (typical mobile PZ)",
+        "evidence": "Michael named Denise/Kathlene 25%; Kathlene contact not found in local files \u2014 Denise Powers verified on dunk",
+        "status": "prospect",
+        "next_step": "Amenity/events dunk",
+        "source": "Michael voice + principal_dunk",
+        "weighted_dollar": 100.0,
+        "bucket": "25%"
+      },
+      {
+        "id": "clone-lisa-doerler",
+        "account": "Lisa Doerler",
+        "contact": "Lisa Doerler",
+        "email": null,
+        "mid_dollar": 185.5,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-09 $185.5 \u2192 clone close 2026-10-09",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 92.75,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-latonya-stamper",
+        "account": "Latonya Stamper",
+        "contact": "Latonya Stamper",
+        "email": null,
+        "mid_dollar": 185.5,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-10-14 $185.5 \u2192 clone close 2026-10-14",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 92.75,
+        "bucket": "50%"
+      },
+      {
+        "id": "abcc-laura",
+        "account": "Atlantic Beach Country Club \u2014 Laura",
+        "contact": "Laura",
+        "email": "laura@atlanticbeachcountryclub.com",
+        "mid_dollar": 350,
+        "win_pct": 25,
+        "dollar_source": "Estimated (placeholder mobile PZ)",
+        "evidence": "growth_reply_pipeline 25% \u00d7 $350; Michael named ABCC Laura 25%",
+        "status": "qualified",
+        "next_step": "Send petting zoo pricing",
+        "source": "growth_reply_pipeline + Michael voice",
+        "weighted_dollar": 87.5,
+        "bucket": "25%"
+      },
+      {
+        "id": "heather-foran-anthem",
+        "account": "Heather Foran \u2014 Anthem Lakes Waterview",
+        "contact": "Heather Foran",
+        "email": "heather.foran@anthemlakes.com",
+        "mid_dollar": 350,
+        "win_pct": 25,
+        "dollar_source": "Estimated (typical mobile/Bunny)",
+        "evidence": "Michael named Heather 25%; ack Sep 22 programming date still owed",
+        "status": "CHASE",
+        "next_step": "Lock Life Enrichment date",
+        "source": "principal_dunk_board + Michael voice",
+        "weighted_dollar": 87.5,
+        "bucket": "25%"
+      },
+      {
+        "id": "reply-ashley-m-kopec-quote-",
+        "account": "Ashley M. Kopec (quote)",
+        "contact": "Ashley M. Kopec",
+        "email": "ashleymkopec@gmail.com",
+        "mid_dollar": 350,
+        "win_pct": 25,
+        "dollar_source": "placeholder_standard",
+        "evidence": "Push date + soft assume-the-sale",
+        "status": "soft_yes",
+        "next_step": "Push date + soft assume-the-sale",
+        "source": "growth_reply_pipeline.json",
+        "weighted_dollar": 87.5,
+        "bucket": "25%"
+      },
+      {
+        "id": "clone-liudmila-lashchenko",
+        "account": "Liudmila Lashchenko",
+        "contact": "Liudmila Lashchenko",
+        "email": "liudmila.lashchenko@gmail.com",
+        "mid_dollar": 150.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-18 $150.0 \u2192 clone close 2026-11-18",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 75.0,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-dolores-flemming",
+        "account": "Dolores FLEMMING",
+        "contact": "Dolores FLEMMING",
+        "email": null,
+        "mid_dollar": 125.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-02 $125.0 \u2192 clone close 2026-09-02",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 62.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-lindsey-hale",
+        "account": "Lindsey Hale",
+        "contact": "Lindsey Hale",
+        "email": "lindseyrgriffith@yahoo.com",
+        "mid_dollar": 125.0,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-09-12 $125.0 \u2192 clone close 2026-09-12",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 62.5,
+        "bucket": "50%"
+      },
+      {
+        "id": "clone-rosemarie-llerandi",
+        "account": "RoseMarie Llerandi",
+        "contact": "RoseMarie Llerandi",
+        "email": null,
+        "mid_dollar": 119.25,
+        "win_pct": 50,
+        "dollar_source": "paypal_invoice",
+        "evidence": "prior 2025-11-09 $119.25 \u2192 clone close 2026-11-09",
+        "status": "clone_renew",
+        "next_step": "Dunk: CAPTCHA or call \u2014 clone last year\u2019s booking",
+        "source": "growth_clone_pipeline.json",
+        "weighted_dollar": 59.62,
+        "bucket": "50%"
+      },
+      {
+        "id": "beatrix-malivai",
+        "account": "Beatrix \u2014 MaliVai Washington Youth Foundation tour",
+        "contact": "Beatrix",
+        "email": "beatrix@malwashington.com",
+        "mid_dollar": 200,
+        "win_pct": 25,
+        "dollar_source": "Estimated (tour mid)",
+        "evidence": "Michael named Beatrix 25%; DraftExternalMessage apology+dates waiting Send",
+        "status": "WAITING_SEND",
+        "next_step": "Send draft \u00b7 lock a date",
+        "source": "principal_dunk_board",
+        "weighted_dollar": 50.0,
+        "bucket": "25%"
+      },
+      {
+        "id": "reply-st-johns-river-state-college-foundation",
+        "account": "St. Johns River State College Foundation",
+        "contact": "Bailey H. Akin",
+        "email": "baileyakin@sjrstate.edu",
+        "mid_dollar": 200,
+        "win_pct": 25,
+        "dollar_source": "placeholder_standard",
+        "evidence": "Park for 2027 Foundation calendar \u00b7 keep on file",
+        "status": "nurture_later",
+        "next_step": "Park for 2027 Foundation calendar \u00b7 keep on file",
+        "source": "growth_reply_pipeline.json",
+        "weighted_dollar": 50.0,
+        "bucket": "25%"
+      },
+      {
+        "id": "reply-consumer-tour-inquiry",
+        "account": "Consumer tour inquiry",
+        "contact": "A.C. Walker",
+        "email": "acwalker22@gmail.com",
+        "mid_dollar": 75,
+        "win_pct": 25,
+        "dollar_source": "placeholder_standard",
+        "evidence": "Push date + soft assume-the-sale",
+        "status": "soft_yes",
+        "next_step": "Push date + soft assume-the-sale",
+        "source": "growth_reply_pipeline.json",
+        "weighted_dollar": 18.75,
+        "bucket": "25%"
+      }
+    ],
+    "rules": [
+      "Do not invent mid_$",
+      "Michael-named win% preferred when stated",
+      "Skip opportunities already on Payments future dates / status=booked",
+      "Invoiced Final=No stays in booked face; 95% band is informational only"
+    ]
+  },
+  "today": {
+    "date": "2026-09-28",
+    "calendar_events": [],
+    "payments_customer_events": [
+      {
+        "customer": "Madeline (local visitor cash)",
+        "type": "Full PZ tour \u2014 cash deposit",
+        "amount": 3.99,
+        "final": "Completed"
+      }
+    ],
+    "owner_cash_notes": {
+      "as_of": "2026-09-28 ~11am ET",
+      "source": "Michael voice",
+      "entries": [
+        {
+          "date": "2026-09-28",
+          "type": "cash_in",
+          "party": "Madeline",
+          "desc": "Full PZ tour cash deposit",
+          "amount": 3.99,
+          "currency": "USD",
+          "notes": "~$400 value experience; funded bunny+feed"
+        },
+        {
+          "date": "2026-09-28",
+          "type": "cash_out",
+          "party": "Ann-Marie",
+          "desc": "7 bunnies @ $10",
+          "amount": 70.0,
+          "currency": "USD",
+          "notes": "paid from Madeline cash"
+        },
+        {
+          "date": "2026-09-28",
+          "type": "cash_out",
+          "party": "Ann-Marie",
+          "desc": "Bunny feed",
+          "amount": null,
+          "amount_status": "TBD",
+          "notes": "not stated \u2014 do not invent"
+        }
+      ],
+      "flags": [
+        {
+          "date": "2026-09-29",
+          "item": "Montessori after-school",
+          "booked": 40,
+          "target_pull": 100,
+          "action": "raise rate OR add kids"
+        }
+      ]
+    },
+    "status": "has_items",
+    "note": "Google Calendar MCP 403 today \u2014 used ops_delivery_calendar.json (as_of Sep 24) + Payments. Sep 28 delivery events = 0."
+  },
+  "calendar_health": {
+    "horizon": {
+      "start": "2026-09-28",
+      "end": "2027-06-01"
+    },
+    "legend": {
+      "CYAN": "\u2265 $1,500 booked revenue OR \u2265 3 events",
+      "GREEN": "\u2265 $500 booked (and not cyan)",
+      "YELLOW": "Anything on calendar (media/shoots count) but under $500",
+      "WHITE": "Empty = bargain-bin / giveaway days",
+      "RED": "Beachfront Saturdays today\u2192Jun 1 with <$500 scheduled (premium inventory problem)"
+    },
+    "color_counts": {
+      "YELLOW": 45,
+      "WHITE": 162,
+      "CYAN": 5,
+      "RED": 28,
+      "GREEN": 7
+    },
+    "red_beachfront_count": 28,
+    "red_days": [
+      {
+        "date": "2026-10-10",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2026-11-14",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2026-11-21",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2026-11-28",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2026-12-12",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2026-12-19",
+        "weekday": "Sat",
+        "revenue": 225.0,
+        "events": 1
+      },
+      {
+        "date": "2026-12-26",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-01-02",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2
+      },
+      {
+        "date": "2027-01-09",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-01-16",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-01-23",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-01-30",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-02-06",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2
+      },
+      {
+        "date": "2027-02-13",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-02-20",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-02-27",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-03-06",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2
+      },
+      {
+        "date": "2027-03-13",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-03-20",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-03-27",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-04-03",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2
+      },
+      {
+        "date": "2027-04-10",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-04-17",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-05-01",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2
+      },
+      {
+        "date": "2027-05-08",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-05-15",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-05-22",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      },
+      {
+        "date": "2027-05-29",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0
+      }
+    ],
+    "expiring_tail": {
+      "window": "D+1 through D+4 (Tue\u2013Fri Sep 29\u2013Oct 2) \u2014 TODAY excluded from chase",
+      "days": [
+        {
+          "date": "2026-09-29",
+          "weekday": "Tue",
+          "revenue": 40.0,
+          "events": 1,
+          "color": "YELLOW",
+          "cal_titles": []
+        },
+        {
+          "date": "2026-09-30",
+          "weekday": "Wed",
+          "revenue": 0,
+          "events": 0,
+          "color": "WHITE",
+          "cal_titles": []
+        },
+        {
+          "date": "2026-10-01",
+          "weekday": "Thu",
+          "revenue": 0,
+          "events": 1,
+          "color": "YELLOW",
+          "cal_titles": [
+            "Mommy & Me Class"
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "weekday": "Fri",
+          "revenue": 0,
+          "events": 1,
+          "color": "YELLOW",
+          "cal_titles": [
+            "Mobile PZ"
+          ]
+        }
+      ]
+    },
+    "source": "Payments customer rows + ops_delivery_calendar.json (GCal MCP 403 on rebuild)",
+    "days": [
+      {
+        "date": "2026-09-28",
+        "weekday": "Mon",
+        "revenue": 3.99,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-09-29",
+        "weekday": "Tue",
+        "revenue": 40.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-09-30",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-01",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mommy & Me Class"
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ"
+        ]
+      },
+      {
+        "date": "2026-10-03",
+        "weekday": "Sat",
+        "revenue": 899.94,
+        "events": 4,
+        "color": "CYAN",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs",
+          "Mobile PZ - BDay Party",
+          "Mobile PZ"
+        ]
+      },
+      {
+        "date": "2026-10-04",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-05",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-06",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-07",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-08",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-09",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-10",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-11",
+        "weekday": "Sun",
+        "revenue": 846.75,
+        "events": 1,
+        "color": "GREEN",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2026-10-12",
+        "weekday": "Mon",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": "Wed",
+        "revenue": 159.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-15",
+        "weekday": "Thu",
+        "revenue": 400.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mini Petting Zoo"
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-17",
+        "weekday": "Sat",
+        "revenue": 1181.91,
+        "events": 1,
+        "color": "GREEN",
+        "cal_titles": [
+          "Mobile PZ + Side of Critters"
+        ]
+      },
+      {
+        "date": "2026-10-18",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-19",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-20",
+        "weekday": "Tue",
+        "revenue": 333.0,
+        "events": 2,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven",
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "weekday": "Wed",
+        "revenue": 125.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-23",
+        "weekday": "Fri",
+        "revenue": 1920.6,
+        "events": 3,
+        "color": "CYAN",
+        "cal_titles": [
+          "Mobile PZ Event",
+          "Mobile petting zoo & side of critters",
+          "Mobile PZ + SideOf C"
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "weekday": "Sat",
+        "revenue": 3737.32,
+        "events": 6,
+        "color": "CYAN",
+        "cal_titles": [
+          "Eartha mobile petting zoo",
+          "Mobile PZ Event - 3 hours",
+          "Mobile PZ Event",
+          "Mobile PZ"
+        ]
+      },
+      {
+        "date": "2026-10-25",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event - 2 hours"
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "Wed",
+        "revenue": 159.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "weekday": "Thu",
+        "revenue": 742.0,
+        "events": 1,
+        "color": "GREEN",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "weekday": "Fri",
+        "revenue": 1227.11,
+        "events": 2,
+        "color": "GREEN",
+        "cal_titles": [
+          "Mobile PZ Event",
+          "Mini PZ"
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "weekday": "Sat",
+        "revenue": 600.0,
+        "events": 1,
+        "color": "GREEN",
+        "cal_titles": [
+          "Mobile PZ + Side of Critters"
+        ]
+      },
+      {
+        "date": "2026-11-01",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-02",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-03",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Finding Your Frequency with Brian Sexton"
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-05",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-06",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-07",
+        "weekday": "Sat",
+        "revenue": 1713.63,
+        "events": 4,
+        "color": "CYAN",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs",
+          "Goat Yoga",
+          "Mobile PZ + CoT"
+        ]
+      },
+      {
+        "date": "2026-11-08",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-09",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-10",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-12",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-13",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-15",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-16",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-17",
+        "weekday": "Tue",
+        "revenue": 179.3,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-19",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-20",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-21",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-22",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-23",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-24",
+        "weekday": "Tue",
+        "revenue": 350.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-26",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-27",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-28",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-29",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-11-30",
+        "weekday": "Mon",
+        "revenue": 175.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven - Critter Club"
+        ]
+      },
+      {
+        "date": "2026-12-01",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-02",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-03",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-04",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-05",
+        "weekday": "Sat",
+        "revenue": 609.94,
+        "events": 3,
+        "color": "CYAN",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs",
+          "Goat Yoga"
+        ]
+      },
+      {
+        "date": "2026-12-06",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-07",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-08",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-12-09",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-10",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-11",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-12",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-13",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-14",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-15",
+        "weekday": "Tue",
+        "revenue": 333.0,
+        "events": 2,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven Visit",
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-12-16",
+        "weekday": "Wed",
+        "revenue": 310.5,
+        "events": 2,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven",
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-12-17",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-18",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-19",
+        "weekday": "Sat",
+        "revenue": 225.0,
+        "events": 1,
+        "color": "RED",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-12-20",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-21",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-22",
+        "weekday": "Tue",
+        "revenue": 125.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2026-12-23",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-24",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-25",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-26",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-27",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-28",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-29",
+        "weekday": "Tue",
+        "revenue": 350.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2026-12-30",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2026-12-31",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-01",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-02",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2,
+        "color": "RED",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs"
+        ]
+      },
+      {
+        "date": "2027-01-03",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-04",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-05",
+        "weekday": "Tue",
+        "revenue": 350.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2027-01-06",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-07",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-08",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-09",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-10",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-11",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-12",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-01-13",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-14",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-15",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-16",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-17",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-18",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-19",
+        "weekday": "Tue",
+        "revenue": 179.3,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-01-20",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-21",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-22",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-23",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-24",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-25",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-26",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-27",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-28",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-29",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-30",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-01-31",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-01",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-02",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-03",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-04",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-05",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-06",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2,
+        "color": "RED",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs"
+        ]
+      },
+      {
+        "date": "2027-02-07",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-08",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-09",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-02-10",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-11",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-12",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-13",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-14",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-15",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-16",
+        "weekday": "Tue",
+        "revenue": 179.3,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-02-17",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-18",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-19",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-20",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-21",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-22",
+        "weekday": "Mon",
+        "revenue": 175.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven - Critter Club"
+        ]
+      },
+      {
+        "date": "2027-02-23",
+        "weekday": "Tue",
+        "revenue": 125.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-02-24",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-25",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-26",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-27",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-02-28",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-01",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-02",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-03",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-04",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-05",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-06",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2,
+        "color": "RED",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs"
+        ]
+      },
+      {
+        "date": "2027-03-07",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-08",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-09",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-03-10",
+        "weekday": "Wed",
+        "revenue": 153.7,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-03-11",
+        "weekday": "Thu",
+        "revenue": 159.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-03-12",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-13",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-14",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-15",
+        "weekday": "Mon",
+        "revenue": 125.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-03-16",
+        "weekday": "Tue",
+        "revenue": 529.3,
+        "events": 2,
+        "color": "GREEN",
+        "cal_titles": [
+          "Bunny Haven",
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2027-03-17",
+        "weekday": "Wed",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-03-18",
+        "weekday": "Thu",
+        "revenue": 350.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Mobile PZ Event"
+        ]
+      },
+      {
+        "date": "2027-03-19",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-20",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-21",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-22",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-23",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-24",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-25",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-26",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-27",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-28",
+        "weekday": "Sun",
+        "revenue": 485.11,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-29",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-30",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-03-31",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-01",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-02",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-03",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2,
+        "color": "RED",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs"
+        ]
+      },
+      {
+        "date": "2027-04-04",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-05",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-06",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-07",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-08",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-09",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-10",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-11",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-12",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-13",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-04-14",
+        "weekday": "Wed",
+        "revenue": 159.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-04-15",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-16",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-17",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-18",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-19",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-20",
+        "weekday": "Tue",
+        "revenue": 179.3,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-04-21",
+        "weekday": "Wed",
+        "revenue": 125.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-04-22",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-23",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-24",
+        "weekday": "Sat",
+        "revenue": 1256.66,
+        "events": 1,
+        "color": "GREEN",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-25",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-26",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-27",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-28",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-29",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-04-30",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-01",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 2,
+        "color": "RED",
+        "cal_titles": [
+          "Wild Light Market - 4 hours",
+          "Fernandina Arts Market - 2 hrs"
+        ]
+      },
+      {
+        "date": "2027-05-02",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-03",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-04",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-05",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-06",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-07",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-08",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-09",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-10",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-11",
+        "weekday": "Tue",
+        "revenue": 185.5,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-05-12",
+        "weekday": "Wed",
+        "revenue": 159.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-05-13",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-14",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-15",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-16",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-17",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-18",
+        "weekday": "Tue",
+        "revenue": 179.3,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven"
+        ]
+      },
+      {
+        "date": "2027-05-19",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-20",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-21",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-22",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-23",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-24",
+        "weekday": "Mon",
+        "revenue": 175.0,
+        "events": 1,
+        "color": "YELLOW",
+        "cal_titles": [
+          "Bunny Haven - Critter Club"
+        ]
+      },
+      {
+        "date": "2027-05-25",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-26",
+        "weekday": "Wed",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-27",
+        "weekday": "Thu",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-28",
+        "weekday": "Fri",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-29",
+        "weekday": "Sat",
+        "revenue": 0,
+        "events": 0,
+        "color": "RED",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-30",
+        "weekday": "Sun",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-05-31",
+        "weekday": "Mon",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      },
+      {
+        "date": "2027-06-01",
+        "weekday": "Tue",
+        "revenue": 0,
+        "events": 0,
+        "color": "WHITE",
+        "cal_titles": []
+      }
+    ]
+  },
+  "programming_cadence": {
+    "label": "Program gaps / fill plan \u2014 NOT booked revenue",
+    "goals": [
+      "Something buyable on calendar every day (even 2 people = $50 + reviews)",
+      "Mommy & Me denser (aspirational daily)",
+      "Goat yoga ~2\u00d7/week",
+      "Homeschool / micro-school opportunity (Summer Scholars path) \u2014 ops note, NOT investor pitch",
+      "Vendor/partner Tom Sawyer model (e.g. Melissa boozy \u2014 lower fee $35 trial then up if sells)"
+    ]
+  },
+  "links": {
+    "dunk": "principal-dunk.html",
+    "bookings_dates": "bookings-dates.html",
+    "growth_pipeline": "growth-pipeline.html",
+    "customers_no_next_date": "customers-no-next-date.html",
+    "cfo": "money-cfo.html"
+  },
+  "data_gaps": [
+    "Google Calendar MCP list_calendars/list_events returned 403 \u2014 used ops_delivery_calendar.json (as_of 2026-09-24) + Payments dates",
+    "Google reviews Maps scrape failed \u2014 using Caller-stated 87 showing / ~105 est from pipeline_day_2026-09-27.json",
+    "Kathlene (Michael-named with Denise) \u2014 no contact row found in local files; Denise Powers included only",
+    "Several weighted mids Estimated (menu/placeholder) where no quote on file \u2014 labeled",
+    "Daily contributing KPI multiplier intentionally blank",
+    "Live GCal refresh needed for TODAY strip beyond Sep 24 snapshot"
+  ]
+}
