@@ -3317,71 +3317,6 @@
           ]
         },
         {
-          "phone": "(904) 491-9850",
-          "city": "",
-          "segment": "CDD / HOA",
-          "persona": "cdd",
-          "kind": "mailto",
-          "lane": "cdd",
-          "tier": "S",
-          "id": "cons-cust-kbean-aipca-net",
-          "account": "Amelia Island Plantation Community Association (AIPCA)",
-          "contact": "Amelia Island Plantation Community Association (AIPCA)",
-          "title": "C \u00b7 Prior mobile",
-          "email": "kbean@aipca.net",
-          "website": "https://www.sheehanhomestead.com/services",
-          "why": "Friday secondary \u2014 consumer rebook card (weekend visit / mobile date). Proven prior mobile/mini PZ \u2014 mobile rebook (best money path). [one-touch:mobile]",
-          "owe_reason": "MONEY \u00b7 mobile rebook",
-          "form_url": "",
-          "area": "Metro Jax \u00b7 Consumer",
-          "role_chip": "CDD / HOA",
-          "fancy": false,
-          "rcsa": false,
-          "chip_tags": [
-            "PayPal invoice \u00b7 Nov 7 \u00b7 $1263.63",
-            "Consumer",
-            "Prior mobile",
-            "Friday"
-          ],
-          "quick_email": true,
-          "purchase_status": "bought",
-          "review_status": "unknown",
-          "review_match_confidence": "none",
-          "history_lane": "prior_mobile",
-          "history_lane_label": "C \u00b7 Prior mobile",
-          "north_star": "money",
-          "north_star_label": "MONEY \u00b7 mobile rebook",
-          "history_proven": true,
-          "friday": true,
-          "friday_class": "consumer_rebook",
-          "lead_source": "PayPal invoice \u00b7 Nov 7 \u00b7 $1263.63",
-          "lead_source_type": "invoice",
-          "lead_source_detail": "PayPal invoice \u00b7 Nov 8 \u00b7 $975 \u00b7 +1 more",
-          "lead_source_date": "2026-11-07",
-          "lead_events": [
-            {
-              "type": "invoice",
-              "label": "PayPal invoice \u00b7 Nov 7 \u00b7 $1263.63",
-              "date": "2026-11-07",
-              "amount": 1263.63,
-              "source": "annmarie_2026"
-            },
-            {
-              "type": "invoice",
-              "label": "PayPal invoice \u00b7 Nov 8 \u00b7 $975",
-              "date": "2025-11-08",
-              "amount": 975.0,
-              "source": "annmarie_2025"
-            },
-            {
-              "type": "calendar",
-              "label": "Calendar \u00b7 Nov 8",
-              "date": "2025-11-08",
-              "source": "calendar_attendees"
-            }
-          ]
-        },
-        {
           "phone": "(904) 261-9494",
           "city": "",
           "segment": "Senior",
@@ -5765,72 +5700,6 @@
           ]
         },
         {
-          "phone": "(904) 277-8015",
-          "city": "",
-          "segment": "Enterprise",
-          "persona": "enterprise",
-          "kind": "mailto",
-          "lane": "enterprise",
-          "tier": "S",
-          "id": "cons-cust-sregan-golfclubofamelia-com",
-          "account": "Sheridan Reagan - Amelia Island GOlf Club",
-          "contact": "Sheridan Reagan - Amelia Island GOlf Club",
-          "title": "C \u00b7 Prior mobile",
-          "email": "sregan@golfclubofamelia.com",
-          "website": "https://www.sheehanhomestead.com/services",
-          "why": "Friday secondary \u2014 consumer rebook card (weekend visit / mobile date). Proven prior mobile/mini PZ \u2014 mobile rebook (best money path). [one-touch:mobile]",
-          "owe_reason": "MONEY \u00b7 mobile rebook",
-          "form_url": "",
-          "area": "Metro Jax \u00b7 Consumer",
-          "role_chip": "Enterprise",
-          "fancy": false,
-          "rcsa": false,
-          "chip_tags": [
-            "PayPal invoice \u00b7 Mar 28 \u00b7 $485.11",
-            "Consumer",
-            "Prior mobile",
-            "Friday"
-          ],
-          "quick_email": true,
-          "purchase_status": "bought",
-          "review_status": "unknown",
-          "review_match_confidence": "none",
-          "history_lane": "prior_mobile",
-          "history_lane_label": "C \u00b7 Prior mobile",
-          "north_star": "money",
-          "north_star_label": "MONEY \u00b7 mobile rebook",
-          "history_proven": true,
-          "friday": true,
-          "friday_class": "consumer_rebook",
-          "lead_source": "PayPal invoice \u00b7 Mar 28 \u00b7 $485.11",
-          "lead_source_type": "invoice",
-          "lead_source_detail": "PayPal invoice \u00b7 Oct 30 \u00b7 $485.11 \u00b7 +1 more",
-          "lead_source_date": "2027-03-28",
-          "lead_events": [
-            {
-              "type": "invoice",
-              "label": "PayPal invoice \u00b7 Mar 28 \u00b7 $485.11",
-              "date": "2027-03-28",
-              "amount": 485.11,
-              "source": "annmarie_2027"
-            },
-            {
-              "type": "invoice",
-              "label": "PayPal invoice \u00b7 Oct 30 \u00b7 $485.11",
-              "date": "2026-10-30",
-              "amount": 485.11,
-              "source": "annmarie_2026"
-            },
-            {
-              "type": "invoice",
-              "label": "PayPal invoice \u00b7 Apr 5 \u00b7 $485.11",
-              "date": "2026-04-05",
-              "amount": 485.11,
-              "source": "annmarie_2026"
-            }
-          ]
-        },
-        {
           "phone": "(904) 233-6360",
           "city": "",
           "segment": "Community",
@@ -6916,14 +6785,14 @@
           "persona": "daycare",
           "kind": "mailto",
           "lane": "daycare",
-          "tier": "S",
+          "tier": "C",
           "id": "cons-cust-cathy-hemphill-goddardschools-com",
           "account": "Goddard School - Saint Johns",
           "contact": "Goddard School - Saint Johns",
           "title": "C \u00b7 Prior mobile",
           "email": "cathy.hemphill@goddardschools.com",
           "website": "https://www.sheehanhomestead.com/services",
-          "why": "Friday secondary \u2014 consumer rebook card (weekend visit / mobile date). Proven prior mobile/mini PZ \u2014 mobile rebook (best money path). [one-touch:mobile]",
+          "why": "DEPRIORITIZED \u00b7 Goddard Kathy 25% this year \u00b7 said no to trunk-or-treat \u00b7 NOT close-lost \u00b7 push ~1 month / optional wheel nurture now | was: Friday secondary \u2014 consumer rebook card (weekend visit / mobile date). Proven prior mobile/mini PZ \u2014",
           "owe_reason": "MONEY \u00b7 mobile rebook",
           "form_url": "",
           "area": "Metro Jax \u00b7 Consumer",
@@ -6965,7 +6834,10 @@
               "date": "2026-04-11",
               "source": "calendar_attendees"
             }
-          ]
+          ],
+          "deprioritized": true,
+          "win_pct_hint": 25,
+          "lane_chip": "25% \u00b7 nudge later"
         },
         {
           "phone": "(904) 821-0085",
@@ -23138,6 +23010,27 @@
     "live_urls": [
       "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=299",
       "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=299"
+    ]
+  },
+  "v2911": {
+    "as_of": "2026-09-28 ~1:45 PM ET",
+    "change": "ops4 \u00b7 strip Amelia Plantation AIPCA + Reagan invoiced from chase dunk; Goddard Kathy deprioritized 25%",
+    "stripped": [
+      [
+        "strip",
+        "kbean@aipca.net",
+        "cons-cust-kbean-aipca-net"
+      ],
+      [
+        "strip",
+        "sregan@golfclubofamelia.com",
+        "cons-cust-sregan-golfclubofamelia-com"
+      ],
+      [
+        "deprioritize",
+        "cathy.hemphill@goddardschools.com",
+        "cons-cust-cathy-hemphill-goddardschools-com"
+      ]
     ]
   }
 }

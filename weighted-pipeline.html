@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Weighted pipeline · dunk list · Sheehan Homestead · ops4</title>
+<style>
+:root{
+  --bg:#0b1220;--card:#121a2b;--panel:#0e1626;--line:#1e2a44;
+  --text:#e8eefc;--muted:#93a0b8;--dim:#7a879e;
+  --green:#3dd68c;--gold:#fbbf24;--gold-dim:#c9a227;--warn:#ffb020;--bad:#ff5d6c;--blue:#5b8cff;
+  --cyan:#22d3ee;--violet:#a78bfa;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.45;font-size:14px}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1240px;margin:0 auto;padding:16px 14px 64px}
+.crumb{font-size:.78rem;color:var(--muted);margin:0 0 10px}
+h1{margin:0;font-size:clamp(1.2rem,3vw,1.65rem);letter-spacing:-.02em;font-weight:750}
+.sub{color:var(--muted);font-size:.8rem;margin:4px 0 0}
+.hair{height:2px;border:0;margin:12px 0 14px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);opacity:.55}
+.banner{padding:12px 14px;border-radius:14px;border:1px solid #c9a22766;background:linear-gradient(160deg,#2a2210,#121a2b 70%);margin:0 0 12px;font-size:.84rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:0 0 12px}
+.kpi{padding:12px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.kpi .l{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.kpi .v{font-size:1.35rem;font-weight:750;margin-top:4px;color:var(--gold)}
+.kpi .v.ok{color:var(--green)}
+.kpi .s{font-size:.68rem;color:var(--dim);margin-top:3px}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.links a{font-size:.72rem;font-weight:700;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:#c5d0e6;text-decoration:none}
+.links a:hover{border-color:var(--green);color:#fff}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.filters button{appearance:none;border:1px solid var(--line);background:var(--card);color:var(--text);padding:6px 12px;border-radius:999px;font-size:.75rem;font-weight:650;cursor:pointer}
+.filters button.on{border-color:#3dd68c88;background:#13281d;color:#9dffc5}
+.sec{font-size:.62rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan);margin:16px 0 8px}
+.scroll{overflow:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+table{width:100%;border-collapse:collapse;font-size:.78rem;min-width:980px}
+th,td{padding:8px 9px;border-bottom:1px solid #1a2438;text-align:left;vertical-align:top}
+th{color:var(--muted);font-size:.62rem;text-transform:uppercase;letter-spacing:.04em;position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none}
+th:hover{color:#9dffc5}
+tr:hover td{background:#0f1728}
+tr.depri td{opacity:.72}
+tr.invoiced td{background:#0f1a14}
+.money{color:var(--gold);font-weight:700;font-variant-numeric:tabular-nums}
+.mm{font-size:.68rem;color:var(--muted);margin-top:2px}
+.tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:.65rem;border:1px solid var(--line);white-space:nowrap;font-weight:700}
+.tag.w95{border-color:#3dd68c88;color:var(--green);background:#13281d}
+.tag.w85,.tag.w75{border-color:#c9a22788;color:#fde68a;background:#2a2210}
+.tag.w60,.tag.w50{border-color:#5b8cff66;color:#9ec1ff;background:#152238}
+.tag.w25{border-color:#ffb02066;color:var(--warn);background:#2a2210}
+.tag.w10{border-color:#2a3a58;color:#a8b4c8;background:#1a1f2e}
+.tag.st{color:var(--muted);font-weight:650}
+.badge{font-size:.58rem;font-weight:800;padding:2px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em;border:1px solid;display:inline-block}
+.badge.v{background:#13281d;color:var(--green);border-color:#3dd68c66}
+.badge.e{background:#2a2416;color:var(--warn);border-color:#ffb02066}
+.badge.c{background:#1a1014;color:var(--bad);border-color:#ff5d6c66}
+.okbox{padding:8px 10px;border-radius:10px;border:1px solid #3dd68c44;background:#0f1a14;font-size:.78rem;margin:8px 0;color:#b7f5d0}
+.warnbox{padding:8px 10px;border-radius:10px;border:1px solid #ffb02066;background:#16140f;font-size:.78rem;margin:8px 0;color:#ffd58a}
+.note{font-size:.7rem;color:var(--dim);margin-top:12px}
+.empty{padding:14px;color:var(--muted)}
+footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-size:.68rem;color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="operator-dashboard.html?v=ops4-20260928">← Operator</a> · <a href="growth-pipeline.html">Growth pipeline (legacy)</a> · <a href="principal-dunk.html">Dunk board</a></p>
+  <header style="display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:flex-start">
+    <div>
+      <h1>Weighted pipeline · dunk / BDR list</h1>
+      <p class="sub">Mon Sep 28, 2026 (ET) · clones + engaged + blind outreach · probabilities labeled · no outbound send</p>
+    </div>
+    <span class="badge v">ops4</span>
+  </header>
+  <hr class="hair"/>
+
+  <div class="banner" id="banner">Loading…</div>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="links">
+    <a href="operator-dashboard.html?v=ops4-20260928">Operator dashboard</a>
+    <a href="principal-dunk.html">Dunk board</a>
+    <a href="customers-no-next-date.html">Customers · no next date</a>
+    <a href="growth-pipeline.html">Legacy growth pipeline</a>
+    <a href="data/weighted_pipeline_board.json">Audit JSON</a>
+  </div>
+
+  <nav class="filters" id="filters" aria-label="Filters">
+    <button type="button" data-f="all" class="on">All chase</button>
+    <button type="button" data-f="clone">Clones</button>
+    <button type="button" data-f="engaged">Engaged / offered</button>
+    <button type="button" data-f="blind">Blind ≥10%</button>
+    <button type="button" data-f="depri">Deprioritized</button>
+    <button type="button" data-f="95">Invoiced @95%</button>
+    <button type="button" data-w="50">50%</button>
+    <button type="button" data-w="25">25%</button>
+    <button type="button" data-w="10">10%</button>
+  </nav>
+
+  <div class="sec">Chase list · fill next $20–50k face</div>
+  <div class="scroll"><div id="table-wrap"><div class="empty">Loading…</div></div></div>
+
+  <div class="sec">Stripped from chase dunk (kept as 95% invoiced / booked)</div>
+  <div id="stripped" class="okbox">—</div>
+
+  <div class="sec">Deprioritized (not close-lost)</div>
+  <div id="depri" class="warnbox">—</div>
+
+  <p class="note" id="foot">
+    Rules: past buyers default 50% · engaged once 50% · blind in-flight ≥10% · Goddard Kathy 25% deprioritized · invoiced wins = 95% booked not dunk-reply.
+    Weighted = mid × win%. Placeholders labeled Estimated. No personal debt. No outbound sends.
+  </p>
+  <footer>weighted-pipeline · ops4-20260928 · hard-refresh <code>?v=ops4-20260928</code></footer>
+</div>
+<script>
+(function(){
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));}
+  function money(n){if(n==null||n==='')return '—';return '$'+Number(n).toLocaleString('en-US',{maximumFractionDigits:0});}
+  function money2(n){if(n==null||n==='')return '—';return '$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:2});}
+  let DATA=null, FILT='all', WIN=null, SORT={key:'weighted_dollar',dir:-1};
+
+  function winTag(w){
+    if(w==null) return '<span class="tag st">—</span>';
+    const cls = w>=95?'w95':w>=75?'w75':w>=50?'w50':w>=25?'w25':'w10';
+    return `<span class="tag ${cls}">${w}%</span>`;
+  }
+  function srcBadge(s){
+    const t=String(s||'');
+    if(/Verified|paypal_invoice|Payments/i.test(t)) return '<span class="badge v">Verified</span>';
+    if(/Caller|Michael/i.test(t)) return '<span class="badge c">Caller</span>';
+    if(/Estim|placeholder/i.test(t)) return '<span class="badge e">Estimated</span>';
+    return '<span class="badge e">'+esc(t.slice(0,18)||'—')+'</span>';
+  }
+  function isClone(r){return /clone/i.test(r.status||'')||/^clone-/.test(r.id||'');}
+  function isBlind(r){return r.win_pct<=10 || /blind/i.test(r.status||'');}
+  function isEngaged(r){return /engaged|offered|WAITING|CALL_OFFERED|soft_yes|qualified|awaiting|warm/i.test(r.status||'') || r.win_pct===50 && !isClone(r);}
+  function isInvoiced(r){return r.status==='invoiced_booked' || r.win_pct===95;}
+  function isDepri(r){return !!r.deprioritized || /depriorit/i.test(r.status||'');}
+
+  function list(){
+    let rows=(DATA.rows||[]).slice();
+    if(FILT==='clone') rows=rows.filter(isClone);
+    else if(FILT==='engaged') rows=rows.filter(r=>isEngaged(r)&&!isInvoiced(r));
+    else if(FILT==='blind') rows=rows.filter(isBlind);
+    else if(FILT==='depri') rows=rows.filter(isDepri);
+    else if(FILT==='95') rows=rows.filter(isInvoiced);
+    else rows=rows.filter(r=>!isInvoiced(r)); // all chase
+    if(WIN!=null) rows=rows.filter(r=>String(r.win_pct)===String(WIN));
+    const k=SORT.key, dir=SORT.dir;
+    rows.sort((a,b)=>{
+      let va=a[k], vb=b[k];
+      if(k==='mid_dollar'||k==='win_pct'||k==='weighted_dollar'){va=+va||0; vb=+vb||0;}
+      else {va=String(va||'').toLowerCase(); vb=String(vb||'').toLowerCase();}
+      if(va<vb) return -1*dir; if(va>vb) return 1*dir; return 0;
+    });
+    return rows;
+  }
+
+  function render(){
+    const rows=list();
+    let html='<table><thead><tr>';
+    [['account','Opportunity'],['win_pct','Win'],['mid_dollar','Mid $'],['weighted_dollar','Weighted'],['status','Status'],['next_step','Next / note'],['dollar_source','Label']].forEach(([k,lab])=>{
+      html+=`<th data-k="${k}">${lab}${SORT.key===k?(SORT.dir>0?' ↑':' ↓'):''}</th>`;
+    });
+    html+='</tr></thead><tbody>';
+    if(!rows.length) html+='<tr><td colspan="7" class="empty">No rows for this filter.</td></tr>';
+    rows.forEach((r,i)=>{
+      const cls=isInvoiced(r)?'invoiced':(isDepri(r)?'depri':'');
+      html+=`<tr class="${cls}">
+        <td><b>${esc(r.account)}</b>
+          <div class="mm">${esc(r.contact||'')} · ${esc(r.email||'—')}</div>
+          ${r.evidence?`<div class="mm">${esc(r.evidence)}</div>`:''}
+          ${r.note?`<div class="mm">${esc(r.note)}</div>`:''}
+        </td>
+        <td>${winTag(r.win_pct)}</td>
+        <td class="money">${money2(r.mid_dollar)}</td>
+        <td class="money">${money2(r.weighted_dollar)}</td>
+        <td><span class="tag st">${esc(r.status||'')}</span>${r.deprioritized?' <span class="badge e">depri</span>':''}${isInvoiced(r)?' <span class="badge v">not chase</span>':''}</td>
+        <td>${esc(r.next_step||'—')}${r.strip_reason?`<div class="mm">${esc(r.strip_reason)}</div>`:''}</td>
+        <td>${srcBadge(r.dollar_source)}<div class="mm">${esc(r.source||'')}</div></td>
+      </tr>`;
+    });
+    html+='</tbody></table>';
+    document.getElementById('table-wrap').innerHTML=html;
+    document.querySelectorAll('th[data-k]').forEach(th=>{
+      th.onclick=()=>{
+        const k=th.getAttribute('data-k');
+        if(SORT.key===k) SORT.dir*=-1; else {SORT.key=k; SORT.dir=(k.includes('dollar')||k==='win_pct')?-1:1;}
+        render();
+      };
+    });
+  }
+
+  function renderMeta(){
+    const k=DATA.kpis||{};
+    document.getElementById('banner').innerHTML =
+      `<b>State of union</b> — chase weighted <b>${money(k.chase_weighted_total)}</b> on face <b>${money(k.chase_face_total)}</b> · `+
+      `<b>${k.clone_opp_count||0}</b> clone opps · target fill next <b>$20–50k</b> face · weighted feel $20–30k`+
+      `<div class="mm" style="margin-top:4px">Invoiced @95% kept in pipeline (not chase): ${money(k.invoiced_95_face)} face → ${money(k.invoiced_95_weighted)} weighted. Already in booked-to-date.</div>`;
+    document.getElementById('kpis').innerHTML = `
+      <div class="kpi"><div class="l">Chase weighted</div><div class="v ok">${money(k.chase_weighted_total)}</div><div class="s">mid × win%</div></div>
+      <div class="kpi"><div class="l">Chase face</div><div class="v">${money(k.chase_face_total)}</div><div class="s">${k.chase_row_count||0} opps</div></div>
+      <div class="kpi"><div class="l">Clone opps</div><div class="v">${k.clone_opp_count||0}</div><div class="s">+${k.new_clones_added||0} expanded today</div></div>
+      <div class="kpi"><div class="l">Invoiced @95%</div><div class="v">${money(k.invoiced_95_face)}</div><div class="s">stripped from chase dunk</div></div>
+    `;
+    const stripped=(k.stripped_from_chase||[]).map(s=>`<div>· <b>${esc(s.email)}</b> — ${esc(s.reason)}</div>`).join('') || '—';
+    document.getElementById('stripped').innerHTML = '<b>Removed from chase dunk</b>'+stripped+
+      ((DATA.invoiced_booked_95||[]).map(r=>`<div class="mm" style="margin-top:4px">${esc(r.account)} · ${money2(r.mid_dollar)} · ${esc(r.evidence||'')}</div>`).join(''));
+    const de=(DATA.deprioritized||[]);
+    document.getElementById('depri').innerHTML = de.length
+      ? de.map(r=>`<div><b>${esc(r.account)}</b> · ${r.win_pct}% · ${esc(r.note||r.next_step||'')}</div>`).join('')
+      : '—';
+  }
+
+  document.getElementById('filters').onclick=e=>{
+    const btn=e.target.closest('button'); if(!btn) return;
+    document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    if(btn.dataset.f){ FILT=btn.dataset.f; WIN=null; }
+    if(btn.dataset.w){ WIN=btn.dataset.w; FILT='all'; }
+    render();
+  };
+
+  Promise.all([
+    fetch('data/weighted_pipeline_board.json').then(r=>r.json())
+  ]).then(([d])=>{
+    DATA=d;
+    renderMeta();
+    render();
+  }).catch(err=>{
+    document.getElementById('banner').textContent='Failed to load weighted_pipeline_board.json: '+err;
+  });
+})();
+</script>
+</body>
+</html>

@@ -102,6 +102,18 @@ ul.prog li{margin:4px 0}
 footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-size:.68rem;color:var(--dim)}
 .empty{padding:12px;border-radius:10px;border:1px dashed #2a3a58;background:var(--panel);color:var(--muted);font-size:.82rem}
 .sec-label{font-size:.62rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan);margin:2px 0 8px}
+.kpi a.clickn{display:block;color:inherit;text-decoration:none;border-radius:12px;outline:none}
+.kpi a.clickn .b{border-color:#3dd68c66;background:linear-gradient(160deg,#13281d,#0e1626 70%);cursor:pointer;transition:border-color .15s,transform .1s}
+.kpi a.clickn:hover .b{border-color:var(--green);transform:translateY(-1px)}
+.kpi a.clickn .v{font-size:1.65rem}
+.kpi a.clickn .l::after{content:" →";color:var(--green);font-weight:800}
+.chipd.cyan.risk{box-shadow:0 0 0 2px #22d3ee55 inset}
+.riskchip{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:999px;font-size:.62rem;font-weight:800;border:1px solid #22d3ee88;background:#0c1822;color:var(--cyan);margin-left:4px;text-transform:uppercase;letter-spacing:.04em}
+.dailystrip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:8px 0}
+.dailystrip .phk{padding:10px 12px;border-radius:12px;border:1px dashed #2a3a58;background:var(--panel);text-align:center}
+.dailystrip .phk .l{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.dailystrip .phk .v{font-size:1rem;font-weight:700;color:var(--dim);margin-top:4px}
+@media(max-width:720px){.dailystrip{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -113,7 +125,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
     <p class="sub">Michael Sheehan · Critters on Call · Mon Sep 28, 2026 (ET) · <b>four-tile IA</b> · operator view (not investor pack) · no outbound send</p>
   </div>
   <div class="stamps">
-    <span class="badge g">ops3</span>
+    <span class="badge g">ops4</span>
     <span class="badge v">Verified</span>
     <span class="badge e">Estimated</span>
     <span class="badge c">Caller-stated</span>
@@ -141,6 +153,11 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
     (4) Click through to <a href="#growth">Growth / Sprint</a> for conversion work (pipeline closes, team organizing).
   </div>
 
+  <div class="okbox" id="sotu">
+    <b>State of union</b> — owed ~$30k (open AR face <b>$29,455</b>) · future events booked <b>$28,169</b> · weighted pipeline <b>$23,524</b> <span class="badge v">chase</span>
+    <div class="mm" style="margin-top:4px">Target feel $20–30k weighted · fill next $20–50k face via clones (expanded). Invoiced wins sit at 95% booked — not dunk-reply chase.</div>
+  </div>
+
   <!-- (a) SHOWSTOPPERS -->
   <h3>(a) Showstoppers / mission-critical</h3>
 
@@ -159,7 +176,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   </div>
 
   <div class="warnbox">
-    <b>Staffing / delivery risk on heavy cyan days</b>
+    <b>Staffing / delivery risk on heavy cyan days</b> <span class="riskchip">ops risk · not failure</span>
     <div style="margin-top:6px">
       <span class="wchip hot">Oct 3 · $900 · 4 evt</span>
       <span class="wchip hot">Oct 23 · $1,921 · 3 evt</span>
@@ -191,7 +208,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <!-- (b) TODAY -->
   <h3>(b) Today · Mon Sep 28, 2026</h3>
   <div class="empty">
-    <b>Calendar empty</b> for delivery gigs — bargain / white day.
+    <b>Calendar empty</b> for delivery gigs — <b>WHITE</b> = advertising / cheap giveaway inventory (primary focus), not just empty.
     <div class="mm" style="margin-top:6px">Google Calendar MCP 403 — used ops_delivery_calendar.json (as_of Sep 24) + Payments. Sep 28 delivery events = 0.</div>
   </div>
   <div class="prompt" style="margin-top:8px">
@@ -218,22 +235,25 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
       <div class="v">$28,169</div>
       <div class="s">95 rows · collectible</div>
     </div>
-    <div class="b">
-      <div class="l">Weighted pipeline</div>
-      <div class="v ok">$7,910</div>
-      <div class="s">face $15,997 · 38 opps</div>
-    </div>
+    <a class="clickn" href="weighted-pipeline.html?v=ops4-20260928" title="Open dunk / BDR weighted list">
+      <div class="b">
+        <div class="l">Weighted pipeline</div>
+        <div class="v ok">$23,524</div>
+        <div class="s">face $49,040 · 82 clones · click → list</div>
+      </div>
+    </a>
   </div>
 
   <div class="bkts">
-    <div class="bkt"><div class="l">25%</div><div class="v">$481</div><div class="s">face $1,925</div></div>
-    <div class="bkt"><div class="l">50%</div><div class="v">$5,858</div><div class="s">face $11,716</div></div>
-    <div class="bkt"><div class="l">75%</div><div class="v">$1,036</div><div class="s">face $1,727</div></div>
-    <div class="bkt"><div class="l">85%</div><div class="v">$535</div><div class="s">Brooks face $629</div></div>
+    <div class="bkt"><div class="l">10%</div><div class="v">$245</div><div class="s">face $2,450</div></div>
+    <div class="bkt"><div class="l">25%</div><div class="v">$646</div><div class="s">face $2,584</div></div>
+    <div class="bkt"><div class="l">50%</div><div class="v">$19,639</div><div class="s">face $39,278</div></div>
+    <div class="bkt"><div class="l">60%</div><div class="v">$2,459</div><div class="s">face $4,099</div></div>
+    <div class="bkt"><div class="l">75%+</div><div class="v">$535</div><div class="s">incl Brooks 85%</div></div>
   </div>
 
   <div class="okbox">
-    <b>Invoiced ≈ booked @ 95%</b> — future Final=No face <b>$28,169</b> → $26,760 at 95%. Already in booked-to-date; NOT re-added to weighted.
+    <b>Invoiced ≈ booked @ 95%</b> — future Final=No face <b>$28,169</b> → $26,760 at 95%. Already in booked-to-date; NOT re-added to weighted. <b>Stripped from chase dunk:</b> Amelia Plantation (AIPCA) Nov 7 invoiced · Reagan Oct 30 + Easter 2027 invoiced — keep as 95% booked, not owe-a-dunk.
   </div>
 
   <h3 style="margin-top:10px">Past-due detail</h3>
@@ -251,47 +271,55 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
     </tbody>
   </table>
 
-  <h3>Top 8 weighted (conversion fuel for Growth)</h3>
+    <h3>Top 8 weighted (conversion fuel for Growth)</h3>
   <table>
     <thead><tr><th>#</th><th>Opportunity</th><th>Win</th><th>Mid $</th><th>Weighted</th><th>Label</th></tr></thead>
     <tbody>
       <tr><td class="mono">1</td><td><b>RiverTown / Rivers Edge CDD (Vesta) — Kim Fatuch</b><div class="mm">clone_rebook</div></td><td class="mono">50%</td><td class="mono">$2,500</td><td class="mono gold">$1,250</td><td><span class="badge c">Caller-stated</span></td></tr>
-      <tr><td class="mono">2</td><td><b>Brooks Bartram Lakes — 3-hr PZ (Nov 21)</b><div class="mm">WAITING_MONDAY</div></td><td class="mono">85%</td><td class="mono">$629</td><td class="mono gold">$535</td><td><span class="badge v">Verified quote</span></td></tr>
-      <tr><td class="mono">3</td><td><b>Martin Matthews</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">paypal_invoice</span></td></tr>
-      <tr><td class="mono">4</td><td><b>Silver Leaf · First Coast CMS</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$812</td><td class="mono gold">$406</td><td><span class="badge v">paypal_invoice</span></td></tr>
-      <tr><td class="mono">5</td><td><b>Goddard School - Julington Creek</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$742</td><td class="mono gold">$371</td><td><span class="badge v">paypal_invoice</span></td></tr>
-      <tr><td class="mono">6</td><td><b>Tabatha Onorato — Bartram Springs PTA</b><div class="mm">CALL_OFFERED</div></td><td class="mono">50%</td><td class="mono">$700</td><td class="mono gold">$350</td><td><span class="badge e">Estimated</span></td></tr>
-      <tr><td class="mono">7</td><td><b>Kelsey Taylor</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$700</td><td class="mono gold">$350</td><td><span class="badge v">paypal_invoice</span></td></tr>
-      <tr><td class="mono">8</td><td><b>Westminster — dual mini Mondays (Kori)</b><div class="mm">awaiting_reply</div></td><td class="mono">50%</td><td class="mono">$550</td><td class="mono gold">$275</td><td><span class="badge e">Estimated</span></td></tr>
+      <tr><td class="mono">2</td><td><b>Natasha Urick</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,368</td><td class="mono gold">$684</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">3</td><td><b>Marsh Landing Country Club (Concert Golf)</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,172</td><td class="mono gold">$586</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">4</td><td><b>Vesta - Marshall Creek</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$1,135</td><td class="mono gold">$568</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">5</td><td><b>Brooks Bartram Lakes — 3-hr PZ (Nov 21)</b><div class="mm">WAITING_MONDAY</div></td><td class="mono">85%</td><td class="mono">$629</td><td class="mono gold">$535</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">6</td><td><b>Sunshine Preschool/Goddard - Elizabeth Scott</b><div class="mm">clone_renew</div></td><td class="mono">60%</td><td class="mono">$742</td><td class="mono gold">$445</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">7</td><td><b>Martin Matthews</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">Verified</span></td></tr>
+      <tr><td class="mono">8</td><td><b>Sysco</b><div class="mm">clone_renew</div></td><td class="mono">50%</td><td class="mono">$852</td><td class="mono gold">$426</td><td><span class="badge v">Verified</span></td></tr>
     </tbody>
   </table>
-  <p class="note">Full auditable rows: <code>data/operator_state_2026-09-28.json</code></p>
+  <p class="note">Full dunk/BDR list → <a href="weighted-pipeline.html?v=ops4-20260928"><b>weighted-pipeline.html</b></a> · audit <code>data/weighted_pipeline_board.json</code></p>
 
   <!-- (d) DATES HEALTH -->
   <h3>(d) Dates health · now → Jun 1, 2027</h3>
   <div class="legend">
-    <span class="chipd cyan">CYAN</span><span class="mm" style="margin-right:8px">≥$1,500 or ≥3 events</span>
+    <span class="chipd white">WHITE</span><span class="mm" style="margin-right:8px"><b>PRIMARY</b> · empty = advertising / cheap giveaway inventory</span>
+    <span class="chipd cyan risk">CYAN</span><span class="mm" style="margin-right:8px">multi-event high-$ = <b>ops risk</b> (staffing/delivery/tarps) · not failure-red</span>
     <span class="chipd green">GREEN</span><span class="mm" style="margin-right:8px">≥$500</span>
     <span class="chipd yellow">YELLOW</span><span class="mm" style="margin-right:8px">&lt;$500 but something on cal</span>
-    <span class="chipd white">WHITE</span><span class="mm" style="margin-right:8px">empty / bargain</span>
-    <span class="chipd red">RED</span><span class="mm">beachfront Sat &lt;$500</span>
+    <span class="chipd red">RED</span><span class="mm">beachfront Sat = unfilled <b>premium</b> inventory needing sales</span>
   </div>
   <div class="kpi">
-    <div class="b"><div class="l">Cyan</div><div class="v" style="color:var(--cyan)">5</div></div>
+    <div class="b"><div class="l">Cyan · ops risk</div><div class="v" style="color:var(--cyan)">5</div><div class="s">staffing / tarps</div></div>
     <div class="b"><div class="l">Green</div><div class="v ok">7</div></div>
     <div class="b"><div class="l">Yellow</div><div class="v" style="color:var(--yellow)">45</div></div>
-    <div class="b"><div class="l">White</div><div class="v" style="color:#c5d0e6">162</div></div>
-    <div class="b"><div class="l">Red beachfront Sats</div><div class="v bad">28</div><div class="s">today → Jun 1</div></div>
+    <div class="b"><div class="l">White · ads/giveaway</div><div class="v" style="color:#c5d0e6">162</div><div class="s">primary focus</div></div>
+    <div class="b"><div class="l">Red beachfront Sats</div><div class="v bad">28</div><div class="s">premium unfilled</div></div>
   </div>
 
-  <h3>Expiring tail (D+1…D+4) — TODAY excluded from chase</h3>
-  <div class="chips" style="margin-bottom:10px">
-    <span class="chipd yellow" title="2026-09-29 $40">09-29 Tue</span>
-    <span class="chipd white" title="2026-09-30 $0">09-30 Wed</span>
-    <span class="chipd yellow" title="2026-10-01 $0">10-01 Thu</span>
-    <span class="chipd yellow" title="2026-10-02 $0">10-02 Fri</span>
+  <h3>Expiring · ~3-day write-off for chase</h3>
+  <div class="warnbox" style="margin-bottom:8px">
+    <b>~3-day write-off</b> — do <b>not</b> desperately chase D0–D2 the same way. Still allow opportunistic tomorrow / Thu / Fri <b>cheap fills</b>. Focus running start further out (white + red beachfront).
   </div>
-  <p class="note">D+1 through D+4 (Tue–Fri Sep 29–Oct 2) — TODAY excluded from chase</p>
+  <div class="chips" style="margin-bottom:10px">
+    <span class="chipd yellow" title="2026-09-29 $40 · opportunistic">09-29 Tue</span>
+    <span class="chipd white" title="2026-09-30 $0 · ads/giveaway">09-30 Wed</span>
+    <span class="chipd yellow" title="2026-10-01 · cheap fill ok">10-01 Thu</span>
+    <span class="chipd yellow" title="2026-10-02 · cheap fill ok">10-02 Fri</span>
+  </div>
+  <div class="dailystrip" title="Daily strip KPI placeholders — do not fake">
+    <div class="phk"><div class="l">Booked today</div><div class="v">— placeholder</div></div>
+    <div class="phk"><div class="l">Received today</div><div class="v">— placeholder</div></div>
+    <div class="phk"><div class="l">Ads / reviews today</div><div class="v">— placeholder</div></div>
+  </div>
+  <p class="note">D0–D2 = write-off posture for hard chase · opportunistic cheap fills still OK · white days = ad/giveaway inventory (primary)</p>
 
   <h3>Month strips (hover for $ / events)</h3>
   <div class="month"><div class="ml">Sep 2026</div><div class="chips"><span class="chipd yellow" title="2026-09-28 Mon · $4 · 1 evt">28</span><span class="chipd yellow" title="2026-09-29 Tue · $40 · 1 evt">29</span><span class="chipd white" title="2026-09-30 Wed · $0 · 0 evt">30</span></div></div>
@@ -382,8 +410,8 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
     </div>
     <div class="b">
       <div class="l">Booked + weighted gap</div>
-      <div class="v bad">$180,153</div>
-      <div class="s">$61,937 + $7,910</div>
+      <div class="v bad">$164,539</div>
+      <div class="s">$61,937 + $23,524</div>
     </div>
   </div>
 
@@ -395,7 +423,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
         <ul class="prog">
           <li>Dunks / CAPTCHA closes / clone renewals / week</li>
           <li>Weighted pipeline coverage vs gap</li>
-          <li>Expiring D+1…D+4 fill rate</li>
+          <li>White-day ads/giveaways · red beachfront sales · ~3-day write-off posture</li>
           <li>Review asks per delivered event</li>
           <li><b>Organizing the team</b> = high growth item (roster clarity, seat fills, RACI)</li>
         </ul>
@@ -419,6 +447,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
       <a href="ops-team.html">Ops team</a>
       <a href="team-hire.html">Hire priorities</a>
       <a href="principal-dunk.html">Dunk board</a>
+      <a href="weighted-pipeline.html?v=ops4-20260928">Weighted pipeline</a>
       <a href="growth-pipeline.html">Growth pipeline</a>
     </div>
   </div>
@@ -464,7 +493,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
 <section class="card trophy" id="milestones">
   <div class="sec-label">Tile 4 · Milestones &amp; Trophy case</div>
   <h2>Milestones &amp; Trophy case <span class="badge p">Operator readiness</span></h2>
-  <p class="note">Completed wins / cheat-code assets already have. Aligns mentally with investor checklist — <b>this page stays operator</b>. Full lightweight board → <a href="milestones-trophy.html?v=ops3-20260928">milestones-trophy.html</a>.</p>
+  <p class="note">Completed wins / cheat-code assets already have. Aligns mentally with investor checklist — <b>this page stays operator</b>. Full lightweight board → <a href="milestones-trophy.html?v=ops4-20260928">milestones-trophy.html</a>.</p>
 
   <div class="kpi">
     <div class="b"><div class="l">Have (defaults)</div><div class="v ok">22</div><div class="s">readiness JSON</div></div>
@@ -482,7 +511,7 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   </ul>
 
   <div class="links" style="margin-top:10px">
-    <a href="milestones-trophy.html?v=ops3-20260928">Full trophy board →</a>
+    <a href="milestones-trophy.html?v=ops4-20260928">Full trophy board →</a>
     <a href="investor-checklist.html">Investor checklist (separate)</a>
     <a href="support-compliance-roadmap.html">Compliance roadmap</a>
   </div>
@@ -493,18 +522,19 @@ footer{margin-top:18px;padding-top:12px;border-top:1px solid var(--line);font-si
   <div class="links">
     <a href="principal-dunk.html">Dunk board</a>
     <a href="bookings-dates.html">Bookings dates</a>
+    <a href="weighted-pipeline.html?v=ops4-20260928">Weighted pipeline</a>
     <a href="growth-pipeline.html">Growth pipeline</a>
     <a href="customers-no-next-date.html">Customers · no next date</a>
     <a href="money-cfo.html">CFO notes</a>
     <a href="ops-delivery.html">Delivery calendar</a>
-    <a href="milestones-trophy.html?v=ops3-20260928">Trophy case</a>
+    <a href="milestones-trophy.html?v=ops4-20260928">Trophy case</a>
     <a href="data/operator_state_2026-09-28.json">Audit JSON</a>
   </div>
 </section>
 
 <footer>
   Operator four-tile IA · rebuilt Mon Sep 28, 2026 ET · data/operator_state_2026-09-28.json ·
-  hard-refresh <code>?v=ops3-20260928</code> ·
+  hard-refresh <code>?v=ops4-20260928</code> ·
   no outbound send · no personal/bill-pay · investor pack stays separate.
   <div style="margin-top:4px">Gaps: GCal MCP 403 · Maps reviews scrape failed (87 / ~105 caller) · open-meteo rate-limit + Almanac paywall for Oct 24 day-forecast · Kathlene contact missing · several weighted mids Estimated</div>
 </footer>
