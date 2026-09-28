@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-28T11:15:00-04:00",
-  "board_version": "Board v2.9.8 · Sep 28 · cash notes + Heather phone + Montessori flag",
+  "as_of": "2026-09-28T11:18:00-04:00",
+  "board_version": "Board v2.9.9 · Sep 28 · Beatrix DraftExternalMessage waiting",
   "label": "Principal dunk board v2.9 — Friday weekend programmers + Jax universities + Corporate Friday",
   "rule": "Compose-only. Friday filter = weekend programmers (church / CDD amenity / apartments / corporate-district) + secondary consumer rebook. University = separate filter, NOT Friday default. Published emails only. Done key sheehan_principal_dunk_done_v2 · Notes sheehan_dunk_notes_v1.",
   "compose_authuser": "sheehanhomestead@gmail.com",
@@ -207,7 +207,7 @@
           "id": "owe-beatrix-mali-vai-apology-reconnect",
           "account": "MaliVai Washington Youth Foundation",
           "contact": "Beatrix",
-          "title": "Partner / reschedule tour",
+          "title": "Partner / reschedule · draft waiting",
           "email": "beatrix@malwashington.com",
           "phone": "904-359-5437",
           "city": "Jacksonville",
@@ -217,10 +217,10 @@
           "lane": "owe",
           "tier": "S",
           "website": "https://www.malwashington.com/",
-          "subject": "MaliVai tour — Oct 6 / Oct 22 / Nov 17?",
-          "owe_reason": "RESCHEDULE · Oct 6 / Oct 22 / Nov 17 @ 3pm still open · Sep 15 mail UNREAD — reply DRAFT only (do not send) · phone 904-359-5437",
-          "why": "RESCHEDULE OPTIONS open (unread Sep 15): Oct 6 / Oct 22 / Nov 17 @ 3pm MaliVai tour · pick a date + keep partner reconnect tone.",
-          "quick_body": "Hi Beatrix,\n\nThank you again for the grace on the Sep 15 tour — and for the reschedule options.\n\nOf Oct 6, Oct 22, and Nov 17 at 3pm, which still works on your side? Happy to lock whichever is easiest.\n\nStill want to stay connected as partners around referrals / sensory-friendly / family resources — not lead with a pitch.\n",
+          "subject": "Re: Your Upcoming Tour on 9/15/2026 - MaliVai Washington Youth Foundation",
+          "owe_reason": "WAITING · DraftExternalMessage card ready — Michael Send tap pending · short MaliVai reschedule reply (apology + asking for a few dates) · prior options Oct 6 / Oct 22 / Nov 17 @ 3pm · phone 904-359-5437",
+          "why": "Existing MaliVai tour thread: short apology for the reschedule + ask Beatrix for a few dates. WAITING on Michael's Send tap on DraftExternalMessage card; do not auto-send.",
+          "quick_body": "Hi Beatrix,\n\nSorry again for the reschedule. Could you send me a few dates that work for the MaliVai tour? I’ll lock in whichever is easiest.\n",
           "quick_email": true,
           "form_url": "",
           "area": "Metro Jax · MaliVai",
@@ -229,15 +229,20 @@
             "Apology",
             "Partner",
             "RESCHEDULE",
-            "Tour options open",
-            "Reply draft owed"
+            "WAITING · Michael Send",
+            "DraftExternalMessage"
           ],
           "friday": false,
-          "lead_source": "Gmail · reschedule options Sep 15",
-          "lead_source_type": "prior",
-          "lead_source_detail": "Beatrix offered Oct 6 / Oct 22 / Nov 17 @ 3pm after Sep 15 cancel",
+          "lead_source": "Gmail · existing MaliVai tour thread",
+          "lead_source_type": "gmail",
+          "lead_source_detail": "Existing MaliVai tour thread · prior options Oct 6 / Oct 22 / Nov 17 @ 3pm",
           "lead_source_date": "2026-09-15",
-          "lead_events": []
+          "lead_events": [],
+          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_surface": "DraftExternalMessage",
+          "thread_note": "Existing MaliVai tour thread",
+          "prior_options": "Oct 6 / Oct 22 / Nov 17 @ 3pm",
+          "do_not_auto_send": true
         },
         {
           "phone": "904-201-7063",
@@ -23039,5 +23044,24 @@
     ],
     "hard_refresh": "?v=298",
     "live_url": "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=298"
+  },
+  "v299": {
+    "as_of": "2026-09-28 ~11:18 AM ET",
+    "change": "Beatrix MaliVai reschedule draft waiting on Michael Send tap",
+    "updated": [
+      "owe-beatrix-mali-vai-apology-reconnect",
+      "owe-westminster-kori-dual-mini",
+      "owe-heather-foran-anthem-lakes"
+    ],
+    "delta": [
+      "UPDATE Beatrix / MaliVai: short apology + ask for a few dates drafted in existing tour thread · WAITING on Michael's Send tap on DraftExternalMessage card",
+      "KEEP Westminster $275 counter: awaiting reply",
+      "KEEP Heather date chase: programming date still owed"
+    ],
+    "hard_refresh": "?v=299",
+    "live_urls": [
+      "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=299",
+      "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=299"
+    ]
   }
 }
