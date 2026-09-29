@@ -1,721 +1,262 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>BDR TAM Dialer v2 · Lanes · Hail Mary · Sheehan Homestead</title>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TAM · segment coverage · Critters on Call</title>
 <style>
-:root{--bg:#0b1220;--card:#121a2b;--panel:#0e1626;--line:#1e2a44;--text:#e8eefc;--muted:#93a0b8;--accent:#5b8cff;--good:#3dd68c;--warn:#ffb020;--bad:#ff5d6c;--violet:#a78bfa}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1480px;margin:0 auto;padding:18px}
-.apps,.faces,.nav,.lanes,.toolbar,.actions,.mem,.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.apps{margin:0 0 12px;padding:10px 12px;border:1px solid var(--line);border-radius:14px;background:#0f1728}
-.apps .lbl{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-.apps a,.faces a,.nav a{background:var(--card);border:1px solid var(--line);color:var(--text);padding:6px 11px;border-radius:999px;font-size:.78rem;text-decoration:none;font-weight:600}
-.apps a{border-color:#3dd68c55}.apps a.op,.nav a.op{border-color:#5b8cff88;background:#152238}
-.apps a.sec{border-color:var(--line);font-weight:500;font-size:.72rem;color:#c5d0e6}
-.faces{margin:0 0 14px}.faces a{color:var(--muted)}.faces a.on{border-color:var(--good);background:#13281d;color:#fff}
-header{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:10px}
-h1{font-size:1.35rem;margin:0}.sub{color:var(--muted);font-size:.88rem}
-.nav{margin:10px 0 16px}.nav a.active{border-color:var(--accent);background:#152238;color:#fff}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:14px}
-.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;position:relative;overflow:hidden}
-.kpi::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--good));opacity:.55}
-.kpi.good::after{background:linear-gradient(90deg,var(--good),#6ee7b7)}
-.kpi.violet::after{background:linear-gradient(90deg,var(--violet),var(--accent))}
-.kpi.warn::after{background:linear-gradient(90deg,var(--warn),var(--accent))}
-.kpi .l{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-.kpi .v{font-size:1.15rem;font-weight:700;margin-top:3px}
-.kpi .s{font-size:.65rem;color:var(--muted);margin-top:2px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}
-.card h2{font-size:.95rem;margin:0 0 10px}
-.emba{font-size:.72rem;color:var(--muted);background:#152238;border:1px solid #5b8cff44;border-radius:10px;padding:10px;margin-bottom:12px}
-.lanes{margin:0 0 12px}
-.lanes button{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:10px 14px;border-radius:999px;font-size:.78rem;font-weight:700;cursor:pointer;min-height:44px}
-.lanes button.on{border-color:var(--accent);background:#152238;color:#fff}
-.lanes button.sub.on{border-color:#3dd68c88;background:#13281d;color:var(--good)}
-.lanes button.vio.on{border-color:#a78bfa88;background:#1a1530;color:#d4c4ff}
-.lanes button.smb.on{border-color:#ffb02088;background:#2a2416;color:var(--warn)}
-.lanes button.emba.on{border-color:#5b8cff88;color:#9ec1ff}
-.lanes button.sp.on{border-color:#ffb02088;background:#2a2416;color:var(--warn)}
-.compose-modes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
-.compose-modes button{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:7px 12px;border-radius:999px;font-size:.72rem;font-weight:700;cursor:pointer}
-.compose-modes button.on{border-color:var(--accent);background:#152238;color:#fff}
-.lanes .n{opacity:.75;font-weight:500;margin-left:4px;font-size:.7rem}
-.toolbar{margin-bottom:10px}
-.toolbar input,.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 10px;font-size:.8rem;min-height:40px}
-.toolbar input{min-width:200px;flex:1}
-.note{color:var(--muted);font-size:.76rem}
-.table-wrap{overflow:auto;max-height:70vh;border:1px solid var(--line);border-radius:10px}
-table{width:100%;border-collapse:collapse;font-size:.76rem;min-width:1580px}
-th,td{padding:8px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-th{color:var(--muted);font-weight:600;position:sticky;top:0;background:#152033;z-index:2;white-space:nowrap}
-tr.cust{background:#0f1f18}tr.cust td:first-child{box-shadow:inset 3px 0 0 var(--good)}
-.badge{display:inline-block;padding:2px 7px;border-radius:999px;font-size:.65rem;border:1px solid var(--line);margin:1px 2px 1px 0}
-.badge.t1{background:#13281d;color:var(--good);border-color:#3dd68c66}
-.badge.lane{background:#152238;color:#9ec1ff;border-color:#5b8cff55}
-.badge.vio{background:#1a1530;color:#d4c4ff;border-color:#a78bfa66}
-.badge.cust{background:#13281d;color:var(--good);border-color:#3dd68c88}
-.badge.rel{background:#1a2030;color:#9ec1ff}
-.badge.path{background:#0e1626;color:#c5d0e6}
-.badge.gap{background:#2a2416;color:var(--warn);border-color:#ffb02055}
-.badge.stale{background:#2a1619;color:#ff9aa5;border-color:#ff5d6c66}
-.badge.never{background:#1a1530;color:#d4c4ff;border-color:#a78bfa66}
-.badge.score{font-weight:700;min-width:2.2rem;text-align:center;background:#152238;color:#fff}
-.hi{color:var(--good)}.mid{color:var(--warn)}.lo{color:var(--muted)}
-.acct{font-weight:650}.tap{font-weight:600}.muted{color:var(--muted)}
-button.btn,a.btn{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:6px 10px;border-radius:999px;background:#152238;border:1px solid #5b8cff88;color:#fff;font-weight:700;font-size:.7rem;text-decoration:none;cursor:pointer;font-family:inherit;white-space:nowrap}
-button.btn.sec{border-color:#3dd68c66;background:#13281d;color:var(--good)}
-button.btn.tick{border-color:var(--line);background:var(--panel);color:var(--muted)}
-button.btn.tick.on{border-color:#3dd68c88;background:#13281d;color:var(--good)}
-a.btn.vio,button.btn.vio{border-color:#a78bfa66;background:#1a1530;color:#d4c4ff}
-.mem{margin-top:6px;align-items:flex-start}
-.mem textarea{flex:1;min-width:180px;min-height:52px;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:.72rem;font-family:inherit}
-.mem input.tags{width:140px;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:.72rem}
-.mem .saved{font-size:.65rem;color:var(--good);opacity:0}.mem .saved.show{opacity:1}
-.modal-bg{display:none;position:fixed;inset:0;background:#000a;z-index:50;align-items:center;justify-content:center;padding:16px}
-.modal-bg.on{display:flex}
-.modal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;max-width:640px;width:100%;max-height:90vh;overflow:auto}
-.modal h3{margin:0 0 8px}.modal pre{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;font-size:.78rem}
-.modal input{width:100%;margin:4px 0 8px;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--text)}
-.modal .row{margin-top:10px}
-
-.lanes button.hm.on{border-color:#f0abfc88;background:#2a1530;color:#f5d0fe}
-.hail-tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;align-items:center}
-.hail-tags .sl{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
-.hail-tags button{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:6px 11px;border-radius:999px;font-size:.7rem;font-weight:700;cursor:pointer;min-height:34px}
-.hail-tags button.on{border-color:#f0abfc99;background:#2a1530;color:#f5d0fe}
-.badge.hm{background:#2a1530;color:#f5d0fe;border-color:#f0abfc66}
-.badge.god{background:#1a2030;color:#fde68a;border-color:#fbbf2466}
-.kpi.hm::after{background:linear-gradient(90deg,#f0abfc,var(--accent))}
-
-.compose-modes button.gray,.sell-cat button.gray{opacity:.42;cursor:not-allowed;border-style:dashed;text-decoration:line-through;text-decoration-color:#93a0b855}
-.compose-modes button.gray:hover,.sell-cat button.gray:hover{border-color:var(--line);color:var(--muted)}
-.compose-modes button.pri.on,.sell-cat button.pri.on{border-color:#3dd68c88;background:#13281d;color:var(--good)}
-.sell-cat{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px;align-items:center}
-.sell-cat .sl{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
-.unk{color:var(--muted);font-style:italic;font-size:.72rem}
-.detail{font-size:.7rem;line-height:1.35;margin-top:3px}
-.detail a{font-weight:600}
-.mass{margin:0 0 14px}
-.mass .plays{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
-.mass .play{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
-.mass .play h3{margin:0 0 4px;font-size:.82rem}
-.mass .play .when{font-size:.68rem;color:var(--muted);margin-bottom:6px}
-.mass .play pre{white-space:pre-wrap;font-size:.7rem;background:#0b1220;border:1px solid var(--line);border-radius:8px;padding:8px;max-height:110px;overflow:auto;margin:0 0 6px}
-.mass .play .howto{font-size:.68rem;color:var(--muted)}
-.mass .warn{font-size:.72rem;color:var(--warn);margin:0 0 8px}
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --line:#e6e9f0;
+  --text:#121826;
+  --muted:#6b7285;
+  --dim:#9aa3b5;
+  --accent:#2f6fed;
+  --good:#0f9d6e;
+  --track:#eef1f6;
+  --bar:#2f6fed;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:36px 22px 72px}
+.crumb{font-size:.78rem;color:var(--muted);margin:0 0 18px}
+.crumb a{color:var(--muted);font-weight:600}
+.crumb a:hover{color:var(--accent)}
+header{margin:0 0 28px}
+h1{
+  margin:0;
+  font-size:clamp(1.7rem,4vw,2.25rem);
+  letter-spacing:-.03em;
+  font-weight:750;
+  color:var(--text);
+}
+.sub{margin:8px 0 0;color:var(--muted);font-size:.92rem;max-width:42rem}
+.kpis{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:12px;
+  margin:0 0 28px;
+}
+@media (max-width:820px){.kpis{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:420px){.kpis{grid-template-columns:1fr}}
+.kpi{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:18px 16px 16px;
+}
+.kpi .l{
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--muted);
+  font-weight:650;
+}
+.kpi .v{
+  margin-top:8px;
+  font-size:clamp(1.55rem,3.2vw,2.05rem);
+  font-weight:750;
+  letter-spacing:-.03em;
+  line-height:1.05;
+  color:var(--text);
+}
+.kpi .s{margin-top:6px;font-size:.75rem;color:var(--dim)}
+.panel{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:8px 4px 4px;
+  overflow:hidden;
+}
+.panel-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:12px;
+  padding:14px 18px 10px;
+}
+.panel-head h2{margin:0;font-size:1rem;font-weight:700;letter-spacing:-.01em}
+.panel-head .note{font-size:.75rem;color:var(--dim)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:13px 16px;text-align:left;vertical-align:middle}
+th{
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--muted);
+  font-weight:650;
+  border-bottom:1px solid var(--line);
+  background:#fafbfd;
+}
+td{border-bottom:1px solid var(--line);font-size:.92rem}
+tr:last-child td{border-bottom:0}
+td.seg{font-weight:650;color:var(--text)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.muted{color:var(--muted);font-size:.88rem}
+.cov{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:10px;
+  min-width:110px;
+}
+.cov .pct{font-variant-numeric:tabular-nums;font-weight:650;min-width:2.6rem;text-align:right}
+.bar{
+  width:64px;height:6px;border-radius:99px;background:var(--track);overflow:hidden;flex:0 0 auto;
+}
+.bar>i{display:block;height:100%;background:var(--bar);border-radius:99px}
+.bar.phone>i{background:var(--good)}
+.empty{padding:28px 18px;color:var(--muted);font-size:.92rem}
+footer{margin-top:22px;font-size:.72rem;color:var(--dim)}
 </style>
-</head><body data-flow-face="sales" data-flow-chip="bdr-tam"><div class="wrap">
+</head>
+<body>
+<div class="wrap">
+  <p class="crumb"><a href="index.html">Operator</a> · TAM reporting</p>
+  <header>
+    <h1>TAM by segment</h1>
+    <p class="sub">Counts and coverage only. As of <span id="asof">—</span>.</p>
+  </header>
 
-<div class="apps">
-  <span class="lbl">Apps</span>
-  <a href="https://onchainoffgrid-hub.github.io/critters-on-call/" target="_blank" rel="noopener">Critters <span style="color:#3dd68c;font-size:.65rem">LIVE</span></a>
-  <a class="op" href="index.html">Operator</a>
-  <a href="bdr-pipeline.html" class="sec">BDR Enterprise v1</a>
-  <a href="link-tree.html" class="sec">All links</a>
-</div>
+  <section class="kpis" aria-label="TAM summary">
+    <div class="kpi"><div class="l">Accounts</div><div class="v" id="k-accounts">—</div><div class="s">unique orgs</div></div>
+    <div class="kpi"><div class="l">Contacts</div><div class="v" id="k-contacts">—</div><div class="s">named + list rows</div></div>
+    <div class="kpi"><div class="l">Email coverage</div><div class="v" id="k-email">—</div><div class="s" id="k-email-s">—</div></div>
+    <div class="kpi"><div class="l">Phone coverage</div><div class="v" id="k-phone">—</div><div class="s" id="k-phone-s">—</div></div>
+    <div class="kpi"><div class="l">Customers</div><div class="v" id="k-cust">—</div><div class="s">matched in TAM</div></div>
+  </section>
 
-<div class="faces">
-  <a href="investor-home.html">Investor</a>
-  <a class="on" href="index.html">Operator / Franchise #0</a>
-</div>
-
-<header>
-  <div>
-    <h1>BDR TAM Dialer v2 · Enterprise · Sponsor · EMBA · Hail Mary</h1>
-    <div class="sub">Score · notes · customer ticks · compose · violet fruit · real contacts only · <span id="asof">—</span></div>
-  </div>
-  <div class="sub">North star: <b>bookings</b> · <a href="index.html">Operator hub</a></div>
-</header>
-
-<div class="nav">
-  <a class="op" href="index.html">★ Operator</a>
-  <a href="crm-icp.html">CRM ICP</a>
-  <a href="consumer-inbound.html">Consumer / Violet</a>
-  <a href="org-whitespace.html">Org white space</a>
-  <a href="bdr-tam.html" class="active">BDR TAM v2</a>
-  <a href="bdr-tam.html?lane=Hail%20Mary">Hail Mary</a>
-  <a href="bdr-pipeline.html">BDR Enterprise</a>
-  <a href="revops-tam.html">RevOps</a>
-  <a href="bookings-dates.html">Bookings</a>
-  <a href="actions-overdue.html">Actions</a>
-  <a href="jax-local-buzz.html">Jax Buzz</a>
-  <a href="link-tree.html">Links</a>
-</div>
-
-<div class="kpis">
-  <div class="kpi good"><div class="l">Customers ticked</div><div class="v" id="k-cust">—</div><div class="s" id="k-cust-s">matchable + local</div></div>
-  <div class="kpi"><div class="l">Top-20 floor</div><div class="v" id="k-top">—</div><div class="s">score cutoff</div></div>
-  <div class="kpi violet"><div class="l">Never-hit</div><div class="v" id="k-never">—</div><div class="s">inbound / violet</div></div>
-  <div class="kpi"><div class="l">Notes saved</div><div class="v" id="k-notes">—</div><div class="s">local memory</div></div>
-  <div class="kpi"><div class="l">Enterprise</div><div class="v" id="k-le">—</div><div class="s">Big Enterprise</div></div>
-  <div class="kpi warn"><div class="l">Sponsor</div><div class="v" id="k-lsp">—</div><div class="s">festivals / foundations</div></div>
-  <div class="kpi good"><div class="l">Subscription</div><div class="v" id="k-ls">—</div><div class="s">lane</div></div>
-  <div class="kpi violet"><div class="l">Violet ~50%</div><div class="v" id="k-lv">—</div><div class="s">lane</div></div>
-  <div class="kpi warn"><div class="l">Small Biz Prog</div><div class="v" id="k-lb">—</div><div class="s">lane</div></div>
-  <div class="kpi"><div class="l">EMBA on Call</div><div class="v" id="k-lm">—</div><div class="s">lane</div></div>
-  <div class="kpi hm"><div class="l">Hail Mary</div><div class="v" id="k-lhm">—</div><div class="s">Philanthropist · Local biz-sponsor filters</div></div>
-</div>
-
-
-<div class="card mass" id="mass-touch">
-  <h2>Ideas to mass touch <span class="note">(manual / light only — HubSpot sequences parked TBD)</span></h2>
-  <p class="warn" id="mass-warn">No HubSpot automation. Mailto · FB post · co-post · calendar fill · review ask · LinkedIn paste. No first-touch attachments.</p>
-  <div class="plays" id="mass-plays">Loading mass-touch ideas…</div>
-</div>
-<div class="card">
-  <h2>Michael’s lanes — tap to filter (Sales: Enterprise · Sponsor · Violet · Subscription · Hail Mary; tags include Philanthropist + Local biz-sponsor)</h2>
-  <div class="emba" id="emba-note">Loading EMBA note…</div>
-  <div class="emba" id="sponsor-note" style="display:none;border-color:#ffb02044;color:var(--warn)">Loading sponsor note…</div>
-  <div class="emba" id="hail-note" style="display:none;border-color:#f0abfc55;color:#f5d0fe">Loading Hail Mary note…</div>
-  <div class="lanes" id="lane-chips"></div>
-  <div class="hail-tags" id="hail-tags" style="display:none"></div>
-  <div class="toolbar">
-    <input id="q" type="search" placeholder="Search account / contact / email / phone / city / notes…" autocomplete="off"/>
-    <select id="f-seg"><option value="">Fine segment: all</option></select>
-    <select id="f-tier"><option value="">Tier: all</option><option value="t1">Tier 1 only</option><option value="not">Not Tier 1</option></select>
-    <select id="f-mail"><option value="">Email: all</option><option value="yes">Has email</option><option value="no">No / whitespace email</option></select>
-    <select id="f-phone"><option value="">Phone: all</option><option value="yes">Has phone</option><option value="no">No phone</option></select>
-    <select id="f-cust"><option value="">Customer: all</option><option value="yes">Customers</option><option value="no">Not customers</option></select>
-    <select id="f-never"><option value="">Never-hit: all</option><option value="yes">Never-hit only</option></select>
-    <select id="f-sort">
-      <option value="score">Sort: score ↓ (default)</option>
-      <option value="tier">Sort: Tier1 → email → name</option>
-      <option value="name">Sort: name</option>
-    </select>
-  </div>
-  <p class="note" id="view-note">Loading…</p>
-  <div class="table-wrap">
-    <table>
-      <thead><tr>
-        <th>Score</th><th>Lane</th><th>Account</th><th>Contact / Title</th><th>Email</th><th>Phone</th><th>LinkedIn / Form</th><th>Notes / public</th><th>Memory / compose</th>
-      </tr></thead>
-      <tbody id="tbody"></tbody>
-    </table>
-  </div>
-  <p class="note" id="src-note" style="margin-top:10px">Loading data/bdr_tam_dialer.json…</p>
-</div>
-</div>
-
-<div class="modal-bg" id="compose-modal">
-  <div class="modal">
-    <h3 id="compose-title">Compose</h3>
-    <p class="note" id="compose-meta"></p>
-    <div class="compose-modes sell-cat" id="compose-modes" style="display:none"></div>
-    <p class="note" id="sell-lock" style="margin:0 0 8px">Sell catalog: <b>Franchise</b> + <b>Consulting (EMBA + homestead)</b> live. Gray chips = not ready (visible, no compose).</p>
-    <label class="note">Subject</label>
-    <input id="compose-subj"/>
-    <label class="note">Body</label>
-    <pre id="compose-body"></pre>
-    <div class="row">
-      <a class="btn" id="compose-mailto" href="#">Open mailto</a>
-      <button type="button" class="btn sec" id="compose-copy">Copy draft</button>
-      <button type="button" class="btn" id="compose-close">Close</button>
+  <section class="panel" aria-label="Segments">
+    <div class="panel-head">
+      <h2>Segments</h2>
+      <span class="note" id="seg-note">Loading…</span>
     </div>
-    <p class="note" style="margin-top:8px">Compose opens your local mail client (mailto). HubSpot sync TBD.</p>
-    <p class="note" id="compose-warn" style="margin-top:4px"></p>
-  </div>
+    <div id="table-host"><p class="empty">Loading segment coverage…</p></div>
+  </section>
+
+  <footer id="foot">Source: data/bdr_tam_dialer.json</footer>
 </div>
-
 <script>
-
 (function(){
-  var ALL=[], LANES=[], SEGS=[], KPIS={};
-  var F={lane:'',hailTag:'',seg:'',tier:'',mail:'',phone:'',cust:'',never:'',q:'',sort:'score'};
-  var HAIL_TAGS=['Inspired','God-connected','Local celeb','Philanthropist','Local biz-sponsor','Bazillionaires'];
-  var K_NOTES='sheehan_bdr_v2_notes', K_CUST='sheehan_bdr_v2_customers', K_TAGS='sheehan_bdr_v2_tags', K_DONE='sheehan_bdr_v2_done', K_SEED='sheehan_bdr_v2_seeded';
-  var STORE={notes:{},cust:{},tags:{},done:{}};
-
-  // Compose is mailto / local only. HubSpot sync TBD — do not wire HubSpot API here.
-  var PITCH={
-    'Regional Enterprise':{subj:'Who owns employee events / ERG at {account}?', body:'Hi {name},\n\nMichael Sheehan — I run Sheehan Homestead / Critters on Call out of Callahan (Jax metro). We bring a mobile petting zoo on-site for employee appreciation, family day, STEM/community, or campus events.\n\nTeams use us when they want a concrete engagement hit without a huge production: insured, soft animals, clear load-in.\n\nWho on your side owns facilities, ERG, events, or CSR for something like that? Happy to talk dates if you point me at the right person.\n\nMichael Sheehan\n914-263-1311 · sheehanhomestead.com'},
-    'Sponsor':{subj:'{account} × Critters — shoutout / goat-statue / mini-zoo sponsor', body:'Hi {name},\n\nMichael Sheehan, Sheehan Homestead / Critters on Call (Callahan / Jax).\n\nFor festivals, foundations, and CVBs we keep the ask simple:\n• Homestead shoutouts on our channels\n• Small-donation goat-statue farm tour\n• Mini-zoo sponsor-in-name for the season\n\nIf {account} wants a named family-friendly piece this season, tell me which of those three fits and I will sketch it in one reply — no deck, no PDF.\n\nMichael\n914-263-1311 · sheehanhomestead.com'},
-    'Regional Subscription':{subj:'Monthly mobile zoo for your residents — Callahan / Jax', body:'Hi {name},\n\nMichael Sheehan here — Sheehan Homestead / Critters on Call. We run recurring mobile petting-zoo visits for senior campuses and similar (monthly or occasional).\n\nActivity directors like it because we handle the animals and the flow; your team mostly needs a room or courtyard and a time slot. We are local to Callahan / Jax metro, so logistics stay easy.\n\nOpen to putting one visit on the calendar as a trial?\n\nMichael Sheehan\n914-263-1311 · sheehanhomestead.com'},
-    'Regional Violet ~50%':{subj:'Birthday / farm visit dates — Sheehan Homestead (Callahan)', body:'Hi {name},\n\nMichael at Sheehan Homestead / Critters on Call — the Callahan farm and mobile petting zoo Jax families use for birthdays, farm mornings, and small gatherings.\n\nIf you are still hunting a date, reply with 2–3 windows (or age range + backyard vs farm visit) and I will check the calendar. Or text 914-263-1311.\n\nPublic info: sheehanhomestead.com\n\nMichael'},
-    'Regional Small Biz Programmer':{subj:'Animal pop-up / family night at {account}?', body:'Hi {name},\n\nMichael Sheehan — fellow Jax small-biz operator (Sheehan Homestead / Critters on Call in Callahan).\n\nWe do soft animal pop-ups with breweries, bookstores, coffee shops, and indie venues — family hour, weekend porch set, goat-yoga night, cross-promo. Low production, high smiles.\n\nWant to try one date and see how it feels for your crowd?\n\nMichael\n914-263-1311 · sheehanhomestead.com'},
-    'Hail Mary':{subj:'Hail Mary — {account}', body:'{name} —\n\nMichael Sheehan, Sheehan Homestead / Critters on Call (Callahan / Jax). Inspired-by note — fill from row draft.\n\nOne ask: 15 minutes / farm visit / intro. No attachment.\n\nMichael'},
-    'EMBA on Call':{subj:'EMBA on Call — donation ladder (quick ask)', body:'Hi {name},\n\nMichael Sheehan (Sheehan Homestead). EMBA on Call is a short ladder for founders / small biz who want to help or get help without a long sales cycle:\n\n1) Free homestead shout\n2) Small donation → goat-statue farm tour\n3) Mini-zoo sponsor-in-name\n4) Bigger donations\n5) Consulting (BDR / convert old leads)\n\nWhich rung is closest to where you are?\n\nMichael · 914-263-1311'}
-  };
-  var EMBA_MODES={
-    donation:{label:'Donation ladder', subj:'EMBA on Call — shout → farm tour → sponsor → consulting', body:'Hi {name},\n\nMichael Sheehan (Sheehan Homestead). Sharing the EMBA on Call donation ladder — pick a rung, no packet required:\n\n1) Free homestead shout\n2) Small donation → goat-statue farm tour\n3) Mini-zoo sponsor-in-name\n4) Bigger donations\n5) Consulting (BDR / convert old leads)\n\nStated targets (my goals, not proven metrics): 80%+ on qualified software work; ~100% transactional/meeting if qualified.\n\nWhich rung fits you this month?\n\nMichael · 914-263-1311'},
-    markup:{label:'Markup', subj:'EMBA on Call — markup help on leads / BDR stack', body:'Hi {name},\n\nMichael Sheehan (Sheehan Homestead / Critters on Call).\n\nBesides the animal work, EMBA on Call has a markup path: scoped help on software / BDR systems and turning old leads into booked work.\n\nMy stated targets (goals, not case studies): 80%+ on qualified software work; ~100% on transactional / meeting work when qualified.\n\nIf a list, funnel, or tool stack is underperforming, reply with what is stuck and I will say whether a short markup sprint makes sense.\n\nMichael · 914-263-1311 · sheehanhomestead.com'},
-    idea:{label:'Idea', subj:'EMBA on Call — bring the idea, we name the next step', body:'Hi {name},\n\nMichael Sheehan (Sheehan Homestead).\n\nEMBA on Call also works as an idea lane: you bring a wedge (event series, sponsor package, productized service, lead reactivation) and we name the next concrete step — often via the donation ladder, a mini-zoo sponsor-in-name, or a short consulting sprint.\n\nWhat idea are you sitting on?\n\nMichael · 914-263-1311'}
-  };
-  var COMPOSE_CTX={row:null, mode:'donation', offer:'lane'};
-  var SELL_CATALOG={offers:[]};
-  var MASS_PLAYS=[];
-
-  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-  function keyOf(r){return (r.org_key||'')+'::'+String(r.contact||'').toLowerCase()+'::'+String(r.email||'').toLowerCase();}
-  function telOf(p){var d=String(p||'').replace(/\D/g,''); if(d.length===11&&d[0]==='1')d=d.slice(1); return d?'tel:+1'+d:'';}
-  function load(k){try{return JSON.parse(localStorage.getItem(k)||'{}')||{};}catch(e){return {};}}
-  function save(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
-  function isCust(r){return !!(STORE.cust[keyOf(r)]||r.is_customer||r.customer_match);}
-  function noteOf(r){return STORE.notes[keyOf(r)]||'';}
-  function tagsOf(r){return STORE.tags[keyOf(r)]||'';}
-
-  function seed(){
-    if(localStorage.getItem(K_SEED)==='1') return;
-    var ch=false;
-    ALL.forEach(function(r){
-      if(!r.seed_note) return;
-      var k=keyOf(r);
-      if(!STORE.notes[k]){STORE.notes[k]=r.seed_note; ch=true;}
-    });
-    if(ch) save(K_NOTES, STORE.notes);
-    localStorage.setItem(K_SEED,'1');
+  function fmt(n){
+    if(n==null || isNaN(n)) return '—';
+    return Number(n).toLocaleString('en-US');
+  }
+  function pct(n, d){
+    if(!d) return 0;
+    return Math.round(100 * n / d);
+  }
+  function esc(s){
+    return String(s==null?'':s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;');
+  }
+  function covCell(p, kind){
+    var w = Math.max(0, Math.min(100, p|0));
+    return '<div class="cov"><span class="pct">'+w+'%</span><span class="bar '+(kind||'')+'" aria-hidden="true"><i style="width:'+w+'%"></i></span></div>';
   }
 
-  function ok(r){
-    if(F.lane && r.lane!==F.lane) return false;
-    if(F.hailTag){
-      var tags=r.hail_tags||[];
-      if(tags.indexOf(F.hailTag)<0) return false;
-    }
-    if(F.seg && r.segment!==F.seg) return false;
-    if(F.tier==='t1' && !r.is_tier1) return false;
-    if(F.tier==='not' && r.is_tier1) return false;
-    if(F.mail==='yes' && !r.has_email) return false;
-    if(F.mail==='no' && r.has_email && !r.stale_email && !r.whitespace_email) return false;
-    if(F.phone==='yes' && !r.has_phone) return false;
-    if(F.phone==='no' && r.has_phone) return false;
-    if(F.cust==='yes' && !isCust(r)) return false;
-    if(F.cust==='no' && isCust(r)) return false;
-    if(F.never==='yes' && !r.never_hit) return false;
-    if(F.q){
-      var hay=[r.lane,r.segment,r.account,r.contact,r.title,r.email,r.phone,r.city,r.county,r.penetration,r.notes,r.seed_note,noteOf(r),tagsOf(r),(r.related_accounts||[]).join(' '),(r.hail_tags||[]).join(' '),r.hail_path_type||'',r.hail_why||''].join(' ').toLowerCase();
-      if(hay.indexOf(F.q)<0) return false;
-    }
-    return true;
-  }
+  fetch('data/bdr_tam_dialer.json', {cache:'no-store'})
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(d){
+      var contacts = d.contacts || [];
+      var by = {};
+      var allAccts = {};
+      var allCust = {};
+      var emailN = 0, phoneN = 0;
 
-  function sorted(rows){
-    var ord={}; LANES.forEach(function(l,i){ord[l.id]=i;});
-    return rows.slice().sort(function(a,b){
-      if(!F.lane){
-        var la=ord[a.lane]; if(la==null) la=99;
-        var lb=ord[b.lane]; if(lb==null) lb=99;
-        if(la!==lb) return la-lb;
-      }
-      if(F.sort==='name'){
-        var na=(a.account||'').toLowerCase(), nb=(b.account||'').toLowerCase();
-        if(na!==nb) return na<nb?-1:1;
-        return (a.contact||'').toLowerCase()<(b.contact||'').toLowerCase()?-1:1;
-      }
-      if(F.sort==='tier'){
-        if(!!a.is_tier1!==!!b.is_tier1) return a.is_tier1?-1:1;
-        if(!!a.has_email!==!!b.has_email) return a.has_email?-1:1;
-        return (a.account||'').toLowerCase()<(b.account||'').toLowerCase()?-1:1;
-      }
-      if((b.score||0)!==(a.score||0)) return (b.score||0)-(a.score||0);
-      if(!!a.is_tier1!==!!b.is_tier1) return a.is_tier1?-1:1;
-      return (a.account||'').toLowerCase()<(b.account||'').toLowerCase()?-1:1;
-    });
-  }
-
-  function laneCls(id){
-    if(id.indexOf('Subscription')>=0) return 'sub';
-    if(id.indexOf('Violet')>=0) return 'vio';
-    if(id.indexOf('Small Biz')>=0) return 'smb';
-    if(id.indexOf('EMBA')>=0) return 'emba';
-    if(id==='Sponsor' || id.indexOf('Sponsor')>=0) return 'sp';
-    if(id.indexOf('Hail')>=0) return 'hm';
-    return '';
-  }
-
-  function syncHailNote(){
-    var hn=document.getElementById('hail-note');
-    var ht=document.getElementById('hail-tags');
-    var sn=document.getElementById('sponsor-note');
-    var en=document.getElementById('emba-note');
-    if(hn){
-      if(F.lane==='Hail Mary'){
-        hn.style.display='block';
-        hn.textContent=window.__HAIL_NOTE__||'Hail Mary — Inspired · God-connected · Local celeb · Philanthropist · Local biz-sponsor · Bazillionaires. Same BDR GTM: shoutouts · goat-statue · mini-zoo · EMBA ladder. Faith-honest where authentic. Public paths only.';
-      } else hn.style.display='none';
-    }
-    if(ht){
-      if(F.lane==='Hail Mary'){
-        ht.style.display='flex';
-        var hh='<span class="sl">Hail filters</span>';
-        hh+='<button type="button" data-ht="" class="'+(F.hailTag===''?'on':'')+'">All Hail</button>';
-        HAIL_TAGS.forEach(function(tag){
-          var n=ALL.filter(function(r){return r.lane==='Hail Mary' && (r.hail_tags||[]).indexOf(tag)>=0;}).length;
-          hh+='<button type="button" data-ht="'+esc(tag)+'" class="'+(F.hailTag===tag?'on':'')+'">'+esc(tag)+' <span class="n">'+n+'</span></button>';
-        });
-        ht.innerHTML=hh;
-        ht.querySelectorAll('button').forEach(function(b){
-          b.onclick=function(){
-            F.hailTag=b.getAttribute('data-ht')||'';
-            try{ var u=new URL(location.href); if(F.hailTag) u.searchParams.set('hail',F.hailTag); else u.searchParams.delete('hail'); history.replaceState(null,'',u);}catch(e){}
-            drawLanes(); draw();
-          };
-        });
-      } else {
-        ht.style.display='none'; ht.innerHTML='';
-        if(F.hailTag){ F.hailTag=''; try{ var u2=new URL(location.href); u2.searchParams.delete('hail'); history.replaceState(null,'',u2);}catch(e){} }
-      }
-    }
-    if(sn) sn.style.display=(F.lane==='Sponsor')?'block':'none';
-  }
-  function drawLanes(){
-    var h='<button type="button" data-lane="" class="'+(F.lane===''?'on':'')+'">All <span class="n">'+ALL.length+'</span></button>';
-    LANES.forEach(function(l){
-      h+='<button type="button" class="'+((F.lane===l.id?'on ':'')+laneCls(l.id))+'" data-lane="'+esc(l.id)+'">'+esc(l.id)+
-        ' <span class="n">'+l.contacts+(l.customers?' · cust '+l.customers:'')+(l.never_hit?' · never '+l.never_hit:'')+'</span></button>';
-    });
-    document.getElementById('lane-chips').innerHTML=h;
-    document.querySelectorAll('#lane-chips button').forEach(function(b){
-      b.onclick=function(){
-        F.lane=b.getAttribute('data-lane')||'';
-        if(F.lane!=='Hail Mary') F.hailTag='';
-        try{
-          var u=new URL(location.href);
-          if(F.lane) u.searchParams.set('lane',F.lane); else u.searchParams.delete('lane');
-          if(F.hailTag) u.searchParams.set('hail',F.hailTag); else u.searchParams.delete('hail');
-          history.replaceState(null,'',u);
-          if(document.body){
-            var chip='bdr-tam';
-            if(F.lane.indexOf('Enterprise')>=0) chip='big-enterprise';
-            else if(F.lane==='Sponsor') chip='sponsor';
-            else if(F.lane.indexOf('Subscription')>=0) chip='subscription';
-            else if(F.lane.indexOf('Violet')>=0) chip='violet';
-            else if(F.lane.indexOf('Hail')>=0) chip='hail-mary';
-            document.body.setAttribute('data-flow-chip', chip);
-          }
-        }catch(e){}
-        drawLanes(); draw();
-      };
-    });
-    syncHailNote();
-  }
-
-  function paths(r){
-    var h='';
-    (r.best_paths||[]).forEach(function(p){
-      if(p==='email' && r.email && !r.stale_email) h+='<a class="badge path" href="mailto:'+esc(r.email)+'">email</a>';
-      else if((p==='cell'||p==='phone') && r.phone) h+='<a class="badge path" href="'+esc(telOf(r.phone))+'">cell</a>';
-      else if((p==='LinkedIn'||p==='linkedin') && r.linkedin_url) h+='<a class="badge path" href="'+esc(r.linkedin_url)+'" target="_blank" rel="noopener">LinkedIn</a>';
-      else if(p==='form' && r.form_url) h+='<a class="badge path" href="'+esc(r.form_url)+'" target="_blank" rel="noopener">'+(r.form_quality==='hard'?'form (hard)':'Open form')+'</a>';
-      else h+='<span class="badge path">'+esc(p)+'</span>';
-    });
-    if(r.stale_email) h+='<span class="badge stale">stale_email</span>';
-    if(r.messy_list) h+='<span class="badge stale">messy_list</span>';
-    if(r.whitespace_email) h+='<span class="badge gap">needs email</span>';
-    if(r.never_hit) h+='<span class="badge never">never-hit</span>';
-    if(r.likely_related) h+='<span class="badge rel" title="'+esc((r.related_accounts||[]).join(', '))+'">likely related</span>';
-    return h||'<span class="muted">—</span>';
-  }
-
-  function applyComposeDraft(){
-    var r=COMPOSE_CTX.row; if(!r) return;
-    var lane=r.lane||'Regional Enterprise';
-    var p=null;
-    var offers=SELL_CATALOG.offers||[];
-    var sel=null;
-    for(var i=0;i<offers.length;i++){ if(offers[i].id===COMPOSE_CTX.offer){ sel=offers[i]; break; } }
-    if(sel && sel.status==='live'){ p=offerPitch(sel, r); }
-    if(!p){
-      if(lane==='Hail Mary' && (r.compose_subj || r.compose_body)){
-        p={subj:r.compose_subj||'Hail Mary — {account}', body:r.compose_body||'', label:(r.hail_tags||[]).join(' · ')};
-      } else if(lane==='EMBA on Call'){
-        p=EMBA_MODES[COMPOSE_CTX.mode]||EMBA_MODES.donation;
-      } else {
-        p=PITCH[lane]||PITCH['Regional Enterprise'];
-      }
-    }
-    var name=(r.contact||'there').split(/\s+/)[0]||'there';
-    if(!name || name==='(+') name='there';
-    var subj=p.subj.replace(/\{account\}/g,r.account||'').replace(/\{name\}/g,name);
-    var body=p.body.replace(/\{name\}/g,name).replace(/\{account\}/g,r.account||'');
-    var modeLabel=p.label||COMPOSE_CTX.offer||'';
-    document.getElementById('compose-title').textContent='Compose · '+(modeLabel||lane)+' · '+lane;
-    var meta=(r.account||'')+(r.contact?' · '+r.contact:'');
-    if(r.email) meta+=' · '+r.email;
-    else if(r.linkedin_url) meta+=' · LinkedIn';
-    else if(r.form_url) meta+=' · form/PR';
-    else meta+=' · (no email on file)';
-    if(r.hail_path_type) meta+=' · path: '+r.hail_path_type;
-    document.getElementById('compose-meta').textContent=meta;
-    document.getElementById('compose-subj').value=subj;
-    document.getElementById('compose-body').textContent=body;
-    var mail=document.getElementById('compose-mailto');
-    var warn=document.getElementById('compose-warn');
-    if(r.email && !r.stale_email){
-      mail.href='mailto:'+encodeURIComponent(r.email).replace(/%40/g,'@')+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
-      mail.style.display='';
-      warn.textContent='Mailto / local compose only (HubSpot sync TBD). On-file / published org email only — never invented. No attachments on first email.';
-    } else {
-      mail.removeAttribute('href'); mail.style.display='none';
-      var tip='No usable email on file — copy the draft and open LinkedIn / form / PR page. We do not invent addresses.';
-      if(r.linkedin_url) tip+=' LinkedIn: '+r.linkedin_url;
-      else if(r.form_url) tip+=' Path: '+r.form_url;
-      if(r.hail_path_label) tip+=' ('+r.hail_path_label+')';
-      warn.textContent=tip;
-    }
-  }
-  function defaultOfferFor(r){
-    var lane=r&&r.lane||'';
-    var offers=SELL_CATALOG.offers||[];
-    // Prefer lane-matched live offer, else consulting/franchise primary
-    for(var i=0;i<offers.length;i++){
-      var o=offers[i];
-      if(o.status!=='live') continue;
-      if(o.use_hail_row && lane==='Hail Mary') return o.id;
-      if(o.lanes && o.lanes.indexOf(lane)>=0) return o.id;
-    }
-    if(lane==='EMBA on Call') return 'consulting';
-    return 'consulting';
-  }
-  function offerPitch(o, r){
-    if(!o) return null;
-    if(o.status==='gray') return null;
-    if(o.use_hail_row && r){
-      return {subj:r.compose_subj||PITCH['Hail Mary'].subj, body:r.compose_body||PITCH['Hail Mary'].body, label:o.label};
-    }
-    if(o.use_lane_pitch){
-      var lp=PITCH[o.use_lane_pitch]||PITCH['Regional Enterprise'];
-      return {subj:lp.subj, body:lp.body, label:o.label};
-    }
-    if(o.subj && o.body) return {subj:o.subj, body:o.body, label:o.label};
-    return null;
-  }
-  function renderComposeModes(lane){
-    var box=document.getElementById('compose-modes');
-    box.style.display='flex';
-    box.className='compose-modes sell-cat';
-    box.innerHTML='<span class="sl">Sell catalog</span>';
-    var offers=SELL_CATALOG.offers||[];
-    if(!offers.length){
-      // fallback EMBA-only
-      ['donation','markup','idea'].forEach(function(m){
-        var b=document.createElement('button');
-        b.type='button'; b.textContent=EMBA_MODES[m].label;
-        b.className=COMPOSE_CTX.mode===m?'on':'';
-        b.onclick=function(){ COMPOSE_CTX.mode=m; COMPOSE_CTX.offer='emba-'+m; renderComposeModes(lane); applyComposeDraft(); };
-        box.appendChild(b);
+      contacts.forEach(function(c){
+        var seg = c.segment || 'Other';
+        var ak = c.org_key || c.account || ('_'+Math.random());
+        if(!by[seg]) by[seg] = {contacts:0, accounts:{}, customers:{}, email:0, phone:0};
+        var b = by[seg];
+        b.contacts++;
+        b.accounts[ak] = 1;
+        allAccts[ak] = 1;
+        if(c.is_customer || c.customer_match){ b.customers[ak]=1; allCust[ak]=1; }
+        if(c.has_email){ b.email++; emailN++; }
+        if(c.has_phone){ b.phone++; phoneN++; }
       });
-      return;
-    }
-    offers.forEach(function(o){
-      var b=document.createElement('button');
-      b.type='button';
-      b.textContent=o.label+(o.status==='gray'?' · not ready':'');
-      b.title=o.note||o.label;
-      if(o.status==='gray'){
-        b.className='gray';
-        b.disabled=true;
-      } else {
-        b.className=(COMPOSE_CTX.offer===o.id?'on ':'')+(o.primary?'pri':'');
-        b.onclick=function(){ COMPOSE_CTX.offer=o.id; COMPOSE_CTX.mode='donation'; renderComposeModes(lane); applyComposeDraft(); };
-      }
-      box.appendChild(b);
-    });
-  }
-  function compose(r){
-    COMPOSE_CTX.row=r;
-    COMPOSE_CTX.mode='donation';
-    COMPOSE_CTX.offer=defaultOfferFor(r);
-    var lane=r.lane||'Regional Enterprise';
-    renderComposeModes(lane);
-    applyComposeDraft();
-    document.getElementById('compose-modal').classList.add('on');
-  }
 
-  function liveKpis(rows){
-    var notes=Object.keys(STORE.notes).filter(function(k){return !!(STORE.notes[k]&&String(STORE.notes[k]).trim());}).length;
-    var custLocal=Object.keys(STORE.cust).filter(function(k){return STORE.cust[k];}).length;
-    document.getElementById('k-notes').textContent=notes;
-    document.getElementById('k-cust').textContent=rows.filter(isCust).length;
-    document.getElementById('k-cust-s').textContent='data matchable '+(KPIS.customers_matchable||0)+' · local ticks '+custLocal;
-  }
+      var nContacts = contacts.length;
+      var nAccounts = Object.keys(allAccts).length;
+      var nCust = Object.keys(allCust).length;
+      // Prefer file KPIs when present (stable published counts)
+      var k = d.kpis || {};
+      if(k.accounts) nAccounts = k.accounts;
+      if(k.contacts) nContacts = k.contacts;
+      if(k.with_email != null) emailN = k.with_email;
+      if(k.with_phone != null) phoneN = k.with_phone;
+      if(k.customers_matchable != null) nCust = k.customers_matchable;
 
-  function setKpis(){
-    document.getElementById('k-top').textContent=KPIS.top20_score_floor!=null?KPIS.top20_score_floor:'—';
-    document.getElementById('k-never').textContent=KPIS.never_hit!=null?KPIS.never_hit:'—';
-    var by={}; LANES.forEach(function(l){by[l.id]=l.contacts;});
-    document.getElementById('k-le').textContent=by['Regional Enterprise']!=null?by['Regional Enterprise']:'—';
-    var ksp=document.getElementById('k-lsp'); if(ksp) ksp.textContent=by['Sponsor']!=null?by['Sponsor']:'—';
-    document.getElementById('k-ls').textContent=by['Regional Subscription']!=null?by['Regional Subscription']:'—';
-    document.getElementById('k-lv').textContent=by['Regional Violet ~50%']!=null?by['Regional Violet ~50%']:'—';
-    document.getElementById('k-lb').textContent=by['Regional Small Biz Programmer']!=null?by['Regional Small Biz Programmer']:'—';
-    document.getElementById('k-lm').textContent=by['EMBA on Call']!=null?by['EMBA on Call']:'—';
-    var khm=document.getElementById('k-lhm'); if(khm) khm.textContent=by['Hail Mary']!=null?by['Hail Mary']:'—';
-    liveKpis(ALL);
-  }
+      document.getElementById('asof').textContent = d.as_of || '—';
+      document.getElementById('k-accounts').textContent = fmt(nAccounts);
+      document.getElementById('k-contacts').textContent = fmt(nContacts);
+      document.getElementById('k-email').textContent = pct(emailN, nContacts) + '%';
+      document.getElementById('k-email-s').textContent = fmt(emailN) + ' with email';
+      document.getElementById('k-phone').textContent = pct(phoneN, nContacts) + '%';
+      document.getElementById('k-phone-s').textContent = fmt(phoneN) + ' with phone';
+      document.getElementById('k-cust').textContent = fmt(nCust);
 
-  function bindRows(){
-    document.querySelectorAll('#tbody tr[data-key]').forEach(function(tr){
-      var key=tr.getAttribute('data-key');
-      var r=null;
-      for(var i=0;i<ALL.length;i++){ if(keyOf(ALL[i])===key){ r=ALL[i]; break; } }
-      if(!r) return;
-      tr.querySelectorAll('[data-act]').forEach(function(el){
-        var act=el.getAttribute('data-act');
-        if(act==='cust'){
-          el.onclick=function(){
-            if(STORE.cust[key]) delete STORE.cust[key]; else STORE.cust[key]=true;
-            save(K_CUST, STORE.cust); draw();
-          };
-        } else if(act==='compose'){
-          el.onclick=function(){ compose(r); };
-        } else if(act==='save'){
-          el.onclick=function(){
-            var ta=tr.querySelector('textarea');
-            var tg=tr.querySelector('input.tags');
-            STORE.notes[key]=((ta&&ta.value)||'').trim();
-            STORE.tags[key]=((tg&&tg.value)||'').trim();
-            if(!STORE.notes[key]) delete STORE.notes[key];
-            if(!STORE.tags[key]) delete STORE.tags[key];
-            save(K_NOTES, STORE.notes); save(K_TAGS, STORE.tags);
-            var s=tr.querySelector('[data-saved]');
-            if(s){ s.classList.add('show'); setTimeout(function(){ s.classList.remove('show'); }, 1200); }
-            liveKpis(sorted(ALL.filter(ok)));
-          };
-        }
+      var rows = Object.keys(by).map(function(seg){
+        var b = by[seg];
+        var accts = Object.keys(b.accounts).length;
+        var custs = Object.keys(b.customers).length;
+        return {
+          seg: seg,
+          accounts: accts,
+          contacts: b.contacts,
+          emailPct: pct(b.email, b.contacts),
+          phonePct: pct(b.phone, b.contacts),
+          customers: custs
+        };
+      }).sort(function(a,b){
+        return b.accounts - a.accounts || b.contacts - a.contacts || a.seg.localeCompare(b.seg);
       });
+
+      document.getElementById('seg-note').textContent = rows.length + ' segments';
+
+      var html = '<table><thead><tr>'
+        + '<th>Segment</th>'
+        + '<th class="num">Accounts</th>'
+        + '<th class="num">Contacts</th>'
+        + '<th class="num">Email</th>'
+        + '<th class="num">Phone</th>'
+        + '<th class="num">Customers</th>'
+        + '</tr></thead><tbody>';
+
+      rows.forEach(function(r){
+        html += '<tr>'
+          + '<td class="seg">'+esc(r.seg)+'</td>'
+          + '<td class="num">'+fmt(r.accounts)+'</td>'
+          + '<td class="num muted">'+fmt(r.contacts)+'</td>'
+          + '<td class="num">'+covCell(r.emailPct,'')+'</td>'
+          + '<td class="num">'+covCell(r.phonePct,'phone')+'</td>'
+          + '<td class="num">'+fmt(r.customers)+'</td>'
+          + '</tr>';
+      });
+      html += '</tbody></table>';
+      document.getElementById('table-host').innerHTML = html;
+
+      document.getElementById('foot').textContent =
+        'Source: data/bdr_tam_dialer.json · v'+(d.version||'?')+' · as of '+(d.as_of||'—')+' · reporting only';
+    })
+    .catch(function(err){
+      document.getElementById('table-host').innerHTML =
+        '<p class="empty">Could not load TAM data ('+esc(err.message)+').</p>';
+      document.getElementById('seg-note').textContent = 'error';
     });
-  }
-
-  function draw(){
-    var rows=sorted(ALL.filter(ok));
-    var custN=0, notesN=0, neverN=0;
-    rows.forEach(function(r){ if(isCust(r)) custN++; if(noteOf(r)) notesN++; if(r.never_hit) neverN++; });
-    document.getElementById('view-note').textContent='Showing '+rows.length+' · customers '+custN+' · notes '+notesN+' · never-hit '+neverN+' · sort: '+F.sort;
-    liveKpis(rows);
-    var tb=document.getElementById('tbody');
-    if(!rows.length){ var empty='No contacts in this filter.'; if(F.lane==='Sponsor') empty='Sponsor lane empty for this filter. Use festivals / foundations already on file, or climb the <b>EMBA on Call</b> ladder (donation · markup · idea). Season tip: festival lists + mini-zoo sponsor-in-name / goat-statue tour / shoutouts.'; if(F.lane==='Hail Mary') empty='No Hail Mary rows for this tag. Filters: Inspired · God-connected · Local celeb · Philanthropist · Local biz-sponsor · Bazillionaires. Same GTM offers as Sponsor/EMBA.'; tb.innerHTML='<tr><td colspan="9" class="muted">'+empty+'</td></tr>'; return; }
-    var max=500, slice=rows.slice(0,max);
-    function unk(v){ var s=(v==null?'':String(v)).trim(); return s?esc(s):'<span class="unk">Unknown</span>'; }
-    function unkLink(href, label){ if(!href) return '<span class="unk">Unknown</span>'; return '<a class="tap" href="'+esc(href)+'" target="_blank" rel="noopener">'+esc(label||href)+'</a>'; }
-    tb.innerHTML=slice.map(function(r){
-      var k=keyOf(r), cust=isCust(r), note=noteOf(r), tags=tagsOf(r), sc=r.score||0;
-      var scCls=sc>=70?'hi':(sc>=45?'mid':'lo');
-      var laneBadge=r.lane&&r.lane.indexOf('Violet')>=0?'badge vio':(r.lane&&r.lane.indexOf('Hail')>=0?'badge hm':'badge lane');
-      var softForm=!!r.form_url;
-      var pubNotes=(r.notes||r.hail_why||r.hail_path_label||'').trim();
-      var titleShow=r.title?esc(r.title):'<span class="unk">Unknown</span>';
-      var emailCell=r.email&&!r.stale_email?('<a class="tap" href="mailto:'+esc(r.email)+'">'+esc(r.email)+'</a>'):'<span class="unk">Unknown</span>';
-      var phoneCell=r.phone?('<a class="tap" href="'+esc(telOf(r.phone))+'">'+esc(r.phone)+'</a>'):'<span class="unk">Unknown</span>';
-      var liCell=r.linkedin_url?('<a class="tap" href="'+esc(r.linkedin_url)+'" target="_blank" rel="noopener">LinkedIn</a>'):'<span class="unk">Unknown</span>';
-      var formCell=r.form_url?('<a class="tap" href="'+esc(r.form_url)+'" target="_blank" rel="noopener">'+(r.hail_path_type==='PR'?'PR / booking':'Contact form')+'</a>'):'<span class="unk">Unknown</span>';
-      var pathType=r.hail_path_type?('<div class="detail"><span class="badge hm">'+esc(r.hail_path_type)+'</span></div>'):'';
-      return '<tr class="'+(cust?'cust':'')+'" data-key="'+esc(k)+'">'+
-        '<td><span class="badge score '+scCls+'">'+sc+'</span>'+(r.is_tier1?' <span class="badge t1">T1</span>':'')+'</td>'+
-        '<td><span class="'+laneBadge+'">'+esc(String(r.lane||'').replace('Regional ',''))+'</span><div class="muted" style="font-size:.65rem;margin-top:3px">'+esc(r.segment||'')+'</div>'+
-          ((r.hail_tags||[]).map(function(tg){return '<span class="badge hm">'+esc(tg)+'</span>';}).join(' '))+'</td>'+
-        '<td class="acct">'+esc(r.account||'Unknown')+(cust?' <span class="badge cust">✓ Customer</span>':'')+'</td>'+
-        '<td><div class="tap">'+(r.contact?esc(r.contact):'<span class="unk">Unknown</span>')+'</div><div class="detail">'+titleShow+'</div>'+paths(r)+'</td>'+
-        '<td>'+emailCell+'</td>'+
-        '<td>'+phoneCell+'</td>'+
-        '<td><div>'+liCell+'</div><div class="detail" style="margin-top:4px">'+formCell+'</div>'+pathType+'</td>'+
-        '<td><div class="detail">'+(pubNotes?esc(pubNotes.slice(0,280))+(pubNotes.length>280?'…':''):'<span class="unk">Unknown</span>')+'</div>'+
-          (r.city||r.county?'<div class="muted" style="font-size:.65rem;margin-top:3px">'+esc([r.city,r.county].filter(Boolean).join(' · '))+'</div>':'')+
-          (r.next_action?'<div class="muted" style="font-size:.65rem">Next: '+esc(r.next_action)+'</div>':'')+
-        '</td>'+
-        '<td><div class="actions">'+
-          '<button type="button" class="btn tick'+(cust?' on':'')+'" data-act="cust">✓ Customer</button>'+
-          '<button type="button" class="btn" data-act="compose">Compose</button>'+
-          (softForm?'<a class="btn vio" href="'+esc(r.form_url)+'" target="_blank" rel="noopener">Open form</a>':'')+
-          (r.linkedin_url?'<a class="btn sec" href="'+esc(r.linkedin_url)+'" target="_blank" rel="noopener">LinkedIn</a>':'')+
-        '</div><div class="mem">'+
-          '<textarea placeholder="Account / contact notes…">'+esc(note)+'</textarea>'+
-          '<input class="tags" placeholder="tags" value="'+esc(tags)+'"/>'+
-          '<button type="button" class="btn sec" data-act="save">Save</button>'+
-          '<span class="saved" data-saved>saved</span>'+
-        '</div></td></tr>';
-    }).join('');
-    if(rows.length>max) tb.innerHTML+='<tr><td colspan="9" class="muted">Showing first '+max+' of '+rows.length+' — refine filters.</td></tr>';
-    bindRows();
-  }
-
-  document.getElementById('q').oninput=function(e){ F.q=(e.target.value||'').trim().toLowerCase(); draw(); };
-  ['seg','tier','mail','phone','cust','never','sort'].forEach(function(name){
-    document.getElementById('f-'+name).onchange=function(e){ F[name]=e.target.value; draw(); };
-  });
-  document.getElementById('compose-close').onclick=function(){ document.getElementById('compose-modal').classList.remove('on'); };
-  document.getElementById('compose-modal').onclick=function(e){ if(e.target.id==='compose-modal') e.target.classList.remove('on'); };
-  document.getElementById('compose-copy').onclick=function(){
-    var t='Subject: '+document.getElementById('compose-subj').value+'\n\n'+document.getElementById('compose-body').textContent;
-    if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(function(){ document.getElementById('compose-warn').textContent='Draft copied.'; });
-    else document.getElementById('compose-warn').textContent='Select and copy the draft manually.';
-  };
-
-  async function boot(){
-    try{
-      var res=await fetch('data/bdr_tam_dialer.json',{cache:'no-store'});
-      var d=await res.json();
-      ALL=d.contacts||[]; LANES=d.lanes||[]; SEGS=d.segments||[]; KPIS=d.kpis||{};
-      if(d.localStorage_keys){
-        K_NOTES=d.localStorage_keys.notes||K_NOTES;
-        K_CUST=d.localStorage_keys.customers||K_CUST;
-        K_TAGS=d.localStorage_keys.tags||K_TAGS;
-        K_DONE=d.localStorage_keys.done||K_DONE;
-      }
-      STORE={notes:load(K_NOTES),cust:load(K_CUST),tags:load(K_TAGS),done:load(K_DONE)};
-      document.getElementById('asof').textContent=d.as_of||'';
-      document.getElementById('emba-note').textContent=d.emba_note||'EMBA on Call: donation ladder · markup · idea. Targets are Michael’s stated goals, not proven metrics.';
-      var sn=document.getElementById('sponsor-note');
-      if(sn){ sn.textContent=d.sponsor_note||'Sponsor = festivals / foundations / CVBs already on file. Compose: shoutouts · goat-statue tour · mini-zoo sponsor-in-name.'; sn.style.display=( (new URLSearchParams(location.search||'')).get('lane')==='Sponsor' )?'block':'none'; }
-      window.__HAIL_NOTE__=d.hail_mary_note||'Hail Mary — Inspired · God-connected · Local celeb · Philanthropist · Local biz-sponsor · Bazillionaires. Same BDR GTM offers (shoutouts · goat-statue · mini-zoo · EMBA ladder). Public paths only.';
-      try{
-        var qs=new URLSearchParams(location.search||'');
-        var qLane=qs.get('lane')||'';
-        var qHail=qs.get('hail')||'';
-        if(qLane){ F.lane=qLane; }
-        if(qHail){ F.hailTag=qHail; F.lane=F.lane||'Hail Mary'; }
-      }catch(e){}
-      var sel=document.getElementById('f-seg');
-      SEGS.forEach(function(s){ var o=document.createElement('option'); o.value=s.id; o.textContent=s.id+' ('+s.contacts+')'; sel.appendChild(o); });
-      try{
-        var sc=await fetch('data/sell_catalog.json',{cache:'no-store'});
-        SELL_CATALOG=await sc.json();
-      }catch(e){ SELL_CATALOG={offers:[]}; }
-      try{
-        var mt=await fetch('data/mass_touch_ideas.json',{cache:'no-store'});
-        var md=await mt.json();
-        MASS_PLAYS=md.plays||[];
-        var box=document.getElementById('mass-plays');
-        if(box){
-          box.innerHTML=MASS_PLAYS.map(function(p){
-            return '<div class="play"><h3>'+esc(p.label)+'</h3><div class="when">'+esc(p.when||'')+'</div><pre>'+esc(p.copy||'')+'</pre><div class="howto">'+esc(p.howto||'')+'</div><div class="actions" style="margin-top:6px"><button type="button" class="btn copy" data-mass="'+esc(p.id)+'">Copy play</button></div></div>';
-          }).join('') || '<span class="unk">Unknown</span>';
-          box.querySelectorAll('[data-mass]').forEach(function(btn){
-            btn.onclick=function(){
-              var id=btn.getAttribute('data-mass');
-              var play=MASS_PLAYS.filter(function(x){return x.id===id;})[0];
-              if(!play) return;
-              var text=(play.copy||'')+('\n\n— '+ (play.howto||''));
-              if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function(){ btn.textContent='Copied'; setTimeout(function(){ btn.textContent='Copy play'; },1200); });
-            };
-          });
-        }
-      }catch(e){ var b2=document.getElementById('mass-plays'); if(b2) b2.textContent='Mass-touch ideas failed to load'; }
-      seed(); setKpis(); drawLanes(); draw();
-      try{
-        if(document.body && F.lane){
-          var chip='bdr-tam';
-          if(F.lane.indexOf('Enterprise')>=0) chip='big-enterprise';
-          else if(F.lane==='Sponsor') chip='sponsor';
-          else if(F.lane.indexOf('Subscription')>=0) chip='subscription';
-          else if(F.lane.indexOf('Violet')>=0) chip='violet';
-          else if(F.lane.indexOf('Hail')>=0) chip='hail-mary';
-          document.body.setAttribute('data-flow-chip', chip);
-        }
-      }catch(e){}
-      document.getElementById('src-note').textContent=
-        'Data: data/bdr_tam_dialer.json v'+(d.version||'?')+' · '+(d.rule||'')+
-        ' · Hail Mary '+(d.kpis&&d.kpis.hail_mary!=null?d.kpis.hail_mary:((d.hail_mary||{}).targets||0))+
-        ' · fruit +'+((d.kpis||{}).fruit_added||0)+
-        ' · Patricia/Tasia seed: '+((d.kpis||{}).patricia_tasia_seed?'YES':'no')+
-        ' · LS: '+K_NOTES;
-    }catch(e){
-      document.getElementById('src-note').textContent='Load failed: '+e;
-    }
-  }
-  boot();
 })();
-
 </script>
-<script src="shared/flow-spine.js" defer></script>
-</body></html>
+</body>
+</html>
