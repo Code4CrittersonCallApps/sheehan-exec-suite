@@ -1,0 +1,164 @@
+{
+  "board_version": "v2.9.16 \u00b7 Sep 29, 2026 12:28 AM ET \u00b7 calendar SCHEDULED sync",
+  "as_of": "Sep 29, 2026 12:28 AM ET",
+  "hard_refresh": "?v=2916",
+  "n_events_scanned": 112,
+  "n_bookings_classified": 82,
+  "n_accounts_with_email": 43,
+  "dunk_updated": 1,
+  "dunk_added": 28,
+  "dunk_scheduled_cards": 29,
+  "skipped": [
+    {
+      "email": "failingforwardfarm@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "madelynbeasley134@gmail.com",
+      "reason": "no_name"
+    },
+    {
+      "email": "amollitt@yahoo.com",
+      "reason": "helper"
+    },
+    {
+      "email": "malikfloyd16@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "zboronell0928@gmail.com",
+      "reason": "secondary_or_no_primary"
+    },
+    {
+      "email": "fields8990@gmail.com",
+      "reason": "secondary_or_no_primary"
+    },
+    {
+      "email": "honeybeeresale@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "connie889305@gmail.com",
+      "reason": "no_name"
+    },
+    {
+      "email": "blo55om82@aol.com",
+      "reason": "no_name"
+    },
+    {
+      "email": "pagelj4777@gmail.com",
+      "reason": "secondary_or_no_primary"
+    },
+    {
+      "email": "mystysa@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "tiffanygumino@gmail.com",
+      "reason": "no_name"
+    },
+    {
+      "email": "msantiesteban82@gmail.com",
+      "reason": "no_name"
+    },
+    {
+      "email": "bellvsoliver85@gmail.com",
+      "reason": "helper_animal_pickup"
+    }
+  ],
+  "helpers_skipped": [
+    "amollitt@yahoo.com",
+    "bellvsoliver85@gmail.com",
+    "failingforwardfarm@gmail.com",
+    "honeybeeresale@gmail.com",
+    "malikfloyd16@gmail.com",
+    "mystysa@gmail.com"
+  ],
+  "notable": [
+    {
+      "name": "Alexa Owens",
+      "date": "Thu Oct 1 11:30a ET",
+      "type": "Mommy & Me",
+      "email": "alexaowens25@gmail.com"
+    },
+    {
+      "name": "Lauren Burnett",
+      "date": "Fri Oct 2 8:20a ET",
+      "type": "Mobile PZ",
+      "email": "lburnette@rivercityscience.org"
+    },
+    {
+      "name": "White Birch BDay",
+      "date": "Sat Oct 3 12p ET",
+      "type": "Mobile PZ - Birthday",
+      "email": "kgornos@jacksonville.edu"
+    },
+    {
+      "name": "Julie Tallaksen",
+      "date": "Sun Oct 11 1p ET",
+      "type": "Mobile PZ",
+      "email": "jtallaksen@vestapropertyservices.com"
+    },
+    {
+      "name": "Advanced Care Partners",
+      "date": "Mon Oct 12 11a ET",
+      "type": "Bunny Haven",
+      "email": "bthomas@advancedcarepartners.com"
+    },
+    {
+      "name": "Angels of Care",
+      "date": "Mon Oct 12 11a ET",
+      "type": "Bunny Haven",
+      "email": "bthomas@angelsofcare.com"
+    },
+    {
+      "name": "Discovery Village",
+      "date": "Tue Oct 13 11:30a ET",
+      "type": "Bunny Haven",
+      "email": "tfelix@discoveryvillages.com"
+    },
+    {
+      "name": "Fletcher's Tender Care",
+      "date": "Wed Oct 14 11a ET",
+      "type": "Bunny Haven",
+      "email": "ecooks@fletcherstendercare.com"
+    },
+    {
+      "name": "Madelynne Beck",
+      "date": "Thu Oct 15 11a ET",
+      "type": "Mini PZ",
+      "email": "mbeck@rivercityscience.org"
+    },
+    {
+      "name": "Kaylie Fitzhugh",
+      "date": "Sat Oct 17 3p ET",
+      "type": "Mobile PZ + Side of Critters",
+      "email": "kfitzhugh@vestapropertyservices.com"
+    },
+    {
+      "name": "Sarah Speer",
+      "date": "Tue Oct 20 10:30a ET",
+      "type": "Bunny Haven",
+      "email": "sarah.speer@gardensmemorycare.com"
+    },
+    {
+      "name": "Carla Diaz",
+      "date": "Tue Oct 20 10:45a ET",
+      "type": "Bunny Haven",
+      "email": "diazcarla@cypressvillageretirement.com"
+    }
+  ],
+  "delta": [
+    "Pull Google Calendar DEFAULT events 2026-09-29 \u2192 2027-06-01 (America/New_York)",
+    "Scanned 112 events \u00b7 82 booking-classified \u00b7 43 attendee accounts",
+    "UPDATE 1 dunk card(s) already present \u00b7 ADD 29 SCHEDULED cards",
+    "Skip helpers (Audrey PZ helper, Madison failingforwardfarm, Malik pickup, Melissa Hyte cosign)",
+    "Skip personal/noise (AIMS, HVAC, pediatrician, anniversary, networking)",
+    "Skip markets without customer email (Wild Light / Fernandina Arts vendor blocks)",
+    "No outbound send \u2014 compose/mailto only"
+  ],
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2916",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2916"
+  ]
+}

@@ -1,0 +1,1693 @@
+{
+  "as_of": "2026-09-29",
+  "tz": "America/New_York",
+  "n_events_scanned": 112,
+  "n_bookings": 82,
+  "n_accounts": 43,
+  "n_no_email": 16,
+  "accounts": [
+    {
+      "email": "alexaowens25@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "5mk3bcodmfb7ct18cjah6jd9re",
+          "title": "Mommy & Me Class",
+          "start": "2026-10-01T11:30:00-04:00",
+          "end": "2026-10-01T12:30:00-04:00",
+          "location": "",
+          "service": "Mommy & Me",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-01T11:30:00-04:00",
+      "service_next": "Mommy & Me",
+      "title_next": "Mommy & Me Class",
+      "location_next": "",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "lburnette@rivercityscience.org",
+      "names": [],
+      "events": [
+        {
+          "id": "20qi97nvkk1lhvqs3j8smgq6tn",
+          "title": "Mobile PZ",
+          "start": "2026-10-02T08:20:00-04:00",
+          "end": "2026-10-02T11:20:00-04:00",
+          "location": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "Farm theme- extra ducks"
+        }
+      ],
+      "next": "2026-10-02T08:20:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+      "n_events": 1,
+      "role": "on_dunk"
+    },
+    {
+      "email": "failingforwardfarm@gmail.com",
+      "names": [
+        "Madison"
+      ],
+      "events": [
+        {
+          "id": "20qi97nvkk1lhvqs3j8smgq6tn",
+          "title": "Mobile PZ",
+          "start": "2026-10-02T08:20:00-04:00",
+          "end": "2026-10-02T11:20:00-04:00",
+          "location": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "Farm theme- extra ducks"
+        },
+        {
+          "id": "71vcgkdefrk0jrrb5outtl9vef",
+          "title": "Mobile PZ - BDay Party",
+          "start": "2026-10-03T12:00:00-04:00",
+          "end": "2026-10-03T13:30:00-04:00",
+          "location": "7350 white birch drive Jax, fl 32277",
+          "service": "Mobile PZ - Birthday",
+          "notes": [],
+          "desc_snip": "(904) 315-4393"
+        },
+        {
+          "id": "5lsbt1e5qn852qiggf5bdt511m",
+          "title": "Bunny Haven",
+          "start": "2026-10-12T11:00:00-04:00",
+          "end": "2026-10-12T12:00:00-04:00",
+          "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<p><i>Brittany Thomas, BSN, RN</i><u></u><u></u></p><p>Director of Nursing \u2013 Central Jacksonville<u></u><u></u></p><p>Email: <a href=\"mailto:bthomas@angelsofcare.com\" target=\"_blank\">bthomas@angelsofcare.com</a><u></u><u></u></p><p><a href=\"https://www.google.com/maps/search/9731+Beach+Blvd.+Jackson"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20261013T153000Z",
+          "title": "Bunny Haven",
+          "start": "2026-10-13T11:30:00-04:00",
+          "end": "2026-10-13T12:30:00-04:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "2580qhb6508lggb9llotvl8uhc",
+          "title": "Bunny Haven",
+          "start": "2026-10-14T11:00:00-04:00",
+          "end": "2026-10-14T12:00:00-04:00",
+          "location": "641 W 4th St, Jacksonville, FL 32209",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Ducks and goats "
+        },
+        {
+          "id": "78h576l1lr7bf7todh1slj57aq",
+          "title": "Mini Petting Zoo",
+          "start": "2026-10-15T11:00:00-04:00",
+          "end": "2026-10-15T12:30:00-04:00",
+          "location": "2002 San Pablo Rd S",
+          "service": "Mini PZ",
+          "notes": [],
+          "desc_snip": "<a>904-489-4037</a><br><a>Madelynne Beck</a><br><a>Bring Duck - Farm Unit in School</a>"
+        },
+        {
+          "id": "43fl8b954jsqksah5h01c6fhfk",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-17T15:00:00-04:00",
+          "end": "2026-10-17T18:00:00-04:00",
+          "location": "12788 Meritage Blvd. Jacksonville, FL 32246",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": "<br><b>Kaylie Fitzhugh</b><br><b>Assistant Amenity Manager</b><br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\"></a>P. <a target=\"_blank\">904.329.2277</a><br><a target=\"_blank\"><br></a><br>Tamaya \\ Beach CDD<br><a href="
+        },
+        {
+          "id": "364qopufj2qge35n635mfpuk5j",
+          "title": "Bunny Haven",
+          "start": "2026-10-20T10:30:00-04:00",
+          "end": "2026-10-20T11:30:00-04:00",
+          "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "69bg0r23a1m5rako4p2puf2g2n",
+          "title": "Bunny Haven",
+          "start": "2026-10-21T10:30:00-04:00",
+          "end": "2026-10-21T11:30:00-04:00",
+          "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_8cp42dq66cs3gba58gqk2b9k68sj0ba28cr44b9m8ork4e1m64rk4chk6g",
+          "title": "Mobile petting zoo & side of critters",
+          "start": "2026-10-23T16:00:00-04:00",
+          "end": "2026-10-23T18:00:00-04:00",
+          "location": "12638 Mandarin Rd\nJacksonville, FL, United States",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": "904-327-5370 Kathy McLearn "
+        },
+        {
+          "id": "62t03reu7ra5i3ncdpvia5hub5",
+          "title": "Bunny Haven",
+          "start": "2026-10-28T14:30:00-04:00",
+          "end": "2026-10-28T15:30:00-04:00",
+          "location": "10520 Validus Dr. Jacksonville",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<p><b>Patricia Valenzuela</b></p><p><i>Director of Celebrations and Transportation</i></p><p><a href=\"https://www.google.com/maps/search/10520+Validus+Dr.+%0D%0A+%0D%0A+Jacksonville,+FL+32256?entry=gmail&amp;source=g\">10520 Validus Dr.</a></p><p><a href=\"https://www.google.com/maps/search/10520+Vali"
+        },
+        {
+          "id": "6oqi9g9e2h32oovr9cu8c34m1f",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-29T14:30:00-04:00",
+          "end": "2026-10-29T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra - Nocatee",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a href=\"goog_619105126\">trunk or treat</a><br><a href=\"http://904.242.6508\">904.242.6508 </a>"
+        },
+        {
+          "id": "3kg5sos5250v55mmn2raohqo0m",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-30T14:30:00-04:00",
+          "end": "2026-10-30T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra Beach",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a target=\"_blank\">904.242.6508</a>"
+        },
+        {
+          "id": "4si6spuucd4mupqs4vc80o8u67",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-31T16:00:00-04:00",
+          "end": "2026-10-31T18:00:00-04:00",
+          "location": "85971 N Harts Rd, Yulee, FL 32097",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-02T08:20:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+      "n_events": 14,
+      "role": "helper"
+    },
+    {
+      "email": "kgornos@jacksonville.edu",
+      "names": [],
+      "events": [
+        {
+          "id": "71vcgkdefrk0jrrb5outtl9vef",
+          "title": "Mobile PZ - BDay Party",
+          "start": "2026-10-03T12:00:00-04:00",
+          "end": "2026-10-03T13:30:00-04:00",
+          "location": "7350 white birch drive Jax, fl 32277",
+          "service": "Mobile PZ - Birthday",
+          "notes": [],
+          "desc_snip": "(904) 315-4393"
+        }
+      ],
+      "next": "2026-10-03T12:00:00-04:00",
+      "service_next": "Mobile PZ - Birthday",
+      "title_next": "Mobile PZ - BDay Party",
+      "location_next": "7350 white birch drive Jax, fl 32277",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "madelynbeasley134@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "_68ok6da484pk4b9i88o38b9k8p138ba160qk8ba48opk8dq3612jcdq26o",
+          "title": "Mobile PZ",
+          "start": "2026-10-03T13:30:00-04:00",
+          "end": "2026-10-03T15:00:00-04:00",
+          "location": "",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-03T13:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "amollitt@yahoo.com",
+      "names": [
+        "Audrey - Pz Helper"
+      ],
+      "events": [
+        {
+          "id": "_68ok6da484pk4b9i88o38b9k8p138ba160qk8ba48opk8dq3612jcdq26o",
+          "title": "Mobile PZ",
+          "start": "2026-10-03T13:30:00-04:00",
+          "end": "2026-10-03T15:00:00-04:00",
+          "location": "",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "3b405s325qj3k9gcp9tp58anst",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-11T13:00:00-04:00",
+          "end": "2026-10-11T16:00:00-04:00",
+          "location": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "Animal pickup at 11:30, Malik"
+        },
+        {
+          "id": "43fl8b954jsqksah5h01c6fhfk",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-17T15:00:00-04:00",
+          "end": "2026-10-17T18:00:00-04:00",
+          "location": "12788 Meritage Blvd. Jacksonville, FL 32246",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": "<br><b>Kaylie Fitzhugh</b><br><b>Assistant Amenity Manager</b><br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\"></a>P. <a target=\"_blank\">904.329.2277</a><br><a target=\"_blank\"><br></a><br>Tamaya \\ Beach CDD<br><a href="
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261020T144500Z",
+          "title": "Bunny Haven",
+          "start": "2026-10-20T10:45:00-04:00",
+          "end": "2026-10-20T11:45:00-04:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "31hckk1h647qnm91hblrk2f0ec",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-23T14:30:00-04:00",
+          "end": "2026-10-23T18:00:00-04:00",
+          "location": "8985 Annie Eliza Rd",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "trunk or treat event <br><a target=\"_blank\">904.242.6508</a>"
+        },
+        {
+          "id": "4olmomjajcmo5pohhkslfdvcu5",
+          "title": "Mobile PZ Event - 2 hours",
+          "start": "2026-10-25T00:00:00Z",
+          "end": "2026-10-26T00:00:00Z",
+          "location": "11665 Fort Caroline Rd, Jacksonville, FL 32225",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-03T13:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "",
+      "n_events": 6,
+      "role": "helper"
+    },
+    {
+      "email": "jtallaksen@vestapropertyservices.com",
+      "names": [],
+      "events": [
+        {
+          "id": "3b405s325qj3k9gcp9tp58anst",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-11T13:00:00-04:00",
+          "end": "2026-10-11T16:00:00-04:00",
+          "location": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "Animal pickup at 11:30, Malik"
+        },
+        {
+          "id": "4afkhofje9jun61n6iie2k0t66",
+          "title": "Goat Yoga",
+          "start": "2026-11-07T10:00:00-05:00",
+          "end": "2026-11-07T11:00:00-05:00",
+          "location": "219 Saint Johns Golf Drive Saint Augustine, FL 32092",
+          "service": "Goat Yoga",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-11T13:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+      "n_events": 2,
+      "role": "new"
+    },
+    {
+      "email": "malikfloyd16@gmail.com",
+      "names": [
+        "Malik"
+      ],
+      "events": [
+        {
+          "id": "3b405s325qj3k9gcp9tp58anst",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-11T13:00:00-04:00",
+          "end": "2026-10-11T16:00:00-04:00",
+          "location": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "Animal pickup at 11:30, Malik"
+        }
+      ],
+      "next": "2026-10-11T13:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "bthomas@advancedcarepartners.com",
+      "names": [],
+      "events": [
+        {
+          "id": "5lsbt1e5qn852qiggf5bdt511m",
+          "title": "Bunny Haven",
+          "start": "2026-10-12T11:00:00-04:00",
+          "end": "2026-10-12T12:00:00-04:00",
+          "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<p><i>Brittany Thomas, BSN, RN</i><u></u><u></u></p><p>Director of Nursing \u2013 Central Jacksonville<u></u><u></u></p><p>Email: <a href=\"mailto:bthomas@angelsofcare.com\" target=\"_blank\">bthomas@angelsofcare.com</a><u></u><u></u></p><p><a href=\"https://www.google.com/maps/search/9731+Beach+Blvd.+Jackson"
+        }
+      ],
+      "next": "2026-10-12T11:00:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "9731 Beach Blvd. Jacksonville, FL 32246",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "bthomas@angelsofcare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "5lsbt1e5qn852qiggf5bdt511m",
+          "title": "Bunny Haven",
+          "start": "2026-10-12T11:00:00-04:00",
+          "end": "2026-10-12T12:00:00-04:00",
+          "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<p><i>Brittany Thomas, BSN, RN</i><u></u><u></u></p><p>Director of Nursing \u2013 Central Jacksonville<u></u><u></u></p><p>Email: <a href=\"mailto:bthomas@angelsofcare.com\" target=\"_blank\">bthomas@angelsofcare.com</a><u></u><u></u></p><p><a href=\"https://www.google.com/maps/search/9731+Beach+Blvd.+Jackson"
+        }
+      ],
+      "next": "2026-10-12T11:00:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "9731 Beach Blvd. Jacksonville, FL 32246",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "tfelix@discoveryvillages.com",
+      "names": [],
+      "events": [
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20261013T153000Z",
+          "title": "Bunny Haven",
+          "start": "2026-10-13T11:30:00-04:00",
+          "end": "2026-10-13T12:30:00-04:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20261110T163000Z",
+          "title": "Bunny Haven",
+          "start": "2026-11-10T11:30:00-05:00",
+          "end": "2026-11-10T12:30:00-05:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20261208T163000Z",
+          "title": "Bunny Haven",
+          "start": "2026-12-08T11:30:00-05:00",
+          "end": "2026-12-08T12:30:00-05:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20270112T163000Z",
+          "title": "Bunny Haven",
+          "start": "2027-01-12T11:30:00-05:00",
+          "end": "2027-01-12T12:30:00-05:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20270209T163000Z",
+          "title": "Bunny Haven",
+          "start": "2027-02-09T11:30:00-05:00",
+          "end": "2027-02-09T12:30:00-05:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20270309T163000Z",
+          "title": "Bunny Haven",
+          "start": "2027-03-09T11:30:00-05:00",
+          "end": "2027-03-09T12:30:00-05:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20270413T153000Z",
+          "title": "Bunny Haven",
+          "start": "2027-04-13T11:30:00-04:00",
+          "end": "2027-04-13T12:30:00-04:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        },
+        {
+          "id": "6gtl8ff9kc4edki07i9k6npaik_20270511T153000Z",
+          "title": "Bunny Haven",
+          "start": "2027-05-11T11:30:00-04:00",
+          "end": "2027-05-11T12:30:00-04:00",
+          "location": "10660 Validus Dr, Jacksonville, FL 32256",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Animals Can be swapped per request Monthly Subscription Discovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256"
+        }
+      ],
+      "next": "2026-10-13T11:30:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "10660 Validus Dr, Jacksonville, FL 32256",
+      "n_events": 8,
+      "role": "on_board"
+    },
+    {
+      "email": "ecooks@fletcherstendercare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "2580qhb6508lggb9llotvl8uhc",
+          "title": "Bunny Haven",
+          "start": "2026-10-14T11:00:00-04:00",
+          "end": "2026-10-14T12:00:00-04:00",
+          "location": "641 W 4th St, Jacksonville, FL 32209",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "Ducks and goats "
+        },
+        {
+          "id": "6qmq5hks1bhgcs5un1rluch0av_20270310T160000Z",
+          "title": "Bunny Haven",
+          "start": "2027-03-11T11:00:00-05:00",
+          "end": "2027-03-11T12:00:00-05:00",
+          "location": "641 W 4th St",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "6qmq5hks1bhgcs5un1rluch0av_20270414T150000Z",
+          "title": "Bunny Haven",
+          "start": "2027-04-14T11:00:00-04:00",
+          "end": "2027-04-14T12:00:00-04:00",
+          "location": "641 W 4th St",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "6qmq5hks1bhgcs5un1rluch0av_20270512T150000Z",
+          "title": "Bunny Haven",
+          "start": "2027-05-12T11:00:00-04:00",
+          "end": "2027-05-12T12:00:00-04:00",
+          "location": "641 W 4th St",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-14T11:00:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "641 W 4th St, Jacksonville, FL 32209",
+      "n_events": 4,
+      "role": "on_board"
+    },
+    {
+      "email": "mbeck@rivercityscience.org",
+      "names": [],
+      "events": [
+        {
+          "id": "78h576l1lr7bf7todh1slj57aq",
+          "title": "Mini Petting Zoo",
+          "start": "2026-10-15T11:00:00-04:00",
+          "end": "2026-10-15T12:30:00-04:00",
+          "location": "2002 San Pablo Rd S",
+          "service": "Mini PZ",
+          "notes": [],
+          "desc_snip": "<a>904-489-4037</a><br><a>Madelynne Beck</a><br><a>Bring Duck - Farm Unit in School</a>"
+        }
+      ],
+      "next": "2026-10-15T11:00:00-04:00",
+      "service_next": "Mini PZ",
+      "title_next": "Mini Petting Zoo",
+      "location_next": "2002 San Pablo Rd S",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "kfitzhugh@vestapropertyservices.com",
+      "names": [],
+      "events": [
+        {
+          "id": "43fl8b954jsqksah5h01c6fhfk",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-17T15:00:00-04:00",
+          "end": "2026-10-17T18:00:00-04:00",
+          "location": "12788 Meritage Blvd. Jacksonville, FL 32246",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": "<br><b>Kaylie Fitzhugh</b><br><b>Assistant Amenity Manager</b><br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\"></a>P. <a target=\"_blank\">904.329.2277</a><br><a target=\"_blank\"><br></a><br>Tamaya \\ Beach CDD<br><a href="
+        }
+      ],
+      "next": "2026-10-17T15:00:00-04:00",
+      "service_next": "Mobile PZ + Side of Critters",
+      "title_next": "Mobile PZ + Side of Critters",
+      "location_next": "12788 Meritage Blvd. Jacksonville, FL 32246",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "sarah.speer@gardensmemorycare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "364qopufj2qge35n635mfpuk5j",
+          "title": "Bunny Haven",
+          "start": "2026-10-20T10:30:00-04:00",
+          "end": "2026-10-20T11:30:00-04:00",
+          "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "6tn86ij9q3bc8348kqboc87tuf",
+          "title": "Bunny Haven Visit",
+          "start": "2026-12-15T10:30:00-05:00",
+          "end": "2026-12-15T11:30:00-05:00",
+          "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-20T10:30:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+      "n_events": 2,
+      "role": "new"
+    },
+    {
+      "email": "diazcarla@cypressvillageretirement.com",
+      "names": [],
+      "events": [
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261020T144500Z",
+          "title": "Bunny Haven",
+          "start": "2026-10-20T10:45:00-04:00",
+          "end": "2026-10-20T11:45:00-04:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261117T154500Z",
+          "title": "Bunny Haven",
+          "start": "2026-11-17T10:45:00-05:00",
+          "end": "2026-11-17T11:45:00-05:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261215T154500Z",
+          "title": "Bunny Haven",
+          "start": "2026-12-15T10:45:00-05:00",
+          "end": "2026-12-15T11:45:00-05:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270119T154500Z",
+          "title": "Bunny Haven",
+          "start": "2027-01-19T10:45:00-05:00",
+          "end": "2027-01-19T11:45:00-05:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270216T154500Z",
+          "title": "Bunny Haven",
+          "start": "2027-02-16T10:45:00-05:00",
+          "end": "2027-02-16T11:45:00-05:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270316T144500Z",
+          "title": "Bunny Haven",
+          "start": "2027-03-16T10:45:00-04:00",
+          "end": "2027-03-16T11:45:00-04:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270420T144500Z",
+          "title": "Bunny Haven",
+          "start": "2027-04-20T10:45:00-04:00",
+          "end": "2027-04-20T11:45:00-04:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270518T144500Z",
+          "title": "Bunny Haven",
+          "start": "2027-05-18T10:45:00-04:00",
+          "end": "2027-05-18T11:45:00-04:00",
+          "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-20T10:45:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "n_events": 8,
+      "role": "on_board"
+    },
+    {
+      "email": "christina.dutcher@gardensmemorycare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "69bg0r23a1m5rako4p2puf2g2n",
+          "title": "Bunny Haven",
+          "start": "2026-10-21T10:30:00-04:00",
+          "end": "2026-10-21T11:30:00-04:00",
+          "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "2rda0o6kkg5af4skghehbc0r55",
+          "title": "Bunny Haven",
+          "start": "2026-12-22T10:30:00-05:00",
+          "end": "2026-12-22T11:30:00-05:00",
+          "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "21ru2oncrv6307s44slktqsgn3",
+          "title": "Bunny Haven",
+          "start": "2027-02-23T10:30:00-05:00",
+          "end": "2027-02-23T11:30:00-05:00",
+          "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "7ia4nl8n872disdqajo83o17jd",
+          "title": "Bunny Haven",
+          "start": "2027-04-21T10:30:00-04:00",
+          "end": "2027-04-21T11:30:00-04:00",
+          "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-21T10:30:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "n_events": 4,
+      "role": "on_board"
+    },
+    {
+      "email": "dianna.sheikh@sunshinepreschoolsfl.com",
+      "names": [],
+      "events": [
+        {
+          "id": "31hckk1h647qnm91hblrk2f0ec",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-23T14:30:00-04:00",
+          "end": "2026-10-23T18:00:00-04:00",
+          "location": "8985 Annie Eliza Rd",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "trunk or treat event <br><a target=\"_blank\">904.242.6508</a>"
+        },
+        {
+          "id": "6oqi9g9e2h32oovr9cu8c34m1f",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-29T14:30:00-04:00",
+          "end": "2026-10-29T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra - Nocatee",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a href=\"goog_619105126\">trunk or treat</a><br><a href=\"http://904.242.6508\">904.242.6508 </a>"
+        },
+        {
+          "id": "3kg5sos5250v55mmn2raohqo0m",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-30T14:30:00-04:00",
+          "end": "2026-10-30T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra Beach",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a target=\"_blank\">904.242.6508</a>"
+        }
+      ],
+      "next": "2026-10-23T14:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "8985 Annie Eliza Rd",
+      "n_events": 3,
+      "role": "on_board"
+    },
+    {
+      "email": "zboronell0928@gmail.com",
+      "names": [
+        "Zaylee Boronell"
+      ],
+      "events": [
+        {
+          "id": "31hckk1h647qnm91hblrk2f0ec",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-23T14:30:00-04:00",
+          "end": "2026-10-23T18:00:00-04:00",
+          "location": "8985 Annie Eliza Rd",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "trunk or treat event <br><a target=\"_blank\">904.242.6508</a>"
+        }
+      ],
+      "next": "2026-10-23T14:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "8985 Annie Eliza Rd",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "kmclearn12@gmail.com",
+      "names": [
+        "Kathy McLearn"
+      ],
+      "events": [
+        {
+          "id": "_8cp42dq66cs3gba58gqk2b9k68sj0ba28cr44b9m8ork4e1m64rk4chk6g",
+          "title": "Mobile petting zoo & side of critters",
+          "start": "2026-10-23T16:00:00-04:00",
+          "end": "2026-10-23T18:00:00-04:00",
+          "location": "12638 Mandarin Rd\nJacksonville, FL, United States",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": "904-327-5370 Kathy McLearn "
+        }
+      ],
+      "next": "2026-10-23T16:00:00-04:00",
+      "service_next": "Mobile PZ + Side of Critters",
+      "title_next": "Mobile petting zoo & side of critters",
+      "location_next": "12638 Mandarin Rd\nJacksonville, FL, United States",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "fields8990@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "3qrdaisc237nir8bc6o7v9g7hc",
+          "title": "Mobile PZ + SideOf C",
+          "start": "2026-10-23T17:00:00-04:00",
+          "end": "2026-10-23T20:00:00-04:00",
+          "location": "86674 pages dairy rd\u00a0 Yulee fl",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-23T17:00:00-04:00",
+      "service_next": "Mobile PZ + Side of Critters",
+      "title_next": "Mobile PZ + SideOf C",
+      "location_next": "86674 pages dairy rd\u00a0 Yulee fl",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "bellvsoliver85@gmail.com",
+      "names": [
+        "Crystal Oliver"
+      ],
+      "events": [
+        {
+          "id": "3qrdaisc237nir8bc6o7v9g7hc",
+          "title": "Mobile PZ + SideOf C",
+          "start": "2026-10-23T17:00:00-04:00",
+          "end": "2026-10-23T20:00:00-04:00",
+          "location": "86674 pages dairy rd\u00a0 Yulee fl",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-23T17:00:00-04:00",
+      "service_next": "Mobile PZ + Side of Critters",
+      "title_next": "Mobile PZ + SideOf C",
+      "location_next": "86674 pages dairy rd\u00a0 Yulee fl",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "cgross@elcduval.org",
+      "names": [
+        "Charlene Gross"
+      ],
+      "events": [
+        {
+          "id": "_611k6d9p6t1j0b9g6oojeb9k68r36b9o68r32b9g8op3ec256srj8d1k70",
+          "title": "Eartha mobile petting zoo",
+          "start": "2026-10-24T10:00:00-04:00",
+          "end": "2026-10-24T14:00:00-04:00",
+          "location": "",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "0j1efgsgsd760cror52be7cpl4",
+          "title": "Mobile PZ Event",
+          "start": "2026-11-24T12:00:00-05:00",
+          "end": "2026-11-24T13:30:00-05:00",
+          "location": "Oakwood Villa 8201 Kona ave Jacksonville FL 32211",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "40psg7nv77bpf938m39s6vuusq",
+          "title": "Mobile PZ Event",
+          "start": "2026-12-29T12:00:00-05:00",
+          "end": "2026-12-29T13:30:00-05:00",
+          "location": "University Plaza\u2002\u2002\u2002\u2002719 Venus Mars Ct. Jax, 32209",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "47bhvvspr7hfe0dkalcl7v5jvc",
+          "title": "Mobile PZ Event",
+          "start": "2027-01-05T12:00:00-05:00",
+          "end": "2027-01-05T13:30:00-05:00",
+          "location": "Palmetto Glen\u2002\u2002\u2002\u2002\u20022976 Willow St. Jax, 32207",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "7fbjtjrdbpskfcndl93tbk6178",
+          "title": "Mobile PZ Event",
+          "start": "2027-03-16T12:00:00-04:00",
+          "end": "2027-03-16T13:30:00-04:00",
+          "location": "Calloway Cove 4229 Moncrief Rd Jacksonville 32209",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "27l1tr7b7bk83qklqr1sq2g73n",
+          "title": "Mobile PZ Event",
+          "start": "2027-03-18T12:00:00-04:00",
+          "end": "2027-03-18T13:30:00-04:00",
+          "location": "The Weldon\u2002\u2002\u2002\u2002\u2002\u20021650 Moncrief Village N. Jax.32209",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-24T10:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Eartha mobile petting zoo",
+      "location_next": "",
+      "n_events": 6,
+      "role": "on_board"
+    },
+    {
+      "email": "honeybeeresale@gmail.com",
+      "names": [
+        "Melissa Hyte"
+      ],
+      "events": [
+        {
+          "id": "_611k6d9p6t1j0b9g6oojeb9k68r36b9o68r32b9g8op3ec256srj8d1k70",
+          "title": "Eartha mobile petting zoo",
+          "start": "2026-10-24T10:00:00-04:00",
+          "end": "2026-10-24T14:00:00-04:00",
+          "location": "",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-24T10:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Eartha mobile petting zoo",
+      "location_next": "",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "diane@libertylandscapesupply.com",
+      "names": [],
+      "events": [
+        {
+          "id": "7112kve3c2rh32jqoiihus69hm",
+          "title": "Mobile PZ Event - 3 hours",
+          "start": "2026-10-24T13:00:00-04:00",
+          "end": "2026-10-24T15:00:00-04:00",
+          "location": "5825 SR-16 E\nSaint Augustine, FL, United States",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-24T13:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event - 3 hours",
+      "location_next": "5825 SR-16 E\nSaint Augustine, FL, United States",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "connie889305@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "0qklbtq4gd94ngd2eaehtlde6h",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-24T14:00:00-04:00",
+          "end": "2026-10-24T15:30:00-04:00",
+          "location": "6542 Old Soutel Ct Jacksonville, FL 32219",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-24T14:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "6542 Old Soutel Ct Jacksonville, FL 32219",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "ebricknell@ccmcnet.com",
+      "names": [],
+      "events": [
+        {
+          "id": "2q79od7l106nrbg6h9pj1e3ga2",
+          "title": "Mobile PZ",
+          "start": "2026-10-24T16:00:00-04:00",
+          "end": "2026-10-24T18:00:00-04:00",
+          "location": "Tinker Street",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-24T16:00:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "Tinker Street",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "blo55om82@aol.com",
+      "names": [],
+      "events": [
+        {
+          "id": "4olmomjajcmo5pohhkslfdvcu5",
+          "title": "Mobile PZ Event - 2 hours",
+          "start": "2026-10-25T00:00:00Z",
+          "end": "2026-10-26T00:00:00Z",
+          "location": "11665 Fort Caroline Rd, Jacksonville, FL 32225",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-25T00:00:00Z",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event - 2 hours",
+      "location_next": "11665 Fort Caroline Rd, Jacksonville, FL 32225",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "pvalenzuela@discoverymanagementgroup.com",
+      "names": [],
+      "events": [
+        {
+          "id": "62t03reu7ra5i3ncdpvia5hub5",
+          "title": "Bunny Haven",
+          "start": "2026-10-28T14:30:00-04:00",
+          "end": "2026-10-28T15:30:00-04:00",
+          "location": "10520 Validus Dr. Jacksonville",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<p><b>Patricia Valenzuela</b></p><p><i>Director of Celebrations and Transportation</i></p><p><a href=\"https://www.google.com/maps/search/10520+Validus+Dr.+%0D%0A+%0D%0A+Jacksonville,+FL+32256?entry=gmail&amp;source=g\">10520 Validus Dr.</a></p><p><a href=\"https://www.google.com/maps/search/10520+Vali"
+        }
+      ],
+      "next": "2026-10-28T14:30:00-04:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "10520 Validus Dr. Jacksonville",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "stacy.addicott@gmail.com",
+      "names": [
+        "Stacy Addicott"
+      ],
+      "events": [
+        {
+          "id": "6oqi9g9e2h32oovr9cu8c34m1f",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-29T14:30:00-04:00",
+          "end": "2026-10-29T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra - Nocatee",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a href=\"goog_619105126\">trunk or treat</a><br><a href=\"http://904.242.6508\">904.242.6508 </a>"
+        },
+        {
+          "id": "3gpk95gatpapq64il857qelt88",
+          "title": "Mini PZ",
+          "start": "2026-10-30T18:30:00-04:00",
+          "end": "2026-10-30T20:00:00-04:00",
+          "location": "4700 Amelia Island Pkwy, Amelia Island, FL 32034",
+          "service": "Mini PZ",
+          "notes": [],
+          "desc_snip": "Sheridan <a target=\"_blank\">9044412824</a>"
+        },
+        {
+          "id": "4si6spuucd4mupqs4vc80o8u67",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-31T16:00:00-04:00",
+          "end": "2026-10-31T18:00:00-04:00",
+          "location": "85971 N Harts Rd, Yulee, FL 32097",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-29T14:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "The Goddard School of Ponte Vedra - Nocatee",
+      "n_events": 3,
+      "role": "new"
+    },
+    {
+      "email": "pagelj4777@gmail.com",
+      "names": [
+        "Joanna Pagel"
+      ],
+      "events": [
+        {
+          "id": "3kg5sos5250v55mmn2raohqo0m",
+          "title": "Mobile PZ Event",
+          "start": "2026-10-30T14:30:00-04:00",
+          "end": "2026-10-30T18:00:00-04:00",
+          "location": "The Goddard School of Ponte Vedra Beach",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<a target=\"_blank\">904.242.6508</a>"
+        }
+      ],
+      "next": "2026-10-30T14:30:00-04:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "The Goddard School of Ponte Vedra Beach",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "sregan@golfclubofamelia.com",
+      "names": [],
+      "events": [
+        {
+          "id": "3gpk95gatpapq64il857qelt88",
+          "title": "Mini PZ",
+          "start": "2026-10-30T18:30:00-04:00",
+          "end": "2026-10-30T20:00:00-04:00",
+          "location": "4700 Amelia Island Pkwy, Amelia Island, FL 32034",
+          "service": "Mini PZ",
+          "notes": [],
+          "desc_snip": "Sheridan <a target=\"_blank\">9044412824</a>"
+        }
+      ],
+      "next": "2026-10-30T18:30:00-04:00",
+      "service_next": "Mini PZ",
+      "title_next": "Mini PZ",
+      "location_next": "4700 Amelia Island Pkwy, Amelia Island, FL 32034",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "angiemcclellan@bellsouth.net",
+      "names": [],
+      "events": [
+        {
+          "id": "4si6spuucd4mupqs4vc80o8u67",
+          "title": "Mobile PZ + Side of Critters",
+          "start": "2026-10-31T16:00:00-04:00",
+          "end": "2026-10-31T18:00:00-04:00",
+          "location": "85971 N Harts Rd, Yulee, FL 32097",
+          "service": "Mobile PZ + Side of Critters",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-10-31T16:00:00-04:00",
+      "service_next": "Mobile PZ + Side of Critters",
+      "title_next": "Mobile PZ + Side of Critters",
+      "location_next": "85971 N Harts Rd, Yulee, FL 32097",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "mystysa@gmail.com",
+      "names": [
+        "Emy Gall"
+      ],
+      "events": [
+        {
+          "id": "4afkhofje9jun61n6iie2k0t66",
+          "title": "Goat Yoga",
+          "start": "2026-11-07T10:00:00-05:00",
+          "end": "2026-11-07T11:00:00-05:00",
+          "location": "219 Saint Johns Golf Drive Saint Augustine, FL 32092",
+          "service": "Goat Yoga",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-11-07T10:00:00-05:00",
+      "service_next": "Goat Yoga",
+      "title_next": "Goat Yoga",
+      "location_next": "219 Saint Johns Golf Drive Saint Augustine, FL 32092",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "jpettigrew713@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "7732b19vmptqsjurj28p7drpma",
+          "title": "Mobile PZ",
+          "start": "2026-11-07T11:00:00-05:00",
+          "end": "2026-11-07T12:15:00-05:00",
+          "location": "8202 Elsdon St",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": "<table><tbody><tr><td>Extra Ducks No Chickens <br>Julie Pettigrew</td></tr><tr><td></td><td>9319993833</td></tr></tbody></table>"
+        }
+      ],
+      "next": "2026-11-07T11:00:00-05:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ",
+      "location_next": "8202 Elsdon St",
+      "n_events": 1,
+      "role": "on_board"
+    },
+    {
+      "email": "kbean@aipca.net",
+      "names": [],
+      "events": [
+        {
+          "id": "2cac0heeaqd0mn6qdia0litubp",
+          "title": "Mobile PZ + CoT",
+          "start": "2026-11-07T11:30:00-05:00",
+          "end": "2026-11-07T15:00:00-05:00",
+          "location": "Amelia Island Plantation 5542 First Coast Highway",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-11-07T11:30:00-05:00",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ + CoT",
+      "location_next": "Amelia Island Plantation 5542 First Coast Highway",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "lrozier@micahsplace.org",
+      "names": [],
+      "events": [
+        {
+          "id": "2r2eg6fqpjt7om2dulsa9k87d3",
+          "title": "Mobile PZ Event",
+          "start": "2026-11-14T00:00:00Z",
+          "end": "2026-11-15T00:00:00Z",
+          "location": "1200 Atlantic Ave, Fernandina Beach, FL 32034",
+          "service": "Mobile PZ",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-11-14T00:00:00Z",
+      "service_next": "Mobile PZ",
+      "title_next": "Mobile PZ Event",
+      "location_next": "1200 Atlantic Ave, Fernandina Beach, FL 32034",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "christil123@yahoo.com",
+      "names": [],
+      "events": [
+        {
+          "id": "7c1tlglqn4vmhuivouc1jjlrrj",
+          "title": "Bunny Haven - Critter Club",
+          "start": "2026-11-30T10:00:00-05:00",
+          "end": "2026-11-30T11:00:00-05:00",
+          "location": "86145 Lofton CT Yulee, Fl. 32096",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "4ugal53fa3kp5q0fnhu4ebv3hq",
+          "title": "Bunny Haven - Critter Club",
+          "start": "2027-02-22T10:00:00-05:00",
+          "end": "2027-02-22T11:00:00-05:00",
+          "location": "86145 Lofton CT Yulee, Fl. 32096",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "3k2d6mm4jdfcv07gr1ljoes1d0",
+          "title": "Bunny Haven - Critter Club",
+          "start": "2027-05-24T10:00:00-04:00",
+          "end": "2027-05-24T11:00:00-04:00",
+          "location": "86145 Lofton CT Yulee, Fl. 32096",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-11-30T10:00:00-05:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven - Critter Club",
+      "location_next": "86145 Lofton CT Yulee, Fl. 32096",
+      "n_events": 3,
+      "role": "on_board"
+    },
+    {
+      "email": "tiffanygumino@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "1pl209uiuba9l6ca8cs9mtbe7o",
+          "title": "Goat Yoga",
+          "start": "2026-12-05T17:45:00-05:00",
+          "end": "2026-12-05T18:45:00-05:00",
+          "location": "",
+          "service": "Goat Yoga",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-12-05T17:45:00-05:00",
+      "service_next": "Goat Yoga",
+      "title_next": "Goat Yoga",
+      "location_next": "",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "tracy.levanich@gardensmemorycare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "5ifdio0slgjc4q460b91t0mqg9",
+          "title": "Bunny Haven",
+          "start": "2026-12-16T10:00:00-05:00",
+          "end": "2026-12-16T11:00:00-05:00",
+          "location": "5760 Timuquana Pl",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "3q8h9ii7i6fap77ap4ockbifn6",
+          "title": "Bunny Haven",
+          "start": "2027-03-15T10:00:00-04:00",
+          "end": "2027-03-15T11:00:00-04:00",
+          "location": "5760 Timuquana Rd",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-12-16T10:00:00-05:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "5760 Timuquana Pl",
+      "n_events": 2,
+      "role": "on_board"
+    },
+    {
+      "email": "deandre.stringer@legendseniorliving.com",
+      "names": [],
+      "events": [
+        {
+          "id": "3n31mjkuf16152ulc01sr4f3g9",
+          "title": "Bunny Haven",
+          "start": "2026-12-16T14:00:00-05:00",
+          "end": "2026-12-16T15:00:00-05:00",
+          "location": "The Windsor at Ortega",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        },
+        {
+          "id": "4kusjli5fgqss2rk46mo1s4j6i",
+          "title": "Bunny Haven",
+          "start": "2027-03-17T14:00:00-04:00",
+          "end": "2027-03-17T15:00:00-04:00",
+          "location": "The Windsor at Ortega",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2026-12-16T14:00:00-05:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "The Windsor at Ortega",
+      "n_events": 2,
+      "role": "on_board"
+    },
+    {
+      "email": "msantiesteban82@gmail.com",
+      "names": [],
+      "events": [
+        {
+          "id": "6j1l7o9d4n1g0mcbnnpeif08no",
+          "title": "Bunny Haven",
+          "start": "2026-12-19T15:00:00-05:00",
+          "end": "2026-12-19T16:00:00-05:00",
+          "location": "76113 Timbercreek Blvd Yulee, FL 32097",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": "<a>3052154408</a>"
+        }
+      ],
+      "next": "2026-12-19T15:00:00-05:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "76113 Timbercreek Blvd Yulee, FL 32097",
+      "n_events": 1,
+      "role": "new"
+    },
+    {
+      "email": "dee.stanziano@gardensmemorycare.com",
+      "names": [],
+      "events": [
+        {
+          "id": "21o8umif4q60ca5ot3uh3q3mmr",
+          "title": "Bunny Haven",
+          "start": "2027-03-10T10:30:00-05:00",
+          "end": "2027-03-10T11:30:00-05:00",
+          "location": "5125 Palm Vly Rd",
+          "service": "Bunny Haven",
+          "notes": [],
+          "desc_snip": ""
+        }
+      ],
+      "next": "2027-03-10T10:30:00-05:00",
+      "service_next": "Bunny Haven",
+      "title_next": "Bunny Haven",
+      "location_next": "5125 Palm Vly Rd",
+      "n_events": 1,
+      "role": "on_board"
+    }
+  ],
+  "no_email_events": [
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261003T130000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T09:15:00-04:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261003T130000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2026-10-03T09:00:00-04:00",
+      "end": "2026-10-03T09:15:00-04:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261107T140000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2026-11-07T09:00:00-05:00",
+      "end": "2026-11-07T09:15:00-05:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261107T140000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2026-11-07T09:00:00-05:00",
+      "end": "2026-11-07T09:15:00-05:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261205T140000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2026-12-05T09:00:00-05:00",
+      "end": "2026-12-05T09:15:00-05:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261205T140000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2026-12-05T09:00:00-05:00",
+      "end": "2026-12-05T09:15:00-05:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270102T140000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2027-01-02T09:00:00-05:00",
+      "end": "2027-01-02T09:15:00-05:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270102T140000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2027-01-02T09:00:00-05:00",
+      "end": "2027-01-02T09:15:00-05:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270206T140000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2027-02-06T09:00:00-05:00",
+      "end": "2027-02-06T09:15:00-05:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270206T140000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2027-02-06T09:00:00-05:00",
+      "end": "2027-02-06T09:15:00-05:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270306T140000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2027-03-06T09:00:00-05:00",
+      "end": "2027-03-06T09:15:00-05:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270306T140000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2027-03-06T09:00:00-05:00",
+      "end": "2027-03-06T09:15:00-05:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270403T130000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2027-04-03T09:00:00-04:00",
+      "end": "2027-04-03T09:15:00-04:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270403T130000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2027-04-03T09:00:00-04:00",
+      "end": "2027-04-03T09:15:00-04:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270501T130000Z",
+      "title": "Wild Light Market - 4 hours",
+      "start": "2027-05-01T09:00:00-04:00",
+      "end": "2027-05-01T09:15:00-04:00",
+      "location": "",
+      "service": "Wild Light Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270501T130000Z",
+      "title": "Fernandina Arts Market - 2 hrs",
+      "start": "2027-05-01T09:00:00-04:00",
+      "end": "2027-05-01T09:15:00-04:00",
+      "location": "",
+      "service": "Fernandina Arts Market",
+      "customers": [],
+      "notes": [],
+      "desc_snip": ""
+    }
+  ],
+  "helper_emails": [
+    "amollitt@yahoo.com",
+    "failingforwardfarm@gmail.com"
+  ],
+  "dunk_email_hits": [
+    "lburnette@rivercityscience.org"
+  ]
+}

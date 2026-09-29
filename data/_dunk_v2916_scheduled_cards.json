@@ -1,0 +1,468 @@
+{
+  "cards": [
+    {
+      "email": "alexaowens25@gmail.com",
+      "name": "Alexa Owens",
+      "org": "Mommy & Me",
+      "phone": "618-975-4968",
+      "when": "Thu Oct 1 11:30a ET",
+      "service": "Mommy & Me",
+      "location": "",
+      "note": "SCHEDULED Oct 1 Mommy & Me 11:30a \u00b7 paid $25 GoDaddy",
+      "mailto": null,
+      "next_iso": "2026-10-01T11:30:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "lburnette@rivercityscience.org",
+      "name": "Lauren Burnett",
+      "org": "River City Science Academy Innovations",
+      "phone": "240-561-0782",
+      "when": "Fri Oct 2 8:20a ET",
+      "service": "Mobile PZ",
+      "location": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+      "note": "BOOKED Violet Package Oct 2 8:20\u201311:20a \u00b7 farm theme / extra ducks \u00b7 confirm arrival + invoice w/ McKnight",
+      "mailto": "mailto:lburnette@rivercityscience.org?subject=Confirming%20Oct%202%20Violet%20Package%20%E2%80%94%20arrival%20%2B%20invoice&body=Hi%20Lauren%2C%0A%0AQuick%20confirm%20for%20Thursday%20Oct%202%20at%20River%20City%20Science%20Academy%20Innovations%20%288160%20Baymeadows%20Way%20W%29%20%E2%80%94%20farm%20theme%20with%20extra%20ducks.%0A%0AWhat%20arrival%20time%20should%20we%20plan%2C%20and%20who%20should%20I%20send%20the%20invoice%20to%20%28McKnight%29%3F%0A",
+      "next_iso": "2026-10-02T08:20:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": true
+    },
+    {
+      "email": "kgornos@jacksonville.edu",
+      "name": "White Birch BDay",
+      "org": "Birthday party \u00b7 Jax",
+      "phone": "(904) 315-4393",
+      "when": "Sat Oct 3 12p ET",
+      "service": "Mobile PZ - Birthday",
+      "location": "7350 white birch drive Jax, fl 32277",
+      "note": "SCHEDULED Oct 3 Mobile PZ BDay \u00b7 7350 White Birch Dr \u00b7 phone on calendar",
+      "mailto": null,
+      "next_iso": "2026-10-03T12:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "jtallaksen@vestapropertyservices.com",
+      "name": "Julie Tallaksen",
+      "org": "Vesta \u00b7 Saint Johns Golf",
+      "phone": "904-599-9093",
+      "when": "Sun Oct 11 1p ET",
+      "service": "Mobile PZ",
+      "location": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+      "note": "SCHEDULED Oct 11 Mobile PZ 1\u20134pm (inv 0179) \u00b7 Nov 7 Goat Yoga \u00b7 Gold card",
+      "mailto": null,
+      "next_iso": "2026-10-11T13:00:00-04:00",
+      "n_events": 2,
+      "was_on_dunk": false
+    },
+    {
+      "email": "bthomas@advancedcarepartners.com",
+      "name": "Advanced Care Partners",
+      "org": "Advanced Care Partners",
+      "phone": "(904) 450-5309",
+      "when": "Mon Oct 12 11a ET",
+      "service": "Bunny Haven",
+      "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+      "note": "SCHEDULED Oct 12 Bunny Haven \u00b7 9731 Beach Blvd",
+      "mailto": null,
+      "next_iso": "2026-10-12T11:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "bthomas@angelsofcare.com",
+      "name": "Angels of Care",
+      "org": "Angels of Care",
+      "phone": "",
+      "when": "Mon Oct 12 11a ET",
+      "service": "Bunny Haven",
+      "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+      "note": "SCHEDULED Oct 12 Bunny Haven \u00b7 9731 Beach Blvd (same day as ACP)",
+      "mailto": null,
+      "next_iso": "2026-10-12T11:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "tfelix@discoveryvillages.com",
+      "name": "Discovery Village",
+      "org": "Discovery Village (Validus)",
+      "phone": "(904) 667-3500",
+      "when": "Tue Oct 13 11:30a ET",
+      "service": "Bunny Haven",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "note": "SCHEDULED Bunny Haven series starting Oct 13 \u00b7 10660 Validus Dr \u00b7 recurring",
+      "mailto": null,
+      "next_iso": "2026-10-13T11:30:00-04:00",
+      "n_events": 8,
+      "was_on_dunk": false
+    },
+    {
+      "email": "ecooks@fletcherstendercare.com",
+      "name": "Fletcher's Tender Care",
+      "org": "Fletcher's Tender Care",
+      "phone": "(904) 858-9797",
+      "when": "Wed Oct 14 11a ET",
+      "service": "Bunny Haven",
+      "location": "641 W 4th St, Jacksonville, FL 32209",
+      "note": "SCHEDULED Bunny Haven Oct 14 + spring 2027 series \u00b7 641 W 4th St",
+      "mailto": null,
+      "next_iso": "2026-10-14T11:00:00-04:00",
+      "n_events": 4,
+      "was_on_dunk": false
+    },
+    {
+      "email": "mbeck@rivercityscience.org",
+      "name": "Madelynne Beck",
+      "org": "RCSA Intracoastal",
+      "phone": "904-489-4037",
+      "when": "Thu Oct 15 11a ET",
+      "service": "Mini PZ",
+      "location": "2002 San Pablo Rd S",
+      "note": "SCHEDULED Oct 15 Mini Petting Zoo \u00b7 2002 San Pablo Rd S",
+      "mailto": null,
+      "next_iso": "2026-10-15T11:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "kfitzhugh@vestapropertyservices.com",
+      "name": "Kaylie Fitzhugh",
+      "org": "Tamaya / Beach CDD (Vesta)",
+      "phone": "904-355-1831",
+      "when": "Sat Oct 17 3p ET",
+      "service": "Mobile PZ + Side of Critters",
+      "location": "12788 Meritage Blvd. Jacksonville, FL 32246",
+      "note": "SCHEDULED Oct 17 Mobile PZ + Side of Critters \u00b7 Meritage Blvd fall fest",
+      "mailto": null,
+      "next_iso": "2026-10-17T15:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "sarah.speer@gardensmemorycare.com",
+      "name": "Sarah Speer",
+      "org": "Ponte Vedra Gardens Alzheimer's",
+      "phone": "(904) 834-7578",
+      "when": "Tue Oct 20 10:30a ET",
+      "service": "Bunny Haven",
+      "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+      "note": "SCHEDULED Oct 20 + Dec 15 Bunny Haven \u00b7 PVG calendar contact",
+      "mailto": null,
+      "next_iso": "2026-10-20T10:30:00-04:00",
+      "n_events": 2,
+      "was_on_dunk": false
+    },
+    {
+      "email": "diazcarla@cypressvillageretirement.com",
+      "name": "Carla Diaz",
+      "org": "The Inn at Cypress Village",
+      "phone": "(904) 807-6149",
+      "when": "Tue Oct 20 10:45a ET",
+      "service": "Bunny Haven",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "note": "SCHEDULED Bunny Haven series from Oct 20 \u00b7 Middleton Park Cir",
+      "mailto": null,
+      "next_iso": "2026-10-20T10:45:00-04:00",
+      "n_events": 8,
+      "was_on_dunk": false
+    },
+    {
+      "email": "christina.dutcher@gardensmemorycare.com",
+      "name": "Christina Dutcher",
+      "org": "San Jose Gardens Alzheimer's",
+      "phone": "(904) 739-3500",
+      "when": "Wed Oct 21 10:30a ET",
+      "service": "Bunny Haven",
+      "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "note": "SCHEDULED Bunny Haven Oct 21 + recurring \u00b7 Dupont Ave",
+      "mailto": null,
+      "next_iso": "2026-10-21T10:30:00-04:00",
+      "n_events": 4,
+      "was_on_dunk": false
+    },
+    {
+      "email": "dianna.sheikh@sunshinepreschoolsfl.com",
+      "name": "Dianna Sheikh",
+      "org": "Goddard \u00b7 Ponte Vedra",
+      "phone": "(904) 373-6600",
+      "when": "Fri Oct 23 2:30p ET",
+      "service": "Mobile PZ",
+      "location": "8985 Annie Eliza Rd",
+      "note": "SCHEDULED Mobile PZ Oct 23 / 29 / 30 \u00b7 Goddard campuses",
+      "mailto": null,
+      "next_iso": "2026-10-23T14:30:00-04:00",
+      "n_events": 3,
+      "was_on_dunk": false
+    },
+    {
+      "email": "kmclearn12@gmail.com",
+      "name": "Kathy McLearn",
+      "org": "Consumer mobile",
+      "phone": "",
+      "when": "Fri Oct 23 4p ET",
+      "service": "Mobile PZ + Side of Critters",
+      "location": "12638 Mandarin Rd, Jacksonville, FL, United States",
+      "note": "SCHEDULED Oct 23 Mobile PZ + Side of Critters \u00b7 Mandarin Rd",
+      "mailto": null,
+      "next_iso": "2026-10-23T16:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "cgross@elcduval.org",
+      "name": "Charlene Gross",
+      "org": "ELC Duval / Falladay",
+      "phone": "904-591-5351",
+      "when": "Sat Oct 24 10a ET",
+      "service": "Mobile PZ",
+      "location": "",
+      "note": "SCHEDULED Oct 24 Eartha mobile PZ + more ELC dates through Mar",
+      "mailto": null,
+      "next_iso": "2026-10-24T10:00:00-04:00",
+      "n_events": 6,
+      "was_on_dunk": false
+    },
+    {
+      "email": "diane@libertylandscapesupply.com",
+      "name": "Diane Ingram",
+      "org": "Liberty Landscape Supply",
+      "phone": "(904) 776-7256",
+      "when": "Sat Oct 24 1p ET",
+      "service": "Mobile PZ",
+      "location": "5825 SR-16 E, Saint Augustine, FL, United States",
+      "note": "SCHEDULED Oct 24 Mobile PZ 3 hrs \u00b7 SR-16 E St Augustine",
+      "mailto": null,
+      "next_iso": "2026-10-24T13:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "ebricknell@ccmcnet.com",
+      "name": "WildLight / CCMC",
+      "org": "WildLight",
+      "phone": "(904) 478-9302",
+      "when": "Sat Oct 24 4p ET",
+      "service": "Mobile PZ",
+      "location": "Tinker Street",
+      "note": "SCHEDULED Oct 24 Mobile PZ \u00b7 Tinker Street",
+      "mailto": null,
+      "next_iso": "2026-10-24T16:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "pvalenzuela@discoverymanagementgroup.com",
+      "name": "Discovery Management",
+      "org": "Discovery Management Group",
+      "phone": "",
+      "when": "Wed Oct 28 2:30p ET",
+      "service": "Bunny Haven",
+      "location": "10520 Validus Dr. Jacksonville",
+      "note": "SCHEDULED Oct 28 Bunny Haven \u00b7 10520 Validus Dr",
+      "mailto": null,
+      "next_iso": "2026-10-28T14:30:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "stacy.addicott@gmail.com",
+      "name": "Stacy Addicott",
+      "org": "Consumer / Goddard-linked",
+      "phone": "",
+      "when": "Thu Oct 29 2:30p ET",
+      "service": "Mobile PZ",
+      "location": "The Goddard School of Ponte Vedra - Nocatee",
+      "note": "SCHEDULED Oct 29\u201331 Mobile/Mini cluster \u00b7 Yulee & Amelia",
+      "mailto": null,
+      "next_iso": "2026-10-29T14:30:00-04:00",
+      "n_events": 3,
+      "was_on_dunk": false
+    },
+    {
+      "email": "sregan@golfclubofamelia.com",
+      "name": "Sheridan Regan",
+      "org": "Golf Club of Amelia Island",
+      "phone": "",
+      "when": "Fri Oct 30 6:30p ET",
+      "service": "Mini PZ",
+      "location": "4700 Amelia Island Pkwy, Amelia Island, FL 32034",
+      "note": "SCHEDULED Oct 30 Mini PZ \u00b7 Fall Festival ~6:30\u20138pm",
+      "mailto": null,
+      "next_iso": "2026-10-30T18:30:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "angiemcclellan@bellsouth.net",
+      "name": "Angie McClellan",
+      "org": "Consumer mobile \u00b7 Yulee",
+      "phone": "",
+      "when": "Sat Oct 31 4p ET",
+      "service": "Mobile PZ + Side of Critters",
+      "location": "85971 N Harts Rd, Yulee, FL 32097",
+      "note": "SCHEDULED Oct 31 Mobile PZ + Side of Critters \u00b7 85971 N Harts Rd Yulee",
+      "mailto": null,
+      "next_iso": "2026-10-31T16:00:00-04:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "jpettigrew713@gmail.com",
+      "name": "Julie Pettigrew",
+      "org": "Consumer mobile",
+      "phone": "931-999-3833",
+      "when": "Sat Nov 7 11a ET",
+      "service": "Mobile PZ",
+      "location": "8202 Elsdon St",
+      "note": "SCHEDULED Nov 7 Mobile Mini \u00b7 8202 Elsdon St \u00b7 deposit paid",
+      "mailto": null,
+      "next_iso": "2026-11-07T11:00:00-05:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "kbean@aipca.net",
+      "name": "AIPCA",
+      "org": "Amelia Island Plantation Community Assoc",
+      "phone": "",
+      "when": "Sat Nov 7 11:30a ET",
+      "service": "Mobile PZ",
+      "location": "Amelia Island Plantation 5542 First Coast Highway",
+      "note": "SCHEDULED Nov 7 Mobile PZ + Critters on Top \u00b7 AIP",
+      "mailto": null,
+      "next_iso": "2026-11-07T11:30:00-05:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "lrozier@micahsplace.org",
+      "name": "Micah's Place",
+      "org": "Micah's Place \u00b7 Fernandina",
+      "phone": "",
+      "when": "Fri Nov 13 7p ET",
+      "service": "Mobile PZ",
+      "location": "1200 Atlantic Ave, Fernandina Beach, FL 32034",
+      "note": "SCHEDULED Nov 14 Mobile PZ \u00b7 1200 Atlantic Ave \u00b7 accepted",
+      "mailto": null,
+      "next_iso": "2026-11-14T00:00:00Z",
+      "n_events": 1,
+      "was_on_dunk": false
+    },
+    {
+      "email": "christil123@yahoo.com",
+      "name": "Critter Club \u00b7 Lofton Ct",
+      "org": "Critter Club member",
+      "phone": "",
+      "when": "Mon Nov 30 10a ET",
+      "service": "Bunny Haven",
+      "location": "86145 Lofton CT Yulee, Fl. 32096",
+      "note": "SCHEDULED Bunny Haven Critter Club Nov 30 \u00b7 Feb 22 \u00b7 May 24 \u00b7 86145 Lofton Ct",
+      "mailto": null,
+      "next_iso": "2026-11-30T10:00:00-05:00",
+      "n_events": 3,
+      "was_on_dunk": false
+    },
+    {
+      "email": "tracy.levanich@gardensmemorycare.com",
+      "name": "Tracy Levanich",
+      "org": "Ortega Gardens Alzheimer's",
+      "phone": "(904) 701-7227",
+      "when": "Wed Dec 16 10a ET",
+      "service": "Bunny Haven",
+      "location": "5760 Timuquana Pl",
+      "note": "SCHEDULED Dec 16 + Mar 15 Bunny Haven \u00b7 Timuquana",
+      "mailto": null,
+      "next_iso": "2026-12-16T10:00:00-05:00",
+      "n_events": 2,
+      "was_on_dunk": false
+    },
+    {
+      "email": "deandre.stringer@legendseniorliving.com",
+      "name": "Deandre Stringer",
+      "org": "The Windsor at Ortega",
+      "phone": "(904) 353-9500",
+      "when": "Wed Dec 16 2p ET",
+      "service": "Bunny Haven",
+      "location": "The Windsor at Ortega",
+      "note": "SCHEDULED Dec 16 + Mar 17 Bunny Haven \u00b7 Windsor at Ortega",
+      "mailto": null,
+      "next_iso": "2026-12-16T14:00:00-05:00",
+      "n_events": 2,
+      "was_on_dunk": false
+    },
+    {
+      "email": "dee.stanziano@gardensmemorycare.com",
+      "name": "Dee Stanziano",
+      "org": "Ponte Vedra Gardens Alzheimer's",
+      "phone": "(904) 834-7578",
+      "when": "Wed Mar 10 10:30a ET",
+      "service": "Bunny Haven",
+      "location": "5125 Palm Vly Rd",
+      "note": "SCHEDULED Mar 10 2027 Bunny Haven \u00b7 PVG (Sarah covers nearer dates)",
+      "mailto": null,
+      "next_iso": "2027-03-10T10:30:00-05:00",
+      "n_events": 1,
+      "was_on_dunk": false
+    }
+  ],
+  "skipped": [
+    [
+      "failingforwardfarm@gmail.com",
+      "helper"
+    ],
+    [
+      "madelynbeasley134@gmail.com",
+      "no_name"
+    ],
+    [
+      "amollitt@yahoo.com",
+      "helper"
+    ],
+    [
+      "malikfloyd16@gmail.com",
+      "helper"
+    ],
+    [
+      "zboronell0928@gmail.com",
+      "secondary_or_no_primary"
+    ],
+    [
+      "fields8990@gmail.com",
+      "secondary_or_no_primary"
+    ],
+    [
+      "honeybeeresale@gmail.com",
+      "helper"
+    ],
+    [
+      "connie889305@gmail.com",
+      "no_name"
+    ],
+    [
+      "blo55om82@aol.com",
+      "no_name"
+    ],
+    [
+      "pagelj4777@gmail.com",
+      "secondary_or_no_primary"
+    ],
+    [
+      "mystysa@gmail.com",
+      "helper"
+    ],
+    [
+      "tiffanygumino@gmail.com",
+      "no_name"
+    ],
+    [
+      "msantiesteban82@gmail.com",
+      "no_name"
+    ],
+    [
+      "bellvsoliver85@gmail.com",
+      "helper_animal_pickup"
+    ]
+  ]
+}

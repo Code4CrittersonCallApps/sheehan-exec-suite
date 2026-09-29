@@ -1,0 +1,4553 @@
+{
+  "summary": "sheehanhomestead@gmail.com",
+  "updated": "2026-09-29T01:16:21Z",
+  "timeZone": "America/New_York",
+  "accessRole": "owner",
+  "defaultReminders": [
+    {
+      "method": "popup",
+      "minutes": 30
+    }
+  ],
+  "events": [
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20260929T190000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjA5MjlUMTkwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-09-29T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-09-29T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-09-29T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "jq5lnsm2vae3hjh2ivpa3l5upo",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=anE1bG5zbTJ2YWUzaGpoMml2cGEzbDV1cG8gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-22T22:38:28Z",
+      "updated": "2026-09-28T19:02:48Z",
+      "summary": "Industry Champions with Chris Budihas",
+      "description": "\n\n==========\n\nINTERVIEW LOCATION:\n1611 San Marco Blvd, Jacksonville FL 32207\n\nName: Ann-Marie Sheehan\nCompany: Sheehan Homestead LLC DBA Critters-On-Call\nCompany size: 1-5\nWebsite: https://Www.Sheehanhomestead.com\nSeniority Level: Owner\nTitle/Position: Owner \nLinkedIn Profile: \nEmail: sheehanhomestead@gmail.com\nPhone: (914) 263-1311\nPostal code: 32011\nIndustry: Education\n\nShort company description:\nProvide unique experiences and learning opportunities while spreading education, wellness, and joy in the community. \n\nWhat's The Biggest Challenge you are facing in your business or industry? \nGetting the word out \n\nHow do you see your field evolving in the next 3-5 years \nGrowth especially regional  \n\nWhat do you consider to be your greatest accomplishment? \nMy daughter.  I'm a mom now.  \n\nWho in your industry do you see as a trend setter and why? \nI like homestead rescue and David the good plus mark from self sufficient me. \n\nNeed to make a change to this event?\n\nReschedule:-\nhttps://cfm.buzztvnews.com/widget/booking/53VCbDWJYJlcnqb9LBQO?event_id=TxEZkln5UpJYgzrwE6KS\nCancel:-\nhttps://cfm.buzztvnews.com/widget/cancel-booking?event_id=TxEZkln5UpJYgzrwE6KS",
+      "location": "1611 San Marco Blvd, Jacksonville FL 32207",
+      "creator": {
+        "email": "studio@cfmedia.net"
+      },
+      "organizer": {
+        "email": "studio@cfmedia.net"
+      },
+      "start": {
+        "dateTime": "2026-10-01T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T10:10:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "studio@cfmedia.net",
+          "organizer": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "chris.budihas@cfmedia.net",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "clbudihas@gmail.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_6kskag9g70o36b9p8kq46b9k60s32b9p71346b9i8cp3gh1k74o4ce9j6c",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzZrc2thZzlnNzBvMzZiOXA4a3E0NmI5azYwczMyYjlwNzEzNDZiOWk4Y3AzZ2gxazc0bzRjZTlqNmMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-09T16:52:27Z",
+      "updated": "2026-09-25T12:26:03Z",
+      "summary": "Dryer repair ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-01T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "5mk3bcodmfb7ct18cjah6jd9re",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NW1rM2Jjb2RtZmI3Y3QxOGNqYWg2amQ5cmUgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-23T18:33:17Z",
+      "updated": "2026-09-24T00:29:58Z",
+      "summary": "Mommy & Me Class ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-01T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-01T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "alexaowens25@gmail.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/gby-ogwi-vgy",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/gby-ogwi-vgy"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "20qi97nvkk1lhvqs3j8smgq6tn",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjBxaTk3bnZrazFsaHZxczNqOHNtZ3E2dG4gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-21T22:57:30Z",
+      "updated": "2026-09-22T12:23:57Z",
+      "summary": "Mobile PZ ",
+      "description": "Farm theme- extra ducks",
+      "location": "River City Science Academy Innovations 8160 Baymeadows Way W, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-02T08:20:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-02T11:20:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "lburnette@rivercityscience.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261003T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNjEwMDNUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-10-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261003T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNjEwMDNUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-10-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "71vcgkdefrk0jrrb5outtl9vef",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzF2Y2drZGVmcmswanJyYjVvdXR0bDl2ZWYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-09T15:14:48Z",
+      "updated": "2026-09-16T13:06:04Z",
+      "summary": "Mobile PZ - BDay Party",
+      "description": "(904) 315-4393",
+      "location": "7350 white birch drive Jax, fl 32277",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-03T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "kgornos@jacksonville.edu",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "_68ok6da484pk4b9i88o38b9k8p138ba160qk8ba48opk8dq3612jcdq26o",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY4b2s2ZGE0ODRwazRiOWk4OG8zOGI5azhwMTM4YmExNjBxazhiYTQ4b3BrOGRxMzYxMmpjZHEyNm8gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-14T21:44:52Z",
+      "updated": "2026-09-16T14:38:41Z",
+      "summary": "Mobile PZ ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-03T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-03T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "madelynbeasley134@gmail.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261006T190000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEwMDZUMTkwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-06T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-10-06T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "8rajm7ohjlh6jk8c5jngmc7of0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=OHJham03b2hqbGg2ams4YzVqbmdtYzdvZjAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-22T22:41:59Z",
+      "updated": "2026-09-22T23:34:48Z",
+      "summary": "The Horse's Mouth: Movers and Shakers with Tom McManus and David Ramos",
+      "description": "\n\n==========\n\nPhone:- (914) 263-1311\nEmail:- sheehanhomestead@gmail.com\n\nNeed to make a change to this event?\nReschedule:-\nhttps://cfm.buzztvnews.com/widget/booking/cAtlcCMkSgQ7JCsT764w?event_id=OYIHpuDkJrc9CbhIGy9a\n\nCancel:-\nhttps://cfm.buzztvnews.com/widget/cancel-booking?event_id=OYIHpuDkJrc9CbhIGy9a",
+      "location": "1611 San Marco Blvd. Jacksonville, FL 32207",
+      "creator": {
+        "email": "studiob@cfmedia.net"
+      },
+      "organizer": {
+        "email": "studiob@cfmedia.net"
+      },
+      "start": {
+        "dateTime": "2026-10-08T12:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-08T12:55:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "studiob@cfmedia.net",
+          "organizer": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "david.ramos@stretchlab.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "linebacker55@comcast.net",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20261009",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNjEwMDkgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-09T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-10-10T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2026-10-09T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "3b405s325qj3k9gcp9tp58anst",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M2I0MDVzMzI1cWozazlnY3A5dHA1OGFuc3Qgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-07-31T18:00:14Z",
+      "updated": "2026-09-16T14:46:02Z",
+      "summary": "Mobile PZ Event ",
+      "description": "Animal pickup at 11:30, Malik",
+      "location": "219 Saint Johns Golf Drive  Saint Augustine, FL 32092",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-11T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-11T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "jtallaksen@vestapropertyservices.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "malikfloyd16@gmail.com",
+          "displayName": "Malik",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "5lsbt1e5qn852qiggf5bdt511m",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NWxzYnQxZTVxbjg1MnFpZ2dmNWJkdDUxMW0gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-21T19:57:28Z",
+      "updated": "2026-09-22T00:50:26Z",
+      "summary": "Bunny Haven",
+      "description": "<p><i>Brittany Thomas, BSN, RN</i><u></u><u></u></p><p>Director of Nursing \u2013 Central Jacksonville<u></u><u></u></p><p>Email:\u00a0<a href=\"mailto:bthomas@angelsofcare.com\" target=\"_blank\">bthomas@angelsofcare.com</a><u></u><u></u></p><p><a href=\"https://www.google.com/maps/search/9731+Beach+Blvd.+Jacksonville,+FL+32246+%2329?entry=gmail&amp;source=g\">9731 Beach Blvd. Jacksonville, FL 32246 #29</a><u></u><u></u></p><p>(o)\u00a0<a target=\"_blank\">904.450.5309</a></p>",
+      "location": "9731 Beach Blvd. Jacksonville, FL 32246",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-12T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "bthomas@advancedcarepartners.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20261013T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNjEwMTNUMTUzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-13T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2026-10-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261013T190000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEwMTNUMTkwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-13T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-13T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-10-13T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2580qhb6508lggb9llotvl8uhc",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjU4MHFoYjY1MDhsZ2diOWxsb3R2bDh1aGMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-21T21:11:22Z",
+      "updated": "2026-09-29T00:10:16Z",
+      "summary": "Bunny Haven",
+      "description": "Ducks and goats ",
+      "location": "641 W 4th St, Jacksonville, FL 32209",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-14T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-14T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "ecooks@fletcherstendercare.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "78h576l1lr7bf7todh1slj57aq",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzhoNTc2bDFscjdiZjd0b2RoMXNsajU3YXEgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-11T20:30:16Z",
+      "updated": "2026-09-17T18:00:09Z",
+      "summary": "Mini Petting Zoo ",
+      "description": "<a>904-489-4037</a><br><a>Madelynne Beck</a><br><a>Bring Duck - Farm Unit in School</a>",
+      "location": "2002 San Pablo Rd S",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-15T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-15T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "mbeck@rivercityscience.org",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "43fl8b954jsqksah5h01c6fhfk",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDNmbDhiOTU0anNxa3NhaDVoMDFjNmZoZmsgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-02T16:16:46Z",
+      "updated": "2026-09-16T14:41:43Z",
+      "summary": "Mobile PZ + Side of Critters",
+      "description": "<br><b>Kaylie Fitzhugh</b><br><b>Assistant Amenity Manager</b><br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\"></a>P.\u00a0<a target=\"_blank\">904.329.2277</a><br><a target=\"_blank\"><br></a><br>Tamaya \\ Beach CDD<br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\">12788 Meritage Blvd.</a><br><a href=\"https://www.google.com/maps/search/12788+Meritage+Blvd.+%0D%0A+%0D%0AJacksonville,+FL+32246?entry=gmail&amp;source=g\">Jacksonville, FL 32246</a>",
+      "location": "12788 Meritage Blvd. Jacksonville, FL 32246",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-17T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-17T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "kfitzhugh@vestapropertyservices.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "364qopufj2qge35n635mfpuk5j",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MzY0cW9wdWZqMnFnZTM1bjYzNW1mcHVrNWogc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-05-05T16:31:00Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Bunny Haven",
+      "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-20T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sarah.speer@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261020T144500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNjEwMjBUMTQ0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-16T14:42:27Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-20T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2026-10-20T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261020T190000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEwMjBUMTkwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-20T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-20T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-10-20T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "69bg0r23a1m5rako4p2puf2g2n",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NjliZzByMjNhMW01cmFrbzRwMnB1ZjJnMm4gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T15:43:39Z",
+      "updated": "2026-09-21T15:53:55Z",
+      "summary": "Bunny Haven",
+      "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-21T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-21T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "christina.dutcher@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_852kac9m710jeb9m74rk6b9k6t232b9o8ko42ba585144h9n88o36c9n6s",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzg1MmthYzltNzEwamViOW03NHJrNmI5azZ0MjMyYjlvOGtvNDJiYTU4NTE0NGg5bjg4bzM2YzluNnMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-21T14:10:35Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Pediatrician visit",
+      "location": "2360 Park Street\nJacksonville FL 32204\nUnited States",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-22T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-22T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "31hckk1h647qnm91hblrk2f0ec",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MzFoY2trMWg2NDdxbm05MWhibHJrMmYwZWMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T19:39:59Z",
+      "updated": "2026-09-28T20:52:10Z",
+      "summary": "Mobile PZ Event ",
+      "description": "trunk or treat event\u00a0<br><a target=\"_blank\">904.242.6508</a>",
+      "location": "8985 Annie Eliza Rd",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-23T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "dianna.sheikh@sunshinepreschoolsfl.com",
+          "responseStatus": "accepted",
+          "comment": "\r\n"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "zboronell0928@gmail.com",
+          "displayName": "Zaylee Boronell",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8cp42dq66cs3gba58gqk2b9k68sj0ba28cr44b9m8ork4e1m64rk4chk6g",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcDQyZHE2NmNzM2diYTU4Z3FrMmI5azY4c2owYmEyOGNyNDRiOW04b3JrNGUxbTY0cms0Y2hrNmcgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-31T17:27:30Z",
+      "updated": "2026-09-15T00:33:27Z",
+      "summary": "Mobile petting zoo & side of critters",
+      "description": "904-327-5370 Kathy McLearn ",
+      "location": "12638 Mandarin Rd\nJacksonville, FL, United States",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-23T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "kmclearn12@gmail.com",
+          "displayName": "Kathy McLearn",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "3qrdaisc237nir8bc6o7v9g7hc",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M3FyZGFpc2MyMzduaXI4YmM2bzd2OWc3aGMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-15T16:13:31Z",
+      "updated": "2026-09-28T20:32:56Z",
+      "summary": "Mobile PZ + SideOf C",
+      "location": "86674 pages dairy rd\u00a0 Yulee fl",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-23T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-23T20:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "fields8990@gmail.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "bellvsoliver85@gmail.com",
+          "displayName": "Crystal Oliver",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_611k6d9p6t1j0b9g6oojeb9k68r36b9o68r32b9g8op3ec256srj8d1k70",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzYxMWs2ZDlwNnQxajBiOWc2b29qZWI5azY4cjM2YjlvNjhyMzJiOWc4b3AzZWMyNTZzcmo4ZDFrNzAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-07-27T22:36:04Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Eartha mobile petting zoo ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-24T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "displayName": "Charlene Gross",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "honeybeeresale@gmail.com",
+          "displayName": "Melissa Hyte",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "7112kve3c2rh32jqoiihus69hm",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzExMmt2ZTNjMnJoMzJqcW9paWh1czY5aG0gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-25T17:50:31Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event - 3 hours ",
+      "location": "5825 SR-16 E\nSaint Augustine, FL, United States",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-24T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "diane@libertylandscapesupply.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "0qklbtq4gd94ngd2eaehtlde6h",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MHFrbGJ0cTRnZDk0bmdkMmVhZWh0bGRlNmggc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-12T20:13:24Z",
+      "updated": "2026-09-13T14:24:03Z",
+      "summary": "Mobile PZ Event",
+      "location": "6542 Old Soutel Ct Jacksonville, FL 32219",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-24T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "connie889305@gmail.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2q79od7l106nrbg6h9pj1e3ga2",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MnE3OW9kN2wxMDZucmJnNmg5cGoxZTNnYTIgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-21T16:03:58Z",
+      "updated": "2026-09-21T17:01:23Z",
+      "summary": "Mobile PZ",
+      "location": "Tinker Street",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-24T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-24T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "ebricknell@ccmcnet.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "4olmomjajcmo5pohhkslfdvcu5",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NG9sbW9tamFqY21vNXBvaGhrc2xmZHZjdTUgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-25T17:49:24Z",
+      "updated": "2026-09-16T14:43:48Z",
+      "summary": "Mobile PZ Event - 2 hours ",
+      "location": "11665 Fort Caroline Rd, Jacksonville, FL 32225",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-25T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-10-26T00:00:00Z"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "blo55om82@aol.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "amollitt@yahoo.com",
+          "displayName": "Audrey - Pz Helper",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261027T190000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEwMjdUMTkwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-27T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-27T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-10-27T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "62t03reu7ra5i3ncdpvia5hub5",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NjJ0MDNyZXU3cmE1aTNuY2RwdmlhNWh1YjUgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-15T22:06:13Z",
+      "updated": "2026-09-21T15:54:09Z",
+      "summary": "Bunny Haven",
+      "description": "<p><b>Patricia Valenzuela</b></p><p><i>Director of Celebrations and Transportation</i></p><p><a href=\"https://www.google.com/maps/search/10520+Validus+Dr.+%0D%0A+%0D%0A+Jacksonville,+FL+32256?entry=gmail&amp;source=g\">10520 Validus Dr.</a></p><p><a href=\"https://www.google.com/maps/search/10520+Validus+Dr.+%0D%0A+%0D%0A+Jacksonville,+FL+32256?entry=gmail&amp;source=g\">Jacksonville, FL 32256</a></p><p><a target=\"_blank\">(904) 800-7001</a></p>",
+      "location": "10520 Validus Dr. Jacksonville",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-28T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-28T15:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "pvalenzuela@discoverymanagementgroup.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6oqi9g9e2h32oovr9cu8c34m1f",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nm9xaTlnOWUyaDMyb292cjljdThjMzRtMWYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T19:41:51Z",
+      "updated": "2026-09-28T20:15:55Z",
+      "summary": "Mobile PZ Event ",
+      "description": "<a href=\"goog_619105126\">trunk or treat</a><br><a href=\"http://904.242.6508\">904.242.6508\u00a0\u00a0</a>",
+      "location": "The Goddard School of Ponte Vedra - Nocatee",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-29T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-29T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "dianna.sheikh@sunshinepreschoolsfl.com",
+          "responseStatus": "accepted",
+          "comment": "\r\n"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "stacy.addicott@gmail.com",
+          "displayName": "Stacy Addicott",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20261030",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNjEwMzAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-10-30T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-10-31T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2026-10-30T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "3kg5sos5250v55mmn2raohqo0m",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M2tnNXNvczUyNTB2NTVtbW4ycmFvaHFvMG0gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T19:43:09Z",
+      "updated": "2026-09-28T19:05:03Z",
+      "summary": "Mobile PZ Event ",
+      "description": "<a target=\"_blank\">904.242.6508</a>",
+      "location": "The Goddard School of Ponte Vedra Beach",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-30T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-30T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "dianna.sheikh@sunshinepreschoolsfl.com",
+          "responseStatus": "accepted",
+          "comment": "\r\n"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "pagelj4777@gmail.com",
+          "displayName": "Joanna Pagel",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "3gpk95gatpapq64il857qelt88",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M2dwazk1Z2F0cGFwcTY0aWw4NTdxZWx0ODggc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-14T21:57:00Z",
+      "updated": "2026-09-28T20:15:23Z",
+      "summary": "Mini PZ",
+      "description": "Sheridan\u00a0<a target=\"_blank\">9044412824</a>",
+      "location": "4700 Amelia Island Pkwy, Amelia Island, FL 32034",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-30T18:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-30T20:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sregan@golfclubofamelia.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "stacy.addicott@gmail.com",
+          "displayName": "Stacy Addicott",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "4si6spuucd4mupqs4vc80o8u67",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NHNpNnNwdXVjZDRtdXBxczR2Yzgwbzh1Njcgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-11T14:11:14Z",
+      "updated": "2026-09-28T20:15:36Z",
+      "summary": "Mobile PZ + Side of Critters ",
+      "location": "85971 N Harts Rd, Yulee, FL 32097",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-10-31T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-31T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "angiemcclellan@bellsouth.net",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "failingforwardfarm@gmail.com",
+          "displayName": "Madison",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "stacy.addicott@gmail.com",
+          "displayName": "Stacy Addicott",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261103T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjExMDNUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-03T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-03T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-11-03T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "22g9acd7utk333i4a532o1vn44",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjJnOWFjZDd1dGszMzNpNGE1MzJvMXZuNDQgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-22T23:23:04Z",
+      "updated": "2026-09-23T00:15:47Z",
+      "summary": "Finding Your Frequency with Brian Sexton",
+      "description": "\n\n==========\n\nINTERVIEW LOCATION:\n1611 San Marco Blvd, Jacksonville FL 32207\n\nName: Ann-Marie Sheehan\nCompany: Sheehan Homestead LLC DBA Critters-On-Call\nWebsite: https://Www.sheehanhomestead.com\nSeniority Level: Owner\nTitle/Position: Owner\nLinkedIn Profile: \nEmail: sheehanhomestead@gmail.com\nPhone: (914) 263-1311\nPostal code: 32011\nIndustry: Education\n\nShort company description: Spread joy learning and wellness with critters and stem on call. \n\nWhat is your \"why\"? What drives you to do what you do every day? \nBeing a mom \n\nWhat inspires you to keep growing and learning as a leader? \nNew things every day \n\nWhat impact do you hope to leave on your organization or industry? \nShow teachers they can make it on their own \n\nWho do you admire in the industry and why? \nMy former colleague who is an entrepreneur \n\nNeed to make a change to this event?\n\nReschedule:-\nhttps://cfm.buzztvnews.com/widget/booking/4Ql3lWBIvXuLhNoL4rlQ?event_id=mndDZAViYj8ItNgxvnhv\nCancel:-\nhttps://cfm.buzztvnews.com/widget/cancel-booking?event_id=mndDZAViYj8ItNgxvnhv",
+      "location": "1611 San Marco Blvd, Jacksonville FL 32207",
+      "creator": {
+        "email": "studio@cfmedia.net"
+      },
+      "organizer": {
+        "email": "studio@cfmedia.net"
+      },
+      "start": {
+        "dateTime": "2026-11-03T15:10:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-03T15:20:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "studio@cfmedia.net",
+          "organizer": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "thatbriansexton@gmail.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261107T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNjExMDdUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-07T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-07T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-11-07T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261107T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNjExMDdUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-07T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-07T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-11-07T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "4afkhofje9jun61n6iie2k0t66",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NGFma2hvZmplOWp1bjYxbjZpaWUyazB0NjYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-09T15:31:33Z",
+      "updated": "2026-09-11T16:39:40Z",
+      "summary": "Goat Yoga ",
+      "location": "219 Saint Johns Golf Drive Saint Augustine, FL 32092",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-07T10:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-07T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "jtallaksen@vestapropertyservices.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "mystysa@gmail.com",
+          "displayName": "Emy Gall",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "7732b19vmptqsjurj28p7drpma",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzczMmIxOXZtcHRxc2p1cmoyOHA3ZHJwbWEgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-27T18:32:33Z",
+      "updated": "2026-09-27T18:34:52Z",
+      "summary": "Mobile PZ ",
+      "description": "<table><tbody><tr><td>Extra Ducks No Chickens\u00a0<br>Julie Pettigrew</td></tr><tr><td></td><td>9319993833</td></tr></tbody></table>",
+      "location": "8202 Elsdon St",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-07T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-07T12:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "jpettigrew713@gmail.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2cac0heeaqd0mn6qdia0litubp",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmNhYzBoZWVhcWQwbW42cWRpYTBsaXR1YnAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-13T19:00:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ + CoT",
+      "location": "Amelia Island Plantation 5542 First Coast Highway",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-07T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-07T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "kbean@aipca.net",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/utk-ewgf-rcm",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/utk-ewgf-rcm"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20261110T163000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNjExMTBUMTYzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-10T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-10T12:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2026-11-10T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261110T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjExMTBUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-10T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-10T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-11-10T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2r2eg6fqpjt7om2dulsa9k87d3",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MnIyZWc2ZnFwanQ3b20yZHVsc2E5azg3ZDMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-04-18T17:04:43Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "1200 Atlantic Ave, Fernandina Beach, FL 32034",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-14T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-11-15T00:00:00Z"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "lrozier@micahsplace.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261117T154500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNjExMTdUMTU0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-17T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-17T11:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2026-11-17T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261117T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjExMTdUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-17T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-17T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-11-17T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20261120",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNjExMjAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-11-20T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-11-21T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2026-11-20T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "0j1efgsgsd760cror52be7cpl4",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MGoxZWZnc2dzZDc2MGNyb3I1MmJlN2NwbDQgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:35:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "Oakwood Villa 8201 Kona ave Jacksonville FL 32211",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-24T12:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-24T13:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261124T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjExMjRUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-24T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-24T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-11-24T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "7c1tlglqn4vmhuivouc1jjlrrj",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=N2MxdGxnbHFuNHZtaHVpdm91YzFqamxycmogc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-03T12:27:31Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Bunny Haven - Critter Club ",
+      "location": "86145 Lofton CT Yulee, Fl. 32096",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-11-30T10:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-11-30T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "christil123@yahoo.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261201T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEyMDFUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-01T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-01T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-12-01T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20261205T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNjEyMDVUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-05T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-05T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-12-05T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20261205T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNjEyMDVUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-05T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-05T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2026-12-05T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "1pl209uiuba9l6ca8cs9mtbe7o",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MXBsMjA5dWl1YmE5bDZjYThjczltdGJlN28gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-05-22T16:17:39Z",
+      "updated": "2026-08-30T14:37:52Z",
+      "summary": "Goat Yoga",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-05T17:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-05T18:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "tiffanygumino@gmail.com",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20261208T163000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNjEyMDhUMTYzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-08T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-08T12:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2026-12-08T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261208T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEyMDhUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-08T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-08T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-12-08T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20261211",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNjEyMTEgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2026-12-11T00:00:00Z"
+      },
+      "end": {
+        "date": "2026-12-12T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2026-12-11T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "6tn86ij9q3bc8348kqboc87tuf",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnRuODZpajlxM2JjODM0OGtxYm9jODd0dWYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-05-05T16:30:33Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Bunny Haven Visit",
+      "location": "5125 Palm Vly Rd, Ponte Vedra Beach, FL 32082",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-15T10:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-15T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sarah.speer@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20261215T154500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNjEyMTVUMTU0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-15T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-15T11:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2026-12-15T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60_20261215T200000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwcmo2Z2hvOGtwMzhiYTY4bDJqaWI5azhncGpnYmEyNjkxM2NiYTI3MHA0Mmg5aTZnbzQ4aGhwNjBfMjAyNjEyMTVUMjAwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-14T18:16:49Z",
+      "updated": "2026-09-14T18:16:49Z",
+      "summary": "AIMS Lessons ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-15T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-15T16:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_70rj6gho8kp38ba68l2jib9k8gpjgba26913cba270p42h9i6go48hhp60",
+      "originalStartTime": {
+        "dateTime": "2026-12-15T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "5ifdio0slgjc4q460b91t0mqg9",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NWlmZGlvMHNsZ2pjNHE0NjBiOTF0MG1xZzkgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-18T17:14:24Z",
+      "updated": "2026-09-25T12:05:45Z",
+      "summary": "Bunny Haven",
+      "location": "5760 Timuquana Pl",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-16T10:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-16T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tracy.levanich@gardensmemorycare.com",
+          "responseStatus": "declined"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "3n31mjkuf16152ulc01sr4f3g9",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M24zMW1qa3VmMTYxNTJ1bGMwMXNyNGYzZzkgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-18T17:29:06Z",
+      "updated": "2026-09-18T17:29:06Z",
+      "summary": "Bunny Haven",
+      "location": "The Windsor at Ortega",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-16T14:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-16T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "deandre.stringer@legendseniorliving.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6j1l7o9d4n1g0mcbnnpeif08no",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NmoxbDdvOWQ0bjFnMG1jYm5ucGVpZjA4bm8gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-15T13:21:39Z",
+      "updated": "2026-09-15T13:22:17Z",
+      "summary": "Bunny Haven",
+      "description": "<a>3052154408</a>",
+      "location": "76113 Timbercreek Blvd Yulee, FL 32097",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-19T15:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-19T16:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "msantiesteban82@gmail.com",
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2rda0o6kkg5af4skghehbc0r55",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MnJkYTBvNmtrZzVhZjRza2doZWhiYzByNTUgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T15:44:39Z",
+      "updated": "2026-09-16T15:44:39Z",
+      "summary": "Bunny Haven",
+      "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-22T10:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-22T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "christina.dutcher@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "40psg7nv77bpf938m39s6vuusq",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDBwc2c3bnY3N2JwZjkzOG0zOXM2dnV1c3Egc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:36:16Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "University Plaza\u2002\u2002\u2002\u2002719 Venus Mars Ct. Jax, 32209 ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2026-12-29T12:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-12-29T13:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270101",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzAxMDEgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-01T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-01-02T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-01-01T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270102T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNzAxMDJUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-02T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-01-02T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-01-02T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270102T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNzAxMDJUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-02T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-01-02T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-01-02T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "47bhvvspr7hfe0dkalcl7v5jvc",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDdiaHZ2c3ByN2hmZTBka2FsY2w3djVqdmMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:37:03Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "Palmetto Glen\u2002\u2002\u2002\u2002\u20022976 Willow St. Jax, 32207",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-05T12:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-01-05T13:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20270112T163000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNzAxMTJUMTYzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-12T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-01-12T12:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2027-01-12T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270119T154500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNzAxMTlUMTU0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-01-19T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-01-19T11:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2027-01-19T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270122",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzAxMjIgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-01-22T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-01-23T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-01-22T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270206T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNzAyMDZUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-06T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-02-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270206T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNzAyMDZUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-06T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-02-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20270209T163000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNzAyMDlUMTYzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-09T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-09T12:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2027-02-09T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270212",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzAyMTIgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-12T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-02-13T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-02-12T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270216T154500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNzAyMTZUMTU0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-16T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-16T11:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2027-02-16T10:45:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8h1k6dq26go4cb9i6h2j2b9k6cpjeb9p8or36ba38krk2d1n8l236cpn6c_20270219",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMWs2ZHEyNmdvNGNiOWk2aDJqMmI5azZjcGplYjlwOG9yMzZiYTM4a3JrMmQxbjhsMjM2Y3BuNmNfMjAyNzAyMTkgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-02-07T21:56:16Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wedding anniversary  \ud83d\udc70\ud83c\udffc\ud83e\udd35\ud83c\udffc\ud83c\udf89\ud83c\udf89",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-02-19T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-02-20T00:00:00Z"
+      },
+      "recurringEventId": "_8h1k6dq26go4cb9i6h2j2b9k6cpjeb9p8or36ba38krk2d1n8l236cpn6c",
+      "originalStartTime": {
+        "date": "2027-02-19T00:00:00Z"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "4ugal53fa3kp5q0fnhu4ebv3hq",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NHVnYWw1M2ZhM2twNXEwZm5odTRlYnYzaHEgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-03T12:27:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Bunny Haven - Critter Club ",
+      "location": "86145 Lofton CT Yulee, Fl. 32096",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-22T10:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-22T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "christil123@yahoo.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/zch-oewi-iox",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/zch-oewi-iox"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "21ru2oncrv6307s44slktqsgn3",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjFydTJvbmNydjYzMDdzNDRzbGt0cXNnbjMgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T15:45:12Z",
+      "updated": "2026-09-16T15:45:13Z",
+      "summary": "Bunny Haven",
+      "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-02-23T10:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-02-23T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "christina.dutcher@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/jyq-igpw-aat",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/jyq-igpw-aat"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270305",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzAzMDUgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-05T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-03-06T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-03-05T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270306T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNzAzMDZUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-06T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-03-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270306T140000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNzAzMDZUMTQwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-06T09:15:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-03-06T09:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20270309T163000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNzAzMDlUMTYzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-09T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-09T12:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2027-03-09T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "21o8umif4q60ca5ot3uh3q3mmr",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjFvOHVtaWY0cTYwY2E1b3QzdWgzcTNtbXIgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-18T17:22:29Z",
+      "updated": "2026-09-18T17:24:22Z",
+      "summary": "Bunny Haven",
+      "location": "5125 Palm Vly Rd",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-10T10:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-10T11:30:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "transparency": "transparent",
+      "attendees": [
+        {
+          "email": "dee.stanziano@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": 30
+        }
+      ],
+      "eventType": "DEFAULT",
+      "availability": "AVAILABILITY_FREE",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "6qmq5hks1bhgcs5un1rluch0av_20270310T160000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnFtcTVoa3MxYmhnY3M1dW4xcmx1Y2gwYXZfMjAyNzAzMTBUMTYwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-18T17:47:14Z",
+      "updated": "2026-09-18T18:55:17Z",
+      "summary": "Bunny Haven",
+      "location": "641 W 4th St",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-11T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-11T12:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6qmq5hks1bhgcs5un1rluch0av",
+      "originalStartTime": {
+        "dateTime": "2027-03-10T11:00:00-05:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "ecooks@fletcherstendercare.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "3q8h9ii7i6fap77ap4ockbifn6",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M3E4aDlpaTdpNmZhcDc3YXA0b2NrYmlmbjYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-18T17:16:12Z",
+      "updated": "2026-09-25T12:05:45Z",
+      "summary": "Bunny Haven",
+      "location": "5760 Timuquana Rd",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-15T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-15T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tracy.levanich@gardensmemorycare.com",
+          "responseStatus": "declined"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270316T144500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNzAzMTZUMTQ0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-16T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-16T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2027-03-16T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "7fbjtjrdbpskfcndl93tbk6178",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=N2ZianRqcmRicHNrZmNuZGw5M3RiazYxNzggc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:37:43Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "Calloway Cove 4229 Moncrief Rd Jacksonville 32209",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-16T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-16T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "4kusjli5fgqss2rk46mo1s4j6i",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NGt1c2psaTVmZ3FzczJyazQ2bW8xczRqNmkgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-18T17:32:12Z",
+      "updated": "2026-09-18T17:32:13Z",
+      "summary": "Bunny Haven",
+      "location": "The Windsor at Ortega",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-17T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-17T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "deandre.stringer@legendseniorliving.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "27l1tr7b7bk83qklqr1sq2g73n",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjdsMXRyN2I3Yms4M3FrbHFyMXNxMmc3M24gc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:38:29Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Mobile PZ Event",
+      "location": "The Weldon\u2002\u2002\u2002\u2002\u2002\u20021650 Moncrief Village N. Jax.32209",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-03-18T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-03-18T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "cgross@elcduval.org",
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270326",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzAzMjYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-03-26T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-03-27T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-03-26T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270403T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNzA0MDNUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-03T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270403T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNzA0MDNUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-03T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20270413T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNzA0MTNUMTUzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-13T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2027-04-13T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6qmq5hks1bhgcs5un1rluch0av_20270414T150000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnFtcTVoa3MxYmhnY3M1dW4xcmx1Y2gwYXZfMjAyNzA0MTRUMTUwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-18T17:47:14Z",
+      "updated": "2026-09-18T18:55:17Z",
+      "summary": "Bunny Haven",
+      "location": "641 W 4th St",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-14T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-14T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6qmq5hks1bhgcs5un1rluch0av",
+      "originalStartTime": {
+        "dateTime": "2027-04-14T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "ecooks@fletcherstendercare.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270416",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzA0MTYgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-04-16T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-04-17T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-04-16T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270420T144500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNzA0MjBUMTQ0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-20T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-20T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2027-04-20T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "7ia4nl8n872disdqajo83o17jd",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=N2lhNG5sOG44NzJkaXNkcWFqbzgzbzE3amQgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-09-16T15:46:47Z",
+      "updated": "2026-09-16T15:46:47Z",
+      "summary": "Bunny Haven",
+      "location": "3760 Dupont Avenue Jacksonville, FL 32217",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-04-21T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-04-21T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "christina.dutcher@gardensmemorycare.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "2g6vikre5spnbn4hiu7jfpqsio_20270501T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Mmc2dmlrcmU1c3BuYm40aGl1N2pmcHFzaW9fMjAyNzA1MDFUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:04:40Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Wild Light Market - 4 hours",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-01T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "2g6vikre5spnbn4hiu7jfpqsio_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-05-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "48b796rdfr1vjmmqldpuoq9nji_20270501T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NDhiNzk2cmRmcjF2am1tcWxkcHVvcTluamlfMjAyNzA1MDFUMTMwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2024-07-01T14:02:57Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Fernandina Arts Market - 2 hrs",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-01T09:15:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "48b796rdfr1vjmmqldpuoq9nji_R20250503T130000",
+      "originalStartTime": {
+        "dateTime": "2027-05-01T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270507",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzA1MDcgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-07T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-05-08T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-05-07T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    },
+    {
+      "id": "6gtl8ff9kc4edki07i9k6npaik_20270511T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nmd0bDhmZjlrYzRlZGtpMDdpOWs2bnBhaWtfMjAyNzA1MTFUMTUzMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-16T16:06:01Z",
+      "updated": "2026-09-21T16:21:45Z",
+      "summary": "Bunny Haven",
+      "description": "Animals Can be swapped per request\u00a0\nMonthly Subscription\n\nDiscovery Village at Deerwood Retirement/Independent CommunityMain: 904-544-822010660 Validus Dr, Jacksonville, FL 32256",
+      "location": "10660 Validus Dr, Jacksonville, FL 32256",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-11T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-11T12:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6gtl8ff9kc4edki07i9k6npaik",
+      "originalStartTime": {
+        "dateTime": "2027-05-11T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "tfelix@discoveryvillages.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "6qmq5hks1bhgcs5un1rluch0av_20270512T150000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NnFtcTVoa3MxYmhnY3M1dW4xcmx1Y2gwYXZfMjAyNzA1MTJUMTUwMDAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-18T17:47:14Z",
+      "updated": "2026-09-18T18:55:17Z",
+      "summary": "Bunny Haven",
+      "location": "641 W 4th St",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-12T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "6qmq5hks1bhgcs5un1rluch0av",
+      "originalStartTime": {
+        "dateTime": "2027-05-12T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "ecooks@fletcherstendercare.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668_20270518T144500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjRhYzFoNzUyNGFiOW04b28zNmI5azg4cjM0YmExODkwamliOW44b3AzOGU5bjg4cmpjYzI2NjhfMjAyNzA1MThUMTQ0NTAwWiBzaGVlaGFuaG9tZXN0ZWFkQG0&ctz=America/New_York",
+      "created": "2026-09-15T02:26:12Z",
+      "updated": "2026-09-15T02:26:17Z",
+      "summary": "Bunny Haven ",
+      "location": "4600 Middleton Park Cir E, Jacksonville, FL 32224",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-18T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-18T11:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "recurringEventId": "_64r4ac1h7524ab9m8oo36b9k88r34ba1890jib9n8op38e9n88rjcc2668",
+      "originalStartTime": {
+        "dateTime": "2027-05-18T10:45:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "diazcarla@cypressvillageretirement.com",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "conferenceUrl": "https://meet.google.com/ynj-cyua-ram",
+      "eventType": "DEFAULT",
+      "conferenceData": {
+        "solutionName": "Google Meet",
+        "videoEntryPoint": {
+          "uri": "https://meet.google.com/ynj-cyua-ram"
+        }
+      },
+      "useDefaultReminders": true
+    },
+    {
+      "id": "3k2d6mm4jdfcv07gr1ljoes1d0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M2syZDZtbTRqZGZjdjA3Z3IxbGpvZXMxZDAgc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-08-03T12:29:01Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Bunny Haven - Critter Club ",
+      "location": "86145 Lofton CT Yulee, Fl. 32096",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2027-05-24T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2027-05-24T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "attendees": [
+        {
+          "email": "sheehanhomestead@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "christil123@yahoo.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": true
+    },
+    {
+      "id": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70_20270528",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhvbzNnY2hpOGtzM2NiOWs2NTFqYWI5azZncGowYjlvNjUyazJiYTQ4Z3FqMmUyMjZoMzQyZTloNzBfMjAyNzA1Mjggc2hlZWhhbmhvbWVzdGVhZEBt&ctz=America/New_York",
+      "created": "2026-06-09T12:45:30Z",
+      "updated": "2026-08-28T12:46:06Z",
+      "summary": "Replace hvac filter ",
+      "creator": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "sheehanhomestead@gmail.com",
+        "self": true
+      },
+      "start": {
+        "date": "2027-05-28T00:00:00Z"
+      },
+      "end": {
+        "date": "2027-05-29T00:00:00Z"
+      },
+      "recurringEventId": "_8oo3gchi8ks3cb9k651jab9k6gpj0b9o652k2ba48gqj2e226h342e9h70",
+      "originalStartTime": {
+        "date": "2027-05-28T00:00:00Z"
+      },
+      "overrideReminders": [
+        {
+          "method": "popup",
+          "minutes": -540
+        }
+      ],
+      "eventType": "DEFAULT",
+      "conferenceData": {},
+      "useDefaultReminders": false
+    }
+  ]
+}
