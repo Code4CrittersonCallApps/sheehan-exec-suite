@@ -1,0 +1,79 @@
+{
+  "board_version": "v2.9.17 \u00b7 Sep 29, 2026 9:26 AM ET \u00b7 calendar confirm + Gmail Sent reconcile",
+  "as_of": "Sep 29, 2026 9:26 AM ET",
+  "hard_refresh": "?v=2917",
+  "n_events_scanned": 112,
+  "n_bookings_classified": 82,
+  "calendar_scheduled_updated": 0,
+  "calendar_scheduled_added": 0,
+  "calendar_note": "Identical to v2916 set \u2014 no new bookings/emails since 12:28 AM ET refresh",
+  "sent_matches_marked_done": 2,
+  "sent_marked": [
+    {
+      "email": "jbennett@agingtrue.org",
+      "name": "Jacqueline Bennett \u00b7 Aging True / Revels Senior Center",
+      "sent": "2026-09-29 8:44 AM ET"
+    },
+    {
+      "email": "frontdesk@sacredheartcatholicchurch.org",
+      "name": "Nancy Valdes \u00b7 Sacred Heart Catholic Church",
+      "sent": "2026-09-28 10:37 AM ET"
+    }
+  ],
+  "new_outbound_tracking_adds": 4,
+  "outbound_adds": [
+    "Fruit Cove \u00b7 Michelle/Karin (awaiting Karin \u2014 reply referral)",
+    "Discovery Learning Center \u00b7 enrollment@dlcjax.org",
+    "Orange Park Historical Society \u00b7 info@ophistory.org",
+    "Friends of Jax Beach Elementary PTA \u00b7 fojbeptowebmaster@gmail.com"
+  ],
+  "skipped_sent_flood": "Sep 28 church/PTA blast batch + blocked southeast-info@rivercityscience.org \u2014 not added to dunk",
+  "waiting_kept": 59,
+  "skipped_calendar": [
+    {
+      "email": "failingforwardfarm@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "amollitt@yahoo.com",
+      "reason": "helper"
+    },
+    {
+      "email": "malikfloyd16@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "honeybeeresale@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "mystysa@gmail.com",
+      "reason": "helper"
+    },
+    {
+      "email": "bellvsoliver85@gmail.com",
+      "reason": "helper_animal_pickup"
+    }
+  ],
+  "notable": [
+    "Calendar unchanged vs v2916 (112 events) \u2014 SCHEDULED section retained",
+    "Aging True Bennett + Sacred Heart Valdes flipped WAITING\u2192ALREADY SENT from Gmail Sent SoT",
+    "Fruit Cove: Michelle referred Karin Woodley \u2014 Fwd sent; awaiting dates",
+    "RCSA southeast-info delivery BLOCKED \u2014 not tracked as sent success",
+    "Kept 59 WAITING shamebusters/TAM never-sent (Vesta HOA, schools, planners, Field/Corporate)"
+  ],
+  "delta": [
+    "Re-pull Google Calendar DEFAULT 2026-09-29 \u2192 2027-06-01 \u2014 identical to v2916",
+    "Gmail Sent scan ~30d business outreach; match dunk WAITING by email",
+    "Mark 2 WAITING cards ALREADY SENT (Bennett, Sacred Heart)",
+    "ADD 4 selective outbound-tracking cards (Fruit Cove follow-up + 3 Sep 29 morning)",
+    "Skip flooding dunk with Sep 28 church/PTA blast",
+    "Bump cache ?v=2917 \u00b7 deploy both mirrors",
+    "No outbound send \u2014 compose/mailto only"
+  ],
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2917",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2917"
+  ],
+  "no_outbound_send": true
+}
