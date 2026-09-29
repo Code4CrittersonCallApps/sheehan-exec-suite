@@ -1,0 +1,25 @@
+{
+  "board_version": "Board v2.9.12 \u00b7 Sep 28 11:09 PM ET \u00b7 Aberdeen reply + shamebusters + closed no-chase",
+  "as_of": "2026-09-28T23:09:00-04:00",
+  "hard_refresh": "?v=2912",
+  "delta": [
+    "ADD Aberdeen Kate reply Sep 28 10:09 AM ET \u2192 WAITING homestead Send pricing/info (empty Gmail draft)",
+    "UPDATE Beatrix MaliVai: SENT Sep 28 ~9:18 PM ET \u00b7 awaiting her dates (no longer waiting Send)",
+    "KEEP Heather programming-date chase open",
+    "KEEP Westminster $275 counter awaiting reply (SENT Sep 27 5:54 PM ET)",
+    "UPDATE Brooks: Kate 'talk at the event' \u00b7 incomplete draft \u00b7 Nov 21 Violet options already sent",
+    "UPDATE Palagio: fall fest intent \u00b7 Kristi LE Dir \u00b7 awaiting date",
+    "UPDATE Laura ABCC: OWED pricing since Sep 24",
+    "UPDATE River City Lauren: BOOKED Oct 2 Violet (thank-you Sep 27)",
+    "ADD closed: Sean Reynolds No thank you HANDLED / no chase",
+    "TOP shamebusters still WAITING Send: Yulee Dugout (empty draft), Migdy YMCA, Coach Leah, Jillian Arize",
+    "Collateral: Gold giveaway + Violet membership PDFs linked on dunk-list",
+    "Rule preserved: personal/financial-stress/embarrassing never on dunk/GitHub \u00b7 DRAFTS ONLY \u00b7 no auto-send"
+  ],
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2912",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2912",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2912",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=2912"
+  ]
+}
