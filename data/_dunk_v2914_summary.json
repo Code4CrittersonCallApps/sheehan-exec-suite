@@ -1,0 +1,41 @@
+{
+  "board_version": "v2.9.14 \u00b7 Sep 29, 2026 12:20 AM ET \u00b7 HUGE corporate Field District vs Corporate HQ + QSR dunk",
+  "as_of": "2026-09-29T00:06:21.843828-04:00",
+  "hard_refresh": "?v=2914",
+  "delta": [
+    "HUGE expand Corporate TAM: Field District vs Corporate HQ segments",
+    "Field District rows 60 (email 14 / phone 35)",
+    "Corporate HQ email rows 22",
+    "Beatrix remains SENT \u2014 no re-chase",
+    "ALREADY SENT Field: CFA Tinseltown (Sep 23), Royal RG (Sep 25) \u2014 no re-chase",
+    "WAITING Field District mailtos: 3 unique emails",
+    "WAITING Corporate HQ mailtos: 13 unique emails",
+    "Mailto copy differs: Field=kids nights/local store; HQ=employee family/community",
+    "No outbound send \u2014 compose/mailto only"
+  ],
+  "field_waiting_emails": [
+    "comments@mcdjax.com",
+    "joshua.gibson@publix.com",
+    "JacksonvilleCR@publix.com"
+  ],
+  "hq_waiting_emails": [
+    "FLAEvents@mayo.edu",
+    "media@jea.com",
+    "CommunityFirst@c1cufl.org",
+    "Talent@dreamfindershomes.com",
+    "laura.mellem@patriotrail.com",
+    "caitlin.brunell@ascension.org",
+    "paul.poirrier@ascension.org",
+    "mary.anne.thomas@ascension.org",
+    "rebecca.timberlake@ascension.org",
+    "thefoundation@ascension.org",
+    "MediaTeam@csx.com",
+    "sustainability@crowley.com",
+    "info@patriotrail.com"
+  ],
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2914",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2914",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2914"
+  ]
+}
