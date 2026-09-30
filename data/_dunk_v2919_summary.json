@@ -1,0 +1,257 @@
+{
+  "board_version": "v2.9.19 \u00b7 Sep 29, 2026 10:30 PM ET \u00b7 pump 36 never-sent TAM contacts",
+  "as_of": "Sep 29, 2026 10:30 PM ET",
+  "hard_refresh": "?v=2919",
+  "added_count": 36,
+  "segment_mix": {
+    "HOA_CDD": 12,
+    "Senior": 5,
+    "Schools_VPK_Daycare": 7,
+    "Festivals": 5,
+    "Party_Planner": 1,
+    "Field_District": 2,
+    "Corporate": 3,
+    "Churches": 1
+  },
+  "added": [
+    {
+      "name": "Jay Parker",
+      "org": "Aberdeen CDD (FirstService Residential)",
+      "email": "jay.parker@fsresidential.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Jane Sapere",
+      "org": "Aberdeen Stonehaven Townhomes (MAY)",
+      "email": "jsapere@maymgt.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Daniel Laughlin",
+      "org": "Amelia Concourse CDD",
+      "email": "dlaughlin@gmsnf.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Venessa Ripoll",
+      "org": "Amelia National CDD",
+      "email": "ripollv@pfm.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Corey Clapper",
+      "org": "Associa Community Management Concepts of Jacksonville",
+      "email": "cclapper@cmcjaxfla.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Benjamin Pfuhl",
+      "org": "Bainebridge CDD",
+      "email": "bpfuhl@rizzetta.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Jim Oliver",
+      "org": "Bartram Park CDD",
+      "email": "joliver@gmsnf.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Andy Antonopoulos",
+      "org": "Bartram Springs CDD (GMS)",
+      "email": "aantonopoulos@gmsnf.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Danelle DeMarco",
+      "org": "Bartram Springs CDD (GMS)",
+      "email": "ddemarco@gmsnf.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Vivian Carvalho",
+      "org": "Boggy Branch CDD",
+      "email": "carvalhov@pfm.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Lisa Jones",
+      "org": "CMC Jacksonville / Associa (Magnolia West HOA)",
+      "email": "lisa.jones@cmcjaxfla.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "John Williams",
+      "org": "Cross Creek North CDD (Vesta)",
+      "email": "jwilliams@vestapropertyservices.com",
+      "sheet": "HOA_CDD"
+    },
+    {
+      "name": "Lorain Vinson",
+      "org": "Hastings Community Senior Center",
+      "email": "lvinson@coasjc.org",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Melody Dawkins",
+      "org": "Janice Ancrum Senior Life Center",
+      "email": "mdawkins@nassaucountycoa.org",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Evelyn Scott",
+      "org": "Stay For The Day Adult Day Care",
+      "email": "stayforthedayjax@gmail.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Qwanderlyn Goodson",
+      "org": "The PACE Place",
+      "email": "enrollments@thepaceplace.org",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Paulette Kozlowski",
+      "org": "The Sunshine Center",
+      "email": "pkozlowski@coasjc.org",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Ann Thompson",
+      "org": "Early Learning Coalition of Duval",
+      "email": "athompson@elcduval.org",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Cindy Kirby",
+      "org": "Learning Ladders Preschool (Mandarin United Methodist)",
+      "email": "director@learningladderspreschool.com",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Heather Graham",
+      "org": "St. Johns Country Day School",
+      "email": "hgraham@sjcds.net",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Jeni Jacobs",
+      "org": "St. Johns Country Day School",
+      "email": "jjacobs@sjcds.net",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Cynthia Marrero",
+      "org": "The Learning Experience \u2014 Jacksonville Mandarin",
+      "email": "jacksonvillemandarin@tlechildcare.com",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Gigi Morales David",
+      "org": "UNF Preschool (Educational Research Center for Child Development)",
+      "email": "g.david@unf.edu",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Rosette Poole",
+      "org": "Oxford Preparatory Academy",
+      "email": "info@opajax.org",
+      "sheet": "Schools_VPK_Daycare"
+    },
+    {
+      "name": "Alex Alston",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "AAlex@coj.net",
+      "sheet": "Festivals"
+    },
+    {
+      "name": "Allyson Reese",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "AReese1@coj.net",
+      "sheet": "Festivals"
+    },
+    {
+      "name": "Kirsten Barnhorst",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "KBarnhorst@coj.net",
+      "sheet": "Festivals"
+    },
+    {
+      "name": "Lisa Anderson",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "LisaA@coj.net",
+      "sheet": "Festivals"
+    },
+    {
+      "name": "Amanda Patch",
+      "org": "JAX Chamber",
+      "email": "amanda.patch@jaxchamber.com",
+      "sheet": "Festivals"
+    },
+    {
+      "name": "Sharmalyn Lord",
+      "org": "SharmalynLordLLC",
+      "email": "sharmalynlordllc@gmail.com",
+      "sheet": "Party_Planner"
+    },
+    {
+      "name": "Sherry Naydeck",
+      "org": "Aspire at Silverleaf",
+      "email": "sherry.naydeck@greystar.com",
+      "sheet": "Field_District"
+    },
+    {
+      "name": "Hannah Herring",
+      "org": "Publix Super Markets",
+      "email": "hannah.herring@publix.com",
+      "sheet": "Field_District"
+    },
+    {
+      "name": "Merry Walker",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "merry.walker@ascension.org",
+      "sheet": "Corporate"
+    },
+    {
+      "name": "David DeCamp",
+      "org": "Crowley",
+      "email": "david.decamp@crowley.com",
+      "sheet": "Corporate"
+    },
+    {
+      "name": "Rob Bullock",
+      "org": "Duval Landscape Maintenance",
+      "email": "info@duvallandscape.com",
+      "sheet": "Corporate"
+    },
+    {
+      "name": "Danny Baggett",
+      "org": "Church of Hope",
+      "email": "pastor@cohjax.com",
+      "sheet": "Churches"
+    }
+  ],
+  "catholic_leftovers_moved": [
+    "Bishop John J. Snyder High School",
+    "Morning Star High School",
+    "St. Michael Academy",
+    "Cathedral Parish School"
+  ],
+  "catholic_deprioritize_status": "COMPLETE \u2014 v2918 sunk main set; v2919 moved remaining 4 Principals (Snyder, Morning Star, St. Michael Academy, Cathedral Parish) into DEPRIORITIZED sink. Scheduled/booked unchanged. No Catholic schools in new WAITING chase.",
+  "no_outbound_send": true,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2919",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2919",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2919",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=2919"
+  ],
+  "delta": [
+    "ADD 36 never-sent named+email WAITING Send mailto drafts from TAM",
+    "Dedup vs dunk-list + gmail_sent_suppress + principal suppress + recent Gmail Sent scan",
+    "Skip Catholic schools / parish ELCs (diocese insurance)",
+    "Finish move 4 leftover Catholic principals into DEPRIORITIZED sink",
+    "Keep scheduled/booked + churches-on-board as-is",
+    "Bump ?v=2919 \u00b7 deploy both mirrors",
+    "DRAFTS/mailto ONLY \u2014 no send"
+  ]
+}
