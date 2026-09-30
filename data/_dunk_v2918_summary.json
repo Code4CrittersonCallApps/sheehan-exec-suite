@@ -1,0 +1,19 @@
+{
+  "version": "2918",
+  "as_of": "2026-09-29T22:20:00-04:00",
+  "change": "Deprioritize Catholic schools / parish ELCs after diocese insurance cancel pattern (Assumption ECLC inv 0199).",
+  "moved_count": 24,
+  "churches_unchanged": [
+    "Cathedral Basilica Parish Office",
+    "Sacred Heart Catholic Church",
+    "St. Michael's Parish Fernandina"
+  ],
+  "shamebusters_unchanged": true,
+  "tam_waiting_unchanged_except_catholic_school_sink": true,
+  "scheduled_unchanged": true,
+  "no_send": true,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2918",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2918"
+  ]
+}

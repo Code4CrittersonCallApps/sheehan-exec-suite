@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-25 14:54 ET",
-  "label": "Next 40 dunk mix v2",
-  "count": 40,
+  "as_of": "2026-09-29T22:20:00-04:00",
+  "label": "Next 40 dunk mix v2 · Catholic schools removed from active Next 40 (v2918)",
+  "count": 37,
   "by_persona": {
     "school": 6,
     "church": 5,
@@ -44,22 +44,6 @@
       "id": "ayumul-bishopsnyder-org-bishop-john-j-snyder-high-school-principal",
       "contact": "Arsenio Yumul",
       "account": "Bishop John J. Snyder High School"
-    },
-    {
-      "persona": "school",
-      "email": "torlando@bishopkenny.org",
-      "city": "Jacksonville",
-      "id": "torlando-bishopkenny-org-bishop-kenny-high-school-principal",
-      "contact": "Todd Orlando",
-      "account": "Bishop Kenny High School"
-    },
-    {
-      "persona": "school",
-      "email": "deannasands@ctkschooljax.com",
-      "city": "Jacksonville",
-      "id": "deannasands-ctkschooljax-com-christ-the-king-catholic-school-principal",
-      "contact": "Deanna Sands",
-      "account": "Christ the King Catholic School"
     },
     {
       "persona": "church",
@@ -108,14 +92,6 @@
       "id": "adultdaycare-agingtrue-org-aging-true-adult-day-care-at-revels-seni-x",
       "contact": "Teresa Barton",
       "account": "Aging True Adult Day Care at Revels Senior Center"
-    },
-    {
-      "persona": "daycare",
-      "email": "tlittle@assumptionjax.org",
-      "city": "Jacksonville",
-      "id": "tlittle-assumptionjax-org-assumption-early-learning-center-director",
-      "contact": "Theresa Little",
-      "account": "Assumption Early Learning Center"
     },
     {
       "persona": "daycare",
