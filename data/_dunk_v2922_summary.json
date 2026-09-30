@@ -1,0 +1,38 @@
+{
+  "board_version": "Board v2.9.22 \u00b7 Sep 30, 2026 ~12:10 PM ET \u00b7 Jax media shout-out WAITING Send (Action News Sent dedup)",
+  "as_of": "Sep 30, 2026 ~12:10 PM ET",
+  "hard_refresh": "?v=2922",
+  "added_count": 1,
+  "updated": [
+    "owe-action-news-jax-shoutout",
+    "quick-action-news-events-calendar",
+    "quick-action-news-jax-shoutout",
+    "quick-buzz-dnn-interview",
+    "quick-fernandina-observer",
+    "quick-first-coast-news-tip",
+    "quick-folio-weekly",
+    "quick-i-know-jax",
+    "quick-jacksonville-magazine",
+    "quick-jacksonville-mom",
+    "quick-jacksonville-today",
+    "quick-news-leader-fernandina",
+    "quick-river-city-live",
+    "quick-shop-the-904",
+    "quick-the-coastal",
+    "quick-wjct-first-coast-connect"
+  ],
+  "added": [
+    "quick-times-union-tips"
+  ],
+  "sent_dedup": [
+    "news@actionnewsjax.com \u00b7 Sep 30 9:50 AM ET"
+  ],
+  "no_outbound_send": true,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2922",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2922",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2922",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=2922"
+  ],
+  "delta": "Media WAITING mailtos use Action News Sent voice adapted per outlet; dunk mailto no signature; Action News news@ marked SENT; Times-Union added; Mayo/corporate excluded from dunk."
+}
