@@ -1,0 +1,246 @@
+{
+  "board_version": "v2.9.20 \u00b7 Sep 29, 2026 10:45 PM ET \u00b7 private senior living TAM pump",
+  "as_of": "Sep 29, 2026 10:45 PM ET",
+  "hard_refresh": "?v=2920",
+  "added_count": 16,
+  "workbook_new_emails": 20,
+  "segment_mix": {
+    "Senior_Private": 16
+  },
+  "added": [
+    {
+      "name": "Patricia Valenzuela",
+      "org": "Discovery Village at Deerwood",
+      "email": "pvalenzuela@discoveryvillages.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Sonya Lewis",
+      "org": "Grand Living at Tamaya",
+      "email": "slewis@grandliving.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Yuki Rice",
+      "org": "HarborChase of Mandarin",
+      "email": "yrice@harborchase.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Lisa Picard",
+      "org": "Ponte Vedra Gardens Alzheimer's Special Care Center",
+      "email": "lisa.picard@gardensmemorycare.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Samantha Bacon",
+      "org": "Gardens Memory Care",
+      "email": "samantha.bacon@gardensmemorycare.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Jessa Collins",
+      "org": "Life Care Center of Orange Park",
+      "email": "jessa_collins@lcca.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Douglas D. Adkins",
+      "org": "Dayspring Village",
+      "email": "dadkins777@bellsouth.net",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Jenna",
+      "org": "Dayspring Village",
+      "email": "jenna@dayspringvillage.org",
+      "sheet": "Senior"
+    },
+    {
+      "name": "McKena",
+      "org": "Dayspring Health / Dayspring Village",
+      "email": "mckena@dayspring.health",
+      "sheet": "Senior"
+    },
+    {
+      "name": "C. Burgess",
+      "org": "Amelia Springs Assisted Living",
+      "email": "cburgessalf@yahoo.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Jen Riesenberger",
+      "org": "The Arbor Company (HarborChase)",
+      "email": "jen.riesenberger@arborcompany.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Stephanie Frazier",
+      "org": "The Blake at St. Johns",
+      "email": "ed.tbasj@blakeseniorliving.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Wendy Tamarit",
+      "org": "Fleet Landing (Atlantic Beach CCRC)",
+      "email": "info@fleetlanding.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Debbie Keller",
+      "org": "Osprey Village (Amelia Island)",
+      "email": "WebRequest@Osprey-Village.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Jana Alexander",
+      "org": "Starling at Nocatee",
+      "email": "info@starlingatnocatee.com",
+      "sheet": "Senior"
+    },
+    {
+      "name": "Doug",
+      "org": "Dayspring Health",
+      "email": "doug@dayspring.health",
+      "sheet": "Senior"
+    }
+  ],
+  "workbook_added_sample": [
+    {
+      "name": "Patricia Valenzuela",
+      "org": "Discovery Village at Deerwood",
+      "email": "pvalenzuela@discoveryvillages.com",
+      "staged": true
+    },
+    {
+      "name": "Sonya Lewis",
+      "org": "Grand Living at Tamaya",
+      "email": "slewis@grandliving.com",
+      "staged": true
+    },
+    {
+      "name": "Yuki Rice",
+      "org": "HarborChase of Mandarin",
+      "email": "yrice@harborchase.com",
+      "staged": true
+    },
+    {
+      "name": "Lisa Picard",
+      "org": "Ponte Vedra Gardens Alzheimer's Special Care Center",
+      "email": "lisa.picard@gardensmemorycare.com",
+      "staged": true
+    },
+    {
+      "name": "Samantha Bacon",
+      "org": "Gardens Memory Care",
+      "email": "samantha.bacon@gardensmemorycare.com",
+      "staged": true
+    },
+    {
+      "name": "Jessa Collins",
+      "org": "Life Care Center of Orange Park",
+      "email": "jessa_collins@lcca.com",
+      "staged": true
+    },
+    {
+      "name": "Douglas D. Adkins",
+      "org": "Dayspring Village",
+      "email": "dadkins777@bellsouth.net",
+      "staged": true
+    },
+    {
+      "name": "Jenna",
+      "org": "Dayspring Village",
+      "email": "jenna@dayspringvillage.org",
+      "staged": true
+    },
+    {
+      "name": "McKena",
+      "org": "Dayspring Health / Dayspring Village",
+      "email": "mckena@dayspring.health",
+      "staged": true
+    },
+    {
+      "name": "C. Burgess",
+      "org": "Amelia Springs Assisted Living",
+      "email": "cburgessalf@yahoo.com",
+      "staged": true
+    },
+    {
+      "name": "Jen Riesenberger",
+      "org": "The Arbor Company (HarborChase)",
+      "email": "jen.riesenberger@arborcompany.com",
+      "staged": true
+    },
+    {
+      "name": "Stephanie Frazier",
+      "org": "The Blake at St. Johns",
+      "email": "ed.tbasj@blakeseniorliving.com",
+      "staged": true
+    },
+    {
+      "name": "Wendy Tamarit",
+      "org": "Fleet Landing (Atlantic Beach CCRC)",
+      "email": "info@fleetlanding.com",
+      "staged": true
+    },
+    {
+      "name": "Debbie Keller",
+      "org": "Osprey Village (Amelia Island)",
+      "email": "WebRequest@Osprey-Village.com",
+      "staged": true
+    },
+    {
+      "name": "Jana Alexander",
+      "org": "Starling at Nocatee",
+      "email": "info@starlingatnocatee.com",
+      "staged": true
+    },
+    {
+      "name": "Kristi Wilder",
+      "org": "Palagio Senior Living",
+      "email": "lifeenrichmentdirector@palagioseniorliving.com",
+      "staged": false
+    },
+    {
+      "name": "Breanne Eagle",
+      "org": "The Inn at Cypress Village",
+      "email": "eaglebreanne@cypressvillageretirement.com",
+      "staged": false
+    },
+    {
+      "name": "Ashly Rivera",
+      "org": "Seagrass Village of Fleming Island",
+      "email": "ashlyrivera@seagrassvillagefi.com",
+      "staged": false
+    },
+    {
+      "name": "Doug",
+      "org": "Dayspring Health",
+      "email": "doug@dayspring.health",
+      "staged": true
+    },
+    {
+      "name": "Alexa Hichez",
+      "org": "Starling at Ponte Vedra",
+      "email": "pontevedra@starlingliving.com",
+      "staged": false
+    }
+  ],
+  "no_outbound_send": true,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2920",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2920",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2920",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=2920"
+  ],
+  "delta": [
+    "ADD 16 private/non-gov senior living WAITING Send mailto drafts",
+    "ADD 20 rows to TAM Senior sheet",
+    "Skip county parks & rec / municipal / COA gov centers",
+    "Dedup vs dunk + TAM + Gmail Sent",
+    "Skip Catholic school lane",
+    "Bump ?v=2920 \u00b7 deploy both mirrors",
+    "DRAFTS/mailto ONLY \u2014 no send"
+  ]
+}
