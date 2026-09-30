@@ -1,0 +1,21 @@
+{
+  "board_version": "Board v2.9.24 \u00b7 Sep 30, 2026 ~12:35 PM ET \u00b7 Tabatha BSE PTA science night TOP WAITING (compose only)",
+  "hard_refresh": "?v=2924",
+  "no_outbound_send": true,
+  "cards_added": 1,
+  "top_card": {
+    "name": "Tabatha Onorato",
+    "email": "bseptapres@gmail.com",
+    "org": "Bartram Springs Elementary PTA (BSE PTA)",
+    "phone": "904-755-7230",
+    "events": [
+      "Trunk-or-treat 2026-10-30",
+      "Science night 2026-11-13"
+    ],
+    "mailto_subject": "Science night Nov 13 / trunk-or-treat Oct 30 \u2014 animals?"
+  },
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2924",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2924"
+  ]
+}
