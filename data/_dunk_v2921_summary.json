@@ -1,0 +1,20 @@
+{
+  "board_version": "Board v2.9.21 \u00b7 Sep 30, 2026 ~12:00 PM ET \u00b7 voice dump WAITING Send (Elizabeth goat yoga + Brooks invoice-close)",
+  "as_of": "Sep 30, 2026 ~12:00 PM ET",
+  "hard_refresh": "?v=2921",
+  "added_count": 1,
+  "updated": [
+    "Elizabeth Myers goat yoga",
+    "Brooks Kate invoice-close",
+    "Aberdeen pricing sheet",
+    "Westminster Sent confirm"
+  ],
+  "no_outbound_send": true,
+  "live_urls": [
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html?v=2921",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html?v=2921",
+    "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=2921",
+    "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=2921"
+  ],
+  "delta": "WAITING Send cards staged; Catholic still deprioritized; no mailto signature change."
+}

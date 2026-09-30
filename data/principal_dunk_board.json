@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-29T22:45:00-04:00",
-  "board_version": "Board v2.9.20 \u00b7 Sep 29, 2026 10:45 PM ET \u00b7 private senior living TAM pump",
+  "as_of": "2026-09-30T12:00:00-04:00",
+  "board_version": "Board v2.9.21 \u00b7 Sep 30, 2026 ~12:00 PM ET \u00b7 voice dump WAITING Send (Elizabeth goat yoga + Brooks invoice-close)",
   "label": "Principal dunk board v2.9 \u2014 Friday weekend programmers + Jax universities + Corporate Friday",
   "rule": "Compose-only. Friday filter = weekend programmers (church / CDD amenity / apartments / corporate-district) + secondary consumer rebook. University = separate filter, NOT Friday default. Published emails only. Done key sheehan_principal_dunk_done_v2 \u00b7 Notes sheehan_dunk_notes_v1.",
   "compose_authuser": "sheehanhomestead@gmail.com",
@@ -202,6 +202,41 @@
           "lead_source_date": "2026-09-27"
         },
         {
+          "id": "owe-elizabeth-myers-goat-yoga",
+          "lane": "owe",
+          "account": "Elizabeth Myers \u2014 Tisons / Yellow Bluff (Vesta)",
+          "contact": "Elizabeth Myers-Hesford",
+          "email": "Emyers@vestapropertyservices.com",
+          "title": "Community Manager \u00b7 goat yoga quote",
+          "persona": "cdd",
+          "kind": "mailto",
+          "tier": "S",
+          "area": "North Jax \u00b7 Tisons / Yellow Bluff",
+          "city": "Jacksonville",
+          "phone": "904-757-1547",
+          "friday": true,
+          "friday_class": "cdd_amenity",
+          "management_company": "Vesta",
+          "chip_tags": [
+            "WAITING \u00b7 Michael Send",
+            "INBOUND goat yoga Sep 30 11:01 AM ET",
+            "Oct 10 scarcity (Assumption cancel)",
+            "Single / double / boozy",
+            "Prize wheel"
+          ],
+          "owe_reason": "WAITING homestead Send \u00b7 Elizabeth replied Sep 30 11:01 AM ET wanting goat yoga cost again. Draft quote: single $749 / double ~$1400 / boozy ~$949 (Vesta 25%/50%). Steer Oct 10 Assumption cancel gap. Two prizes + wheel (advance signup vs on-site). Do NOT auto-send.",
+          "why": "WAITING homestead Send \u00b7 Elizabeth replied Sep 30 11:01 AM ET wanting goat yoga cost again. Draft quote: single $749 / double ~$1400 / boozy ~$949 (Vesta 25%/50%). Steer Oct 10 Assumption cancel gap. Two prizes + wheel (advance signup vs on-site). Do NOT auto-send.",
+          "subject": "Re: 2026 Pricng/Been a minute",
+          "quick_body": "Hi Elizabeth,\n\nLove that you want goat yoga again.\n\nQuick options (Vesta preferred still applies \u2014 25% off services / 50% off travel):\n\n1) Single Goat Yoga \u2014 weekend list $749 \u2192 Vesta about $562 (+ travel after 50% off)\n2) Double / same-day pair \u2014 two sessions \u2248 $1,400 list \u2192 Vesta about $1,050 before travel\n3) Boozy (Goats & Mimosas) \u2014 weekend about $949 list (+ alcohol) \u2192 Vesta about $712 before travel / bar\n\nWeekday single sits $499\u2013$599 list if you prefer a softer daytime slot.\n\nDate scarcity: We just opened Saturday Oct 10 from a Catholic-school cancel. Happy to pencil you there first before it goes back out to the Saturday list.\n\nPrize ideas: (1) Gold / free-visit cards (2) Mommy & Me or Critter Club tickets. Wheel: advance signup for list capture + short on-site spin lane.\n\nWant me to hold Oct 10 for a single, a double, or boozy?\n",
+          "quick_email": true,
+          "lead_source": "Gmail \u00b7 inbound reply Sep 30",
+          "lead_source_type": "inbound",
+          "lead_source_detail": "Elizabeth Myers-Hesford goat yoga cost ask \u00b7 thread 19c9621e25c149ce",
+          "lead_source_date": "2026-09-30",
+          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_surface": "mailto / homestead compose"
+        },
+        {
           "id": "owe-aberdeen-kate-trivelpiece-pricing",
           "lane": "owe",
           "account": "Aberdeen CDD (FSR)",
@@ -220,7 +255,8 @@
             "INBOUND reply Sep 28 10:09 AM ET",
             "Pricing/info owed",
             "Halloween Spooktacular note",
-            "Empty Gmail draft"
+            "Empty Gmail draft",
+            "Cleaned Ross pricing sheet ready"
           ],
           "owe_reason": "WAITING homestead Send \u00b7 Kate replied Sep 28 10:09 AM ET: interested; typically spring petting farm; open to other events; Fall Spooktacular Halloween day 12\u20133 PM (parking-lot / limited space). Asked for info/pricing for future events. Gmail draft r811587092214206067 exists but EMPTY body \u2014 fill pricing + parking-lot fit, then Michael taps Send. Do not assume Halloween booked.",
           "why": "WAITING homestead Send \u00b7 Kate replied Sep 28 10:09 AM ET: interested; typically spring petting farm; open to other events; Fall Spooktacular Halloween day 12\u20133 PM (parking-lot / limited space). Asked for info/pricing for future events. Gmail draft r811587092214206067 exists but EMPTY body \u2014 fill pricing + parking-lot fit, then Michael taps Send. Do not assume Halloween booked.",
@@ -228,7 +264,9 @@
           "lead_source": "outbound",
           "lead_source_detail": "CDD amenity cold \u2192 reply",
           "subject": "Re: Petting zoo for CDD / amenity fall festival?",
-          "quick_body": "Hi Kate,\n\nThanks for the quick reply \u2014 and for the Fall Spooktacular note (Halloween 12\u20133, parking-lot / limited space).\n\nHappy to send pricing/info for future events (including spring). We can also check whether a compact parking-lot setup fits Spooktacular, with no pressure either way.\n\nI'll attach a one-pager and rough pricing \u2014 tell me if you want spring only, or want me to quote Spooktacular as a fit-check too.\n"
+          "quick_body": "Hi Kate,\n\nThanks for the quick reply \u2014 and for the Fall Spooktacular note (Halloween 12\u20133, parking-lot / limited space).\n\nHappy to send pricing/info for future events (including spring). We can also check whether a compact parking-lot setup fits Spooktacular, with no pressure either way.\n\nI'll attach a one-pager and rough pricing \u2014 tell me if you want spring only, or want me to quote Spooktacular as a fit-check too.\n",
+          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_surface": "mailto / homestead compose"
         },
         {
           "id": "owe-beatrix-mali-vai-apology-reconnect",
@@ -362,17 +400,18 @@
           "email": "Kmontague@wservices.org",
           "website": "https://westminstercommunitiesfl.org/",
           "subject": "mini @ $275 \u2014 does that work?",
-          "owe_reason": "BUDGET DECLINE on $375 (Kori + Julington Creek AD LRATLEY) \u00b7 counter $275 mini/Bunny Haven SENT Sep 27 5:54 PM ET (thread 1a0e4da656e50656) \u00b7 awaiting reply \u00b7 phone 904-201-7063 \u00b7 no invented facts",
-          "why": "BUDGET DECLINE on $375 (Kori + Julington Creek AD LRATLEY) \u00b7 counter $275 mini/Bunny Haven SENT Sep 27 5:54 PM ET (thread 1a0e4da656e50656) \u00b7 awaiting reply \u00b7 phone 904-201-7063 \u00b7 no invented facts",
+          "owe_reason": "$275 mini counter CONFIRMED in Gmail Sent Sep 30 12:39 AM ET (thread November Monday double dip). No new draft needed. WAITING Kori/Loretta reply. Was budget decline on $375.",
+          "why": "$275 mini counter CONFIRMED in Gmail Sent Sep 30 12:39 AM ET (thread November Monday double dip). No new draft needed. WAITING Kori/Loretta reply. Was budget decline on $375.",
           "form_url": "https://westminstercommunitiesfl.org/westminster-woods/contact-us/",
           "quick_body": "Hi Kori,\n\nJust checking whether the $275 mini (90 min / 6+ animals, Violet partial donation) works for either or both campuses, or if we should keep shaping something that fits the budget.\n\nHappy to include Loretta on Julington Creek too.\n",
           "quick_email": true,
           "legacy_tier": 1,
           "area": "St. Johns \u00b7 Westminster",
           "chip_tags": [
-            "BUDGET DECLINE",
-            "Counter $275 SENT Sep 27 5:54 PM ET",
-            "Awaiting reply",
+            "SENT Sep 30 12:39 AM ET",
+            "$275 mini confirmed in Sent",
+            "WAITING them",
+            "No new draft",
             "phone verified"
           ],
           "lead_source": "Gmail \u00b7 budget decline Sep 27",
@@ -609,20 +648,24 @@
           "persona": "senior",
           "kind": "mailto",
           "lane": "owe",
-          "why": "Nov 21 10\u20131 Violet package options SENT \u00b7 Kate replied Sep 25: \"Let's talk about it at the event.\" \u00b7 Incomplete Gmail draft exists (\"book uoi\") \u2014 do NOT send as-is \u00b7 WAITING homestead Send after Michael cleans draft \u00b7 also recurring therapy lane mentioned \u00b7 no invented Monday deadline",
-          "owe_reason": "Nov 21 10\u20131 Violet package options SENT \u00b7 Kate replied Sep 25: \"Let's talk about it at the event.\" \u00b7 Incomplete Gmail draft exists (\"book uoi\") \u2014 do NOT send as-is \u00b7 WAITING homestead Send after Michael cleans draft \u00b7 also recurring therapy lane mentioned \u00b7 no invented Monday deadline",
+          "why": "WAITING homestead Send \u00b7 invoice-close middle option Standard 3hr Violet $629 all-in Nov 21 10\u20131. Kate Sep 25: \"Let's talk about it at the event.\" Firm-polite pencil + staff fall busy (mostly AM+Michael+helpers). Incomplete Gmail draft exists \u2014 do NOT send as-is; paste clean draft from voice dump. No auto-send.",
+          "owe_reason": "WAITING homestead Send \u00b7 invoice-close middle option Standard 3hr Violet $629 all-in Nov 21 10\u20131. Kate Sep 25: \"Let's talk about it at the event.\" Firm-polite pencil + staff fall busy (mostly AM+Michael+helpers). Incomplete Gmail draft exists \u2014 do NOT send as-is; paste clean draft from voice dump. No auto-send.",
           "website": "brooks-click.html",
           "tier": "S",
           "legacy_tier": 1,
           "area": "Metro Jax \u00b7 Bartram",
           "chip_tags": [
-            "Nov 21 Violet options SENT",
-            "Talk at event",
-            "Incomplete draft",
             "WAITING \u00b7 Michael Send",
-            "Violet"
+            "Invoice-close middle $629",
+            "Nov 21 Violet Standard 3hr",
+            "Staff fall busy \u00b7 AM+Michael",
+            "Kate: talk at event Sep 25"
           ],
-          "subject": "Re: Referred by Tasia \u2014 Nov 21 petting zoo (Violet package)"
+          "subject": "Re: Referred by Tasia \u2014 Nov 21 petting zoo (Violet package)",
+          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_surface": "mailto / homestead compose",
+          "quick_body": "Hi Kate,\n\nHappy to talk more at the event \u2014 and also want to protect Saturday, November 21 for you before fall fills.\n\nI'm going to pencil the middle option we recommended:\n\nStandard 3-hour petting zoo \u2014 $629 all-in (Violet)\nSaturday, November 21 \u00b7 10:00\u20131:00 \u00b7 travel included \u00b7 at least 9 animals\n\nFall is busy on our side (mostly Ann-Marie + me, plus a few helpers), so once you say \"yes, invoice it,\" we'll staff it and send the PayPal so it's locked.\n\nIf you'd rather the mini ($499) or standard + side ($749), just say so and we'll swap the pencil \u2014 but the middle is the one I'd book for Brooks.\n\nDoes $629 / Nov 21 work to invoice?\n",
+          "quick_email": true
         },
         {
           "id": "owe-palagio-amanda-kristi",
@@ -24032,5 +24075,19 @@
       "Bump ?v=2920 \u00b7 deploy both mirrors",
       "DRAFTS/mailto ONLY \u2014 no send"
     ]
+  },
+  "v2921": {
+    "as_of": "2026-09-30T12:00:00-04:00",
+    "hard_refresh": "?v=2921",
+    "change": "Voice dump WAITING Send: Elizabeth goat yoga quote; Brooks $629 invoice-close; Aberdeen pricing sheet note; Westminster $275 confirmed Sent.",
+    "added": [
+      "owe-elizabeth-myers-goat-yoga"
+    ],
+    "updated": [
+      "owe-brooks-kate-bartram",
+      "owe-aberdeen-kate-trivelpiece-pricing",
+      "owe-westminster-kori-dual-mini"
+    ],
+    "no_outbound_send": true
   }
 }
