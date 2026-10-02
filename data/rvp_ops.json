@@ -196,11 +196,11 @@
       "note": "Web app sales enablement \u2014 not a BDR seat.",
       "field_loop": "free sample \u2192 review \u2192 app/spin \u2192 ~$100-feel prize \u2192 mailing list (paying $100 to hand goats for that loop = rational)",
       "live_links": [
-        "https://onchainoffgrid-hub.github.io/critters-on-call/pricing.html",
-        "https://onchainoffgrid-hub.github.io/critters-on-call/book.html",
-        "https://onchainoffgrid-hub.github.io/critters-on-call/wheel.html",
-        "https://onchainoffgrid-hub.github.io/critters-on-call/gold.html",
-        "https://onchainoffgrid-hub.github.io/critters-on-call/one-touch.html"
+        "https://Code4CrittersonCallApps.github.io/critters-on-call/pricing.html",
+        "https://Code4CrittersonCallApps.github.io/critters-on-call/book.html",
+        "https://Code4CrittersonCallApps.github.io/critters-on-call/wheel.html",
+        "https://Code4CrittersonCallApps.github.io/critters-on-call/gold.html",
+        "https://Code4CrittersonCallApps.github.io/critters-on-call/one-touch.html"
       ]
     },
     "gtm_page": "gtm-seats.html",
@@ -242,7 +242,7 @@
       "id": "one-touch",
       "title": "One-touch \u00b7 money button",
       "href": "one-touch.html",
-      "href_live": "https://onchainoffgrid-hub.github.io/critters-on-call/one-touch.html",
+      "href_live": "https://Code4CrittersonCallApps.github.io/critters-on-call/one-touch.html",
       "primary": true,
       "bot_job": "Mass-touch stage so Michael closes",
       "pattern_cite": "Westminster CAP share \u2192 $700 call"
@@ -354,7 +354,7 @@
     "label": "One-touch \u00b7 money button",
     "priority": 1,
     "href_suite": "one-touch.html",
-    "href_live": "https://onchainoffgrid-hub.github.io/critters-on-call/one-touch.html",
+    "href_live": "https://Code4CrittersonCallApps.github.io/critters-on-call/one-touch.html",
     "note": "#1 money motion \u2014 Michael tapped ~10 from board \u2192 ~$700 verbal; River City $600 invoiced"
   },
   "franchise_ops_gray": {

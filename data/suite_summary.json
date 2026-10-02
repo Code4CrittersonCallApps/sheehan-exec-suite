@@ -141,7 +141,7 @@
   },
   "one_touch": {
     "panel": "one-touch.html",
-    "live": "https://onchainoffgrid-hub.github.io/critters-on-call/one-touch.html",
+    "live": "https://Code4CrittersonCallApps.github.io/critters-on-call/one-touch.html",
     "priority": 1,
     "label": "One-touch \u00b7 money button"
   }

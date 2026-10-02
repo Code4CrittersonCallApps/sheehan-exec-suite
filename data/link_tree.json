@@ -6,19 +6,19 @@
     "links": [
       {
         "name": "Critters Book/Track/Spin/Gold",
-        "url": "https://onchainoffgrid-hub.github.io/critters-on-call/",
-        "repo": "https://github.com/onchainoffgrid-hub/critters-on-call",
+        "url": "https://Code4CrittersonCallApps.github.io/critters-on-call/",
+        "repo": "https://github.com/Code4CrittersonCallApps/critters-on-call",
         "status": "LIVE"
       },
       {
         "name": "GTM Business Manager",
-        "url": "https://onchainoffgrid-hub.github.io/gtm-business-manager/",
+        "url": "https://Code4CrittersonCallApps.github.io/gtm-business-manager/",
         "note": "TAM / pipeline / traction ops board",
         "status": "LIVE"
       },
       {
         "name": "Interactive GTM",
-        "url": "https://onchainoffgrid-hub.github.io/interactive-gtm/",
+        "url": "https://Code4CrittersonCallApps.github.io/interactive-gtm/",
         "note": "Investor sales-rigor tour",
         "status": "LIVE"
       }
@@ -29,7 +29,7 @@
     "links": [
       {
         "name": "Curtain-closed Play (GitHub Pages)",
-        "url": "https://onchainoffgrid-hub.github.io/critters-play/",
+        "url": "https://Code4CrittersonCallApps.github.io/critters-play/",
         "status": "LIVE",
         "note": "Hub + Evade Elon / Barn Cat Defender / Pyrenees Guard / Critter Match (curtain-closed). Critter Coins = VISION economy label, not live currency."
       },
@@ -42,7 +42,7 @@
     ],
     "ambition": "Critter Coins / play-to-earn = vision layer (route play rewards \u2192 farm visits / Gold / experiences). Not live currency. Mark VISION on exec/investor pages.",
     "play_status": "LIVE",
-    "play_url": "https://onchainoffgrid-hub.github.io/critters-play/"
+    "play_url": "https://Code4CrittersonCallApps.github.io/critters-play/"
   },
   "local_suite": {
     "label": "Exec suite (this box)",

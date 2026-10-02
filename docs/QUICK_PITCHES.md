@@ -3,9 +3,9 @@
 **Stage only.** Deputies stage subject + body; **Michael sends**. Never auto-send.  
 **Organized by role** (not a messy dump). Prefer **Gmail compose prefilled** when tapping a pitch.
 
-Live board: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/quick-pitches.html  
-Mirror: https://onchainoffgrid-hub.github.io/critters-on-call/exec/quick-pitches.html  
-CDD call/email lane stub: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/cdd-call-lane.html
+Live board: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/quick-pitches.html  
+Mirror: https://Code4CrittersonCallApps.github.io/critters-on-call/exec/quick-pitches.html  
+CDD call/email lane stub: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/cdd-call-lane.html
 
 Brand: **Sheehan Homestead**. Pricing below = ranges from his real sent mail (or marked example). Do not invent list prices as fact.
 

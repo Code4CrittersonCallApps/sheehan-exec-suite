@@ -1,6 +1,6 @@
 # Apps tree (life decoder) — locked 2026-09-23
 
-Public hub: https://onchainoffgrid-hub.github.io/critters-on-call/
+Public hub: https://Code4CrittersonCallApps.github.io/critters-on-call/
 
 ## 1. Wheel (standalone) — 8 slices
 Live: `wheel.html` / `spin.html`
@@ -29,7 +29,7 @@ Website sheehanhomestead.com is JS-heavy; sales truth for the app is this board 
 Sat/Sun programming = schedule inventory Michael fills; Book is the tap surface.
 
 ## 3. Games
-Live: https://onchainoffgrid-hub.github.io/critters-play/
+Live: https://Code4CrittersonCallApps.github.io/critters-play/
 Keep current games, slightly easier. Future: win → discount / price-down path (Michael still deciding rules). Floor idea: cheapest sellable ~$25 whole-car framing / $12 ticket windows — TBD.
 
 ## 4. Critter Facts (new — educational)

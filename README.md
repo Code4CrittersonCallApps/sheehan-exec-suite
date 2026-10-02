@@ -77,15 +77,15 @@ See [LAYOUT_CONTRACT.md](LAYOUT_CONTRACT.md) for shared visual tokens and Money 
 
 ## Public
 
-- GitHub: https://github.com/onchainoffgrid-hub/sheehan-exec-suite
-- Pages: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/
-- Consumer: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/consumer-inbound.html
-- BDR TAM: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/bdr-tam.html
-- Hail Mary (TAM lane): https://onchainoffgrid-hub.github.io/sheehan-exec-suite/bdr-tam.html?lane=Hail%20Mary
-- Bazillionaires filter: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/bdr-tam.html?lane=Hail%20Mary&hail=Bazillionaires
-- Easy Attack (mass-touch): https://onchainoffgrid-hub.github.io/sheehan-exec-suite/easy-attack.html
+- GitHub: https://github.com/Code4CrittersonCallApps/sheehan-exec-suite
+- Pages: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/
+- Consumer: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/consumer-inbound.html
+- BDR TAM: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/bdr-tam.html
+- Hail Mary (TAM lane): https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/bdr-tam.html?lane=Hail%20Mary
+- Bazillionaires filter: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/bdr-tam.html?lane=Hail%20Mary&hail=Bazillionaires
+- Easy Attack (mass-touch): https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/easy-attack.html
 - Sell catalog: Franchise + Consulting LIVE; gray = not ready · `data/sell_catalog.json` · mass plays `data/mass_touch_ideas.json` (no HubSpot)
-- Jax Buzz: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/jax-local-buzz.html
+- Jax Buzz: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/jax-local-buzz.html
 
 
 ### BDR TAM v2 rebuild
@@ -98,9 +98,9 @@ localStorage keys: `sheehan_bdr_v2_notes`, `sheehan_bdr_v2_customers`, `sheehan_
 
 ## Investor readiness
 
-- Checklist: https://onchainoffgrid-hub.github.io/sheehan-exec-suite/investor-checklist.html
+- Checklist: https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/investor-checklist.html
 - Data: `data/investor_readiness.json` · localStorage `sheehan_investor_readiness`
-- Critters mirror: https://onchainoffgrid-hub.github.io/critters-on-call/exec/investor-checklist.html
+- Critters mirror: https://Code4CrittersonCallApps.github.io/critters-on-call/exec/investor-checklist.html
 
 ## One-touch outreach
-Stage-only mailto board (Talk-Deputy CRM views). Primary: https://onchainoffgrid-hub.github.io/critters-on-call/one-touch.html — Ross/Vesta is row #1. Never auto-sends.
+Stage-only mailto board (Talk-Deputy CRM views). Primary: https://Code4CrittersonCallApps.github.io/critters-on-call/one-touch.html — Ross/Vesta is row #1. Never auto-sends.
