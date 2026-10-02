@@ -286,8 +286,8 @@ def mailto_fields(lane: str, north: str, contact: str, review_status: str) -> tu
     fn = first_name(contact) or ""
     hi = f"Hi {fn}," if fn else "Hi there,"
 
-    play = "https://onchainoffgrid-hub.github.io/critters-play/"
-    wheel = "https://onchainoffgrid-hub.github.io/critters-on-call/wheel.html"
+    play = "https://Code4CrittersonCallApps.github.io/critters-play/"
+    wheel = "https://Code4CrittersonCallApps.github.io/critters-on-call/wheel.html"
     services = "https://www.sheehanhomestead.com/services"
     sig = ""  # Gmail auto-signature; never double
 

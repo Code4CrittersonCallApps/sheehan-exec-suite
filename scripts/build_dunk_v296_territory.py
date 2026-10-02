@@ -720,8 +720,8 @@ def main() -> None:
             "wallet_class W-A/B/C chips + spend_hint one-liner",
         ],
         "live_urls": [
-            "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=296",
-            "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=296",
+            "https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/principal-dunk.html?v=296",
+            "https://Code4CrittersonCallApps.github.io/critters-on-call/exec/principal-dunk.html?v=296",
         ],
         "mindy": board["v296"]["mindy_note"],
     }

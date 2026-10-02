@@ -591,10 +591,10 @@ def main() -> None:
         "sent_dedup": ["news@actionnewsjax.com · Sep 30 9:50 AM ET"],
         "no_outbound_send": True,
         "live_urls": [
-            f"https://onchainoffgrid-hub.github.io/sheehan-exec-suite/dunk-list.html{HARD}",
-            f"https://onchainoffgrid-hub.github.io/critters-on-call/exec/dunk-list.html{HARD}",
-            f"https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html{HARD}",
-            f"https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html{HARD}",
+            f"https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/dunk-list.html{HARD}",
+            f"https://Code4CrittersonCallApps.github.io/critters-on-call/exec/dunk-list.html{HARD}",
+            f"https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/principal-dunk.html{HARD}",
+            f"https://Code4CrittersonCallApps.github.io/critters-on-call/exec/principal-dunk.html{HARD}",
         ],
         "delta": (
             "Media WAITING mailtos use Action News Sent voice adapted per outlet; "

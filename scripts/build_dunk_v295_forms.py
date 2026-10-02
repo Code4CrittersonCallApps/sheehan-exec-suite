@@ -391,8 +391,8 @@ def main() -> None:
         "skipped_bad_screen": SKIPPED,
         "prior_local_forms_accounts": old_accounts,
         "live_urls": [
-            "https://onchainoffgrid-hub.github.io/sheehan-exec-suite/principal-dunk.html?v=295",
-            "https://onchainoffgrid-hub.github.io/critters-on-call/exec/principal-dunk.html?v=295",
+            "https://Code4CrittersonCallApps.github.io/sheehan-exec-suite/principal-dunk.html?v=295",
+            "https://Code4CrittersonCallApps.github.io/critters-on-call/exec/principal-dunk.html?v=295",
         ],
     }
     SUMMARY_PATH.write_text(json.dumps(summary, indent=2) + "\n")
