@@ -1,0 +1,1262 @@
+{
+  "board_version": "Board v2.9.25 \u00b7 Oct 4, 2026 evening ET \u00b7 Sent reconcile + net-new mailto (compose only, never auto-send)",
+  "as_of": "2026-10-04 evening ET",
+  "hard_refresh": "?v=2925",
+  "no_outbound_send": true,
+  "compose_only": true,
+  "banner": "DRAFTS / MAILTO ONLY \u2014 never auto-send",
+  "added_count": 97,
+  "added": [
+    {
+      "name": "Cheryl Blythe",
+      "email": "cblythe@vestapropertyservices.com",
+      "org": "Palencia Fitness Center",
+      "segment": "hoa"
+    },
+    {
+      "name": "Joe O'Lear",
+      "email": "jolear@vestapropertyservices.com",
+      "org": "Entrada HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Mark Insel",
+      "email": "minsel@vestapropertyservices.com",
+      "org": "Cross Creek North CDD amenity",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@cmcjaxfla.com",
+      "org": "Aberdeen HOA (single-family)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@aipca.net",
+      "org": "Amelia Island Plantation Community Association",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "apotter@sovereign-jacobs.com",
+      "org": "Anabelle Island HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@arborscdd.net",
+      "org": "Arbors CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Michelle Griggs",
+      "email": "michelle.griggs@associa.us",
+      "org": "Associa Community Management Concepts of Jacksonville",
+      "segment": "hoa"
+    },
+    {
+      "name": "Terry Glynn",
+      "email": "tglynn@gmsnf.com",
+      "org": "Bartram Springs CDD (GMS)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "residentsupport@lelandmanagement.com",
+      "org": "Cedar Pointe HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Savannah Thomas",
+      "email": "sshoemaker@cimarronegolf.com",
+      "org": "Cimarrone Golf Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Dan Hackney",
+      "email": "dhackney@concertgolfclubs.com",
+      "org": "Marsh Landing Country Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Michael Duckworth",
+      "email": "mduckworth@marshlandingcc.com",
+      "org": "Marsh Landing Country Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Miya Harris",
+      "email": "concierge@golfclubofamelia.com",
+      "org": "The Golf Club of Amelia Island",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@copeslandingcdd.net",
+      "org": "Cope's Landing CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Wrathell",
+      "email": "wrathellc@whassociates.com",
+      "org": "Creekside at Twin Creeks CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Erin Wells",
+      "email": "erin@prioritymngmt.com",
+      "org": "Priority Community Management",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@hampton.golf",
+      "org": "Deerwood Country Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Claire Durham",
+      "email": "cdurham@rizzetta.com",
+      "org": "Dorado HOA / Glen St. Johns (Rizzetta)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Fred Atwood",
+      "email": "fatwood@vestapropertyservices.com",
+      "org": "Fleming Island Plantation CDD (Vesta)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@gmsnf.com",
+      "org": "Antigua at St. Augustine CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "grandoaksmanager@gmsnf.com",
+      "org": "Grand Oaks CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Darrin Mossing",
+      "email": "dmossing@gmstnn.com",
+      "org": "Riverside Management Services / Governmental Management Services",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@governorsparknorthcdd.net",
+      "org": "Governors Park North CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@governorsparksouthcdd.net",
+      "org": "Governors Park South CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@greenbriarcdd.net",
+      "org": "Greenbriar CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Jessica Rivera",
+      "email": "jessica.rivera@inframark.com",
+      "org": "Inframark",
+      "segment": "hoa"
+    },
+    {
+      "name": "Hazel Fiel",
+      "email": "hfiel@lelandmanagement.com",
+      "org": "Sevilla at World Commerce HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@libertycovecdd.net",
+      "org": "Liberty Cove CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Kim Lang",
+      "email": "kim@mylrw.com",
+      "org": "Orange Park Country Club HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "golf@magnoliapointgolfclub.com",
+      "org": "Magnolia Point Golf & Country Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Kate Richardson",
+      "email": "krichardson@marshlanding.org",
+      "org": "Marsh Landing Management / Sawgrass Players Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Noelle Salomon",
+      "email": "nsalomon@marshlanding.org",
+      "org": "Marsh Landing Management Company / Sawgrass Players Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "sales@maymgt.com",
+      "org": "MAY Management Services",
+      "segment": "hoa"
+    },
+    {
+      "name": "Kelly Frick",
+      "email": "kfrick@maymgt.com",
+      "org": "MAY Management Services",
+      "segment": "hoa"
+    },
+    {
+      "name": "Kristina Tolzman",
+      "email": "admin@oakleafresidents.com",
+      "org": "Oakleaf Plantation",
+      "segment": "hoa"
+    },
+    {
+      "name": "Lisa Carter",
+      "email": "residentassistant@oakleafresidents.com",
+      "org": "Oakleaf Plantation",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@orangebranchcdd.net",
+      "org": "Orange Branch CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Mike Keller",
+      "email": "mkeller@pvresorts.com",
+      "org": "Ponte Vedra Inn & Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "bannonmanager@rmsnf.com",
+      "org": "Bannon Lakes CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@ryalscreekcdd.net",
+      "org": "Ryals Creek CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "jparker@marshlanding.org",
+      "org": "Sawgrass Players Club / TPC Sawgrass area HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "info@shadowlawncdd.net",
+      "org": "Shadowlawn CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Sarah Sweeting",
+      "email": "ssweeting@gmsnf.com",
+      "org": "Six Mile Creek CDD (GMS)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Kathy Melton",
+      "email": "eaglelanding@agentlink.net",
+      "org": "Eagle Landing at Oakleaf Plantation HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "events@letsgrove.com",
+      "org": "The Grove at Orange Park Country Club",
+      "segment": "hoa"
+    },
+    {
+      "name": "Erin Gunia",
+      "email": "egunia@vestapropertyservices.com",
+      "org": "Palencia Fitness Center",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "wlmanager@gmsnf.com",
+      "org": "Wynnfield Lakes HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Margaret Alfano",
+      "email": "malfano@vestapropertyservices.com",
+      "org": "Fleming Island Plantation CDD (Vesta)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Lourens Erasmus",
+      "email": "lerasmus@vestapropertyservices.com",
+      "org": "Heritage Landing CDD (Vesta)",
+      "segment": "hoa"
+    },
+    {
+      "name": "Desk",
+      "email": "contact@brahmcorp.com",
+      "org": "The Club at Osprey Cove",
+      "segment": "hoa"
+    },
+    {
+      "name": "Beverly Bolton",
+      "email": "bbolton@ewc.edu",
+      "org": "Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Jame'l Hodges",
+      "email": "jamel.hodges@ewc.edu",
+      "org": "Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Tymon Graham",
+      "email": "t.graham@ewc.edu",
+      "org": "Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Victor Chrispin",
+      "email": "v.chrispin@ewc.edu",
+      "org": "Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Desk",
+      "email": "fctcstudentservices@stjohns.k12.fl.us",
+      "org": "First Coast Technical College",
+      "segment": "schools"
+    },
+    {
+      "name": "Desk",
+      "email": "orientation@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Alicia Ramsdell",
+      "email": "aramsdell@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Andrea Adams-Manning",
+      "email": "aadamsmanning@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Ashley Brown",
+      "email": "abrown@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Grant Nielson",
+      "email": "gnielson@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Logan Gullage",
+      "email": "lgullage@flagler.edu",
+      "org": "St. Augustine Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "DaVina Hamilton",
+      "email": "dhamilt3@ju.edu",
+      "org": "JU Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Kristie Gover",
+      "email": "kgover1@ju.edu",
+      "org": "JU Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Ginny Stevens",
+      "email": "vstevens@nova.edu",
+      "org": "Jacksonville Regional Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Michael Doyle",
+      "email": "md1215@nova.edu",
+      "org": "Jacksonville Regional Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Erin Breeden",
+      "email": "erinbreeden@sjrstate.edu",
+      "org": "Orange Park Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Grant Phillips",
+      "email": "grantphillips@sjrstate.edu",
+      "org": "Orange Park Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Desk",
+      "email": "studentlifeoffice@tbc.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Adam Christmas",
+      "email": "achristmas@tcj.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Alana Nemecheck",
+      "email": "anemecheck@tcj.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Autumn Brinkley",
+      "email": "abrinkley@tcj.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Brian Maggard",
+      "email": "bmaggard@tcj.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Carlin Poyner",
+      "email": "cpoyner@tcj.edu",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Matthew Heavener",
+      "email": "mheavener@tcj.org",
+      "org": "Hammond Boulevard Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Althea Wilson",
+      "email": "althea.wilson@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Amber-Jul Camaya",
+      "email": "a.camaya@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Ashley Muench",
+      "email": "a.muench@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Ashlyn Davidson",
+      "email": "ashlyn.davidson@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Courtney Henderson",
+      "email": "c.henderson@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Dorian Drummond",
+      "email": "dorian.drummond@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Heather Corbitt",
+      "email": "h.corbitt@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Jennifer Nutt",
+      "email": "j.nutt@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Jim Baur",
+      "email": "jbaur@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Karen Patterson",
+      "email": "karen.patterson@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Katie Sarria",
+      "email": "katie.sarria@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Krystina LeFils",
+      "email": "k.lefils@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Sara Stuart",
+      "email": "sara.stuart@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Sofia Duque",
+      "email": "sofia.duque@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Thomas Van Schoor",
+      "email": "tvanscho@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Virginia Thornton",
+      "email": "v.thornton@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Xavier Ford",
+      "email": "x.ford@unf.edu",
+      "org": "UNF Main Campus",
+      "segment": "schools"
+    },
+    {
+      "name": "Desk",
+      "email": "nasjaxmwr@us.navy.mil",
+      "org": "Naval Air Station Jacksonville",
+      "segment": "corporate"
+    },
+    {
+      "name": "Desk",
+      "email": "nsmypt_mwr_mail@navy.mil",
+      "org": "Naval Station Mayport",
+      "segment": "corporate"
+    },
+    {
+      "name": "Vina Delcomyn",
+      "email": "vina.delcomyn@awakeningsami.com",
+      "org": "Azalea Ridge HOA",
+      "segment": "hoa"
+    },
+    {
+      "name": "Marilyn Newbauer",
+      "email": "marilyn@firstcoastcms.com",
+      "org": "Magnolia West CDD",
+      "segment": "hoa"
+    },
+    {
+      "name": "Marilee Giles",
+      "email": "mgiles@gmsnf.com",
+      "org": "Oakleaf Plantation Master HOA",
+      "segment": "hoa"
+    }
+  ],
+  "dupes_removed": [
+    {
+      "email": "jarias@vestapropertyservices.com",
+      "kept": "catchall",
+      "dropped": "hoa",
+      "title": "WAITING Send Joanna Lynch-Arias \u00b7 Bartram Springs HOA"
+    },
+    {
+      "email": "alexis.bailey@ivybrookacademy.com",
+      "kept": "catchall",
+      "dropped": "schools",
+      "title": "WAITING Send Alexis Bailey \u00b7 Ivybrook Academy Julington Creek"
+    },
+    {
+      "email": "lburnette@rivercityscience.org",
+      "kept": "scheduled",
+      "dropped": "sent",
+      "title": "BOOKED River City Science \u00b7 Lauren Burnett"
+    },
+    {
+      "email": "jwilliams@vestapropertyservices.com",
+      "kept": "catchall",
+      "dropped": "hoa",
+      "title": "WAITING Send John Williams \u00b7 Cross Creek North CDD (Vesta)"
+    }
+  ],
+  "dupes_removed_count": 4,
+  "flipped_already_sent": [
+    {
+      "name": "WAITING Send Tabatha Onorato \u00b7 Bartram Springs Elementary PTA",
+      "email": "bseptapres@gmail.com",
+      "date": "Oct 1, 2026 6:39 PM ET",
+      "subject": "Re: Petting zoo for fall festival / trunk or treat?",
+      "dnc": false
+    },
+    {
+      "name": "A \u00b7 NOT SCHEDULED Campus inbox \u00b7 Goddard \u00b7 Southside / Spartina Ct",
+      "email": "jacksonville2fl@goddardschools.com",
+      "date": "Aug 28, 2024 6:35 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "A \u00b7 NOT SCHEDULED Niral Patel \u00b7 Goddard \u00b7 Julington Creek",
+      "email": "niralnpatel1618@gmail.com",
+      "date": "Jun 22, 2026 11:42 AM ET",
+      "subject": "Fall Farm Events Are Filling Fast \u2013 Reserve Your Date Today!",
+      "dnc": false
+    },
+    {
+      "name": "C \u00b7 LIGHT Cathy Hemphill \u00b7 Goddard \u00b7 Saint Johns",
+      "email": "cathy.hemphill@goddardschools.com",
+      "date": "Sep 23, 2026 7:10 PM ET",
+      "subject": "Trunk or treat",
+      "dnc": false
+    },
+    {
+      "name": "A \u00b7 BOUGHT, NO NEXT DATE Jennifer Ripkey \u00b7 Ivybrook \u00b7 Valley Ridge",
+      "email": "jennifer.ripkey@ivybrookacademy.com",
+      "date": "Apr 20, 2026 5:25 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "A \u00b7 BOUGHT, NO NEXT DATE Sanela Chan \u00b7 Ivybrook Valley Ridge PTO",
+      "email": "ivybrookptovr@gmail.com",
+      "date": "Sep 23, 2026 7:12 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "A \u00b7 NOT YET Jennifer Meadows \u00b7 Fleming Island Plantation (Vesta)",
+      "email": "jmeadows@vestapropertyservices.com",
+      "date": "Jul 20, 2026 2:19 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "B \u00b7 NOT YET John Lucansky \u00b7 Grand Haven CDD (Vesta)",
+      "email": "jlucansky@vestapropertyservices.com",
+      "date": "Jun 22, 2026 11:47 AM ET",
+      "subject": "Fall Farm Events Are Filling Fast \u2013 Reserve Your Date Today!",
+      "dnc": false
+    },
+    {
+      "name": "B \u00b7 NOT YET Maria Czmyr \u00b7 St. Augustine Lakes CDD (Vesta)",
+      "email": "mczmyr@vestapropertyservices.com",
+      "date": "Oct 4, 2026 9:02 PM ET",
+      "subject": "Fall or spring petting zoo/goat yoga dates?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jacksonville Mom",
+      "email": "info@jacksonvillemom.com",
+      "date": "Aug 8, 2024 2:19 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "ALREADY SENT Action News Jax (WJAX/WFOX)",
+      "email": "news@actionnewsjax.com",
+      "date": "Sep 30, 2026 9:50 AM ET",
+      "subject": "Social Shout Out for Local Eduatainment/Agritourism Biz?",
+      "dnc": false
+    },
+    {
+      "name": "ALREADY SENT Aberdeen CDD \u00b7 Kate Trivelpiece",
+      "email": "kate.trivelpiece@fsresidential.com",
+      "date": "Oct 2, 2026 5:44 PM ET",
+      "subject": "Re: Petting zoo for CDD / amenity fall festival?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Yulee Dugout \u00b7 silent auction Gold",
+      "email": "yuleedugoutclub@gmail.com",
+      "date": "Oct 2, 2026 3:05 PM ET",
+      "subject": "Our Current Giving Approach",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Christine Salter \u00b7 Carousel Entertainment (Kids Parties Jax)",
+      "email": "support@kidspartiesjax.com",
+      "date": "Sep 29, 2026 10:32 PM ET",
+      "subject": "Petting zoo for fall or spring events?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send David Mullins Jr \u00b7 DCC LEE Enterprises (McDonald's)",
+      "email": "comments@mcdjax.com",
+      "date": "Oct 4, 2026 8:35 PM ET",
+      "subject": "Petting zoo for community / employee family event?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Joshua Gibson \u00b7 Publix Super Markets",
+      "email": "joshua.gibson@publix.com",
+      "date": "Sep 30, 2026 8:00 AM ET",
+      "subject": "Petting zoo for kids night / local store event?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Publix Jacksonville CR \u00b7 Publix Super Markets",
+      "email": "jacksonvillecr@publix.com",
+      "date": "Sep 30, 2026 9:22 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Katie Komarek \u00b7 Community First Credit Union",
+      "email": "communityfirst@c1cufl.org",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for employee family day?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Crowley Sustainability \u00b7 Crowley",
+      "email": "sustainability@crowley.com",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for employee family or community event?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Ashley Brassfield \u00b7 Glen St. Johns HOA",
+      "email": "abrassfield@rizzetta.com",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall or spring events?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Donny Hoessler \u00b7 Magnolia Oaks Academy PTA",
+      "email": "donny.hoessler@stjohns.k12.fl.us",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall festival / trunk or treat?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Tiffany Cantwell \u00b7 Sabal Crest Academy PTA",
+      "email": "tiffany.cantwell@stjohns.k12.fl.us",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall festival / trunk or treat?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Ryan Trevett \u00b7 St. Johns Country Day School",
+      "email": "rtrevett@sjcds.net",
+      "date": "Oct 4, 2026 8:39 PM ET",
+      "subject": "Petting zoo for fall festival / trunk or treat?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Rebecca Thompson \u00b7 Little Cardinals Nest Preschool & VPK",
+      "email": "rebecca.thompson@stjohns.k12.fl.us",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall or spring events?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Pat Soriano \u00b7 First Christian Preschool",
+      "email": "fcpreschool.director@aol.com",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall or spring events?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Kim Kelly-Speranza \u00b7 Canopy Way Adult Day Care",
+      "email": "ksperanza@canopyway.com",
+      "date": "Sep 10, 2024 1:21 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Danielle Keener \u00b7 Danielle Keener Events",
+      "email": "danielle@daniellekeenerevents.com",
+      "date": "Sep 29, 2026 9:27 AM ET",
+      "subject": "Petting zoo for fall or spring events?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jane Sapere \u00b7 Aberdeen Stonehaven Townhomes (MAY)",
+      "email": "jsapere@maymgt.com",
+      "date": "Sep 25, 2026 3:35 PM ET",
+      "subject": "community festival animals?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Venessa Ripoll \u00b7 Amelia National CDD",
+      "email": "ripollv@pfm.com",
+      "date": "Sep 25, 2026 3:20 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Vivian Carvalho \u00b7 Boggy Branch CDD",
+      "email": "carvalhov@pfm.com",
+      "date": "Sep 25, 2026 3:20 PM ET",
+      "subject": "Petting zoo for CDD / amenity fall festival?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Melody Dawkins \u00b7 Janice Ancrum Senior Life Center",
+      "email": "mdawkins@nassaucountycoa.org",
+      "date": "Nov 15, 2024 9:27 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Ann Thompson \u00b7 Early Learning Coalition of Duval",
+      "email": "athompson@elcduval.org",
+      "date": "Mar 3, 2026 12:09 PM ET",
+      "subject": "Re: Golden Ticket/VPK",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Gigi Morales David \u00b7 UNF Preschool (Educational Research Center for Child Development)",
+      "email": "g.david@unf.edu",
+      "date": "Apr 25, 2025 10:13 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send David DeCamp \u00b7 Crowley",
+      "email": "david.decamp@crowley.com",
+      "date": "Sep 28, 2026 1:51 AM ET",
+      "subject": "Petting zoo for fall festival / trunk or treat?",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Rob Bullock \u00b7 Duval Landscape Maintenance",
+      "email": "info@duvallandscape.com",
+      "date": "Sep 23, 2026 8:00 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Patricia Valenzuela \u00b7 Discovery Village at Deerwood",
+      "email": "pvalenzuela@discoveryvillages.com",
+      "date": "Mar 2, 2026 11:55 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Sonya Lewis \u00b7 Grand Living at Tamaya",
+      "email": "slewis@grandliving.com",
+      "date": "Feb 26, 2025 9:27 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Lisa Picard \u00b7 Ponte Vedra Gardens Alzheimer's Special Care Center",
+      "email": "lisa.picard@gardensmemorycare.com",
+      "date": "Oct 9, 2025 8:57 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Samantha Bacon \u00b7 Gardens Memory Care",
+      "email": "samantha.bacon@gardensmemorycare.com",
+      "date": "Sep 4, 2025 5:30 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jessa Collins \u00b7 Life Care Center of Orange Park",
+      "email": "jessa_collins@lcca.com",
+      "date": "Nov 5, 2024 10:17 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jenna \u00b7 Dayspring Village",
+      "email": "jenna@dayspringvillage.org",
+      "date": "Nov 18, 2024 6:59 PM ET",
+      "subject": "homestead Sent (cc)",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send McKena \u00b7 Dayspring Health / Dayspring Village",
+      "email": "mckena@dayspring.health",
+      "date": "Nov 18, 2024 6:59 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send C. Burgess \u00b7 Amelia Springs Assisted Living",
+      "email": "cburgessalf@yahoo.com",
+      "date": "Oct 30, 2024 8:17 AM ET",
+      "subject": "Re: Petting Zoo",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jen Riesenberger \u00b7 The Arbor Company (HarborChase)",
+      "email": "jen.riesenberger@arborcompany.com",
+      "date": "Sep 3, 2024 8:00 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Wendy Tamarit \u00b7 Fleet Landing (Atlantic Beach CCRC)",
+      "email": "info@fleetlanding.com",
+      "date": "Nov 4, 2024 1:57 PM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Jana Alexander \u00b7 Starling at Nocatee",
+      "email": "info@starlingatnocatee.com",
+      "date": "Nov 5, 2024 7:25 AM ET",
+      "subject": "homestead Sent",
+      "dnc": false
+    },
+    {
+      "name": "WAITING Send Doug \u00b7 Dayspring Health",
+      "email": "doug@dayspring.health",
+      "date": "Nov 18, 2024 6:59 PM ET",
+      "subject": "homestead Sent (cc)",
+      "dnc": false
+    }
+  ],
+  "do_not_contact": [
+    {
+      "name": "B \u00b7 NOT YET Lisa Licata \u00b7 Markland / Southaven (Vesta)",
+      "email": "llicata@vestapropertyservices.com",
+      "date": "Oct 2, 2026 11:46 AM ET",
+      "subject": "Vesta Referred Petting Zoo/Goat Yoga/Mommy&Me/STEM?",
+      "dnc": true
+    }
+  ],
+  "waiting_mailto_count": 190,
+  "skipped": [
+    {
+      "name": "Katelyn Degges",
+      "email": "hiddenhills@cmcjaxfla.com",
+      "org": "Associa / CMC Jacksonville",
+      "reason": "already in Gmail Sent"
+    },
+    {
+      "name": "Wildlight",
+      "email": "lpaxton@ccmcnet.com",
+      "org": "Wildlight",
+      "reason": "already in Gmail Sent"
+    },
+    {
+      "name": "Donald Beardsley",
+      "email": "donald.beardsley@invitedclubs.com",
+      "org": "Invited Clubs",
+      "reason": "already in Gmail Sent"
+    },
+    {
+      "name": "Janelle Zenner",
+      "email": "jzenner@stjohnsgolf.com",
+      "reason": "already a customer or do-not-double-send backup"
+    },
+    {
+      "name": "Mo Gesualdi",
+      "email": "mgesualdi@stjohnsgolf.com",
+      "reason": "already a customer or do-not-double-send backup"
+    },
+    {
+      "name": "Pete Peterson",
+      "email": "ppeterson@stjohnsgolf.com",
+      "reason": "already a customer or do-not-double-send backup"
+    },
+    {
+      "name": "",
+      "email": "contact@vestapropertyservices.com",
+      "org": "Vesta Property Services",
+      "reason": "already in Gmail Sent"
+    },
+    {
+      "name": "Brittani Thomas",
+      "email": "bthomas@vestapropertyservices.com",
+      "reason": "already a customer or do-not-double-send backup"
+    },
+    {
+      "name": "Leslie",
+      "email": "flaglercenter@tlechildcare.com",
+      "org": "The Learning Experience \u2014 Flagler Center",
+      "reason": "already in Gmail Sent"
+    },
+    {
+      "name": "",
+      "email": "studentlife@ccga.edu",
+      "org": "College of Coastal Georgia",
+      "reason": "out of area (Camden)"
+    },
+    {
+      "name": "Amber Leakway",
+      "email": "aleakway@ccga.edu",
+      "org": "College of Coastal Georgia",
+      "reason": "out of area (Camden)"
+    },
+    {
+      "name": "Malcolm Jones",
+      "email": "malcolm.jones@ccga.edu",
+      "org": "College of Coastal Georgia",
+      "reason": "out of area (Camden)"
+    },
+    {
+      "name": "",
+      "email": "dbsesu@erau.edu",
+      "org": "Embry-Riddle Aeronautical University",
+      "reason": "out of area (Volusia)"
+    },
+    {
+      "name": "Ben Hibel",
+      "email": "hibelb@erau.edu",
+      "org": "Embry-Riddle Aeronautical University Worldwide",
+      "reason": "out of area (Volusia)"
+    },
+    {
+      "name": "James White",
+      "email": "whitej1@erau.edu",
+      "org": "Embry-Riddle Aeronautical University Worldwide",
+      "reason": "out of area (Volusia)"
+    },
+    {
+      "name": "Wendi Trumbo",
+      "email": "rowletw1@erau.edu",
+      "org": "Embry-Riddle Aeronautical University Worldwide",
+      "reason": "out of area (Volusia)"
+    },
+    {
+      "name": "Emily Walden",
+      "email": "ewalden@fgcu.edu",
+      "org": "Florida Gulf Coast University",
+      "reason": "out of area (Lee)"
+    },
+    {
+      "name": "Sheila Rea",
+      "email": "srea@fgcu.edu",
+      "org": "Florida Gulf Coast University",
+      "reason": "out of area (Lee)"
+    },
+    {
+      "name": "Jack Hall",
+      "email": "jackhall@sjrstate.edu",
+      "org": "St. Johns River State College",
+      "reason": "out of area (Putnam)"
+    },
+    {
+      "name": "Edward Jordan",
+      "email": "edwardjordan@sjrstate.edu",
+      "org": "St. Johns River State College",
+      "reason": "out of area (Putnam)"
+    },
+    {
+      "name": "Rebekah Wilson",
+      "email": "rebekahwilson@sjrstate.edu",
+      "org": "St. Johns River State College",
+      "reason": "out of area (Putnam)"
+    },
+    {
+      "name": "",
+      "email": "vibrancy@stetson.edu",
+      "org": "Stetson University",
+      "reason": "out of area (Volusia)"
+    },
+    {
+      "name": "",
+      "email": "osi@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Amanda Dever-Harris",
+      "email": "amanda.dever@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Chantel Carter",
+      "email": "chantel.carter@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Kaelyn Hamilton",
+      "email": "kaelyn.hamilton@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Maxwell Kaplowitz",
+      "email": "maxwell.kaplowitz@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Meca Smith",
+      "email": "shemeca.smith@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Shane Juntunen",
+      "email": "shane.juntunen@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "Tim Donovan",
+      "email": "tim.donovan@ucf.edu",
+      "org": "University of Central Florida",
+      "reason": "out of area (Orange)"
+    },
+    {
+      "name": "",
+      "email": "studentengagement@ufsa.ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "",
+      "email": "campusevents@ufsa.ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "Benjamin Stone",
+      "email": "benjaminstone@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "Isabella Jarvis",
+      "email": "isabellajarvis@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "James Tyger",
+      "email": "jtyger@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "Justin Donnelly",
+      "email": "jdonnelly1031@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "Kristi Johnson",
+      "email": "kristi.johnson@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "Solange Douglas",
+      "email": "solangejdouglas@ufl.edu",
+      "org": "University of Florida",
+      "reason": "out of area (Alachua)"
+    },
+    {
+      "name": "",
+      "email": "cab@uwf.edu",
+      "org": "University of West Florida",
+      "reason": "out of area (Escambia)"
+    },
+    {
+      "name": "",
+      "email": "homecoming@uwf.edu",
+      "org": "University of West Florida",
+      "reason": "out of area (Escambia)"
+    },
+    {
+      "name": "",
+      "email": "family@uwf.edu",
+      "org": "University of West Florida",
+      "reason": "out of area (Escambia)"
+    },
+    {
+      "name": "",
+      "email": "argoarrival@uwf.edu",
+      "org": "University of West Florida",
+      "reason": "out of area (Escambia)"
+    },
+    {
+      "name": "Kyle Loggins",
+      "email": "kloggins@uwf.edu",
+      "org": "University of West Florida",
+      "reason": "out of area (Escambia)"
+    },
+    {
+      "name": "Carlos Granados",
+      "email": "",
+      "reason": "no email",
+      "account": "Primrose School of Glen Kernan"
+    },
+    {
+      "name": "Primrose School of Ponte Vedra at Nocatee",
+      "email": "",
+      "reason": "no email",
+      "account": "Primrose School of Ponte Vedra at Nocatee"
+    },
+    {
+      "name": "Leslie",
+      "email": "flaglercenter@tlechildcare.com",
+      "reason": "already emailed",
+      "account": "The Learning Experience \u2014 Flagler Center"
+    },
+    {
+      "name": "Bright Horizons \u2014 Memorial Children's Center (Harvin Rd)",
+      "email": "",
+      "reason": "no email",
+      "account": "Bright Horizons \u2014 Memorial Children's Center (Harvin Rd)"
+    },
+    {
+      "name": "LeAnna Palluch",
+      "email": "",
+      "reason": "no email",
+      "account": "Kiddie Academy of St. Johns"
+    },
+    {
+      "name": "Macy Hatter",
+      "email": "",
+      "reason": "no email",
+      "account": "La Petite Academy on St Johns Bluff Rd"
+    }
+  ],
+  "tabatha": {
+    "email": "bseptapres@gmail.com",
+    "stays_top": false,
+    "reason": "Gmail Sent after Sep 25. Latest Oct 1, 2026 6:39 PM ET. Also Sep 30, 2026 4:20 PM ET. Mailto removed."
+  },
+  "live_urls": [
+    "https://code4crittersoncallapps.github.io/sheehan-exec-suite/dunk-list.html?v=2925",
+    "https://code4crittersoncallapps.github.io/critters-on-call/exec/dunk-list.html?v=2925"
+  ]
+}
