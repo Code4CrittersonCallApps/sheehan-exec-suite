@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-04 evening ET",
-  "board_version": "Board v2.9.25 · Oct 4, 2026 evening ET · Sent reconcile + net-new mailto (compose only, never auto-send)",
+  "as_of": "2026-10-04 11:55 PM ET",
+  "board_version": "Board v2.9.26 · Oct 4, 2026 late ET · Sent catch-up + org-touched + phone work queue (mailto only, never auto-send)",
   "label": "Principal dunk board v2.9 — Friday weekend programmers + Jax universities + Corporate Friday",
   "rule": "Compose-only. Friday filter = weekend programmers (church / CDD amenity / apartments / corporate-district) + secondary consumer rebook. University = separate filter, NOT Friday default. Published emails only. Done key sheehan_principal_dunk_done_v2 · Notes sheehan_dunk_notes_v1.",
   "compose_authuser": "sheehanhomestead@gmail.com",
@@ -191,12 +191,14 @@
           "chip_tags": [
             "Goddard",
             "S",
-            "CATCH-ALL"
+            "CATCH-ALL",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": false,
           "quick_body": "Hi Jenn and Valerie,\n\nWe bring mobile petting zoos to family events around metro Jacksonville. OakLeaf is the Goddard campus we have not booked yet.\n\nDo you have one fall or spring date that should have animals? Happy to send open dates.\n",
           "quick_email": "orangeparkfl@goddardschools.com",
-          "draft_status": "WAITING_SEND"
+          "draft_status": "WAITING_SEND",
+          "org_touched": "ORG ALREADY TOUCHED · cathy.hemphill@goddardschools.com · Sep 23 7:10 PM ET"
         },
         {
           "id": "catch-2",
@@ -285,12 +287,14 @@
           "chip_tags": [
             "Goddard",
             "A",
-            "CATCH-ALL"
+            "CATCH-ALL",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": false,
           "quick_body": "Hi Tammy,\n\nWe bring mobile petting zoos to family events around metro Jacksonville. CR 210 is a Goddard campus we have not put on the calendar.\n\nDo you have one fall or spring date that should have animals? Happy to send open dates.\n",
           "quick_email": "staugustinefl@goddardschools.com",
-          "draft_status": "WAITING_SEND"
+          "draft_status": "WAITING_SEND",
+          "org_touched": "ORG ALREADY TOUCHED · cathy.hemphill@goddardschools.com · Sep 23 7:10 PM ET"
         },
         {
           "id": "catch-5",
@@ -533,12 +537,14 @@
           "chip_tags": [
             "Vesta-not-yet",
             "A",
-            "CATCH-ALL"
+            "CATCH-ALL",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": false,
           "quick_body": "Hi Joanna,\n\nWe bring mobile petting zoos to family events around metro Jacksonville. Bartram Springs has not bought a date yet.\n\nDo you have one fall or spring date that should have animals? Happy to send open dates.\n",
           "quick_email": "jarias@vestapropertyservices.com",
-          "draft_status": "WAITING_SEND"
+          "draft_status": "WAITING_SEND",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "catch-13",
@@ -563,12 +569,14 @@
           "chip_tags": [
             "Vesta-not-yet",
             "A",
-            "CATCH-ALL"
+            "CATCH-ALL",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": false,
           "quick_body": "Hi John,\n\nWe bring mobile petting zoos to family events around metro Jacksonville. Cross Creek North has not bought a petting zoo date.\n\nDo you have one fall or spring date that should have animals? Happy to send open dates.\n",
           "quick_email": "JWILLIAMS@vestapropertyservices.com",
-          "draft_status": "WAITING_SEND"
+          "draft_status": "WAITING_SEND",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "catch-14",
@@ -1316,8 +1324,10 @@
             "Media shout-out pitch",
             "Action News voice adapted",
             "Never Sent",
-            "No signature"
-          ]
+            "No signature",
+            "ORG ALREADY TOUCHED"
+          ],
+          "org_touched": "ORG ALREADY TOUCHED · news@actionnewsjax.com · Sep 30 9:50 AM ET"
         },
         {
           "phone": "",
@@ -1387,7 +1397,7 @@
           "bucket": "media_collab",
           "legacy_tier": 1,
           "area": "Metro Jax · Jacksonville",
-          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_status": "SENT",
           "draft_surface": "mailto / homestead compose",
           "tags": [
             "media",
@@ -1396,13 +1406,14 @@
             "shout-out pitch"
           ],
           "chip_tags": [
-            "WAITING · Michael Send",
             "Media shout-out pitch",
             "Action News voice adapted",
             "Never Sent",
-            "No signature"
+            "No signature",
+            "ALREADY SENT Oct 4, 2026 10:24 PM ET"
           ],
-          "board_note": "Also: newstips@news4jax.com · producer@wjxt.com"
+          "board_note": "Also: newstips@news4jax.com · producer@wjxt.com",
+          "sent_note": "ALREADY SENT Oct 4, 2026 10:24 PM ET — Social Shout Out for Local Eduatainment/Agritourism Biz? (sent to newstips@news4jax.com)"
         },
         {
           "phone": "",
@@ -1456,7 +1467,7 @@
           "bucket": "media_collab",
           "legacy_tier": 1,
           "area": "Metro Jax · Jacksonville",
-          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_status": "SENT",
           "draft_surface": "mailto / homestead compose",
           "tags": [
             "media",
@@ -1465,13 +1476,14 @@
             "shout-out pitch"
           ],
           "chip_tags": [
-            "WAITING · Michael Send",
             "Media shout-out pitch",
             "Action News voice adapted",
             "Never Sent",
-            "No signature"
+            "No signature",
+            "ALREADY SENT Oct 4, 2026 10:25 PM ET"
           ],
-          "board_note": "Also: sbennett@wjct.org"
+          "board_note": "Also: sbennett@wjct.org",
+          "sent_note": "ALREADY SENT Oct 4, 2026 10:25 PM ET — Social Shout Out for Local Edutainment/Agritourism Biz?"
         },
         {
           "phone": "",
@@ -1495,7 +1507,7 @@
           "bucket": "media_collab",
           "legacy_tier": 1,
           "area": "Metro Jax · Jacksonville",
-          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_status": "SENT",
           "draft_surface": "mailto / homestead compose",
           "tags": [
             "media",
@@ -1504,12 +1516,13 @@
             "shout-out pitch"
           ],
           "chip_tags": [
-            "WAITING · Michael Send",
             "Media shout-out pitch",
             "Action News voice adapted",
             "Never Sent",
-            "No signature"
-          ]
+            "No signature",
+            "ALREADY SENT Oct 4, 2026 10:25 PM ET"
+          ],
+          "sent_note": "ALREADY SENT Oct 4, 2026 10:25 PM ET — Social Shout Out for Local Edutainment/Agritourism Biz?"
         },
         {
           "phone": "",
@@ -1534,7 +1547,7 @@
           "bucket": "media_collab",
           "legacy_tier": 1,
           "area": "Metro Jax · Jacksonville",
-          "draft_status": "WAITING_ON_MICHAEL_SEND",
+          "draft_status": "SENT",
           "draft_surface": "mailto / homestead compose",
           "tags": [
             "media",
@@ -1543,12 +1556,13 @@
             "shout-out pitch"
           ],
           "chip_tags": [
-            "WAITING · Michael Send",
             "Media shout-out pitch",
             "Action News voice adapted",
             "Never Sent",
-            "No signature"
-          ]
+            "No signature",
+            "ALREADY SENT Oct 4, 2026 10:26 PM ET"
+          ],
+          "sent_note": "ALREADY SENT Oct 4, 2026 10:26 PM ET — Social Shout Out for Local Edutainment/Agritourism Biz?"
         },
         {
           "id": "quick-times-union-tips",
@@ -2920,8 +2934,10 @@
           "fancy": true,
           "rcsa": false,
           "chip_tags": [
-            "Fancy"
-          ]
+            "Fancy",
+            "ORG ALREADY TOUCHED"
+          ],
+          "org_touched": "ORG ALREADY TOUCHED · rtrevett@sjcds.net · Oct 4 8:39 PM ET"
         },
         {
           "phone": "",
@@ -2975,8 +2991,10 @@
           "fancy": true,
           "rcsa": false,
           "chip_tags": [
-            "Fancy"
-          ]
+            "Fancy",
+            "ORG ALREADY TOUCHED"
+          ],
+          "org_touched": "ORG ALREADY TOUCHED · rtrevett@sjcds.net · Oct 4 8:39 PM ET"
         },
         {
           "phone": "",
@@ -3159,7 +3177,11 @@
           "kind": "mailto",
           "why": "Org whitespace DM email",
           "legacy_tier": 2,
-          "area": "Metro Jax · St. Vincent's"
+          "area": "Metro Jax · St. Vincent's",
+          "org_touched": "ORG ALREADY TOUCHED · amber.johnson1@ascension.org · Sep 22 5:51 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "id": "paul-poirrier-ascension-org-ascension-st-vincent-s-foundation-director-of-major-and-planned-",
@@ -3179,7 +3201,11 @@
           "kind": "mailto",
           "why": "Org whitespace DM email",
           "legacy_tier": 2,
-          "area": "Metro Jax · St. Vincent's"
+          "area": "Metro Jax · St. Vincent's",
+          "org_touched": "ORG ALREADY TOUCHED · amber.johnson1@ascension.org · Sep 22 5:51 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "id": "charvey-bakercoa-org-baker-county-friendship-center-executive-director",
@@ -3433,7 +3459,11 @@
           "kind": "mailto",
           "why": "Org whitespace DM email",
           "legacy_tier": 2,
-          "area": "St. Johns · Hastings"
+          "area": "St. Johns · Hastings",
+          "org_touched": "ORG ALREADY TOUCHED · caregiving@coasjc.org · Sep 25 3:51 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "id": "kwelch-hodgespres-gmail-com-hodges-blvd-presbyterian-preschool-preschool-director",
@@ -3538,7 +3568,11 @@
           "kind": "mailto",
           "why": "Org whitespace DM email",
           "legacy_tier": 2,
-          "area": "Clay · Middleburg"
+          "area": "Clay · Middleburg",
+          "org_touched": "ORG ALREADY TOUCHED · adultdaycare@agingtrue.org · Oct 4 8:42 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "id": "dsc-nbfl-us-neptune-beach-senior-activity-center-director",
@@ -3870,7 +3904,11 @@
           "kind": "mailto",
           "why": "Decision-maker seat with public email",
           "legacy_tier": 2,
-          "area": "Metro Jax · Mandarin"
+          "area": "Metro Jax · Mandarin",
+          "org_touched": "ORG ALREADY TOUCHED · rivercity@tlechildcare.com · Oct 2 2:36 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "id": "jcurry-coasjc-org-trout-creek-community-senior-center-x",
@@ -5653,9 +5691,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "COLLEGES.csv"
+          "lead_source": "COLLEGES.csv",
+          "org_touched": "ORG ALREADY TOUCHED · donny.hoessler@stjohns.k12.fl.us · Sep 29 9:27 AM ET"
         },
         {
           "id": "v2925-orientation-flagler-edu",
@@ -5884,9 +5924,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "COLLEGES.csv"
+          "lead_source": "COLLEGES.csv",
+          "org_touched": "ORG ALREADY TOUCHED · angelabrown@sjrstate.edu · Sep 24 8:00 AM ET"
         },
         {
           "id": "v2925-grantphillips-sjrstate-edu",
@@ -5905,9 +5947,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "COLLEGES.csv"
+          "lead_source": "COLLEGES.csv",
+          "org_touched": "ORG ALREADY TOUCHED · angelabrown@sjrstate.edu · Sep 24 8:00 AM ET"
         },
         {
           "id": "v2925-studentlifeoffice-tbc-edu",
@@ -6906,8 +6950,10 @@
           "friday": true,
           "friday_class": "district",
           "chip_tags": [
-            "Friday"
-          ]
+            "Friday",
+            "ORG ALREADY TOUCHED"
+          ],
+          "org_touched": "ORG ALREADY TOUCHED · hoavendors@rizzetta.com · Sep 29 9:41 AM ET"
         },
         {
           "account": "Bartram Park CDD",
@@ -6933,13 +6979,15 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops / district"
+            "Ops / district",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "GMS",
           "ross_type": "Ops / district",
           "wallet_class": "A",
           "board_note": "GMS district — infrastructure-heavy; amenity events may sit with HOA/amenity phones.",
-          "role_chip": "Ops / district"
+          "role_chip": "Ops / district",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "account": "Bartram Springs CDD",
@@ -6965,13 +7013,15 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops / district"
+            "Ops / district",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "GMS",
           "ross_type": "Ops / district",
           "wallet_class": "A",
           "board_note": "GMS district · amenity phones 904-880-5156 cluster — multi-CDD, not one Ross lunch.",
-          "role_chip": "Ops / district"
+          "role_chip": "Ops / district",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "account": "Bartram Springs CDD (GMS)",
@@ -6997,13 +7047,15 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops phone"
+            "Ops phone",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "GMS",
           "ross_type": "Ops phone",
           "wallet_class": "A",
           "board_note": "GMS amenity phone cluster — dial by CDD, not one pizza day. Bartram Springs amenity.",
-          "role_chip": "Ops phone"
+          "role_chip": "Ops phone",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "account": "Bridgewater North HOA (Sovereign-Jacobs)",
@@ -7122,11 +7174,13 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops phone"
+            "Ops phone",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "GMS",
           "ross_type": "Ops phone",
-          "role_chip": "Ops phone"
+          "role_chip": "Ops phone",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "account": "Del Webb Nocatee / Del Webb Ponte Vedra (FirstService Residential)",
@@ -7253,9 +7307,11 @@
           "friday_class": "cdd_amenity",
           "chip_tags": [
             "Friday",
-            "First Coast CMS"
+            "First Coast CMS",
+            "ORG ALREADY TOUCHED"
           ],
-          "management_company": "First Coast CMS"
+          "management_company": "First Coast CMS",
+          "org_touched": "ORG ALREADY TOUCHED · service@firstcoastcms.com · Sep 30 9:22 PM ET"
         },
         {
           "account": "Meadow View at Twin Creeks CDD / Beacon Lake (RMS)",
@@ -7404,11 +7460,13 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops phone"
+            "Ops phone",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "GMS",
           "ross_type": "Ops phone",
-          "role_chip": "Ops phone"
+          "role_chip": "Ops phone",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "account": "River Glen CDD",
@@ -7633,7 +7691,11 @@
           "tier": "A",
           "id": "cclapper-cmcjaxfla-com-associa-community-management-concepts-of-jacksonville-dir",
           "legacy_tier": 2,
-          "area": "Metro Jax · Jacksonville"
+          "area": "Metro Jax · Jacksonville",
+          "org_touched": "ORG ALREADY TOUCHED · hiddenhills@cmcjaxfla.com · Sep 24 8:00 AM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "account": "Azalea Ridge HOA (Awakenings / Ridgewood Trails area)",
@@ -8043,9 +8105,11 @@
           "board_note": "Palencia GM — site desk, not Ross.",
           "chip_tags": [
             "Vesta",
-            "Site booker"
+            "Site booker",
+            "ORG ALREADY TOUCHED"
           ],
-          "role_chip": "Site booker"
+          "role_chip": "Site booker",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "account": "Marshall Creek CDD (Palencia) — Vesta District",
@@ -8071,13 +8135,15 @@
           "chip_tags": [
             "Friday",
             "Vesta",
-            "Ops / district"
+            "Ops / district",
+            "ORG ALREADY TOUCHED"
           ],
           "management_company": "Vesta",
           "ross_type": "Ops / district",
           "wallet_class": "B",
           "board_note": "Palencia district (Vesta) — map amenity desk; rarely the entertainment buyer.",
-          "role_chip": "Ops / district"
+          "role_chip": "Ops / district",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "account": "Trout Creek CDD / Shearwater (FirstService Residential)",
@@ -8531,11 +8597,13 @@
           "rcsa": false,
           "chip_tags": [
             "Friday",
-            "FSR"
+            "FSR",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": true,
           "friday_class": "cdd_amenity",
-          "management_company": "FSR"
+          "management_company": "FSR",
+          "org_touched": "ORG ALREADY TOUCHED · kate.trivelpiece@fsresidential.com · Oct 2 5:44 PM ET"
         },
         {
           "phone": "561-571-0010",
@@ -8646,12 +8714,14 @@
           "chip_tags": [
             "Friday",
             "GMS",
-            "Ops phone"
+            "Ops phone",
+            "ORG ALREADY TOUCHED"
           ],
           "friday": true,
           "friday_class": "cdd_amenity",
           "management_company": "GMS",
-          "ross_type": "Ops phone"
+          "ross_type": "Ops phone",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "phone": "904-612-6668",
@@ -8786,9 +8856,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-jolear-vestapropertyservices-com",
@@ -8807,9 +8879,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-minsel-vestapropertyservices-com",
@@ -8828,9 +8902,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-info-cmcjaxfla-com",
@@ -8849,9 +8925,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · hiddenhills@cmcjaxfla.com · Sep 24 8:00 AM ET"
         },
         {
           "id": "v2925-info-aipca-net",
@@ -8870,9 +8948,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · kbean@aipca.net · Oct 2 4:25 PM ET"
         },
         {
           "id": "v2925-apotter-sovereign-jacobs-com",
@@ -8954,9 +9034,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "id": "v2925-residentsupport-lelandmanagement-com",
@@ -8996,9 +9078,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · rshoemaker@cimarronegolf.com · Sep 25 3:50 PM ET"
         },
         {
           "id": "v2925-dhackney-concertgolfclubs-com",
@@ -9059,9 +9143,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · sregan@golfclubofamelia.com · Sep 14 5:53 PM ET"
         },
         {
           "id": "v2925-info-copeslandingcdd-net",
@@ -9164,9 +9250,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · hoavendors@rizzetta.com · Sep 29 9:41 AM ET"
         },
         {
           "id": "v2925-fatwood-vestapropertyservices-com",
@@ -9185,9 +9273,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-info-gmsnf-com",
@@ -9206,9 +9296,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "id": "v2925-grandoaksmanager-gmsnf-com",
@@ -9227,9 +9319,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "id": "v2925-dmossing-gmstnn-com",
@@ -9479,9 +9573,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · jsapere@maymgt.com · Sep 25 3:35 PM ET"
         },
         {
           "id": "v2925-kfrick-maymgt-com",
@@ -9500,9 +9596,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · jsapere@maymgt.com · Sep 25 3:35 PM ET"
         },
         {
           "id": "v2925-admin-oakleafresidents-com",
@@ -9521,9 +9619,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · venuerentals@oakleafresidents.com · Sep 25 3:37 PM ET"
         },
         {
           "id": "v2925-residentassistant-oakleafresidents-com",
@@ -9542,9 +9642,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · venuerentals@oakleafresidents.com · Sep 25 3:37 PM ET"
         },
         {
           "id": "v2925-info-orangebranchcdd-net",
@@ -9689,9 +9791,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "id": "v2925-eaglelanding-agentlink-net",
@@ -9752,9 +9856,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-wlmanager-gmsnf-com",
@@ -9773,9 +9879,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         },
         {
           "id": "v2925-malfano-vestapropertyservices-com",
@@ -9794,9 +9902,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-lerasmus-vestapropertyservices-com",
@@ -9815,9 +9925,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · mczmyr@vestapropertyservices.com · Oct 4 9:02 PM ET"
         },
         {
           "id": "v2925-contact-brahmcorp-com",
@@ -9878,9 +9990,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · service@firstcoastcms.com · Sep 30 9:22 PM ET"
         },
         {
           "id": "v2925-mgiles-gmsnf-com",
@@ -9899,9 +10013,11 @@
           "chip_tags": [
             "WAITING Send",
             "v2.9.25",
-            "not in Sent"
+            "not in Sent",
+            "ORG ALREADY TOUCHED"
           ],
-          "lead_source": "AMENITY.csv"
+          "lead_source": "AMENITY.csv",
+          "org_touched": "ORG ALREADY TOUCHED · ameliawalkmanager@gmsnf.com · Sep 25 3:21 PM ET"
         }
       ]
     },
@@ -11727,9 +11843,11 @@
           "chip_tags": [
             "Friday",
             "Apartment",
-            "First Coast CMS"
+            "First Coast CMS",
+            "ORG ALREADY TOUCHED"
           ],
-          "management_company": "First Coast CMS"
+          "management_company": "First Coast CMS",
+          "org_touched": "ORG ALREADY TOUCHED · risenocatee@greystar.com · Sep 25 3:47 PM ET"
         },
         {
           "account": "Cimarrone Golf Club",
@@ -11826,7 +11944,11 @@
           "tier": "A",
           "id": "caitlin-brunell-ascension-org-ascension-st-vincent-s-foundation-president-ascens",
           "legacy_tier": 2,
-          "area": "Metro Jax · St. Vincent's"
+          "area": "Metro Jax · St. Vincent's",
+          "org_touched": "ORG ALREADY TOUCHED · amber.johnson1@ascension.org · Sep 22 5:51 PM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "account": "Community First Credit Union",
@@ -11972,7 +12094,11 @@
           "tier": "A",
           "id": "laura-mellem-patriotrail-com-patriot-rail-vp-marketing-communications-stakeholde",
           "legacy_tier": 2,
-          "area": "Metro Jax · Jacksonville"
+          "area": "Metro Jax · Jacksonville",
+          "org_touched": "ORG ALREADY TOUCHED · josie.curtis@patriotrail.com · Sep 28 10:37 AM ET",
+          "chip_tags": [
+            "ORG ALREADY TOUCHED"
+          ]
         },
         {
           "account": "Royal Restaurant Group (Burger King Jacksonville)",
@@ -16180,11 +16306,8 @@
           "fancy": false,
           "rcsa": false,
           "chip_tags": [
-            "Consumer",
-            "Booked, no review",
-            "Friday",
-            "Independent",
-            "Club wallet"
+            "DO NOT CONTACT",
+            "No mailto"
           ],
           "quick_email": true,
           "purchase_status": "bought",
@@ -16206,7 +16329,8 @@
           "ross_type": "Club wallet",
           "wallet_class": "Club",
           "board_note": "Jax GCC Director of Fun — independent club wallet (Ross warm-intro possible).",
-          "spend_hint": "Club / independent — one-off wallet, not a cluster"
+          "spend_hint": "Club / independent — one-off wallet, not a cluster",
+          "draft_status": "DO_NOT_CONTACT"
         },
         {
           "phone": "(904) 665-5500",
@@ -18147,11 +18271,8 @@
           "fancy": false,
           "rcsa": false,
           "chip_tags": [
-            "Consumer",
-            "Booked, no review",
-            "Friday",
-            "Vesta",
-            "Site booker"
+            "DO NOT CONTACT",
+            "No mailto"
           ],
           "quick_email": true,
           "purchase_status": "bought",
@@ -18173,7 +18294,8 @@
           "ross_type": "Site booker",
           "wallet_class": "C",
           "board_note": "Wynnfield Lakes (Vesta) — C/light asks only.",
-          "spend_hint": "Wallet C — small / thin (light asks only)"
+          "spend_hint": "Wallet C — small / thin (light asks only)",
+          "draft_status": "DO_NOT_CONTACT"
         },
         {
           "phone": "",
@@ -19191,7 +19313,8 @@
           "chip_tags": [
             "Action queue / booked",
             "Consumer",
-            "Warm"
+            "Warm",
+            "ORG ALREADY TOUCHED"
           ],
           "quick_email": true,
           "purchase_status": "not_seen",
@@ -19213,7 +19336,8 @@
               "subject": "Sheehan Homestead / Critters follow-up",
               "source": "consumer_inbound"
             }
-          ]
+          ],
+          "org_touched": "ORG ALREADY TOUCHED · amber.johnson1@ascension.org · Sep 22 5:51 PM ET"
         },
         {
           "phone": "",
@@ -24102,5 +24226,52 @@
       }
     ],
     "change": "Sent reconcile. Mailto removed where Sent has the address. Tabatha already sent after Sep 25. Lisa Licata off the stack. Dupes killed. Net-new mailto only."
+  },
+  "v2926": {
+    "as_of": "2026-10-04 11:55 PM ET",
+    "hard_refresh": "?v=2926",
+    "no_outbound_send": true,
+    "compose_only": true,
+    "flipped_already_sent": [
+      {
+        "name": "News4JAX River City Live (WJXT)",
+        "org": "",
+        "email": "newstips@wjxt.com",
+        "sent_et": "Oct 4, 2026 10:24 PM ET",
+        "subject": "Social Shout Out for Local Eduatainment/Agritourism Biz? (sent to newstips@news4jax.com)"
+      },
+      {
+        "name": "First Coast News (WTLV/WJXX)",
+        "org": "",
+        "email": "news@firstcoastnews.com",
+        "sent_et": "Oct 4, 2026 10:25 PM ET",
+        "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+      },
+      {
+        "name": "WJCT First Coast Connect",
+        "org": "",
+        "email": "firstcoastconnect@wjct.org",
+        "sent_et": "Oct 4, 2026 10:25 PM ET",
+        "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+      },
+      {
+        "name": "Folio Weekly",
+        "org": "",
+        "email": "team@folioweekly.com",
+        "sent_et": "Oct 4, 2026 10:26 PM ET",
+        "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+      },
+      {
+        "name": "Fruit Cove",
+        "org": "Michelle Ford / Karin Woodley",
+        "email": "karin@fruitcove.com",
+        "sent_et": "Sep 28, 2026 3:57 PM ET",
+        "subject": "Forward to Karin on the info@fruitcove.com thread"
+      }
+    ],
+    "org_touched_count": 64,
+    "fresh_waiting_count": 121,
+    "sent_today_gmail": 18,
+    "change": "Sent catch-up (exact + alias), org-touched within 30 days de-emphasized, phone work-queue layout, collapsed reference sections."
   }
 }

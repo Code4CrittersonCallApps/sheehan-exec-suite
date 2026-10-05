@@ -1,0 +1,1392 @@
+{
+  "board_version": "Board v2.9.26 · Oct 4, 2026 late ET · Sent catch-up + org-touched + phone work queue (mailto only, never auto-send)",
+  "as_of": "2026-10-04 11:55 PM ET",
+  "hard_refresh": "?v=2926",
+  "no_outbound_send": true,
+  "compose_only": true,
+  "banner": "DRAFTS / MAILTO ONLY — never auto-send",
+  "counters": {
+    "waiting": 121,
+    "sent_today_gmail_messages": 18,
+    "sent_total_cards": 66,
+    "booked": 29
+  },
+  "flipped_already_sent_this_pass": [
+    {
+      "name": "News4JAX River City Live (WJXT)",
+      "org": "",
+      "email": "newstips@wjxt.com",
+      "sent_et": "Oct 4, 2026 10:24 PM ET",
+      "subject": "Social Shout Out for Local Eduatainment/Agritourism Biz? (sent to newstips@news4jax.com)"
+    },
+    {
+      "name": "First Coast News (WTLV/WJXX)",
+      "org": "",
+      "email": "news@firstcoastnews.com",
+      "sent_et": "Oct 4, 2026 10:25 PM ET",
+      "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+    },
+    {
+      "name": "WJCT First Coast Connect",
+      "org": "",
+      "email": "firstcoastconnect@wjct.org",
+      "sent_et": "Oct 4, 2026 10:25 PM ET",
+      "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+    },
+    {
+      "name": "Folio Weekly",
+      "org": "",
+      "email": "team@folioweekly.com",
+      "sent_et": "Oct 4, 2026 10:26 PM ET",
+      "subject": "Social Shout Out for Local Edutainment/Agritourism Biz?"
+    },
+    {
+      "name": "Fruit Cove",
+      "org": "Michelle Ford / Karin Woodley",
+      "email": "karin@fruitcove.com",
+      "sent_et": "Sep 28, 2026 3:57 PM ET",
+      "subject": "Forward to Karin on the info@fruitcove.com thread"
+    }
+  ],
+  "org_touched": [
+    {
+      "name": "Jenn & Valerie",
+      "org": "Goddard · Orange Park / OakLeaf",
+      "email": "orangeparkfl@goddardschools.com",
+      "touched_via": "cathy.hemphill@goddardschools.com",
+      "touched_et": "Sep 23 7:10 PM ET"
+    },
+    {
+      "name": "Tammy Torres / Sam Palli",
+      "org": "Goddard · St. Augustine CR 210",
+      "email": "staugustinefl@goddardschools.com",
+      "touched_via": "cathy.hemphill@goddardschools.com",
+      "touched_et": "Sep 23 7:10 PM ET"
+    },
+    {
+      "name": "Joanna Lynch-Arias",
+      "org": "Bartram Springs HOA (Vesta)",
+      "email": "jarias@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "John Williams",
+      "org": "Cross Creek North CDD (Vesta)",
+      "email": "jwilliams@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Action News Jax — Community Calendar",
+      "org": "",
+      "email": "events@actionnewsjax.com",
+      "touched_via": "news@actionnewsjax.com",
+      "touched_et": "Sep 30 9:50 AM ET"
+    },
+    {
+      "name": "Kimberly Harrison",
+      "org": "LaVilla School of the Arts",
+      "email": "harrisonk2@duvalschools.org",
+      "touched_via": "brownj5@duvalschools.org",
+      "touched_et": "Sep 29 9:27 AM ET"
+    },
+    {
+      "name": "Heather Graham",
+      "org": "St. Johns Country Day School",
+      "email": "hgraham@sjcds.net",
+      "touched_via": "rtrevett@sjcds.net",
+      "touched_et": "Oct 4 8:39 PM ET"
+    },
+    {
+      "name": "Jeni Jacobs",
+      "org": "St. Johns Country Day School",
+      "email": "jjacobs@sjcds.net",
+      "touched_via": "rtrevett@sjcds.net",
+      "touched_et": "Oct 4 8:39 PM ET"
+    },
+    {
+      "name": "Cynthia Marrero",
+      "org": "The Learning Experience — Jacksonville Mandarin",
+      "email": "jacksonvillemandarin@tlechildcare.com",
+      "touched_via": "rivercity@tlechildcare.com",
+      "touched_et": "Oct 2 2:36 PM ET"
+    },
+    {
+      "name": "First Coast Technical College",
+      "org": "",
+      "email": "fctcstudentservices@stjohns.k12.fl.us",
+      "touched_via": "donny.hoessler@stjohns.k12.fl.us",
+      "touched_et": "Sep 29 9:27 AM ET"
+    },
+    {
+      "name": "Erin Breeden",
+      "org": "Orange Park Campus",
+      "email": "erinbreeden@sjrstate.edu",
+      "touched_via": "angelabrown@sjrstate.edu",
+      "touched_et": "Sep 24 8:00 AM ET"
+    },
+    {
+      "name": "Grant Phillips",
+      "org": "Orange Park Campus",
+      "email": "grantphillips@sjrstate.edu",
+      "touched_via": "angelabrown@sjrstate.edu",
+      "touched_et": "Sep 24 8:00 AM ET"
+    },
+    {
+      "name": "Ishtar Jorden",
+      "org": "Middleburg Senior Center",
+      "email": "ijorden@agingtrue.org",
+      "touched_via": "adultdaycare@agingtrue.org",
+      "touched_et": "Oct 4 8:42 PM ET"
+    },
+    {
+      "name": "Lorain Vinson",
+      "org": "Hastings Community Senior Center",
+      "email": "lvinson@coasjc.org",
+      "touched_via": "caregiving@coasjc.org",
+      "touched_et": "Sep 25 3:51 PM ET"
+    },
+    {
+      "name": "Matthew Biagetti",
+      "org": "Bartram Springs CDD",
+      "email": "mbiagetti@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "David McInnes",
+      "org": "Fleming Island Plantation HOA",
+      "email": "dmcinnes@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Jodi Moore",
+      "org": "Marshall Creek CDD (Palencia)",
+      "email": "jmoore@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Todd Myhill",
+      "org": "Heritage Landing CDD",
+      "email": "tmyhill@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Jay Parker",
+      "org": "Aberdeen CDD (FirstService Residential)",
+      "email": "jay.parker@fsresidential.com",
+      "touched_via": "kate.trivelpiece@fsresidential.com",
+      "touched_et": "Oct 2 5:44 PM ET"
+    },
+    {
+      "name": "Daniel Laughlin",
+      "org": "Amelia Concourse CDD",
+      "email": "dlaughlin@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Corey Clapper",
+      "org": "Associa Community Management Concepts of Jacksonville",
+      "email": "cclapper@cmcjaxfla.com",
+      "touched_via": "hiddenhills@cmcjaxfla.com",
+      "touched_et": "Sep 24 8:00 AM ET"
+    },
+    {
+      "name": "Benjamin Pfuhl",
+      "org": "Bainebridge CDD",
+      "email": "bpfuhl@rizzetta.com",
+      "touched_via": "hoavendors@rizzetta.com",
+      "touched_et": "Sep 29 9:41 AM ET"
+    },
+    {
+      "name": "Jim Oliver",
+      "org": "Bartram Park CDD",
+      "email": "joliver@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Andy Antonopoulos",
+      "org": "Bartram Springs CDD (GMS)",
+      "email": "aantonopoulos@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Danelle DeMarco",
+      "org": "Bartram Springs CDD (GMS)",
+      "email": "ddemarco@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Lisa Jones",
+      "org": "CMC Jacksonville / Associa (Magnolia West HOA)",
+      "email": "lisa.jones@cmcjaxfla.com",
+      "touched_via": "hiddenhills@cmcjaxfla.com",
+      "touched_et": "Sep 24 8:00 AM ET"
+    },
+    {
+      "name": "Sherry Naydeck",
+      "org": "Aspire at Silverleaf",
+      "email": "sherry.naydeck@greystar.com",
+      "touched_via": "risenocatee@greystar.com",
+      "touched_et": "Sep 25 3:47 PM ET"
+    },
+    {
+      "name": "Cheryl Blythe",
+      "org": "Palencia Fitness Center",
+      "email": "cblythe@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Joe O'Lear",
+      "org": "Entrada HOA",
+      "email": "jolear@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Mark Insel",
+      "org": "Cross Creek North CDD amenity",
+      "email": "minsel@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Aberdeen HOA (single-family)",
+      "org": "",
+      "email": "info@cmcjaxfla.com",
+      "touched_via": "hiddenhills@cmcjaxfla.com",
+      "touched_et": "Sep 24 8:00 AM ET"
+    },
+    {
+      "name": "Amelia Island Plantation Community Association",
+      "org": "",
+      "email": "info@aipca.net",
+      "touched_via": "kbean@aipca.net",
+      "touched_et": "Oct 2 4:25 PM ET"
+    },
+    {
+      "name": "Terry Glynn",
+      "org": "Bartram Springs CDD (GMS)",
+      "email": "tglynn@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Savannah Thomas",
+      "org": "Cimarrone Golf Club",
+      "email": "sshoemaker@cimarronegolf.com",
+      "touched_via": "rshoemaker@cimarronegolf.com",
+      "touched_et": "Sep 25 3:50 PM ET"
+    },
+    {
+      "name": "Miya Harris",
+      "org": "The Golf Club of Amelia Island",
+      "email": "concierge@golfclubofamelia.com",
+      "touched_via": "sregan@golfclubofamelia.com",
+      "touched_et": "Sep 14 5:53 PM ET"
+    },
+    {
+      "name": "Claire Durham",
+      "org": "Dorado HOA / Glen St. Johns (Rizzetta)",
+      "email": "cdurham@rizzetta.com",
+      "touched_via": "hoavendors@rizzetta.com",
+      "touched_et": "Sep 29 9:41 AM ET"
+    },
+    {
+      "name": "Fred Atwood",
+      "org": "Fleming Island Plantation CDD (Vesta)",
+      "email": "fatwood@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Antigua at St. Augustine CDD",
+      "org": "",
+      "email": "info@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Grand Oaks CDD",
+      "org": "",
+      "email": "grandoaksmanager@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "MAY Management Services",
+      "org": "",
+      "email": "sales@maymgt.com",
+      "touched_via": "jsapere@maymgt.com",
+      "touched_et": "Sep 25 3:35 PM ET"
+    },
+    {
+      "name": "Kelly Frick",
+      "org": "MAY Management Services",
+      "email": "kfrick@maymgt.com",
+      "touched_via": "jsapere@maymgt.com",
+      "touched_et": "Sep 25 3:35 PM ET"
+    },
+    {
+      "name": "Kristina Tolzman",
+      "org": "Oakleaf Plantation",
+      "email": "admin@oakleafresidents.com",
+      "touched_via": "venuerentals@oakleafresidents.com",
+      "touched_et": "Sep 25 3:37 PM ET"
+    },
+    {
+      "name": "Lisa Carter",
+      "org": "Oakleaf Plantation",
+      "email": "residentassistant@oakleafresidents.com",
+      "touched_via": "venuerentals@oakleafresidents.com",
+      "touched_et": "Sep 25 3:37 PM ET"
+    },
+    {
+      "name": "Sarah Sweeting",
+      "org": "Six Mile Creek CDD (GMS)",
+      "email": "ssweeting@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Erin Gunia",
+      "org": "Palencia Fitness Center",
+      "email": "egunia@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Wynnfield Lakes HOA",
+      "org": "",
+      "email": "wlmanager@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Margaret Alfano",
+      "org": "Fleming Island Plantation CDD (Vesta)",
+      "email": "malfano@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Lourens Erasmus",
+      "org": "Heritage Landing CDD (Vesta)",
+      "email": "lerasmus@vestapropertyservices.com",
+      "touched_via": "mczmyr@vestapropertyservices.com",
+      "touched_et": "Oct 4 9:02 PM ET"
+    },
+    {
+      "name": "Marilyn Newbauer",
+      "org": "Magnolia West CDD",
+      "email": "marilyn@firstcoastcms.com",
+      "touched_via": "service@firstcoastcms.com",
+      "touched_et": "Sep 30 9:22 PM ET"
+    },
+    {
+      "name": "Marilee Giles",
+      "org": "Oakleaf Plantation Master HOA",
+      "email": "mgiles@gmsnf.com",
+      "touched_via": "ameliawalkmanager@gmsnf.com",
+      "touched_et": "Sep 25 3:21 PM ET"
+    },
+    {
+      "name": "Chelsea Kavanagh",
+      "org": "JAXPORT (Jacksonville Port Authority)",
+      "email": "chelsea.kavanagh@jaxport.com",
+      "touched_via": "hr@jaxport.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Kimberly Norman",
+      "org": "JAXPORT (Jacksonville Port Authority)",
+      "email": "kimberly.norman@jaxport.com",
+      "touched_via": "hr@jaxport.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Andre Carriere",
+      "org": "JAXPORT (Jacksonville Port Authority)",
+      "email": "andre.carriere@jaxport.com",
+      "touched_via": "hr@jaxport.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Communications team",
+      "org": "JAXPORT (Jacksonville Port Authority)",
+      "email": "communications@jaxport.com",
+      "touched_via": "hr@jaxport.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Laura Mellem",
+      "org": "Patriot Rail",
+      "email": "laura.mellem@patriotrail.com",
+      "touched_via": "josie.curtis@patriotrail.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Caitlin Brunell",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "caitlin.brunell@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    },
+    {
+      "name": "Paul Poirrier",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "paul.poirrier@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    },
+    {
+      "name": "Mary Anne Thomas",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "mary.anne.thomas@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    },
+    {
+      "name": "Rebecca Timberlake",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "rebecca.timberlake@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    },
+    {
+      "name": "Foundation desk",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "thefoundation@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    },
+    {
+      "name": "Patriot Rail HQ",
+      "org": "Patriot Rail",
+      "email": "info@patriotrail.com",
+      "touched_via": "josie.curtis@patriotrail.com",
+      "touched_et": "Sep 28 10:37 AM ET"
+    },
+    {
+      "name": "Paulette Kozlowski",
+      "org": "The Sunshine Center",
+      "email": "pkozlowski@coasjc.org",
+      "touched_via": "caregiving@coasjc.org",
+      "touched_et": "Sep 25 3:51 PM ET"
+    },
+    {
+      "name": "Hannah Herring",
+      "org": "Publix Super Markets",
+      "email": "hannah.herring@publix.com",
+      "touched_via": "jacksonvillecr@publix.com",
+      "touched_et": "Sep 30 9:22 PM ET"
+    },
+    {
+      "name": "Merry Walker",
+      "org": "Ascension St. Vincent's Foundation",
+      "email": "merry.walker@ascension.org",
+      "touched_via": "amber.johnson1@ascension.org",
+      "touched_et": "Sep 22 5:51 PM ET"
+    }
+  ],
+  "fresh_waiting": [
+    {
+      "rank": 1,
+      "name": "Jillian",
+      "org": "Arize Christmas",
+      "email": "jillian@arizetogether.org",
+      "seg": "Owed · Jax"
+    },
+    {
+      "rank": 2,
+      "name": "Heather",
+      "org": "Anthem Lakes / Waterview",
+      "email": "heather.foran@anthemlakes.com",
+      "seg": "Owed · Jax"
+    },
+    {
+      "rank": 3,
+      "name": "Alexis Bailey",
+      "org": "Ivybrook · Julington Creek",
+      "email": "alexis.bailey@ivybrookacademy.com",
+      "seg": "Chain · Jax"
+    },
+    {
+      "rank": 4,
+      "name": "Natasha Dobronte",
+      "org": "Ivybrook · Julington Creek",
+      "email": "natasha.dobronte@ivybrookacademy.com",
+      "seg": "Chain · Jax"
+    },
+    {
+      "rank": 5,
+      "name": "Shop the 904 (CMG Jax radio · WOKV cluster)",
+      "org": "",
+      "email": "shopthe904@cmg.com",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 6,
+      "name": "Jacksonville Today",
+      "org": "",
+      "email": "news@jaxtoday.org",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 7,
+      "name": "I Know Jax (CW17)",
+      "org": "",
+      "email": "info@iknowjax.com",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 8,
+      "name": "The Coastal",
+      "org": "",
+      "email": "editor@thecoastal.com",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 9,
+      "name": "Florida Times-Union / jacksonville.com",
+      "org": "",
+      "email": "prunnestrand@jacksonville.com",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 10,
+      "name": "Fernandina Observer",
+      "org": "",
+      "email": "hello@fernandinaobserver.org",
+      "seg": "Media · Nassau"
+    },
+    {
+      "rank": 11,
+      "name": "Fernandina Beach News-Leader",
+      "org": "",
+      "email": "tdishman@fbnewsleader.com",
+      "seg": "Media · Nassau"
+    },
+    {
+      "rank": 12,
+      "name": "Jacksonville Magazine",
+      "org": "",
+      "email": "joe@jacksonvillemag.com",
+      "seg": "Media · Jax"
+    },
+    {
+      "rank": 13,
+      "name": "Ariel Lewis",
+      "org": "University of North Florida",
+      "email": "ariel.lewis@unf.edu",
+      "seg": "School · Jax"
+    },
+    {
+      "rank": 14,
+      "name": "Cindy Kirby",
+      "org": "Learning Ladders Preschool (Mandarin United Methodist)",
+      "email": "director@learningladderspreschool.com",
+      "seg": "School · Jax"
+    },
+    {
+      "rank": 15,
+      "name": "Rosette Poole",
+      "org": "Oxford Preparatory Academy",
+      "email": "info@opajax.org",
+      "seg": "School · Jax"
+    },
+    {
+      "rank": 16,
+      "name": "Wes Hinton",
+      "org": "East Nassau Stewardship District (Wildlight)",
+      "email": "wes.hinton@wildlight.com",
+      "seg": "HOA/CDD · Nassau"
+    },
+    {
+      "rank": 17,
+      "name": "Anabelle Island HOA",
+      "org": "",
+      "email": "apotter@sovereign-jacobs.com",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 18,
+      "name": "Arbors CDD",
+      "org": "",
+      "email": "info@arborscdd.net",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 19,
+      "name": "Michelle Griggs",
+      "org": "Associa Community Management Concepts of Jacksonville",
+      "email": "michelle.griggs@associa.us",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 20,
+      "name": "Cedar Pointe HOA",
+      "org": "",
+      "email": "residentsupport@lelandmanagement.com",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 21,
+      "name": "Dan Hackney",
+      "org": "Marsh Landing Country Club",
+      "email": "dhackney@concertgolfclubs.com",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 22,
+      "name": "Michael Duckworth",
+      "org": "Marsh Landing Country Club",
+      "email": "mduckworth@marshlandingcc.com",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 23,
+      "name": "Cope's Landing CDD",
+      "org": "",
+      "email": "info@copeslandingcdd.net",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 24,
+      "name": "Deerwood Country Club",
+      "org": "",
+      "email": "info@hampton.golf",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 25,
+      "name": "Governors Park South CDD",
+      "org": "",
+      "email": "info@governorsparksouthcdd.net",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 26,
+      "name": "Greenbriar CDD",
+      "org": "",
+      "email": "info@greenbriarcdd.net",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 27,
+      "name": "Hazel Fiel",
+      "org": "Sevilla at World Commerce HOA",
+      "email": "hfiel@lelandmanagement.com",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 28,
+      "name": "Liberty Cove CDD",
+      "org": "",
+      "email": "info@libertycovecdd.net",
+      "seg": "HOA/CDD · Nassau"
+    },
+    {
+      "rank": 29,
+      "name": "Orange Branch CDD",
+      "org": "",
+      "email": "info@orangebranchcdd.net",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 30,
+      "name": "Bannon Lakes CDD",
+      "org": "",
+      "email": "bannonmanager@rmsnf.com",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 31,
+      "name": "Ryals Creek CDD",
+      "org": "",
+      "email": "info@ryalscreekcdd.net",
+      "seg": "HOA/CDD · Jax"
+    },
+    {
+      "rank": 32,
+      "name": "Sawgrass Players Club / TPC Sawgrass area HOA",
+      "org": "",
+      "email": "jparker@marshlanding.org",
+      "seg": "HOA/CDD · St. Johns"
+    },
+    {
+      "rank": 33,
+      "name": "Jennifer Gundling",
+      "org": "Nassau County Council on Aging — The Club",
+      "email": "jgundling@nassaucountycoa.org",
+      "seg": "Senior · Jax"
+    },
+    {
+      "rank": 34,
+      "name": "Evelyn Scott",
+      "org": "Stay For The Day Adult Day Care",
+      "email": "stayforthedayjax@gmail.com",
+      "seg": "Senior · Jax"
+    },
+    {
+      "rank": 35,
+      "name": "Qwanderlyn Goodson",
+      "org": "The PACE Place",
+      "email": "enrollments@thepaceplace.org",
+      "seg": "Senior · Jax"
+    },
+    {
+      "rank": 36,
+      "name": "Yuki Rice",
+      "org": "HarborChase of Mandarin",
+      "email": "yrice@harborchase.com",
+      "seg": "Senior · Jax"
+    },
+    {
+      "rank": 37,
+      "name": "Douglas D. Adkins",
+      "org": "Dayspring Village",
+      "email": "dadkins777@bellsouth.net",
+      "seg": "Senior · Nassau"
+    },
+    {
+      "rank": 38,
+      "name": "Stephanie Frazier",
+      "org": "The Blake at St. Johns",
+      "email": "ed.tbasj@blakeseniorliving.com",
+      "seg": "Senior · St. Johns"
+    },
+    {
+      "rank": 39,
+      "name": "Debbie Keller",
+      "org": "Osprey Village (Amelia Island)",
+      "email": "webrequest@osprey-village.com",
+      "seg": "Senior · Nassau"
+    },
+    {
+      "rank": 40,
+      "name": "Beverly Bolton",
+      "org": "Main Campus",
+      "email": "bbolton@ewc.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 41,
+      "name": "Jame'l Hodges",
+      "org": "Main Campus",
+      "email": "jamel.hodges@ewc.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 42,
+      "name": "Tymon Graham",
+      "org": "Main Campus",
+      "email": "t.graham@ewc.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 43,
+      "name": "Victor Chrispin",
+      "org": "Main Campus",
+      "email": "v.chrispin@ewc.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 44,
+      "name": "St. Augustine Campus",
+      "org": "",
+      "email": "orientation@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 45,
+      "name": "Alicia Ramsdell",
+      "org": "St. Augustine Campus",
+      "email": "aramsdell@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 46,
+      "name": "Andrea Adams-Manning",
+      "org": "St. Augustine Campus",
+      "email": "aadamsmanning@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 47,
+      "name": "Ashley Brown",
+      "org": "St. Augustine Campus",
+      "email": "abrown@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 48,
+      "name": "Grant Nielson",
+      "org": "St. Augustine Campus",
+      "email": "gnielson@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 49,
+      "name": "Logan Gullage",
+      "org": "St. Augustine Campus",
+      "email": "lgullage@flagler.edu",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 50,
+      "name": "DaVina Hamilton",
+      "org": "JU Main Campus",
+      "email": "dhamilt3@ju.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 51,
+      "name": "Kristie Gover",
+      "org": "JU Main Campus",
+      "email": "kgover1@ju.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 52,
+      "name": "Hammond Boulevard Campus",
+      "org": "",
+      "email": "studentlifeoffice@tbc.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 53,
+      "name": "Adam Christmas",
+      "org": "Hammond Boulevard Campus",
+      "email": "achristmas@tcj.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 54,
+      "name": "Alana Nemecheck",
+      "org": "Hammond Boulevard Campus",
+      "email": "anemecheck@tcj.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 55,
+      "name": "Autumn Brinkley",
+      "org": "Hammond Boulevard Campus",
+      "email": "abrinkley@tcj.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 56,
+      "name": "Brian Maggard",
+      "org": "Hammond Boulevard Campus",
+      "email": "bmaggard@tcj.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 57,
+      "name": "Carlin Poyner",
+      "org": "Hammond Boulevard Campus",
+      "email": "cpoyner@tcj.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 58,
+      "name": "Matthew Heavener",
+      "org": "Hammond Boulevard Campus",
+      "email": "mheavener@tcj.org",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 59,
+      "name": "Althea Wilson",
+      "org": "UNF Main Campus",
+      "email": "althea.wilson@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 60,
+      "name": "Amber-Jul Camaya",
+      "org": "UNF Main Campus",
+      "email": "a.camaya@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 61,
+      "name": "Ashley Muench",
+      "org": "UNF Main Campus",
+      "email": "a.muench@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 62,
+      "name": "Ashlyn Davidson",
+      "org": "UNF Main Campus",
+      "email": "ashlyn.davidson@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 63,
+      "name": "Courtney Henderson",
+      "org": "UNF Main Campus",
+      "email": "c.henderson@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 64,
+      "name": "Dorian Drummond",
+      "org": "UNF Main Campus",
+      "email": "dorian.drummond@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 65,
+      "name": "Heather Corbitt",
+      "org": "UNF Main Campus",
+      "email": "h.corbitt@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 66,
+      "name": "Jennifer Nutt",
+      "org": "UNF Main Campus",
+      "email": "j.nutt@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 67,
+      "name": "Jim Baur",
+      "org": "UNF Main Campus",
+      "email": "jbaur@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 68,
+      "name": "Karen Patterson",
+      "org": "UNF Main Campus",
+      "email": "karen.patterson@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 69,
+      "name": "Katie Sarria",
+      "org": "UNF Main Campus",
+      "email": "katie.sarria@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 70,
+      "name": "Krystina LeFils",
+      "org": "UNF Main Campus",
+      "email": "k.lefils@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 71,
+      "name": "Sara Stuart",
+      "org": "UNF Main Campus",
+      "email": "sara.stuart@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 72,
+      "name": "Sofia Duque",
+      "org": "UNF Main Campus",
+      "email": "sofia.duque@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 73,
+      "name": "Thomas Van Schoor",
+      "org": "UNF Main Campus",
+      "email": "tvanscho@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 74,
+      "name": "Virginia Thornton",
+      "org": "UNF Main Campus",
+      "email": "v.thornton@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 75,
+      "name": "Xavier Ford",
+      "org": "UNF Main Campus",
+      "email": "x.ford@unf.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 76,
+      "name": "Erin Wells",
+      "org": "Priority Community Management",
+      "email": "erin@prioritymngmt.com",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 77,
+      "name": "Darrin Mossing",
+      "org": "Riverside Management Services / Governmental Management Services",
+      "email": "dmossing@gmstnn.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 78,
+      "name": "Kate Richardson",
+      "org": "Marsh Landing Management / Sawgrass Players Club",
+      "email": "krichardson@marshlanding.org",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 79,
+      "name": "Noelle Salomon",
+      "org": "Marsh Landing Management Company / Sawgrass Players Club",
+      "email": "nsalomon@marshlanding.org",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 80,
+      "name": "Mike Keller",
+      "org": "Ponte Vedra Inn & Club",
+      "email": "mkeller@pvresorts.com",
+      "seg": "Employer · St. Johns"
+    },
+    {
+      "rank": 81,
+      "name": "Cindy Hamilton",
+      "org": "Baptist Health",
+      "email": "cindy.hamilton@bmcjax.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 82,
+      "name": "Sarah Schmermund",
+      "org": "Mayo Clinic in Florida",
+      "email": "flaevents@mayo.edu",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 83,
+      "name": "Karen McAllister",
+      "org": "JEA",
+      "email": "media@jea.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 84,
+      "name": "Stephen Halloran",
+      "org": "Dream Finders Homes",
+      "email": "talent@dreamfindershomes.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 85,
+      "name": "CSX Media Team",
+      "org": "CSX Transportation",
+      "email": "mediateam@csx.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 86,
+      "name": "Melissa Mitchell",
+      "org": "Community Press Foundation / BuzzTown Media",
+      "email": "melissa@buzztownmedia.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 87,
+      "name": "Lindsay",
+      "org": "Intuition Ale Works",
+      "email": "lindsay@intuitionale.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 88,
+      "name": "Sharmalyn Lord",
+      "org": "SharmalynLordLLC",
+      "email": "sharmalynlordllc@gmail.com",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 89,
+      "name": "Naval Air Station Jacksonville",
+      "org": "",
+      "email": "nasjaxmwr@us.navy.mil",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 90,
+      "name": "Naval Station Mayport",
+      "org": "",
+      "email": "nsmypt_mwr_mail@navy.mil",
+      "seg": "Employer · Jax"
+    },
+    {
+      "rank": 91,
+      "name": "Elaine Corrigan",
+      "org": "Cathedral Basilica Parish Office",
+      "email": "cathparish@gmail.com",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 92,
+      "name": "Abbie Johnson",
+      "org": "St. Michael's Parish Fernandina",
+      "email": "srrosepaul@stmichaelscatholic.com",
+      "seg": "Festival · Nassau"
+    },
+    {
+      "rank": 93,
+      "name": "Mariela Murphy",
+      "org": "Amelia Island Convention and Visitors Bureau",
+      "email": "mmurphy@ameliaisland.com",
+      "seg": "Festival · Nassau"
+    },
+    {
+      "rank": 94,
+      "name": "Elizabeth Bernardino",
+      "org": "St. Johns County Chamber of Commerce",
+      "email": "elizabeth.bernardino@sjcchamber.com",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 95,
+      "name": "Wes Cromer",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "wcromer@coj.net",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 96,
+      "name": "Alex Alston",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "aalex@coj.net",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 97,
+      "name": "Allyson Reese",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "areese1@coj.net",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 98,
+      "name": "Kirsten Barnhorst",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "kbarnhorst@coj.net",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 99,
+      "name": "Lisa Anderson",
+      "org": "City of Jacksonville Office of Sports & Entertainment",
+      "email": "lisaa@coj.net",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 100,
+      "name": "Amanda Patch",
+      "org": "JAX Chamber",
+      "email": "amanda.patch@jaxchamber.com",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 101,
+      "name": "Danny Baggett",
+      "org": "Church of Hope",
+      "email": "pastor@cohjax.com",
+      "seg": "Festival · Jax"
+    },
+    {
+      "rank": 102,
+      "name": "Carmenzina Smith",
+      "org": "Party With The Smiths",
+      "email": "hello@partywiththesmiths.com",
+      "seg": "Planner · Jax"
+    },
+    {
+      "rank": 103,
+      "name": "Keith",
+      "org": "Jacksonville Party Company",
+      "email": "keith@jpcjax.com",
+      "seg": "Planner · Jax"
+    },
+    {
+      "rank": 104,
+      "name": "Terri",
+      "org": "G.G. Events",
+      "email": "terri@ggevents.net",
+      "seg": "Planner · Jax"
+    },
+    {
+      "rank": 105,
+      "name": "Tara",
+      "org": "LoveLee Events",
+      "email": "tara@loveleeeventsjax.com",
+      "seg": "Planner · Jax"
+    },
+    {
+      "rank": 106,
+      "name": "Paige / Courtney",
+      "org": "IN GOOD COMPANY Event Design + Planning",
+      "email": "hello@ingoodco.events",
+      "seg": "Planner · Jax"
+    },
+    {
+      "rank": 107,
+      "name": "Wrathell",
+      "org": "Creekside at Twin Creeks CDD",
+      "email": "wrathellc@whassociates.com",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 108,
+      "name": "Governors Park North CDD",
+      "org": "",
+      "email": "info@governorsparknorthcdd.net",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 109,
+      "name": "Kim Lang",
+      "org": "Orange Park Country Club HOA",
+      "email": "kim@mylrw.com",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 110,
+      "name": "Magnolia Point Golf & Country Club",
+      "org": "",
+      "email": "golf@magnoliapointgolfclub.com",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 111,
+      "name": "Shadowlawn CDD",
+      "org": "",
+      "email": "info@shadowlawncdd.net",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 112,
+      "name": "Kathy Melton",
+      "org": "Eagle Landing at Oakleaf Plantation HOA",
+      "email": "eaglelanding@agentlink.net",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 113,
+      "name": "The Grove at Orange Park Country Club",
+      "org": "",
+      "email": "events@letsgrove.com",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 114,
+      "name": "Vina Delcomyn",
+      "org": "Azalea Ridge HOA",
+      "email": "vina.delcomyn@awakeningsami.com",
+      "seg": "HOA/CDD · Clay"
+    },
+    {
+      "rank": 115,
+      "name": "Jessica Rivera",
+      "org": "Inframark",
+      "email": "jessica.rivera@inframark.com",
+      "seg": "Employer · Clay"
+    },
+    {
+      "rank": 116,
+      "name": "Angelina Carochi",
+      "org": "Orange Park Mall",
+      "email": "angelina.carochi@cbre.com",
+      "seg": "Employer · Clay"
+    },
+    {
+      "rank": 117,
+      "name": "Alexis Lambert-Johnson",
+      "org": "University of Florida",
+      "email": "alambertjohnson@ufl.edu",
+      "seg": "School · Out of area"
+    },
+    {
+      "rank": 118,
+      "name": "Marlon Poteat",
+      "org": "University of Central Florida",
+      "email": "marlon.poteat@ucf.edu",
+      "seg": "School · Out of area"
+    },
+    {
+      "rank": 119,
+      "name": "Kelsey O'Brien",
+      "org": "Florida Gulf Coast University",
+      "email": "kobrien@fgcu.edu",
+      "seg": "School · Farther"
+    },
+    {
+      "rank": 120,
+      "name": "The Club at Osprey Cove",
+      "org": "",
+      "email": "contact@brahmcorp.com",
+      "seg": "Senior · Camden"
+    },
+    {
+      "rank": 121,
+      "name": "Ginny Stevens",
+      "org": "Jacksonville Regional Campus",
+      "email": "vstevens@nova.edu",
+      "seg": "Employer · Duval"
+    },
+    {
+      "rank": 122,
+      "name": "Michael Doyle",
+      "org": "Jacksonville Regional Campus",
+      "email": "md1215@nova.edu",
+      "seg": "Employer · Duval"
+    }
+  ],
+  "section_counts": {
+    "fresh": 122,
+    "org_touched": 64,
+    "already_sent": 66,
+    "booked": 29,
+    "catholic": 28,
+    "no_thank_yous": 1,
+    "skipped_no_email": 3
+  },
+  "removed_banned_cards": [
+    {
+      "title": "DO NOT CONTACT Lisa Licata · Markland / Southaven (Vesta)",
+      "email": "llicata@vestapropertyservices.com"
+    }
+  ],
+  "board_rows_flipped_sent": 4,
+  "board_rows_org_touched": 54,
+  "off_list_sent_tonight_not_on_board": [
+    "katherineadesja@gmail.com",
+    "gpeptapresident@gmail.com",
+    "secretary.jcepto@gmail.com",
+    "kwelch.hodgespres@gmail.com",
+    "atlanticcoasthsptsa@gmail.com",
+    "alimacanipta@gmail.com",
+    "president@landrumpto.com",
+    "info@fivepointsassociation.org",
+    "e000822111@brookdale.com",
+    "adultdaycare@agingtrue.org",
+    "ekendall@wjxt.com",
+    "radams@wjxt.com"
+  ],
+  "live_urls": [
+    "https://code4crittersoncallapps.github.io/sheehan-exec-suite/dunk-list.html?v=2926",
+    "https://code4crittersoncallapps.github.io/critters-on-call/exec/dunk-list.html?v=2926"
+  ]
+}
