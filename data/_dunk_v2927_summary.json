@@ -1,0 +1,29 @@
+{
+  "board_version": "Board v2.9.27 \u00b7 Oct 6, 2026 \u00b7 Mallory Watkins living-nativity inbound pinned top",
+  "as_of": "2026-10-06 1:26 PM ET",
+  "hard_refresh": "?v=2927",
+  "no_outbound_send": true,
+  "compose_only": true,
+  "banner": "DRAFTS / MAILTO ONLY \u2014 never auto-send",
+  "pinned_top": {
+    "id": "q1",
+    "name": "Mallory Watkins",
+    "org": "St. Peter's Episcopal Church (Fernandina Beach)",
+    "email": "mwatkins@stpetersparish.org",
+    "phone": "(904) 261-4293 ext. 107",
+    "seg": "Inbound \u00b7 Dec nativity",
+    "subject": "Re: Booking Mobile Petting Zoo",
+    "note": "Inbound Oct 6 \u2014 living nativity Dec; asked animals + donkey. Donkey TBD (do not promise). Reply WAITING homestead Send.",
+    "denomination_note": "Episcopal \u2014 NOT Catholic; not in Catholic deprioritized fold"
+  },
+  "counters": {
+    "waiting": 122,
+    "sent_today_gmail_messages": 18,
+    "sent_total_cards": 66,
+    "booked": 29
+  },
+  "live_urls": [
+    "https://code4crittersoncallapps.github.io/sheehan-exec-suite/dunk-list.html?v=2927",
+    "https://code4crittersoncallapps.github.io/critters-on-call/exec/dunk-list.html?v=2927"
+  ]
+}
