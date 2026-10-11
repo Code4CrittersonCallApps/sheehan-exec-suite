@@ -1,0 +1,20 @@
+{
+  "board_version": "Board v2.9.28 · Oct 10, 2026 · Stead Spin in mailtos + goat yoga",
+  "hard_refresh": "?v=2928",
+  "no_outbound_send": true,
+  "compose_only": true,
+  "wheel": "https://code4crittersoncallapps.github.io/critters-on-call/giving-wheel/",
+  "waiting": 122,
+  "patched": {
+    "customer": 2,
+    "prospect": 94,
+    "partner": 26,
+    "yoga": 97,
+    "skipped": 2
+  },
+  "samples": {
+    "customer": "Hi Mallory,\n\nThanks for reaching out, a living nativity sounds wonderful. Our mobile petting zoo usually brings small goats, chickens, rabbits and ducks. On the donkey, let me check what we can bring for a nativity and get right back to you.\n\nWhat date and time are you looking at in December, and about how many people do you expect?\n\nHappy to share open dates or more info if useful.\n\nP.S. We have a free Stead Spin giving wheel running this October. Spin for a farm prize (a Gold membership is the top one), no purchase needed: https://code4crittersoncallapps.github.io/critters-on-call/giving-wheel/\n",
+    "partner": "Hi Alexis,\n\nWe bring mobile petting zoos to family events around metro Jacksonville. Valley Ridge has had us. Julington Creek has not. One classroom visit or family date?\n\nDo you have one fall or spring date that should have animals? Happy to send open dates.\n\nP.S. If it's useful for your audience, our free October Stead Spin giving wheel is easy to share, and we're happy to co-promote: https://code4crittersoncallapps.github.io/critters-on-call/giving-wheel/\n",
+    "prospect": "Hi Ariel Lewis,\n\nWe bring petting zoos to families and community events across metro Jacksonville. Do you have any fall or spring event dates where a petting zoo might fit? Happy to share open dates.\n\nP.S. Want a taste first? Anyone on your team or in your community can take a free spin on our October giving wheel for a farm prize: https://code4crittersoncallapps.github.io/critters-on-call/giving-wheel/\n"
+  }
+}
